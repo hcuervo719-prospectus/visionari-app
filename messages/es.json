@@ -18,6 +18,10 @@
     "subheadline": "Descubre cómo las empresas más exitosas del mundo desarrollaron visiones poderosas que transformaron industrias enteras. Por solo $10.",
     "ctaPrimary": "Probar Componente 1 Gratis",
     "ctaSecondary": "Ver Precios",
+    "cta": {
+      "primary": "Probar Componente 1 Gratis",
+      "secondary": "Ver Precios"
+    },
     "casesLabel": "Casos Analizados"
   },
   "features": {
@@ -37,12 +41,15 @@
     }
   },
   "pricing": {
-    "title": "Inversión Simple. Impacto Duradero.",
+    "title": "Inversión Simple. Impacto Duraduro.",
     "subtitle": "Comienza con el Módulo Fundacional. Escala con Visionari Pro cuando estés listo.",
     "free": {
       "name": "Prueba Gratuita",
       "price": "$0",
       "description": "Experimenta el Componente 1 completo",
+      "feature1": "Acceso al Componente 1: Tu Propósito Profundo",
+      "feature2": "Video educativo cinematográfico completo",
+      "feature3": "Ejercicios interactivos guiados",
       "cta": "Comenzar Gratis"
     },
     "foundation": {
@@ -53,6 +60,11 @@
       "access": "Acceso de por vida",
       "goal": "Qué logras:",
       "goalText": "Tu Visión Empresarial completa documentada, clara y ejecutable",
+      "description": "Tu Visión Empresarial completa documentada, clara y ejecutable",
+      "feature1": "Los 8 Componentes de Visión completos",
+      "feature2": "16 Casos de estudio de empresas exitosas",
+      "feature3": "Documento final: Tu Visión Empresarial",
+      "feature4": "Acceso de por vida al contenido",
       "cta": "Crear Mi Visión",
       "disclaimer": "Una sola inversión. Claridad para siempre."
     },
@@ -64,6 +76,11 @@
       "access": "Ejecución con AI Coach",
       "goal": "Qué logras:",
       "goalText": "Ejecución continua de tu visión con acompañamiento IA personalizado",
+      "description": "Ejecución continua de tu visión con acompañamiento IA personalizado",
+      "feature1": "Todo en Módulo Fundacional",
+      "feature2": "AI Coach personalizado para ejecución",
+      "feature3": "Actualizaciones mensuales de progreso",
+      "feature4": "Comunidad exclusiva de visionarios",
       "cta": "Lista de Espera",
       "waitlist": "Únete a la lista de espera →"
     }
@@ -73,6 +90,26 @@
     "product": "Producto",
     "resources": "Recursos",
     "company": "Empresa",
+    "sections": {
+      "product": {
+        "title": "Producto",
+        "link1": "Casos de Estudio",
+        "link2": "Cómo Funciona",
+        "link3": "Precios"
+      },
+      "company": {
+        "title": "Empresa",
+        "link1": "Acerca de",
+        "link2": "Blog",
+        "link3": "Contacto"
+      },
+      "legal": {
+        "title": "Legal",
+        "link1": "Privacidad",
+        "link2": "Términos",
+        "link3": "Cookies"
+      }
+    },
     "copyright": "© 2026 Visionari. Todos los derechos reservados."
   }
 }
