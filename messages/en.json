@@ -7,9 +7,9 @@
     "cases": "Case Studies",
     "howItWorks": "How It Works",
     "pricing": "Pricing",
-    "login": "Log In",
+    "login": "Sign In",
     "signup": "Sign Up",
-    "getStarted": "Get Started Free"
+    "getStarted": "Start Free"
   },
   "hero": {
     "badge": "Now available in 16 languages",
@@ -18,18 +18,22 @@
     "subheadline": "Discover how the world's most successful companies developed powerful visions that transformed entire industries. For only $10.",
     "ctaPrimary": "Try Component 1 Free",
     "ctaSecondary": "View Pricing",
+    "cta": {
+      "primary": "Try Component 1 Free",
+      "secondary": "View Pricing"
+    },
     "casesLabel": "Cases Analyzed"
   },
   "features": {
     "title": "Why Visionari",
-    "subtitle": "A complete system to develop, clarify and execute your business vision",
+    "subtitle": "A complete system to develop, clarify, and execute your business vision",
     "feature1": {
       "title": "8 Educational Components",
-      "description": "Proven step-by-step methodology to build a powerful, tangible and executable vision"
+      "description": "Proven step-by-step methodology to build a powerful, tangible, and executable vision"
     },
     "feature2": {
       "title": "Strategic Document",
-      "description": "Upon completion, you get your complete Business Vision, clear and ready to share with your team"
+      "description": "At the end, you get your complete Business Vision, clear and ready to share with your team"
     },
     "feature3": {
       "title": "Real Documented Cases",
@@ -42,17 +46,25 @@
     "free": {
       "name": "Free Trial",
       "price": "$0",
-      "description": "Experience Component 1 in full",
+      "description": "Experience the complete Component 1",
+      "feature1": "Access to Component 1: Your Deep Purpose",
+      "feature2": "Complete cinematic educational video",
+      "feature3": "Guided interactive exercises",
       "cta": "Start Free"
     },
     "foundation": {
       "badge": "Available Now",
       "name": "Foundation Module",
       "price": "$10",
-      "period": "one-time",
+      "period": "one-time payment",
       "access": "Lifetime access",
       "goal": "What you achieve:",
-      "goalText": "Your complete Business Vision documented, clear and executable",
+      "goalText": "Your complete Business Vision documented, clear, and executable",
+      "description": "Your complete Business Vision documented, clear, and executable",
+      "feature1": "All 8 Vision Components complete",
+      "feature2": "16 Case studies of successful companies",
+      "feature3": "Final document: Your Business Vision",
+      "feature4": "Lifetime access to content",
       "cta": "Create My Vision",
       "disclaimer": "One investment. Clarity forever."
     },
@@ -63,7 +75,12 @@
       "period": "/month",
       "access": "Execution with AI Coach",
       "goal": "What you achieve:",
-      "goalText": "Continuous execution of your vision with personalized AI guidance",
+      "goalText": "Continuous execution of your vision with personalized AI coaching",
+      "description": "Continuous execution of your vision with personalized AI coaching",
+      "feature1": "Everything in Foundation Module",
+      "feature2": "Personalized AI Coach for execution",
+      "feature3": "Monthly progress updates",
+      "feature4": "Exclusive visionary community",
       "cta": "Join Waitlist",
       "waitlist": "Join the waitlist →"
     }
@@ -73,6 +90,26 @@
     "product": "Product",
     "resources": "Resources",
     "company": "Company",
+    "sections": {
+      "product": {
+        "title": "Product",
+        "link1": "Case Studies",
+        "link2": "How It Works",
+        "link3": "Pricing"
+      },
+      "company": {
+        "title": "Company",
+        "link1": "About",
+        "link2": "Blog",
+        "link3": "Contact"
+      },
+      "legal": {
+        "title": "Legal",
+        "link1": "Privacy",
+        "link2": "Terms",
+        "link3": "Cookies"
+      }
+    },
     "copyright": "© 2026 Visionari. All rights reserved."
   }
 }
