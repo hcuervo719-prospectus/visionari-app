@@ -1,0 +1,115 @@
+{
+  "common": {
+    "siteName": "Visionari",
+    "tagline": "Przekształć swoją wizję w rzeczywistość"
+  },
+  "nav": {
+    "cases": "Studia Przypadków",
+    "howItWorks": "Jak To Działa",
+    "pricing": "Cennik",
+    "login": "Zaloguj",
+    "signup": "Zarejestruj",
+    "getStarted": "Rozpocznij Za Darmo"
+  },
+  "hero": {
+    "badge": "Ahora disponible en 16 idiomas",
+    "headline": "Przekształć Swoją Wizję Biznesową w 48 Godzin",
+    "highlightText": "Visión Empresarial",
+    "subheadline": "Descubre cómo las empresas más exitosas del mundo desarrollaron visiones poderosas que transformaron industrias enteras. Por solo $10.",
+    "ctaPrimary": "Wypróbuj Komponent 1 Za Darmo",
+    "ctaSecondary": "Zobacz Cennik",
+    "cta": {
+      "primary": "Wypróbuj Komponent 1 Za Darmo",
+      "secondary": "Zobacz Cennik"
+    },
+    "casesLabel": "Casos Analisados"
+  },
+  "features": {
+    "title": "Dlaczego Visionari",
+    "subtitle": "Kompletny system do rozwijania, wyjaśniania i realizacji Twojej wizji biznesowej",
+    "feature1": {
+      "title": "8 Componentes Educativos",
+      "description": "Metodología probada paso a paso para construir una visión poderosa, tangible y ejecutable"
+    },
+    "feature2": {
+      "title": "Documento Estratégico",
+      "description": "Al terminar, obtienes tu Visión Empresarial completa, clara y lista para compartir con tu equipo"
+    },
+    "feature3": {
+      "title": "Casos Reales Documentados",
+      "description": "Aprende del análisis profundo de Amazon, Tesla, Starbucks y las empresas más exitosas"
+    }
+  },
+  "pricing": {
+    "title": "Prosta Inwestycja. Trwały Wpływ.",
+    "subtitle": "Zacznij od Modułu Podstawowego. Skaluj z Visionari Pro, gdy będziesz gotowy.",
+    "free": {
+      "name": "Darmowy Test",
+      "price": "$0",
+      "description": "Doświadcz pełnego Komponentu 1",
+      "feature1": "Acceso al Componente 1: Tu Propósito Profundo",
+      "feature2": "Video educativo cinematográfico completo",
+      "feature3": "Ejercicios interactivos guiados",
+      "cta": "Rozpocznij Za Darmo"
+    },
+    "foundation": {
+      "badge": "Dostępne Teraz",
+      "name": "Moduł Podstawowy",
+      "price": "$10",
+      "period": "jednorazowa płatność",
+      "access": "Dożywotni dostęp",
+      "goal": "Co osiągniesz:",
+      "goalText": "Twoja kompletna Wizja Biznesowa udokumentowana, jasna i wykonalna",
+      "description": "Twoja kompletna Wizja Biznesowa udokumentowana, jasna i wykonalna",
+      "feature1": "Los 8 Componentes de Visión completos",
+      "feature2": "16 Casos de estudio de empresas exitosas",
+      "feature3": "Documento final: Tu Visión Empresarial",
+      "feature4": "Acceso de por vida al contenido",
+      "cta": "Stwórz Moją Wizję",
+      "disclaimer": "Jedna inwestycja. Jasność na zawsze."
+    },
+    "pro": {
+      "badge": "Wkrótce",
+      "name": "Visionari Pro",
+      "price": "$30",
+      "period": "/miesiąc",
+      "access": "Realizacja z AI Coach",
+      "goal": "Co osiągniesz:",
+      "goalText": "Ciągła realizacja Twojej wizji ze spersonalizowanym coachingiem AI",
+      "description": "Ciągła realizacja Twojej wizji ze spersonalizowanym coachingiem AI",
+      "feature1": "Todo en Módulo Fundacional",
+      "feature2": "AI Coach personalizado para ejecución",
+      "feature3": "Actualizaciones mensuales de progreso",
+      "feature4": "Comunidad exclusiva de visionarios",
+      "cta": "Lista Oczekujących",
+      "waitlist": "Dołącz do listy oczekujących →"
+    }
+  },
+  "footer": {
+    "tagline": "Przekształć swoją wizję w rzeczywistość",
+    "product": "Produkt",
+    "resources": "Zasoby",
+    "company": "Firma",
+    "sections": {
+      "product": {
+        "title": "Produkt",
+        "link1": "Studia Przypadków",
+        "link2": "Jak To Działa",
+        "link3": "Cennik"
+      },
+      "company": {
+        "title": "Firma",
+        "link1": "O Nas",
+        "link2": "Blog",
+        "link3": "Kontakt"
+      },
+      "legal": {
+        "title": "Legal",
+        "link1": "Prywatność",
+        "link2": "Warunki",
+        "link3": "Ciasteczka"
+      }
+    },
+    "copyright": "© 2026 Visionari. Wszelkie prawa zastrzeżone."
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "common": {
+    "siteName": "Visionari",
+    "tagline": "Ubah visi Anda menjadi kenyataan"
+  },
+  "nav": {
+    "cases": "Studi Kasus",
+    "howItWorks": "Cara Kerja",
+    "pricing": "Harga",
+    "login": "Masuk",
+    "signup": "Daftar",
+    "getStarted": "Mulai Gratis"
+  },
+  "hero": {
+    "badge": "Ahora disponible en 16 idiomas",
+    "headline": "Ubah Visi Bisnis Anda dalam 48 Jam",
+    "highlightText": "Business Vision",
+    "subheadline": "Descubre cómo las empresas más exitosas del mundo desarrollaron visiones poderosas que transformaron industrias enteras. Por solo $10.",
+    "ctaPrimary": "Coba Komponen 1 Gratis",
+    "ctaSecondary": "Lihat Harga",
+    "cta": {
+      "primary": "Coba Komponen 1 Gratis",
+      "secondary": "Lihat Harga"
+    },
+    "casesLabel": "Casos Analisados"
+  },
+  "features": {
+    "title": "Mengapa Visionari",
+    "subtitle": "Sistem lengkap untuk mengembangkan, memperjelas, dan mengeksekusi visi bisnis Anda",
+    "feature1": {
+      "title": "8 Educational Components",
+      "description": "Proven step-by-step methodology to build a powerful, tangible, and executable vision"
+    },
+    "feature2": {
+      "title": "Strategic Document",
+      "description": "At the end, you get your complete Business Vision, clear and ready to share with your team"
+    },
+    "feature3": {
+      "title": "Real Documented Cases",
+      "description": "Learn from in-depth analysis of Amazon, Tesla, Starbucks and the most successful companies"
+    }
+  },
+  "pricing": {
+    "title": "Investasi Sederhana. Dampak Abadi.",
+    "subtitle": "Mulai dengan Modul Dasar. Tingkatkan dengan Visionari Pro saat Anda siap.",
+    "free": {
+      "name": "Uji Coba Gratis",
+      "price": "$0",
+      "description": "Rasakan Komponen 1 lengkap",
+      "feature1": "Access to Component 1: Your Deep Purpose",
+      "feature2": "Complete cinematic educational video",
+      "feature3": "Guided interactive exercises",
+      "cta": "Mulai Gratis"
+    },
+    "foundation": {
+      "badge": "Tersedia Sekarang",
+      "name": "Modul Dasar",
+      "price": "$10",
+      "period": "pembayaran sekali",
+      "access": "Akses seumur hidup",
+      "goal": "Apa yang Anda capai:",
+      "goalText": "Visi Bisnis lengkap Anda terdokumentasi, jelas, dan dapat dieksekusi",
+      "description": "Visi Bisnis lengkap Anda terdokumentasi, jelas, dan dapat dieksekusi",
+      "feature1": "All 8 Vision Components complete",
+      "feature2": "16 Case studies of successful companies",
+      "feature3": "Final document: Your Business Vision",
+      "feature4": "Lifetime access to content",
+      "cta": "Buat Visi Saya",
+      "disclaimer": "Satu investasi. Kejelasan selamanya."
+    },
+    "pro": {
+      "badge": "Segera Hadir",
+      "name": "Visionari Pro",
+      "price": "$30",
+      "period": "/bulan",
+      "access": "Eksekusi dengan AI Coach",
+      "goal": "Apa yang Anda capai:",
+      "goalText": "Eksekusi berkelanjutan visi Anda dengan coaching AI yang dipersonalisasi",
+      "description": "Eksekusi berkelanjutan visi Anda dengan coaching AI yang dipersonalisasi",
+      "feature1": "Everything in Foundation Module",
+      "feature2": "Personalized AI Coach for execution",
+      "feature3": "Monthly progress updates",
+      "feature4": "Exclusive visionary community",
+      "cta": "Daftar Tunggu",
+      "waitlist": "Bergabung dengan daftar tunggu →"
+    }
+  },
+  "footer": {
+    "tagline": "Ubah visi Anda menjadi kenyataan",
+    "product": "Produk",
+    "resources": "Sumber Daya",
+    "company": "Perusahaan",
+    "sections": {
+      "product": {
+        "title": "Produk",
+        "link1": "Studi Kasus",
+        "link2": "Cara Kerja",
+        "link3": "Harga"
+      },
+      "company": {
+        "title": "Perusahaan",
+        "link1": "Tentang",
+        "link2": "Blog",
+        "link3": "Kontak"
+      },
+      "legal": {
+        "title": "Legal",
+        "link1": "Privasi",
+        "link2": "Ketentuan",
+        "link3": "Cookie"
+      }
+    },
+    "copyright": "© 2026 Visionari. Hak cipta dilindungi."
+  }
+}

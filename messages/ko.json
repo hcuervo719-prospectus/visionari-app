@@ -1,0 +1,115 @@
+{
+  "common": {
+    "siteName": "Visionari",
+    "tagline": "비전을 현실로 변환하세요"
+  },
+  "nav": {
+    "cases": "사례 연구",
+    "howItWorks": "작동 방식",
+    "pricing": "가격",
+    "login": "로그인",
+    "signup": "가입",
+    "getStarted": "무료 시작"
+  },
+  "hero": {
+    "badge": "Ahora disponible en 16 idiomas",
+    "headline": "48시간 안에 비즈니스 비전 변환",
+    "highlightText": "Business Vision",
+    "subheadline": "Descubre cómo las empresas más exitosas del mundo desarrollaron visiones poderosas que transformaron industrias enteras. Por solo $10.",
+    "ctaPrimary": "컴포넌트 1 무료 체험",
+    "ctaSecondary": "가격 보기",
+    "cta": {
+      "primary": "컴포넌트 1 무료 체험",
+      "secondary": "가격 보기"
+    },
+    "casesLabel": "Casos Analisados"
+  },
+  "features": {
+    "title": "Visionari를 선택하는 이유",
+    "subtitle": "비즈니스 비전을 개발, 명확화 및 실행하기 위한 완전한 시스템",
+    "feature1": {
+      "title": "8 Educational Components",
+      "description": "Proven step-by-step methodology to build a powerful, tangible, and executable vision"
+    },
+    "feature2": {
+      "title": "Strategic Document",
+      "description": "At the end, you get your complete Business Vision, clear and ready to share with your team"
+    },
+    "feature3": {
+      "title": "Real Documented Cases",
+      "description": "Learn from in-depth analysis of Amazon, Tesla, Starbucks and the most successful companies"
+    }
+  },
+  "pricing": {
+    "title": "간단한 투자. 지속적인 영향.",
+    "subtitle": "기초 모듈로 시작하세요. 준비가 되면 Visionari Pro로 확장하세요.",
+    "free": {
+      "name": "무료 체험",
+      "price": "$0",
+      "description": "완전한 컴포넌트 1 경험",
+      "feature1": "Access to Component 1: Your Deep Purpose",
+      "feature2": "Complete cinematic educational video",
+      "feature3": "Guided interactive exercises",
+      "cta": "무료 시작"
+    },
+    "foundation": {
+      "badge": "현재 이용 가능",
+      "name": "기초 모듈",
+      "price": "$10",
+      "period": "일회 결제",
+      "access": "평생 액세스",
+      "goal": "달성하는 것:",
+      "goalText": "완전한 비즈니스 비전이 문서화되고 명확하며 실행 가능",
+      "description": "완전한 비즈니스 비전이 문서화되고 명확하며 실행 가능",
+      "feature1": "All 8 Vision Components complete",
+      "feature2": "16 Case studies of successful companies",
+      "feature3": "Final document: Your Business Vision",
+      "feature4": "Lifetime access to content",
+      "cta": "내 비전 만들기",
+      "disclaimer": "한 번의 투자. 영원한 명확성."
+    },
+    "pro": {
+      "badge": "곧 출시",
+      "name": "Visionari Pro",
+      "price": "$30",
+      "period": "/월",
+      "access": "AI 코치와 함께 실행",
+      "goal": "달성하는 것:",
+      "goalText": "개인화된 AI 코칭을 통한 비전의 지속적인 실행",
+      "description": "개인화된 AI 코칭을 통한 비전의 지속적인 실행",
+      "feature1": "Everything in Foundation Module",
+      "feature2": "Personalized AI Coach for execution",
+      "feature3": "Monthly progress updates",
+      "feature4": "Exclusive visionary community",
+      "cta": "대기 목록",
+      "waitlist": "대기 목록에 참여 →"
+    }
+  },
+  "footer": {
+    "tagline": "비전을 현실로 변환하세요",
+    "product": "제품",
+    "resources": "리소스",
+    "company": "회사",
+    "sections": {
+      "product": {
+        "title": "제품",
+        "link1": "사례 연구",
+        "link2": "작동 방식",
+        "link3": "가격"
+      },
+      "company": {
+        "title": "회사",
+        "link1": "소개",
+        "link2": "블로그",
+        "link3": "연락처"
+      },
+      "legal": {
+        "title": "Legal",
+        "link1": "개인 정보",
+        "link2": "약관",
+        "link3": "쿠키"
+      }
+    },
+    "copyright": "© 2026 Visionari. 모든 권리 보유."
+  }
+}

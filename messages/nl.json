@@ -1,0 +1,115 @@
+{
+  "common": {
+    "siteName": "Visionari",
+    "tagline": "Transformeer uw visie in realiteit"
+  },
+  "nav": {
+    "cases": "Casestudy's",
+    "howItWorks": "Hoe Het Werkt",
+    "pricing": "Prijzen",
+    "login": "Inloggen",
+    "signup": "Aanmelden",
+    "getStarted": "Gratis Beginnen"
+  },
+  "hero": {
+    "badge": "Ahora disponible en 16 idiomas",
+    "headline": "Transformeer Uw Bedrijfsvisie in 48 Uur",
+    "highlightText": "Visión Empresarial",
+    "subheadline": "Descubre cómo las empresas más exitosas del mundo desarrollaron visiones poderosas que transformaron industrias enteras. Por solo $10.",
+    "ctaPrimary": "Probeer Component 1 Gratis",
+    "ctaSecondary": "Bekijk Prijzen",
+    "cta": {
+      "primary": "Probeer Component 1 Gratis",
+      "secondary": "Bekijk Prijzen"
+    },
+    "casesLabel": "Casos Analisados"
+  },
+  "features": {
+    "title": "Waarom Visionari",
+    "subtitle": "Een compleet systeem om uw bedrijfsvisie te ontwikkelen, verduidelijken en uitvoeren",
+    "feature1": {
+      "title": "8 Componentes Educativos",
+      "description": "Metodología probada paso a paso para construir una visión poderosa, tangible y ejecutable"
+    },
+    "feature2": {
+      "title": "Documento Estratégico",
+      "description": "Al terminar, obtienes tu Visión Empresarial completa, clara y lista para compartir con tu equipo"
+    },
+    "feature3": {
+      "title": "Casos Reales Documentados",
+      "description": "Aprende del análisis profundo de Amazon, Tesla, Starbucks y las empresas más exitosas"
+    }
+  },
+  "pricing": {
+    "title": "Eenvoudige Investering. Blijvende Impact.",
+    "subtitle": "Begin met de Basismodule. Schaal met Visionari Pro wanneer u klaar bent.",
+    "free": {
+      "name": "Gratis Proefversie",
+      "price": "$0",
+      "description": "Ervaar Component 1 volledig",
+      "feature1": "Acceso al Componente 1: Tu Propósito Profundo",
+      "feature2": "Video educativo cinematográfico completo",
+      "feature3": "Ejercicios interactivos guiados",
+      "cta": "Gratis Beginnen"
+    },
+    "foundation": {
+      "badge": "Nu Beschikbaar",
+      "name": "Basismodule",
+      "price": "$10",
+      "period": "eenmalige betaling",
+      "access": "Levenslange toegang",
+      "goal": "Wat u bereikt:",
+      "goalText": "Uw complete Bedrijfsvisie gedocumenteerd, helder en uitvoerbaar",
+      "description": "Uw complete Bedrijfsvisie gedocumenteerd, helder en uitvoerbaar",
+      "feature1": "Los 8 Componentes de Visión completos",
+      "feature2": "16 Casos de estudio de empresas exitosas",
+      "feature3": "Documento final: Tu Visión Empresarial",
+      "feature4": "Acceso de por vida al contenido",
+      "cta": "Creëer Mijn Visie",
+      "disclaimer": "Eén investering. Helderheid voor altijd."
+    },
+    "pro": {
+      "badge": "Binnenkort",
+      "name": "Visionari Pro",
+      "price": "$30",
+      "period": "/maand",
+      "access": "Uitvoering met AI Coach",
+      "goal": "Wat u bereikt:",
+      "goalText": "Continue uitvoering van uw visie met gepersonaliseerde AI coaching",
+      "description": "Continue uitvoering van uw visie met gepersonaliseerde AI coaching",
+      "feature1": "Todo en Módulo Fundacional",
+      "feature2": "AI Coach personalizado para ejecución",
+      "feature3": "Actualizaciones mensuales de progreso",
+      "feature4": "Comunidad exclusiva de visionarios",
+      "cta": "Wachtlijst",
+      "waitlist": "Sluit u aan bij de wachtlijst →"
+    }
+  },
+  "footer": {
+    "tagline": "Transformeer uw visie in realiteit",
+    "product": "Product",
+    "resources": "Bronnen",
+    "company": "Bedrijf",
+    "sections": {
+      "product": {
+        "title": "Product",
+        "link1": "Casestudy's",
+        "link2": "Hoe Het Werkt",
+        "link3": "Prijzen"
+      },
+      "company": {
+        "title": "Bedrijf",
+        "link1": "Over",
+        "link2": "Blog",
+        "link3": "Contact"
+      },
+      "legal": {
+        "title": "Legal",
+        "link1": "Privacy",
+        "link2": "Voorwaarden",
+        "link3": "Cookies"
+      }
+    },
+    "copyright": "© 2026 Visionari. Alle rechten voorbehouden."
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "common": {
+    "siteName": "Visionari",
+    "tagline": "Transforme sua visão em realidade"
+  },
+  "nav": {
+    "cases": "Casos de Estudo",
+    "howItWorks": "Como Funciona",
+    "pricing": "Preços",
+    "login": "Entrar",
+    "signup": "Cadastrar",
+    "getStarted": "Começar Grátis"
+  },
+  "hero": {
+    "badge": "Agora disponível em 16 idiomas",
+    "headline": "Transforme Sua Visão Empresarial em 48 Horas",
+    "highlightText": "Visão Empresarial",
+    "subheadline": "Descubra como as empresas mais bem-sucedidas do mundo desenvolveram visões poderosas que transformaram indústrias inteiras. Por apenas $10.",
+    "ctaPrimary": "Experimentar Componente 1 Grátis",
+    "ctaSecondary": "Ver Preços",
+    "cta": {
+      "primary": "Experimentar Componente 1 Grátis",
+      "secondary": "Ver Preços"
+    },
+    "casesLabel": "Casos Analisados"
+  },
+  "features": {
+    "title": "Por Que Visionari",
+    "subtitle": "Um sistema completo para desenvolver, clarificar e executar sua visão empresarial",
+    "feature1": {
+      "title": "8 Componentes Educacionais",
+      "description": "Metodologia comprovada passo a passo para construir uma visão poderosa, tangível e executável"
+    },
+    "feature2": {
+      "title": "Documento Estratégico",
+      "description": "Ao terminar, você obtém sua Visão Empresarial completa, clara e pronta para compartilhar com sua equipe"
+    },
+    "feature3": {
+      "title": "Casos Reais Documentados",
+      "description": "Aprenda com a análise profunda da Amazon, Tesla, Starbucks e as empresas mais bem-sucedidas"
+    }
+  },
+  "pricing": {
+    "title": "Investimento Simples. Impacto Duradouro.",
+    "subtitle": "Comece com o Módulo Fundamental. Escale com Visionari Pro quando estiver pronto.",
+    "free": {
+      "name": "Teste Gratuito",
+      "price": "$0",
+      "description": "Experimente o Componente 1 completo",
+      "feature1": "Acesso ao Componente 1: Seu Propósito Profundo",
+      "feature2": "Vídeo educacional cinematográfico completo",
+      "feature3": "Exercícios interativos guiados",
+      "cta": "Começar Grátis"
+    },
+    "foundation": {
+      "badge": "Disponível Agora",
+      "name": "Módulo Fundamental",
+      "price": "$10",
+      "period": "pagamento único",
+      "access": "Acesso vitalício",
+      "goal": "O que você alcança:",
+      "goalText": "Sua Visão Empresarial completa documentada, clara e executável",
+      "description": "Sua Visão Empresarial completa documentada, clara e executável",
+      "feature1": "Todos os 8 Componentes de Visão completos",
+      "feature2": "16 Casos de estudo de empresas bem-sucedidas",
+      "feature3": "Documento final: Sua Visão Empresarial",
+      "feature4": "Acesso vitalício ao conteúdo",
+      "cta": "Criar Minha Visão",
+      "disclaimer": "Um único investimento. Clareza para sempre."
+    },
+    "pro": {
+      "badge": "Em Breve",
+      "name": "Visionari Pro",
+      "price": "$30",
+      "period": "/mês",
+      "access": "Execução com Coach de IA",
+      "goal": "O que você alcança:",
+      "goalText": "Execução contínua da sua visão com acompanhamento de IA personalizado",
+      "description": "Execução contínua da sua visão com acompanhamento de IA personalizado",
+      "feature1": "Tudo no Módulo Fundamental",
+      "feature2": "Coach de IA personalizado para execução",
+      "feature3": "Atualizações mensais de progresso",
+      "feature4": "Comunidade exclusiva de visionários",
+      "cta": "Lista de Espera",
+      "waitlist": "Junte-se à lista de espera →"
+    }
+  },
+  "footer": {
+    "tagline": "Transforme sua visão em realidade.",
+    "product": "Produto",
+    "resources": "Recursos",
+    "company": "Empresa",
+    "sections": {
+      "product": {
+        "title": "Produto",
+        "link1": "Casos de Estudo",
+        "link2": "Como Funciona",
+        "link3": "Preços"
+      },
+      "company": {
+        "title": "Empresa",
+        "link1": "Sobre",
+        "link2": "Blog",
+        "link3": "Contato"
+      },
+      "legal": {
+        "title": "Legal",
+        "link1": "Privacidade",
+        "link2": "Termos",
+        "link3": "Cookies"
+      }
+    },
+    "copyright": "© 2026 Visionari. Todos os direitos reservados."
+  }
+}

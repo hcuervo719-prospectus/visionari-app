@@ -1,0 +1,115 @@
+{
+  "common": {
+    "siteName": "Visionari",
+    "tagline": "Förvandla din vision till verklighet"
+  },
+  "nav": {
+    "cases": "Fallstudier",
+    "howItWorks": "Hur Det Fungerar",
+    "pricing": "Priser",
+    "login": "Logga In",
+    "signup": "Registrera",
+    "getStarted": "Börja Gratis"
+  },
+  "hero": {
+    "badge": "Ahora disponible en 16 idiomas",
+    "headline": "Förvandla Din Affärsvision på 48 Timmar",
+    "highlightText": "Business Vision",
+    "subheadline": "Descubre cómo las empresas más exitosas del mundo desarrollaron visiones poderosas que transformaron industrias enteras. Por solo $10.",
+    "ctaPrimary": "Prova Komponent 1 Gratis",
+    "ctaSecondary": "Se Priser",
+    "cta": {
+      "primary": "Prova Komponent 1 Gratis",
+      "secondary": "Se Priser"
+    },
+    "casesLabel": "Casos Analisados"
+  },
+  "features": {
+    "title": "Varför Visionari",
+    "subtitle": "Ett komplett system för att utveckla, klargöra och genomföra din affärsvision",
+    "feature1": {
+      "title": "8 Educational Components",
+      "description": "Proven step-by-step methodology to build a powerful, tangible, and executable vision"
+    },
+    "feature2": {
+      "title": "Strategic Document",
+      "description": "At the end, you get your complete Business Vision, clear and ready to share with your team"
+    },
+    "feature3": {
+      "title": "Real Documented Cases",
+      "description": "Learn from in-depth analysis of Amazon, Tesla, Starbucks and the most successful companies"
+    }
+  },
+  "pricing": {
+    "title": "Enkel Investering. Varaktig Påverkan.",
+    "subtitle": "Börja med Grundmodulen. Skala med Visionari Pro när du är redo.",
+    "free": {
+      "name": "Gratis Provperiod",
+      "price": "$0",
+      "description": "Upplev fullständig Komponent 1",
+      "feature1": "Access to Component 1: Your Deep Purpose",
+      "feature2": "Complete cinematic educational video",
+      "feature3": "Guided interactive exercises",
+      "cta": "Börja Gratis"
+    },
+    "foundation": {
+      "badge": "Tillgänglig Nu",
+      "name": "Grundmodul",
+      "price": "$10",
+      "period": "engångsbetalning",
+      "access": "Livstidsåtkomst",
+      "goal": "Vad du uppnår:",
+      "goalText": "Din kompletta Affärsvision dokumenterad, tydlig och genomförbar",
+      "description": "Din kompletta Affärsvision dokumenterad, tydlig och genomförbar",
+      "feature1": "All 8 Vision Components complete",
+      "feature2": "16 Case studies of successful companies",
+      "feature3": "Final document: Your Business Vision",
+      "feature4": "Lifetime access to content",
+      "cta": "Skapa Min Vision",
+      "disclaimer": "En investering. Klarhet för alltid."
+    },
+    "pro": {
+      "badge": "Kommer Snart",
+      "name": "Visionari Pro",
+      "price": "$30",
+      "period": "/månad",
+      "access": "Genomförande med AI Coach",
+      "goal": "Vad du uppnår:",
+      "goalText": "Kontinuerligt genomförande av din vision med personlig AI-coaching",
+      "description": "Kontinuerligt genomförande av din vision med personlig AI-coaching",
+      "feature1": "Everything in Foundation Module",
+      "feature2": "Personalized AI Coach for execution",
+      "feature3": "Monthly progress updates",
+      "feature4": "Exclusive visionary community",
+      "cta": "Väntelista",
+      "waitlist": "Gå med på väntelistan →"
+    }
+  },
+  "footer": {
+    "tagline": "Förvandla din vision till verklighet",
+    "product": "Produkt",
+    "resources": "Resurser",
+    "company": "Företag",
+    "sections": {
+      "product": {
+        "title": "Produkt",
+        "link1": "Fallstudier",
+        "link2": "Hur Det Fungerar",
+        "link3": "Priser"
+      },
+      "company": {
+        "title": "Företag",
+        "link1": "Om",
+        "link2": "Blogg",
+        "link3": "Kontakt"
+      },
+      "legal": {
+        "title": "Legal",
+        "link1": "Integritet",
+        "link2": "Villkor",
+        "link3": "Cookies"
+      }
+    },
+    "copyright": "© 2026 Visionari. Alla rättigheter förbehållna."
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "common": {
+    "siteName": "Visionari",
+    "tagline": "अपनी दृष्टि को वास्तविकता में बदलें"
+  },
+  "nav": {
+    "cases": "केस स्टडीज",
+    "howItWorks": "कैसे काम करता है",
+    "pricing": "मूल्य निर्धारण",
+    "login": "साइन इन करें",
+    "signup": "साइन अप करें",
+    "getStarted": "मुफ्त शुरू करें"
+  },
+  "hero": {
+    "badge": "Ahora disponible en 16 idiomas",
+    "headline": "48 घंटों में अपनी व्यावसायिक दृष्टि को रूपांतरित करें",
+    "highlightText": "Business Vision",
+    "subheadline": "Descubre cómo las empresas más exitosas del mundo desarrollaron visiones poderosas que transformaron industrias enteras. Por solo $10.",
+    "ctaPrimary": "घटक 1 मुफ्त आज़माएं",
+    "ctaSecondary": "मूल्य देखें",
+    "cta": {
+      "primary": "घटक 1 मुफ्त आज़माएं",
+      "secondary": "मूल्य देखें"
+    },
+    "casesLabel": "Casos Analisados"
+  },
+  "features": {
+    "title": "Visionari क्यों",
+    "subtitle": "अपनी व्यावसायिक दृष्टि को विकसित, स्पष्ट और निष्पादित करने के लिए एक पूर्ण प्रणाली",
+    "feature1": {
+      "title": "8 Educational Components",
+      "description": "Proven step-by-step methodology to build a powerful, tangible, and executable vision"
+    },
+    "feature2": {
+      "title": "Strategic Document",
+      "description": "At the end, you get your complete Business Vision, clear and ready to share with your team"
+    },
+    "feature3": {
+      "title": "Real Documented Cases",
+      "description": "Learn from in-depth analysis of Amazon, Tesla, Starbucks and the most successful companies"
+    }
+  },
+  "pricing": {
+    "title": "सरल निवेश। स्थायी प्रभाव।",
+    "subtitle": "फाउंडेशन मॉड्यूल से शुरू करें। जब तैयार हों तो Visionari Pro के साथ स्केल करें।",
+    "free": {
+      "name": "मुफ्त परीक्षण",
+      "price": "$0",
+      "description": "पूर्ण घटक 1 का अनुभव करें",
+      "feature1": "Access to Component 1: Your Deep Purpose",
+      "feature2": "Complete cinematic educational video",
+      "feature3": "Guided interactive exercises",
+      "cta": "मुफ्त शुरू करें"
+    },
+    "foundation": {
+      "badge": "अब उपलब्ध",
+      "name": "फाउंडेशन मॉड्यूल",
+      "price": "$10",
+      "period": "एक बार भुगतान",
+      "access": "आजीवन पहुंच",
+      "goal": "आप क्या प्राप्त करते हैं:",
+      "goalText": "आपकी पूर्ण व्यावसायिक दृष्टि प्रलेखित, स्पष्ट और निष्पादन योग्य",
+      "description": "आपकी पूर्ण व्यावसायिक दृष्टि प्रलेखित, स्पष्ट और निष्पादन योग्य",
+      "feature1": "All 8 Vision Components complete",
+      "feature2": "16 Case studies of successful companies",
+      "feature3": "Final document: Your Business Vision",
+      "feature4": "Lifetime access to content",
+      "cta": "मेरी दृष्टि बनाएं",
+      "disclaimer": "एक निवेश। हमेशा के लिए स्पष्टता।"
+    },
+    "pro": {
+      "badge": "जल्द आ रहा है",
+      "name": "Visionari Pro",
+      "price": "$30",
+      "period": "/महीना",
+      "access": "AI कोच के साथ निष्पादन",
+      "goal": "आप क्या प्राप्त करते हैं:",
+      "goalText": "व्यक्तिगत AI कोचिंग के साथ आपकी दृष्टि का निरंतर निष्पादन",
+      "description": "व्यक्तिगत AI कोचिंग के साथ आपकी दृष्टि का निरंतर निष्पादन",
+      "feature1": "Everything in Foundation Module",
+      "feature2": "Personalized AI Coach for execution",
+      "feature3": "Monthly progress updates",
+      "feature4": "Exclusive visionary community",
+      "cta": "प्रतीक्षा सूची",
+      "waitlist": "प्रतीक्षा सूची में शामिल हों →"
+    }
+  },
+  "footer": {
+    "tagline": "अपनी दृष्टि को वास्तविकता में बदलें",
+    "product": "उत्पाद",
+    "resources": "संसाधन",
+    "company": "कंपनी",
+    "sections": {
+      "product": {
+        "title": "उत्पाद",
+        "link1": "केस स्टडीज",
+        "link2": "कैसे काम करता है",
+        "link3": "मूल्य निर्धारण"
+      },
+      "company": {
+        "title": "कंपनी",
+        "link1": "हमारे बारे में",
+        "link2": "ब्लॉग",
+        "link3": "संपर्क करें"
+      },
+      "legal": {
+        "title": "Legal",
+        "link1": "गोपनीयता",
+        "link2": "शर्तें",
+        "link3": "कुकीज़"
+      }
+    },
+    "copyright": "© 2026 Visionari. सर्वाधिकार सुरक्षित।"
+  }
+}

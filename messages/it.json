@@ -1,0 +1,115 @@
+{
+  "common": {
+    "siteName": "Visionari",
+    "tagline": "Trasforma la tua visione in realtà"
+  },
+  "nav": {
+    "cases": "Casi Studio",
+    "howItWorks": "Come Funziona",
+    "pricing": "Prezzi",
+    "login": "Accedi",
+    "signup": "Registrati",
+    "getStarted": "Inizia Gratis"
+  },
+  "hero": {
+    "badge": "Ora disponibile in 16 lingue",
+    "headline": "Trasforma la Tua Visione Aziendale in 48 Ore",
+    "highlightText": "Visione Aziendale",
+    "subheadline": "Scopri come le aziende di maggior successo al mondo hanno sviluppato visioni potenti che hanno trasformato intere industrie. Per soli $10.",
+    "ctaPrimary": "Prova Componente 1 Gratis",
+    "ctaSecondary": "Vedi Prezzi",
+    "cta": {
+      "primary": "Prova Componente 1 Gratis",
+      "secondary": "Vedi Prezzi"
+    },
+    "casesLabel": "Casi Analizzati"
+  },
+  "features": {
+    "title": "Perché Visionari",
+    "subtitle": "Un sistema completo per sviluppare, chiarire ed eseguire la tua visione aziendale",
+    "feature1": {
+      "title": "8 Componenti Educativi",
+      "description": "Metodologia comprovata passo dopo passo per costruire una visione potente, tangibile ed eseguibile"
+    },
+    "feature2": {
+      "title": "Documento Strategico",
+      "description": "Alla fine, ottieni la tua Visione Aziendale completa, chiara e pronta da condividere con il tuo team"
+    },
+    "feature3": {
+      "title": "Casi Reali Documentati",
+      "description": "Impara dall'analisi approfondita di Amazon, Tesla, Starbucks e le aziende di maggior successo"
+    }
+  },
+  "pricing": {
+    "title": "Investimento Semplice. Impatto Duraturo.",
+    "subtitle": "Inizia con il Modulo Fondamentale. Scala con Visionari Pro quando sei pronto.",
+    "free": {
+      "name": "Prova Gratuita",
+      "price": "$0",
+      "description": "Sperimenta il Componente 1 completo",
+      "feature1": "Accesso al Componente 1: Il Tuo Scopo Profondo",
+      "feature2": "Video educativo cinematografico completo",
+      "feature3": "Esercizi interattivi guidati",
+      "cta": "Inizia Gratis"
+    },
+    "foundation": {
+      "badge": "Disponibile Ora",
+      "name": "Modulo Fondamentale",
+      "price": "$10",
+      "period": "pagamento unico",
+      "access": "Accesso a vita",
+      "goal": "Cosa ottieni:",
+      "goalText": "La tua Visione Aziendale completa documentata, chiara ed eseguibile",
+      "description": "La tua Visione Aziendale completa documentata, chiara ed eseguibile",
+      "feature1": "Tutti gli 8 Componenti di Visione completi",
+      "feature2": "16 Casi studio di aziende di successo",
+      "feature3": "Documento finale: La Tua Visione Aziendale",
+      "feature4": "Accesso a vita ai contenuti",
+      "cta": "Crea la Mia Visione",
+      "disclaimer": "Un solo investimento. Chiarezza per sempre."
+    },
+    "pro": {
+      "badge": "Prossimamente",
+      "name": "Visionari Pro",
+      "price": "$30",
+      "period": "/mese",
+      "access": "Esecuzione con Coach IA",
+      "goal": "Cosa ottieni:",
+      "goalText": "Esecuzione continua della tua visione con coaching IA personalizzato",
+      "description": "Esecuzione continua della tua visione con coaching IA personalizzato",
+      "feature1": "Tutto nel Modulo Fondamentale",
+      "feature2": "Coach IA personalizzato per l'esecuzione",
+      "feature3": "Aggiornamenti mensili sui progressi",
+      "feature4": "Comunità esclusiva di visionari",
+      "cta": "Lista d'Attesa",
+      "waitlist": "Unisciti alla lista d'attesa →"
+    }
+  },
+  "footer": {
+    "tagline": "Trasforma la tua visione in realtà.",
+    "product": "Prodotto",
+    "resources": "Risorse",
+    "company": "Azienda",
+    "sections": {
+      "product": {
+        "title": "Prodotto",
+        "link1": "Casi Studio",
+        "link2": "Come Funziona",
+        "link3": "Prezzi"
+      },
+      "company": {
+        "title": "Azienda",
+        "link1": "Chi Siamo",
+        "link2": "Blog",
+        "link3": "Contatti"
+      },
+      "legal": {
+        "title": "Legale",
+        "link1": "Privacy",
+        "link2": "Termini",
+        "link3": "Cookie"
+      }
+    },
+    "copyright": "© 2026 Visionari. Tutti i diritti riservati."
+  }
+}
