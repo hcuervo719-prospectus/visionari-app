@@ -1,8 +1,8 @@
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
+import { setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { locales } from '@/i18n';
-import '../globals.css';
 
 // Genera las rutas estáticas para cada idioma
 export function generateStaticParams() {
@@ -20,6 +20,9 @@ export default async function LocaleLayout({
   if (!locales.includes(locale as any)) {
     notFound();
   }
+
+  // CRÍTICO: Esto habilita static rendering
+  setRequestLocale(locale);
 
   // Cargar las traducciones para este locale
   const messages = await getMessages();
