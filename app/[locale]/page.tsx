@@ -1,6 +1,7 @@
 import { useTranslations } from 'next-intl';
 import { setRequestLocale } from 'next-intl/server';
 import { locales } from '@/i18n';
+import Link from 'next/link';
 import { 
   Globe, 
   BookOpen, 
@@ -51,12 +52,18 @@ export default function HomePage({
             </div>
 
             <div className="flex items-center space-x-4">
-              <button className="text-gray-600 hover:text-gray-900 transition">
+              <Link 
+                href={`/${locale}/login`}
+                className="text-gray-600 hover:text-gray-900 transition"
+              >
                 {t('nav.login')}
-              </button>
-              <button className="bg-orange-600 text-white px-4 py-2 rounded-lg hover:bg-orange-700 transition">
+              </Link>
+              <Link 
+                href={`/${locale}/signup`}
+                className="bg-orange-600 text-white px-4 py-2 rounded-lg hover:bg-orange-700 transition"
+              >
                 {t('nav.signup')}
-              </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -79,13 +86,19 @@ export default function HomePage({
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
-            <button className="bg-orange-600 text-white px-8 py-4 rounded-lg hover:bg-orange-700 transition flex items-center space-x-2 text-lg font-semibold">
+            <Link 
+              href={`/${locale}/signup`}
+              className="bg-orange-600 text-white px-8 py-4 rounded-lg hover:bg-orange-700 transition flex items-center space-x-2 text-lg font-semibold"
+            >
               <span>{t('hero.cta.primary')}</span>
               <ArrowRight className="h-5 w-5" />
-            </button>
-            <button className="border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-lg hover:border-gray-400 transition text-lg font-semibold">
+            </Link>
+            <a 
+              href="#pricing"
+              className="border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-lg hover:border-gray-400 transition text-lg font-semibold"
+            >
               {t('hero.cta.secondary')}
-            </button>
+            </a>
           </div>
 
           <div className="flex items-center justify-center space-x-8 text-sm text-gray-500">
@@ -182,9 +195,12 @@ export default function HomePage({
                   </li>
                 ))}
               </ul>
-              <button className="w-full border-2 border-gray-300 text-gray-700 py-3 rounded-lg hover:border-gray-400 transition font-semibold">
+              <Link 
+                href={`/${locale}/signup`}
+                className="w-full border-2 border-gray-300 text-gray-700 py-3 rounded-lg hover:border-gray-400 transition font-semibold block text-center"
+              >
                 {t('pricing.free.cta')}
-              </button>
+              </Link>
             </div>
 
             {/* Foundation Module */}
@@ -213,9 +229,12 @@ export default function HomePage({
                   </li>
                 ))}
               </ul>
-              <button className="w-full bg-orange-600 text-white py-3 rounded-lg hover:bg-orange-700 transition font-semibold">
+              <Link 
+                href={`/${locale}/signup`}
+                className="w-full bg-orange-600 text-white py-3 rounded-lg hover:bg-orange-700 transition font-semibold block text-center"
+              >
                 {t('pricing.foundation.cta')}
-              </button>
+              </Link>
             </div>
 
             {/* Pro */}
