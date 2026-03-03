@@ -1,6 +1,7 @@
 const createNextIntlPlugin = require('next-intl/plugin');
 
-const withNextIntl = createNextIntlPlugin();
+// Apunta al archivo de configuración request
+const withNextIntl = createNextIntlPlugin('./request.ts');
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
