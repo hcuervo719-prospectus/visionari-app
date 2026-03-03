@@ -1,0 +1,78 @@
+{
+  "common": {
+    "siteName": "Visionari",
+    "tagline": "Transform your vision into reality"
+  },
+  "nav": {
+    "cases": "Case Studies",
+    "howItWorks": "How It Works",
+    "pricing": "Pricing",
+    "login": "Log In",
+    "signup": "Sign Up",
+    "getStarted": "Get Started Free"
+  },
+  "hero": {
+    "badge": "Now available in 16 languages",
+    "headline": "Transform Your Business Vision in 48 Hours",
+    "highlightText": "Business Vision",
+    "subheadline": "Discover how the world's most successful companies developed powerful visions that transformed entire industries. For only $10.",
+    "ctaPrimary": "Try Component 1 Free",
+    "ctaSecondary": "View Pricing",
+    "casesLabel": "Cases Analyzed"
+  },
+  "features": {
+    "title": "Why Visionari",
+    "subtitle": "A complete system to develop, clarify and execute your business vision",
+    "feature1": {
+      "title": "8 Educational Components",
+      "description": "Proven step-by-step methodology to build a powerful, tangible and executable vision"
+    },
+    "feature2": {
+      "title": "Strategic Document",
+      "description": "Upon completion, you get your complete Business Vision, clear and ready to share with your team"
+    },
+    "feature3": {
+      "title": "Real Documented Cases",
+      "description": "Learn from in-depth analysis of Amazon, Tesla, Starbucks and the most successful companies"
+    }
+  },
+  "pricing": {
+    "title": "Simple Investment. Lasting Impact.",
+    "subtitle": "Start with the Foundation Module. Scale with Visionari Pro when you're ready.",
+    "free": {
+      "name": "Free Trial",
+      "price": "$0",
+      "description": "Experience Component 1 in full",
+      "cta": "Start Free"
+    },
+    "foundation": {
+      "badge": "Available Now",
+      "name": "Foundation Module",
+      "price": "$10",
+      "period": "one-time",
+      "access": "Lifetime access",
+      "goal": "What you achieve:",
+      "goalText": "Your complete Business Vision documented, clear and executable",
+      "cta": "Create My Vision",
+      "disclaimer": "One investment. Clarity forever."
+    },
+    "pro": {
+      "badge": "Coming Soon",
+      "name": "Visionari Pro",
+      "price": "$30",
+      "period": "/month",
+      "access": "Execution with AI Coach",
+      "goal": "What you achieve:",
+      "goalText": "Continuous execution of your vision with personalized AI guidance",
+      "cta": "Join Waitlist",
+      "waitlist": "Join the waitlist →"
+    }
+  },
+  "footer": {
+    "tagline": "Transform your vision into reality.",
+    "product": "Product",
+    "resources": "Resources",
+    "company": "Company",
+    "copyright": "© 2026 Visionari. All rights reserved."
+  }
+}
