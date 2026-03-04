@@ -2,16 +2,19 @@
 import { redirect } from 'next/navigation'
 import { createClient } from '@/lib/supabase/server'
 import { useTranslations } from 'next-intl'
+import { getTranslations } from 'next-intl/server'
+import Link from 'next/link'
 
-export default async function DashboardPage() {
+export default async function DashboardPage({ params }: { params: { locale: string } }) {
   const supabase = await createClient()
+  const t = await getTranslations()
 
   const {
     data: { user },
   } = await supabase.auth.getUser()
 
   if (!user) {
-    redirect('/login')
+    redirect(`/${params.locale}/login`)
   }
 
   // Get user profile
@@ -28,13 +31,16 @@ export default async function DashboardPage() {
     .eq('user_id', user.id)
     .order('component_number')
 
+  const completedCount = progress?.filter(p => p.completed).length || 0
+  const firstName = profile?.full_name?.split(' ')[0] || 'there'
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
       {/* Header */}
       <header className="bg-white shadow-sm border-b border-slate-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
           <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-            Visionari
+            {t('common.siteName')}
           </h1>
           <div className="flex items-center gap-4">
             <span className="text-sm text-slate-600">
@@ -45,7 +51,7 @@ export default async function DashboardPage() {
                 type="submit"
                 className="text-sm text-slate-600 hover:text-slate-900 transition"
               >
-                Logout
+                {t('dashboard.logout')}
               </button>
             </form>
           </div>
@@ -57,10 +63,10 @@ export default async function DashboardPage() {
         {/* Welcome Section */}
         <div className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-2">
-            Welcome back, {profile?.full_name?.split(' ')[0] || 'there'}! 👋
+            {t('dashboard.welcome', { name: firstName })} 👋
           </h2>
           <p className="text-slate-600">
-            Continue building your business vision
+            {t('dashboard.subtitle')}
           </p>
         </div>
 
@@ -68,46 +74,46 @@ export default async function DashboardPage() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
           <div className="bg-white rounded-xl shadow-sm p-6 border border-slate-200">
             <div className="flex items-center justify-between mb-2">
-              <h3 className="text-sm font-medium text-slate-600">Progress</h3>
+              <h3 className="text-sm font-medium text-slate-600">{t('dashboard.progress')}</h3>
               <svg className="w-5 h-5 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
               </svg>
             </div>
             <p className="text-3xl font-bold text-slate-900">
-              {progress?.filter(p => p.completed).length || 0}/8
+              {completedCount}/8
             </p>
-            <p className="text-xs text-slate-500 mt-1">Components completed</p>
+            <p className="text-xs text-slate-500 mt-1">{t('dashboard.componentsCompleted')}</p>
           </div>
 
           <div className="bg-white rounded-xl shadow-sm p-6 border border-slate-200">
             <div className="flex items-center justify-between mb-2">
-              <h3 className="text-sm font-medium text-slate-600">Time Invested</h3>
+              <h3 className="text-sm font-medium text-slate-600">{t('dashboard.timeInvested')}</h3>
               <svg className="w-5 h-5 text-purple-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
             </div>
             <p className="text-3xl font-bold text-slate-900">
-              {Math.floor(((progress?.filter(p => p.completed).length || 0) / 8) * 48)}h
+              {Math.floor((completedCount / 8) * 48)}h
             </p>
-            <p className="text-xs text-slate-500 mt-1">Of 48 hours total</p>
+            <p className="text-xs text-slate-500 mt-1">{t('dashboard.hoursTotal')}</p>
           </div>
 
           <div className="bg-white rounded-xl shadow-sm p-6 border border-slate-200">
             <div className="flex items-center justify-between mb-2">
-              <h3 className="text-sm font-medium text-slate-600">Access Level</h3>
+              <h3 className="text-sm font-medium text-slate-600">{t('dashboard.accessLevel')}</h3>
               <svg className="w-5 h-5 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
             </div>
-            <p className="text-3xl font-bold text-slate-900">Free</p>
-            <p className="text-xs text-slate-500 mt-1">Upgrade to unlock all</p>
+            <p className="text-3xl font-bold text-slate-900">{t('pricing.free.name')}</p>
+            <p className="text-xs text-slate-500 mt-1">{t('dashboard.upgradeToUnlock')}</p>
           </div>
         </div>
 
         {/* Components Grid */}
         <div className="mb-8">
           <h3 className="text-xl font-bold text-slate-900 mb-6">
-            Your Vision Components
+            {t('dashboard.yourVisionComponents')}
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
             {[1, 2, 3, 4, 5, 6, 7, 8].map((num) => {
@@ -116,8 +122,9 @@ export default async function DashboardPage() {
               const isLocked = num > 1 // Component 1 is free, rest are locked
 
               return (
-                <div
+                <Link
                   key={num}
+                  href={num === 1 ? `/${params.locale}/dashboard/component-1` : '#'}
                   className={`relative bg-white rounded-xl shadow-sm p-6 border-2 transition cursor-pointer hover:shadow-md ${
                     isCompleted
                       ? 'border-green-500'
@@ -141,17 +148,10 @@ export default async function DashboardPage() {
                     </div>
                   )}
                   <div className="text-sm font-medium text-slate-500 mb-1">
-                    Component {num}
+                    Componente {num}
                   </div>
                   <h4 className="text-lg font-bold text-slate-900 mb-2">
-                    {num === 1 && 'Your Deep Purpose'}
-                    {num === 2 && 'Clear Vision'}
-                    {num === 3 && 'Tangible Goals'}
-                    {num === 4 && 'Proactive Strategy'}
-                    {num === 5 && 'Challenging Ambition'}
-                    {num === 6 && 'Unwavering Commitment'}
-                    {num === 7 && 'Contagious Energy'}
-                    {num === 8 && 'Complete Document'}
+                    {t(`dashboard.components.${num}`)}
                   </h4>
                   <div className="w-full bg-slate-200 rounded-full h-2">
                     <div
@@ -164,7 +164,7 @@ export default async function DashboardPage() {
                   <p className="text-xs text-slate-500 mt-2">
                     {componentProgress?.progress_percentage || 0}% complete
                   </p>
-                </div>
+                </Link>
               )
             })}
           </div>
@@ -173,13 +173,13 @@ export default async function DashboardPage() {
         {/* CTA for Foundation Module */}
         <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8 text-white">
           <h3 className="text-2xl font-bold mb-2">
-            Ready to complete your vision?
+            {t('dashboard.readyToComplete')}
           </h3>
           <p className="text-blue-100 mb-6">
-            Unlock all 8 components for only $10 and create your complete Business Vision document
+            {t('dashboard.unlockAll')}
           </p>
           <button className="bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg hover:bg-blue-50 transition">
-            Unlock Foundation Module - $10
+            {t('dashboard.unlockButton')}
           </button>
         </div>
       </main>
