@@ -12,7 +12,12 @@ const intlMiddleware = createMiddleware({
 })
 
 export async function middleware(request: NextRequest) {
-  // First, handle internationalization
+  // CRITICAL: Skip middleware for API routes
+  if (request.nextUrl.pathname.startsWith('/api/')) {
+    return NextResponse.next()
+  }
+
+  // Handle internationalization for non-API routes
   const intlResponse = intlMiddleware(request)
   
   // Then handle Supabase session
