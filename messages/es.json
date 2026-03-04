@@ -1,95 +1,86 @@
 {
   "common": {
     "siteName": "Visionari",
-    "tagline": "Transforma tu visión en realidad"
+    "tagline": "Construye la visión que transformará tu negocio"
   },
   "nav": {
-    "cases": "Casos de Estudio",
+    "cases": "Casos",
     "howItWorks": "Cómo Funciona",
     "pricing": "Precios",
     "login": "Iniciar Sesión",
     "signup": "Registrarse",
-    "getStarted": "Comenzar Gratis"
+    "getStarted": "Comenzar"
   },
   "hero": {
-    "badge": "Ahora disponible en 16 idiomas",
-    "headline": "Transforma tu Visión Empresarial en 48 Horas",
-    "highlightText": "Visión Empresarial",
-    "subheadline": "Descubre cómo las empresas más exitosas del mundo desarrollaron visiones poderosas que transformaron industrias enteras. Por solo $10.",
-    "ctaPrimary": "Probar Componente 1 Gratis",
-    "ctaSecondary": "Ver Precios",
+    "badge": "Lanzamiento Global - 16 Idiomas",
+    "headline": "La Visión Clara es la Diferencia Entre Crecer y",
+    "highlightText": "Transformar tu Industria",
+    "subheadline": "Aprende cómo empresas como Amazon, Tesla y Apple construyeron visiones que guiaron cada decisión durante décadas. Ahora es tu turno.",
     "cta": {
-      "primary": "Probar Componente 1 Gratis",
-      "secondary": "Ver Precios"
+      "primary": "Crear Mi Visión",
+      "secondary": "Ver Casos de Éxito"
     },
-    "casesLabel": "Casos Analizados"
+    "casesLabel": "16 Casos de Estudio Reales"
   },
   "features": {
-    "title": "Por Qué Visionari",
-    "subtitle": "Un sistema completo para desarrollar, clarificar y ejecutar tu visión empresarial",
+    "title": "Cómo Funciona",
+    "subtitle": "Un sistema probado en 15 empresas transformadoras",
     "feature1": {
-      "title": "8 Componentes Educativos",
-      "description": "Metodología probada paso a paso para construir una visión poderosa, tangible y ejecutable"
+      "title": "Aprende de los Mejores",
+      "description": "Casos reales de empresas que cambiaron industrias completas gracias a su visión clara desde el día uno."
     },
     "feature2": {
-      "title": "Documento Estratégico",
-      "description": "Al terminar, obtienes tu Visión Empresarial completa, clara y lista para compartir con tu equipo"
+      "title": "Crea Tu Visión",
+      "description": "Sistema de 8 componentes que te guía paso a paso para construir una visión cristalina e inquebrantable."
     },
     "feature3": {
-      "title": "Casos Reales Documentados",
-      "description": "Aprende del análisis profundo de Amazon, Tesla, Starbucks y las empresas más exitosas"
+      "title": "Mantén el Enfoque",
+      "description": "Herramientas y frameworks para que tu visión guíe cada decisión estratégica durante años."
     }
   },
   "pricing": {
-    "title": "Inversión Simple. Impacto Duraduro.",
-    "subtitle": "Comienza con el Módulo Fundacional. Escala con Visionari Pro cuando estés listo.",
+    "title": "Comienza Hoy",
+    "subtitle": "Elige el plan que se ajuste a tu etapa",
     "free": {
-      "name": "Prueba Gratuita",
+      "name": "Gratis",
       "price": "$0",
-      "description": "Experimenta el Componente 1 completo",
-      "feature1": "Acceso al Componente 1: Tu Propósito Profundo",
-      "feature2": "Video educativo cinematográfico completo",
-      "feature3": "Ejercicios interactivos guiados",
+      "description": "Explora el sistema y el Componente 1",
+      "feature1": "Acceso a casos de estudio",
+      "feature2": "Componente 1: Importancia",
+      "feature3": "Calculadora de ROI",
       "cta": "Comenzar Gratis"
     },
     "foundation": {
-      "badge": "Disponible Ahora",
-      "name": "Módulo Fundacional",
+      "name": "Foundation Module",
       "price": "$10",
       "period": "pago único",
-      "access": "Acceso de por vida",
-      "goal": "Qué logras:",
-      "goalText": "Tu Visión Empresarial completa documentada, clara y ejecutable",
-      "description": "Tu Visión Empresarial completa documentada, clara y ejecutable",
-      "feature1": "Los 8 Componentes de Visión completos",
-      "feature2": "16 Casos de estudio de empresas exitosas",
-      "feature3": "Documento final: Tu Visión Empresarial",
-      "feature4": "Acceso de por vida al contenido",
-      "cta": "Crear Mi Visión",
-      "disclaimer": "Una sola inversión. Claridad para siempre."
+      "badge": "Más Popular",
+      "description": "Crea tu visión completa en 8 pasos",
+      "feature1": "Todo en Gratis +",
+      "feature2": "8 componentes completos",
+      "feature3": "Documento final generado",
+      "feature4": "Acceso de por vida",
+      "cta": "Desbloquear Ahora",
+      "access": "Acceso completo",
+      "goal": "Tu objetivo",
+      "goalText": "Crear visión empresarial cristalina",
+      "disclaimer": "Pago único. Sin suscripciones.",
+      "waitlist": "Lista de espera"
     },
     "pro": {
-      "badge": "Próximamente",
       "name": "Visionari Pro",
-      "price": "$30",
+      "price": "$29",
       "period": "/mes",
-      "access": "Ejecución con AI Coach",
-      "goal": "Qué logras:",
-      "goalText": "Ejecución continua de tu visión con acompañamiento IA personalizado",
-      "description": "Ejecución continua de tu visión con acompañamiento IA personalizado",
-      "feature1": "Todo en Módulo Fundacional",
-      "feature2": "AI Coach personalizado para ejecución",
-      "feature3": "Actualizaciones mensuales de progreso",
-      "feature4": "Comunidad exclusiva de visionarios",
-      "cta": "Lista de Espera",
-      "waitlist": "Únete a la lista de espera →"
+      "description": "AI Coach para ejecutar tu visión",
+      "feature1": "Todo en Foundation +",
+      "feature2": "AI Coach personalizado",
+      "feature3": "Seguimiento de progreso",
+      "feature4": "Actualizaciones continuas",
+      "cta": "Próximamente - Abril 2026"
     }
   },
   "footer": {
-    "tagline": "Transforma tu visión en realidad.",
-    "product": "Producto",
-    "resources": "Recursos",
-    "company": "Empresa",
+    "tagline": "Transforma tu negocio con visión clara",
     "sections": {
       "product": {
         "title": "Producto",
@@ -111,5 +102,30 @@
       }
     },
     "copyright": "© 2026 Visionari. Todos los derechos reservados."
+  },
+  "dashboard": {
+    "welcome": "¡Bienvenido de nuevo, {name}!",
+    "subtitle": "Continúa construyendo tu visión empresarial",
+    "logout": "Cerrar sesión",
+    "progress": "Progreso",
+    "componentsCompleted": "Componentes completados",
+    "timeInvested": "Tiempo invertido",
+    "hoursTotal": "de 48 horas totales",
+    "accessLevel": "Nivel de acceso",
+    "upgradeToUnlock": "Mejora para desbloquear todo",
+    "yourVisionComponents": "Tus Componentes de Visión",
+    "readyToComplete": "¿Listo para completar tu visión?",
+    "unlockAll": "Desbloquea los 8 componentes por solo $10 y crea tu documento completo de Visión Empresarial",
+    "unlockButton": "Desbloquear Módulo Completo - $10",
+    "components": {
+      "1": "Tu Propósito Profundo",
+      "2": "Visión Clara",
+      "3": "Metas Tangibles",
+      "4": "Estrategia Proactiva",
+      "5": "Ambición Desafiante",
+      "6": "Compromiso Inquebrantable",
+      "7": "Energía Contagiosa",
+      "8": "Documento Completo"
+    }
   }
 }
