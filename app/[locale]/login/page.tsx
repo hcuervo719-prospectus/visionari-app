@@ -2,13 +2,16 @@
 'use client'
 
 import { useState } from 'react'
-import { useRouter } from 'next/navigation'
+import { useRouter, useParams } from 'next/navigation'
 import Link from 'next/link'
 import { useTranslations } from 'next-intl'
 
 export default function LoginPage() {
   const t = useTranslations()
   const router = useRouter()
+  const params = useParams()
+  const locale = params.locale as string
+  
   const [error, setError] = useState<string | null>(null)
   const [loading, setLoading] = useState(false)
 
@@ -35,7 +38,7 @@ export default function LoginPage() {
         setError(data.error)
         setLoading(false)
       } else {
-        router.push('/dashboard')
+        router.push(`/${locale}/dashboard`)
         router.refresh()
       }
     } catch (err) {
@@ -49,7 +52,7 @@ export default function LoginPage() {
       <div className="w-full max-w-md">
         {/* Logo/Brand */}
         <div className="text-center mb-8">
-          <Link href="/" className="inline-block">
+          <Link href={`/${locale}`} className="inline-block">
             <h1 className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
               {t('common.siteName')}
             </h1>
@@ -83,7 +86,7 @@ export default function LoginPage() {
                 <label htmlFor="password" className="block text-sm font-medium text-slate-700">
                   Password
                 </label>
-                <Link href="/forgot-password" className="text-xs text-blue-600 hover:text-blue-700">
+                <Link href={`/${locale}/forgot-password`} className="text-xs text-blue-600 hover:text-blue-700">
                   Forgot password?
                 </Link>
               </div>
@@ -117,7 +120,7 @@ export default function LoginPage() {
           {/* Divider */}
           <div className="mt-6 text-center text-sm text-slate-600">
             Don't have an account?{' '}
-            <Link href="/signup" className="text-blue-600 hover:text-blue-700 font-semibold">
+            <Link href={`/${locale}/signup`} className="text-blue-600 hover:text-blue-700 font-semibold">
               Create one
             </Link>
           </div>
