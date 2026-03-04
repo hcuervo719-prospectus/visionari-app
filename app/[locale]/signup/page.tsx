@@ -2,13 +2,16 @@
 'use client'
 
 import { useState } from 'react'
-import { useRouter } from 'next/navigation'
+import { useRouter, useParams } from 'next/navigation'
 import Link from 'next/link'
 import { useTranslations } from 'next-intl'
 
 export default function SignupPage() {
   const t = useTranslations()
   const router = useRouter()
+  const params = useParams()
+  const locale = params.locale as string
+  
   const [error, setError] = useState<string | null>(null)
   const [loading, setLoading] = useState(false)
 
@@ -36,7 +39,7 @@ export default function SignupPage() {
         setError(data.error)
         setLoading(false)
       } else {
-        router.push('/dashboard')
+        router.push(`/${locale}/dashboard`)
       }
     } catch (err) {
       setError('An unexpected error occurred')
@@ -49,7 +52,7 @@ export default function SignupPage() {
       <div className="w-full max-w-md">
         {/* Logo/Brand */}
         <div className="text-center mb-8">
-          <Link href="/" className="inline-block">
+          <Link href={`/${locale}`} className="inline-block">
             <h1 className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
               {t('common.siteName')}
             </h1>
@@ -131,7 +134,7 @@ export default function SignupPage() {
           {/* Divider */}
           <div className="mt-6 text-center text-sm text-slate-600">
             Already have an account?{' '}
-            <Link href="/login" className="text-blue-600 hover:text-blue-700 font-semibold">
+            <Link href={`/${locale}/login`} className="text-blue-600 hover:text-blue-700 font-semibold">
               Sign in
             </Link>
           </div>
@@ -140,11 +143,11 @@ export default function SignupPage() {
         {/* Terms */}
         <p className="mt-6 text-center text-xs text-slate-500">
           By creating an account, you agree to our{' '}
-          <Link href="/terms" className="underline hover:text-slate-700">
+          <Link href={`/${locale}/terms`} className="underline hover:text-slate-700">
             Terms of Service
           </Link>{' '}
           and{' '}
-          <Link href="/privacy" className="underline hover:text-slate-700">
+          <Link href={`/${locale}/privacy`} className="underline hover:text-slate-700">
             Privacy Policy
           </Link>
         </p>
