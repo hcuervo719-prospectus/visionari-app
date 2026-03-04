@@ -1,10 +1,21 @@
 // middleware.ts
-// Refresh Supabase session automatically
-
 import { createServerClient, type CookieOptions } from '@supabase/ssr'
 import { NextResponse, type NextRequest } from 'next/server'
+import createMiddleware from 'next-intl/middleware'
+import { locales } from './i18n'
+
+// Create next-intl middleware
+const intlMiddleware = createMiddleware({
+  locales,
+  defaultLocale: 'es',
+  localePrefix: 'always'
+})
 
 export async function middleware(request: NextRequest) {
+  // First, handle internationalization
+  const intlResponse = intlMiddleware(request)
+  
+  // Then handle Supabase session
   let response = NextResponse.next({
     request: {
       headers: request.headers,
@@ -59,7 +70,7 @@ export async function middleware(request: NextRequest) {
 
   await supabase.auth.getUser()
 
-  return response
+  return intlResponse || response
 }
 
 export const config = {
@@ -69,7 +80,7 @@ export const config = {
      * - _next/static (static files)
      * - _next/image (image optimization files)
      * - favicon.ico (favicon file)
-     * Feel free to modify this pattern to include more paths.
+     * - public assets
      */
     '/((?!_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*)',
   ],
