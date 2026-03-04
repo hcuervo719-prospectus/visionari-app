@@ -2,6 +2,14 @@
 import { createClient } from '@/lib/supabase/server'
 import { NextResponse } from 'next/server'
 
+// Handler para GET (solo para verificar que la ruta existe)
+export async function GET() {
+  return NextResponse.json({ 
+    message: 'Signup endpoint is working. Use POST to create an account.' 
+  })
+}
+
+// Handler para POST (registro real)
 export async function POST(request: Request) {
   try {
     const { email, password, full_name } = await request.json()
