@@ -2,6 +2,12 @@
 import { createClient } from '@/lib/supabase/server'
 import { NextResponse } from 'next/server'
 
+export async function GET() {
+  return NextResponse.json({ 
+    message: 'Login endpoint is working. Use POST to sign in.' 
+  })
+}
+
 export async function POST(request: Request) {
   try {
     const { email, password } = await request.json()
