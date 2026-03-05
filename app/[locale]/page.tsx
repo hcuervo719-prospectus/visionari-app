@@ -78,8 +78,11 @@ export default function HomePage({
           </div>
 
           <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-            {t('hero.headline')}
-          </h1>
+           {t('hero.headline')}{' '}
+           <span className="text-blue-600">
+            {t('hero.highlightText')}
+          </span>
+         </h1>
 
           <p className="text-xl text-gray-600 mb-12 max-w-3xl mx-auto">
             {t('hero.subheadline')}
