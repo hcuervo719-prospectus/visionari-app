@@ -5,7 +5,7 @@ import { getTranslations } from 'next-intl/server'
 import UnlockButton from '@/components/UnlockButton'
 
 export default async function DashboardPage({ params }: { params: { locale: string } }) {
-  const supabase = createClient()
+  const supabase = await createClient()
   const t = await getTranslations()
 
   // Verificar autenticación
