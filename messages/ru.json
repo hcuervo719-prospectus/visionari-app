@@ -1,7 +1,7 @@
 {
   "common": {
     "siteName": "Visionari",
-    "tagline": "Превратите свое видение в реальность"
+    "tagline": "Создайте видение, которое изменит ваш бизнес"
   },
   "nav": {
     "cases": "Кейсы",
@@ -9,87 +9,73 @@
     "pricing": "Цены",
     "login": "Войти",
     "signup": "Регистрация",
-    "getStarted": "Начать бесплатно"
+    "getStarted": "Начать"
   },
   "hero": {
-    "badge": "Ahora disponible en 16 idiomas",
-    "headline": "Трансформируйте бизнес-видение за 48 часов",
-    "highlightText": "Business Vision",
-    "subheadline": "Descubre cómo las empresas más exitosas del mundo desarrollaron visiones poderosas que transformaron industrias enteras. Por solo $10.",
-    "ctaPrimary": "Попробовать Компонент 1 бесплатно",
-    "ctaSecondary": "Посмотреть цены",
+    "badge": "Глобальный запуск - 16 языков",
+    "headline": "Четкое видение - это разница между ростом и",
+    "highlightText": "Трансформацией вашей индустрии",
+    "subheadline": "Узнайте, как такие компании, как Amazon, Tesla и Apple, создали видение, которое направляло каждое решение на протяжении десятилетий. Теперь ваша очередь.",
     "cta": {
-      "primary": "Попробовать Компонент 1 бесплатно",
-      "secondary": "Посмотреть цены"
+      "primary": "Создать мое видение",
+      "secondary": "Посмотреть истории успеха"
     },
-    "casesLabel": "Casos Analisados"
+    "casesLabel": "16 реальных кейсов"
   },
   "features": {
-    "title": "Почему Visionari",
-    "subtitle": "Полная система для разработки, уточнения и реализации вашего бизнес-видения",
+    "title": "Как это работает",
+    "subtitle": "Проверенная система в 15 трансформирующих компаниях",
     "feature1": {
-      "title": "8 Educational Components",
-      "description": "Proven step-by-step methodology to build a powerful, tangible, and executable vision"
+      "title": "Учитесь у лучших",
+      "description": "Реальные кейсы компаний, которые изменили целые отрасли благодаря четкому видению с первого дня."
     },
     "feature2": {
-      "title": "Strategic Document",
-      "description": "At the end, you get your complete Business Vision, clear and ready to share with your team"
+      "title": "Создайте свое видение",
+      "description": "Система из 8 компонентов, которая шаг за шагом направляет вас к созданию кристально чистого и непоколебимого видения."
     },
     "feature3": {
-      "title": "Real Documented Cases",
-      "description": "Learn from in-depth analysis of Amazon, Tesla, Starbucks and the most successful companies"
+      "title": "Сохраняйте фокус",
+      "description": "Инструменты и фреймворки, чтобы ваше видение направляло каждое стратегическое решение годами."
     }
   },
   "pricing": {
-    "title": "Простая инвестиция. Долгосрочное влияние.",
-    "subtitle": "Начните с Базового модуля. Масштабируйтесь с Visionari Pro, когда будете готовы.",
+    "title": "Начните сегодня",
+    "subtitle": "Выберите план, подходящий для вашего этапа",
     "free": {
-      "name": "Бесплатная пробная версия",
+      "name": "Бесплатно",
       "price": "$0",
-      "description": "Попробуйте полный Компонент 1",
-      "feature1": "Access to Component 1: Your Deep Purpose",
-      "feature2": "Complete cinematic educational video",
-      "feature3": "Guided interactive exercises",
+      "description": "Изучите систему и Компонент 1",
+      "feature1": "Доступ к кейсам",
+      "feature2": "Компонент 1: Важность",
+      "feature3": "Калькулятор ROI",
       "cta": "Начать бесплатно"
     },
     "foundation": {
-      "badge": "Доступно сейчас",
-      "name": "Базовый модуль",
+      "name": "Foundation Module",
       "price": "$10",
-      "period": "разовый платеж",
-      "access": "Пожизненный доступ",
-      "goal": "Что вы получите:",
-      "goalText": "Ваше полное бизнес-видение задокументировано, понятно и выполнимо",
-      "description": "Ваше полное бизнес-видение задокументировано, понятно и выполнимо",
-      "feature1": "All 8 Vision Components complete",
-      "feature2": "16 Case studies of successful companies",
-      "feature3": "Final document: Your Business Vision",
-      "feature4": "Lifetime access to content",
-      "cta": "Создать мое видение",
-      "disclaimer": "Одна инвестиция. Ясность навсегда."
+      "period": "единоразовый платеж",
+      "badge": "Самый популярный",
+      "description": "Создайте полное видение за 8 шагов",
+      "feature1": "Все из Бесплатно +",
+      "feature2": "8 полных компонентов",
+      "feature3": "Финальный документ сгенерирован",
+      "feature4": "Пожизненный доступ",
+      "cta": "Разблокировать сейчас"
     },
     "pro": {
-      "badge": "Скоро",
       "name": "Visionari Pro",
-      "price": "$30",
+      "price": "$29",
       "period": "/месяц",
-      "access": "Реализация с AI-коучем",
-      "goal": "Что вы получите:",
-      "goalText": "Постоянная реализация вашего видения с персонализированным AI-коучингом",
-      "description": "Постоянная реализация вашего видения с персонализированным AI-коучингом",
-      "feature1": "Everything in Foundation Module",
-      "feature2": "Personalized AI Coach for execution",
-      "feature3": "Monthly progress updates",
-      "feature4": "Exclusive visionary community",
-      "cta": "Лист ожидания",
-      "waitlist": "Присоединиться к листу ожидания →"
+      "description": "AI-коуч для реализации вашего видения",
+      "feature1": "Все из Foundation +",
+      "feature2": "Персонализированный AI-коуч",
+      "feature3": "Отслеживание прогресса",
+      "feature4": "Постоянные обновления",
+      "cta": "Скоро - Апрель 2026"
     }
   },
   "footer": {
-    "tagline": "Превратите свое видение в реальность",
-    "product": "Продукт",
-    "resources": "Ресурсы",
-    "company": "Компания",
+    "tagline": "Трансформируйте свой бизнес с четким видением",
     "sections": {
       "product": {
         "title": "Продукт",
@@ -104,12 +90,37 @@
         "link3": "Контакты"
       },
       "legal": {
-        "title": "Legal",
+        "title": "Правовая информация",
         "link1": "Конфиденциальность",
         "link2": "Условия",
-        "link3": "Cookies"
+        "link3": "Файлы cookie"
       }
     },
     "copyright": "© 2026 Visionari. Все права защищены."
+  },
+  "dashboard": {
+    "welcome": "С возвращением, {name}!",
+    "subtitle": "Продолжайте создавать свое бизнес-видение",
+    "logout": "Выйти",
+    "progress": "Прогресс",
+    "componentsCompleted": "Завершенные компоненты",
+    "timeInvested": "Затраченное время",
+    "hoursTotal": "из 48 часов всего",
+    "accessLevel": "Уровень доступа",
+    "upgradeToUnlock": "Обновите, чтобы разблокировать все",
+    "yourVisionComponents": "Ваши компоненты видения",
+    "readyToComplete": "Готовы завершить свое видение?",
+    "unlockAll": "Разблокируйте все 8 компонентов всего за $10 и создайте полный документ бизнес-видения",
+    "unlockButton": "Разблокировать полный модуль - $10",
+    "components": {
+      "1": "Ваша глубокая цель",
+      "2": "Четкое видение",
+      "3": "Осязаемые цели",
+      "4": "Проактивная стратегия",
+      "5": "Амбициозная цель",
+      "6": "Непоколебимая приверженность",
+      "7": "Заразительная энергия",
+      "8": "Полный документ"
+    }
   }
 }

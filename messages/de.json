@@ -1,8 +1,126 @@
 {
-  "common": {"siteName": "Visionari", "tagline": "Verwandeln Sie Ihre Vision in Realität"},
-  "nav": {"cases": "Fallstudien", "howItWorks": "Wie Es Funktioniert", "pricing": "Preise", "login": "Anmelden", "signup": "Registrieren", "getStarted": "Kostenlos Starten"},
-  "hero": {"badge": "Jetzt in 16 Sprachen verfügbar", "headline": "Verwandeln Sie Ihre Unternehmensvision in 48 Stunden", "highlightText": "Unternehmensvision", "subheadline": "Entdecken Sie, wie die erfolgreichsten Unternehmen der Welt kraftvolle Visionen entwickelten, die ganze Branchen transformierten. Für nur $10.", "ctaPrimary": "Komponente 1 Kostenlos Testen", "ctaSecondary": "Preise Ansehen", "cta": {"primary": "Komponente 1 Kostenlos Testen", "secondary": "Preise Ansehen"}, "casesLabel": "Analysierte Fälle"},
-  "features": {"title": "Warum Visionari", "subtitle": "Ein vollständiges System zur Entwicklung, Klärung und Umsetzung Ihrer Unternehmensvision", "feature1": {"title": "8 Bildungskomponenten", "description": "Bewährte Schritt-für-Schritt-Methodik zum Aufbau einer kraftvollen, greifbaren und umsetzbaren Vision"}, "feature2": {"title": "Strategisches Dokument", "description": "Am Ende erhalten Sie Ihre vollständige Unternehmensvision, klar und bereit zum Teilen mit Ihrem Team"}, "feature3": {"title": "Echte Dokumentierte Fälle", "description": "Lernen Sie aus der tiefgehenden Analyse von Amazon, Tesla, Starbucks und den erfolgreichsten Unternehmen"}},
-  "pricing": {"title": "Einfache Investition. Dauerhafte Wirkung.", "subtitle": "Beginnen Sie mit dem Grundlagenmodul. Skalieren Sie mit Visionari Pro, wenn Sie bereit sind.", "free": {"name": "Kostenlose Testversion", "price": "$0", "description": "Erleben Sie Komponente 1 vollständig", "feature1": "Zugang zu Komponente 1: Ihr Tiefer Zweck", "feature2": "Vollständiges kinematografisches Bildungsvideo", "feature3": "Geführte interaktive Übungen", "cta": "Kostenlos Starten"}, "foundation": {"badge": "Jetzt Verfügbar", "name": "Grundlagenmodul", "price": "$10", "period": "einmalige Zahlung", "access": "Lebenslanger Zugang", "goal": "Was Sie erreichen:", "goalText": "Ihre vollständige Unternehmensvision dokumentiert, klar und umsetzbar", "description": "Ihre vollständige Unternehmensvision dokumentiert, klar und umsetzbar", "feature1": "Alle 8 Visionskomponenten vollständig", "feature2": "16 Fallstudien erfolgreicher Unternehmen", "feature3": "Abschlussdokument: Ihre Unternehmensvision", "feature4": "Lebenslanger Zugang zu Inhalten", "cta": "Meine Vision Erstellen", "disclaimer": "Eine Investition. Klarheit für immer."}, "pro": {"badge": "Demnächst", "name": "Visionari Pro", "price": "$30", "period": "/Monat", "access": "Umsetzung mit KI-Coach", "goal": "Was Sie erreichen:", "goalText": "Kontinuierliche Umsetzung Ihrer Vision mit personalisiertem KI-Coaching", "description": "Kontinuierliche Umsetzung Ihrer Vision mit personalisiertem KI-Coaching", "feature1": "Alles im Grundlagenmodul", "feature2": "Personalisierter KI-Coach für die Umsetzung", "feature3": "Monatliche Fortschrittsaktualisierungen", "feature4": "Exklusive Visionärs-Community", "cta": "Warteliste", "waitlist": "Zur Warteliste →"}},
-  "footer": {"tagline": "Verwandeln Sie Ihre Vision in Realität.", "product": "Produkt", "resources": "Ressourcen", "company": "Unternehmen", "sections": {"product": {"title": "Produkt", "link1": "Fallstudien", "link2": "Wie Es Funktioniert", "link3": "Preise"}, "company": {"title": "Unternehmen", "link1": "Über Uns", "link2": "Blog", "link3": "Kontakt"}, "legal": {"title": "Rechtliches", "link1": "Datenschutz", "link2": "Bedingungen", "link3": "Cookies"}}, "copyright": "© 2026 Visionari. Alle Rechte vorbehalten."}
+  "common": {
+    "siteName": "Visionari",
+    "tagline": "Bauen Sie die Vision auf, die Ihr Unternehmen transformieren wird"
+  },
+  "nav": {
+    "cases": "Fälle",
+    "howItWorks": "Wie es funktioniert",
+    "pricing": "Preise",
+    "login": "Anmelden",
+    "signup": "Registrieren",
+    "getStarted": "Loslegen"
+  },
+  "hero": {
+    "badge": "Globale Einführung - 16 Sprachen",
+    "headline": "Klare Vision ist der Unterschied zwischen Wachsen und",
+    "highlightText": "Ihre Branche transformieren",
+    "subheadline": "Lernen Sie, wie Unternehmen wie Amazon, Tesla und Apple Visionen aufgebaut haben, die jede Entscheidung über Jahrzehnte geleitet haben. Jetzt sind Sie dran.",
+    "cta": {
+      "primary": "Meine Vision erstellen",
+      "secondary": "Erfolgsgeschichten ansehen"
+    },
+    "casesLabel": "16 echte Fallstudien"
+  },
+  "features": {
+    "title": "Wie es funktioniert",
+    "subtitle": "Ein bewährtes System in 15 transformativen Unternehmen",
+    "feature1": {
+      "title": "Von den Besten lernen",
+      "description": "Echte Fälle von Unternehmen, die ganze Branchen dank ihrer klaren Vision vom ersten Tag an verändert haben."
+    },
+    "feature2": {
+      "title": "Erstellen Sie Ihre Vision",
+      "description": "8-Komponenten-System, das Sie Schritt für Schritt durch den Aufbau einer kristallklaren und unerschütterlichen Vision führt."
+    },
+    "feature3": {
+      "title": "Fokus behalten",
+      "description": "Tools und Frameworks, damit Ihre Vision jede strategische Entscheidung über Jahre hinweg leitet."
+    }
+  },
+  "pricing": {
+    "title": "Starten Sie heute",
+    "subtitle": "Wählen Sie den Plan, der zu Ihrer Phase passt",
+    "free": {
+      "name": "Kostenlos",
+      "price": "$0",
+      "description": "Erkunden Sie das System und Komponente 1",
+      "feature1": "Zugang zu Fallstudien",
+      "feature2": "Komponente 1: Bedeutung",
+      "feature3": "ROI-Rechner",
+      "cta": "Kostenlos starten"
+    },
+    "foundation": {
+      "name": "Foundation Module",
+      "price": "$10",
+      "period": "einmalige Zahlung",
+      "badge": "Am beliebtesten",
+      "description": "Erstellen Sie Ihre vollständige Vision in 8 Schritten",
+      "feature1": "Alles in Kostenlos +",
+      "feature2": "8 vollständige Komponenten",
+      "feature3": "Finales Dokument generiert",
+      "feature4": "Lebenslanger Zugang",
+      "cta": "Jetzt freischalten"
+    },
+    "pro": {
+      "name": "Visionari Pro",
+      "price": "$29",
+      "period": "/Monat",
+      "description": "KI-Coach zur Umsetzung Ihrer Vision",
+      "feature1": "Alles in Foundation +",
+      "feature2": "Personalisierter KI-Coach",
+      "feature3": "Fortschrittsverfolgung",
+      "feature4": "Kontinuierliche Updates",
+      "cta": "Demnächst - April 2026"
+    }
+  },
+  "footer": {
+    "tagline": "Transformieren Sie Ihr Unternehmen mit klarer Vision",
+    "sections": {
+      "product": {
+        "title": "Produkt",
+        "link1": "Fallstudien",
+        "link2": "Wie es funktioniert",
+        "link3": "Preise"
+      },
+      "company": {
+        "title": "Unternehmen",
+        "link1": "Über uns",
+        "link2": "Blog",
+        "link3": "Kontakt"
+      },
+      "legal": {
+        "title": "Rechtliches",
+        "link1": "Datenschutz",
+        "link2": "Bedingungen",
+        "link3": "Cookies"
+      }
+    },
+    "copyright": "© 2026 Visionari. Alle Rechte vorbehalten."
+  },
+  "dashboard": {
+    "welcome": "Willkommen zurück, {name}!",
+    "subtitle": "Bauen Sie weiter an Ihrer Unternehmensvision",
+    "logout": "Abmelden",
+    "progress": "Fortschritt",
+    "componentsCompleted": "Komponenten abgeschlossen",
+    "timeInvested": "Investierte Zeit",
+    "hoursTotal": "von insgesamt 48 Stunden",
+    "accessLevel": "Zugangsebene",
+    "upgradeToUnlock": "Upgraden, um alles freizuschalten",
+    "yourVisionComponents": "Ihre Vision-Komponenten",
+    "readyToComplete": "Bereit, Ihre Vision zu vervollständigen?",
+    "unlockAll": "Schalten Sie alle 8 Komponenten für nur 10$ frei und erstellen Sie Ihr vollständiges Unternehmensvisionen-Dokument",
+    "unlockButton": "Vollständiges Modul freischalten - 10$",
+    "components": {
+      "1": "Ihr Tieferer Zweck",
+      "2": "Klare Vision",
+      "3": "Greifbare Ziele",
+      "4": "Proaktive Strategie",
+      "5": "Herausfordernder Ehrgeiz",
+      "6": "Unerschütterliches Engagement",
+      "7": "Ansteckende Energie",
+      "8": "Vollständiges Dokument"
+    }
+  }
 }

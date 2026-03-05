@@ -1,115 +1,126 @@
 {
   "common": {
     "siteName": "Visionari",
-    "tagline": "Transformeer uw visie in realiteit"
+    "tagline": "Bouw de visie die je bedrijf zal transformeren"
   },
   "nav": {
-    "cases": "Casestudy's",
-    "howItWorks": "Hoe Het Werkt",
+    "cases": "Cases",
+    "howItWorks": "Hoe het Werkt",
     "pricing": "Prijzen",
     "login": "Inloggen",
-    "signup": "Aanmelden",
-    "getStarted": "Gratis Beginnen"
+    "signup": "Registreren",
+    "getStarted": "Beginnen"
   },
   "hero": {
-    "badge": "Ahora disponible en 16 idiomas",
-    "headline": "Transformeer Uw Bedrijfsvisie in 48 Uur",
-    "highlightText": "Visión Empresarial",
-    "subheadline": "Descubre cómo las empresas más exitosas del mundo desarrollaron visiones poderosas que transformaron industrias enteras. Por solo $10.",
-    "ctaPrimary": "Probeer Component 1 Gratis",
-    "ctaSecondary": "Bekijk Prijzen",
+    "badge": "Wereldwijde Lancering - 16 Talen",
+    "headline": "Heldere Visie is het Verschil tussen Groeien en",
+    "highlightText": "Je Industrie Transformeren",
+    "subheadline": "Leer hoe bedrijven zoals Amazon, Tesla en Apple visies bouwden die elke beslissing decennialang hebben geleid. Nu is het jouw beurt.",
     "cta": {
-      "primary": "Probeer Component 1 Gratis",
-      "secondary": "Bekijk Prijzen"
+      "primary": "Creëer Mijn Visie",
+      "secondary": "Zie Succesverhalen"
     },
-    "casesLabel": "Casos Analisados"
+    "casesLabel": "16 Echte Casestudies"
   },
   "features": {
-    "title": "Waarom Visionari",
-    "subtitle": "Een compleet systeem om uw bedrijfsvisie te ontwikkelen, verduidelijken en uitvoeren",
+    "title": "Hoe het Werkt",
+    "subtitle": "Een bewezen systeem in 15 transformatieve bedrijven",
     "feature1": {
-      "title": "8 Componentes Educativos",
-      "description": "Metodología probada paso a paso para construir una visión poderosa, tangible y ejecutable"
+      "title": "Leer van de Besten",
+      "description": "Echte gevallen van bedrijven die hele industrieën veranderden dankzij hun heldere visie vanaf dag één."
     },
     "feature2": {
-      "title": "Documento Estratégico",
-      "description": "Al terminar, obtienes tu Visión Empresarial completa, clara y lista para compartir con tu equipo"
+      "title": "Creëer Je Visie",
+      "description": "8-componenten systeem dat je stap voor stap begeleidt om een kristalheldere en onwrikbare visie te bouwen."
     },
     "feature3": {
-      "title": "Casos Reales Documentados",
-      "description": "Aprende del análisis profundo de Amazon, Tesla, Starbucks y las empresas más exitosas"
+      "title": "Behoud Focus",
+      "description": "Tools en frameworks zodat je visie jarenlang elke strategische beslissing leidt."
     }
   },
   "pricing": {
-    "title": "Eenvoudige Investering. Blijvende Impact.",
-    "subtitle": "Begin met de Basismodule. Schaal met Visionari Pro wanneer u klaar bent.",
+    "title": "Start Vandaag",
+    "subtitle": "Kies het plan dat bij jouw fase past",
     "free": {
-      "name": "Gratis Proefversie",
+      "name": "Gratis",
       "price": "$0",
-      "description": "Ervaar Component 1 volledig",
-      "feature1": "Acceso al Componente 1: Tu Propósito Profundo",
-      "feature2": "Video educativo cinematográfico completo",
-      "feature3": "Ejercicios interactivos guiados",
+      "description": "Verken het systeem en Component 1",
+      "feature1": "Toegang tot casestudies",
+      "feature2": "Component 1: Belang",
+      "feature3": "ROI Calculator",
       "cta": "Gratis Beginnen"
     },
     "foundation": {
-      "badge": "Nu Beschikbaar",
-      "name": "Basismodule",
+      "name": "Foundation Module",
       "price": "$10",
       "period": "eenmalige betaling",
-      "access": "Levenslange toegang",
-      "goal": "Wat u bereikt:",
-      "goalText": "Uw complete Bedrijfsvisie gedocumenteerd, helder en uitvoerbaar",
-      "description": "Uw complete Bedrijfsvisie gedocumenteerd, helder en uitvoerbaar",
-      "feature1": "Los 8 Componentes de Visión completos",
-      "feature2": "16 Casos de estudio de empresas exitosas",
-      "feature3": "Documento final: Tu Visión Empresarial",
-      "feature4": "Acceso de por vida al contenido",
-      "cta": "Creëer Mijn Visie",
-      "disclaimer": "Eén investering. Helderheid voor altijd."
+      "badge": "Populairst",
+      "description": "Creëer je volledige visie in 8 stappen",
+      "feature1": "Alles in Gratis +",
+      "feature2": "8 volledige componenten",
+      "feature3": "Finaal document gegenereerd",
+      "feature4": "Levenslange toegang",
+      "cta": "Nu Ontgrendelen"
     },
     "pro": {
-      "badge": "Binnenkort",
       "name": "Visionari Pro",
-      "price": "$30",
+      "price": "$29",
       "period": "/maand",
-      "access": "Uitvoering met AI Coach",
-      "goal": "Wat u bereikt:",
-      "goalText": "Continue uitvoering van uw visie met gepersonaliseerde AI coaching",
-      "description": "Continue uitvoering van uw visie met gepersonaliseerde AI coaching",
-      "feature1": "Todo en Módulo Fundacional",
-      "feature2": "AI Coach personalizado para ejecución",
-      "feature3": "Actualizaciones mensuales de progreso",
-      "feature4": "Comunidad exclusiva de visionarios",
-      "cta": "Wachtlijst",
-      "waitlist": "Sluit u aan bij de wachtlijst →"
+      "description": "AI Coach om je visie uit te voeren",
+      "feature1": "Alles in Foundation +",
+      "feature2": "Gepersonaliseerde AI Coach",
+      "feature3": "Voortgangsregistratie",
+      "feature4": "Continue updates",
+      "cta": "Binnenkort - April 2026"
     }
   },
   "footer": {
-    "tagline": "Transformeer uw visie in realiteit",
-    "product": "Product",
-    "resources": "Bronnen",
-    "company": "Bedrijf",
+    "tagline": "Transformeer je bedrijf met heldere visie",
     "sections": {
       "product": {
         "title": "Product",
-        "link1": "Casestudy's",
-        "link2": "Hoe Het Werkt",
+        "link1": "Casestudies",
+        "link2": "Hoe het Werkt",
         "link3": "Prijzen"
       },
       "company": {
         "title": "Bedrijf",
-        "link1": "Over",
+        "link1": "Over Ons",
         "link2": "Blog",
         "link3": "Contact"
       },
       "legal": {
-        "title": "Legal",
+        "title": "Juridisch",
         "link1": "Privacy",
         "link2": "Voorwaarden",
         "link3": "Cookies"
       }
     },
     "copyright": "© 2026 Visionari. Alle rechten voorbehouden."
+  },
+  "dashboard": {
+    "welcome": "Welkom terug, {name}!",
+    "subtitle": "Blijf bouwen aan je bedrijfsvisie",
+    "logout": "Uitloggen",
+    "progress": "Voortgang",
+    "componentsCompleted": "Componenten voltooid",
+    "timeInvested": "Geïnvesteerde Tijd",
+    "hoursTotal": "van 48 uur totaal",
+    "accessLevel": "Toegangsniveau",
+    "upgradeToUnlock": "Upgrade om alles te ontgrendelen",
+    "yourVisionComponents": "Jouw Visie-componenten",
+    "readyToComplete": "Klaar om je visie te voltooien?",
+    "unlockAll": "Ontgrendel alle 8 componenten voor slechts $10 en creëer je complete Bedrijfsvisie-document",
+    "unlockButton": "Ontgrendel Volledige Module - $10",
+    "components": {
+      "1": "Jouw Diepere Doel",
+      "2": "Heldere Visie",
+      "3": "Tastbare Doelen",
+      "4": "Proactieve Strategie",
+      "5": "Uitdagende Ambitie",
+      "6": "Onwrikbare Toewijding",
+      "7": "Aanstekelijke Energie",
+      "8": "Compleet Document"
+    }
   }
 }

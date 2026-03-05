@@ -1,95 +1,81 @@
 {
   "common": {
     "siteName": "Visionari",
-    "tagline": "Ubah visi Anda menjadi kenyataan"
+    "tagline": "Bangun visi yang akan mengubah bisnis Anda"
   },
   "nav": {
-    "cases": "Studi Kasus",
+    "cases": "Kasus",
     "howItWorks": "Cara Kerja",
     "pricing": "Harga",
     "login": "Masuk",
     "signup": "Daftar",
-    "getStarted": "Mulai Gratis"
+    "getStarted": "Mulai"
   },
   "hero": {
-    "badge": "Ahora disponible en 16 idiomas",
-    "headline": "Ubah Visi Bisnis Anda dalam 48 Jam",
-    "highlightText": "Business Vision",
-    "subheadline": "Descubre cómo las empresas más exitosas del mundo desarrollaron visiones poderosas que transformaron industrias enteras. Por solo $10.",
-    "ctaPrimary": "Coba Komponen 1 Gratis",
-    "ctaSecondary": "Lihat Harga",
+    "badge": "Peluncuran Global - 16 Bahasa",
+    "headline": "Visi Jelas adalah Perbedaan antara Tumbuh dan",
+    "highlightText": "Mengubah Industri Anda",
+    "subheadline": "Pelajari bagaimana perusahaan seperti Amazon, Tesla, dan Apple membangun visi yang memandu setiap keputusan selama beberapa dekade. Sekarang giliran Anda.",
     "cta": {
-      "primary": "Coba Komponen 1 Gratis",
-      "secondary": "Lihat Harga"
+      "primary": "Buat Visi Saya",
+      "secondary": "Lihat Kisah Sukses"
     },
-    "casesLabel": "Casos Analisados"
+    "casesLabel": "16 Studi Kasus Nyata"
   },
   "features": {
-    "title": "Mengapa Visionari",
-    "subtitle": "Sistem lengkap untuk mengembangkan, memperjelas, dan mengeksekusi visi bisnis Anda",
+    "title": "Cara Kerja",
+    "subtitle": "Sistem terbukti di 15 perusahaan transformatif",
     "feature1": {
-      "title": "8 Educational Components",
-      "description": "Proven step-by-step methodology to build a powerful, tangible, and executable vision"
+      "title": "Belajar dari yang Terbaik",
+      "description": "Kasus nyata perusahaan yang mengubah seluruh industri berkat visi jelas mereka sejak hari pertama."
     },
     "feature2": {
-      "title": "Strategic Document",
-      "description": "At the end, you get your complete Business Vision, clear and ready to share with your team"
+      "title": "Buat Visi Anda",
+      "description": "Sistem 8 komponen yang memandu Anda langkah demi langkah untuk membangun visi yang kristal jernih dan teguh."
     },
     "feature3": {
-      "title": "Real Documented Cases",
-      "description": "Learn from in-depth analysis of Amazon, Tesla, Starbucks and the most successful companies"
+      "title": "Pertahankan Fokus",
+      "description": "Alat dan kerangka kerja agar visi Anda memandu setiap keputusan strategis selama bertahun-tahun."
     }
   },
   "pricing": {
-    "title": "Investasi Sederhana. Dampak Abadi.",
-    "subtitle": "Mulai dengan Modul Dasar. Tingkatkan dengan Visionari Pro saat Anda siap.",
+    "title": "Mulai Hari Ini",
+    "subtitle": "Pilih paket yang sesuai dengan tahap Anda",
     "free": {
-      "name": "Uji Coba Gratis",
+      "name": "Gratis",
       "price": "$0",
-      "description": "Rasakan Komponen 1 lengkap",
-      "feature1": "Access to Component 1: Your Deep Purpose",
-      "feature2": "Complete cinematic educational video",
-      "feature3": "Guided interactive exercises",
+      "description": "Jelajahi sistem dan Komponen 1",
+      "feature1": "Akses ke studi kasus",
+      "feature2": "Komponen 1: Pentingnya",
+      "feature3": "Kalkulator ROI",
       "cta": "Mulai Gratis"
     },
     "foundation": {
-      "badge": "Tersedia Sekarang",
-      "name": "Modul Dasar",
+      "name": "Foundation Module",
       "price": "$10",
       "period": "pembayaran sekali",
-      "access": "Akses seumur hidup",
-      "goal": "Apa yang Anda capai:",
-      "goalText": "Visi Bisnis lengkap Anda terdokumentasi, jelas, dan dapat dieksekusi",
-      "description": "Visi Bisnis lengkap Anda terdokumentasi, jelas, dan dapat dieksekusi",
-      "feature1": "All 8 Vision Components complete",
-      "feature2": "16 Case studies of successful companies",
-      "feature3": "Final document: Your Business Vision",
-      "feature4": "Lifetime access to content",
-      "cta": "Buat Visi Saya",
-      "disclaimer": "Satu investasi. Kejelasan selamanya."
+      "badge": "Paling Populer",
+      "description": "Buat visi lengkap Anda dalam 8 langkah",
+      "feature1": "Semua di Gratis +",
+      "feature2": "8 komponen lengkap",
+      "feature3": "Dokumen akhir dihasilkan",
+      "feature4": "Akses seumur hidup",
+      "cta": "Buka Sekarang"
     },
     "pro": {
-      "badge": "Segera Hadir",
       "name": "Visionari Pro",
-      "price": "$30",
+      "price": "$29",
       "period": "/bulan",
-      "access": "Eksekusi dengan AI Coach",
-      "goal": "Apa yang Anda capai:",
-      "goalText": "Eksekusi berkelanjutan visi Anda dengan coaching AI yang dipersonalisasi",
-      "description": "Eksekusi berkelanjutan visi Anda dengan coaching AI yang dipersonalisasi",
-      "feature1": "Everything in Foundation Module",
-      "feature2": "Personalized AI Coach for execution",
-      "feature3": "Monthly progress updates",
-      "feature4": "Exclusive visionary community",
-      "cta": "Daftar Tunggu",
-      "waitlist": "Bergabung dengan daftar tunggu →"
+      "description": "AI Coach untuk menjalankan visi Anda",
+      "feature1": "Semua di Foundation +",
+      "feature2": "AI Coach yang dipersonalisasi",
+      "feature3": "Pelacakan kemajuan",
+      "feature4": "Pembaruan berkelanjutan",
+      "cta": "Segera Hadir - April 2026"
     }
   },
   "footer": {
-    "tagline": "Ubah visi Anda menjadi kenyataan",
-    "product": "Produk",
-    "resources": "Sumber Daya",
-    "company": "Perusahaan",
+    "tagline": "Ubah bisnis Anda dengan visi yang jelas",
     "sections": {
       "product": {
         "title": "Produk",
@@ -111,5 +97,30 @@
       }
     },
     "copyright": "© 2026 Visionari. Hak cipta dilindungi."
+  },
+  "dashboard": {
+    "welcome": "Selamat datang kembali, {name}!",
+    "subtitle": "Lanjutkan membangun visi bisnis Anda",
+    "logout": "Keluar",
+    "progress": "Kemajuan",
+    "componentsCompleted": "Komponen selesai",
+    "timeInvested": "Waktu Diinvestasikan",
+    "hoursTotal": "dari total 48 jam",
+    "accessLevel": "Tingkat Akses",
+    "upgradeToUnlock": "Tingkatkan untuk membuka semua",
+    "yourVisionComponents": "Komponen Visi Anda",
+    "readyToComplete": "Siap menyelesaikan visi Anda?",
+    "unlockAll": "Buka semua 8 komponen hanya dengan $10 dan buat dokumen Visi Bisnis lengkap Anda",
+    "unlockButton": "Buka Modul Lengkap - $10",
+    "components": {
+      "1": "Tujuan Mendalam Anda",
+      "2": "Visi Jelas",
+      "3": "Tujuan Nyata",
+      "4": "Strategi Proaktif",
+      "5": "Ambisi Menantang",
+      "6": "Komitmen Teguh",
+      "7": "Energi Menular",
+      "8": "Dokumen Lengkap"
+    }
   }
 }

@@ -1,115 +1,126 @@
 {
   "common": {
     "siteName": "Visionari",
-    "tagline": "Förvandla din vision till verklighet"
+    "tagline": "Bygg visionen som kommer att transformera ditt företag"
   },
   "nav": {
-    "cases": "Fallstudier",
-    "howItWorks": "Hur Det Fungerar",
+    "cases": "Fall",
+    "howItWorks": "Hur det fungerar",
     "pricing": "Priser",
-    "login": "Logga In",
+    "login": "Logga in",
     "signup": "Registrera",
-    "getStarted": "Börja Gratis"
+    "getStarted": "Kom igång"
   },
   "hero": {
-    "badge": "Ahora disponible en 16 idiomas",
-    "headline": "Förvandla Din Affärsvision på 48 Timmar",
-    "highlightText": "Business Vision",
-    "subheadline": "Descubre cómo las empresas más exitosas del mundo desarrollaron visiones poderosas que transformaron industrias enteras. Por solo $10.",
-    "ctaPrimary": "Prova Komponent 1 Gratis",
-    "ctaSecondary": "Se Priser",
+    "badge": "Global lansering - 16 språk",
+    "headline": "Tydlig vision är skillnaden mellan att växa och",
+    "highlightText": "Transformera din bransch",
+    "subheadline": "Lär dig hur företag som Amazon, Tesla och Apple byggde visioner som vägledde varje beslut i årtionden. Nu är det din tur.",
     "cta": {
-      "primary": "Prova Komponent 1 Gratis",
-      "secondary": "Se Priser"
+      "primary": "Skapa min vision",
+      "secondary": "Se framgångshistorier"
     },
-    "casesLabel": "Casos Analisados"
+    "casesLabel": "16 verkliga fallstudier"
   },
   "features": {
-    "title": "Varför Visionari",
-    "subtitle": "Ett komplett system för att utveckla, klargöra och genomföra din affärsvision",
+    "title": "Hur det fungerar",
+    "subtitle": "Ett beprövat system i 15 transformativa företag",
     "feature1": {
-      "title": "8 Educational Components",
-      "description": "Proven step-by-step methodology to build a powerful, tangible, and executable vision"
+      "title": "Lär av de bästa",
+      "description": "Verkliga fall av företag som förändrade hela branscher tack vare sin tydliga vision från dag ett."
     },
     "feature2": {
-      "title": "Strategic Document",
-      "description": "At the end, you get your complete Business Vision, clear and ready to share with your team"
+      "title": "Skapa din vision",
+      "description": "8-komponentssystem som guidar dig steg för steg för att bygga en kristallklar och orubblig vision."
     },
     "feature3": {
-      "title": "Real Documented Cases",
-      "description": "Learn from in-depth analysis of Amazon, Tesla, Starbucks and the most successful companies"
+      "title": "Behåll fokus",
+      "description": "Verktyg och ramverk så att din vision vägleder varje strategiskt beslut i åratal."
     }
   },
   "pricing": {
-    "title": "Enkel Investering. Varaktig Påverkan.",
-    "subtitle": "Börja med Grundmodulen. Skala med Visionari Pro när du är redo.",
+    "title": "Börja idag",
+    "subtitle": "Välj planen som passar din fas",
     "free": {
-      "name": "Gratis Provperiod",
+      "name": "Gratis",
       "price": "$0",
-      "description": "Upplev fullständig Komponent 1",
-      "feature1": "Access to Component 1: Your Deep Purpose",
-      "feature2": "Complete cinematic educational video",
-      "feature3": "Guided interactive exercises",
-      "cta": "Börja Gratis"
+      "description": "Utforska systemet och Komponent 1",
+      "feature1": "Tillgång till fallstudier",
+      "feature2": "Komponent 1: Betydelse",
+      "feature3": "ROI-kalkylator",
+      "cta": "Börja gratis"
     },
     "foundation": {
-      "badge": "Tillgänglig Nu",
-      "name": "Grundmodul",
+      "name": "Foundation Module",
       "price": "$10",
       "period": "engångsbetalning",
-      "access": "Livstidsåtkomst",
-      "goal": "Vad du uppnår:",
-      "goalText": "Din kompletta Affärsvision dokumenterad, tydlig och genomförbar",
-      "description": "Din kompletta Affärsvision dokumenterad, tydlig och genomförbar",
-      "feature1": "All 8 Vision Components complete",
-      "feature2": "16 Case studies of successful companies",
-      "feature3": "Final document: Your Business Vision",
-      "feature4": "Lifetime access to content",
-      "cta": "Skapa Min Vision",
-      "disclaimer": "En investering. Klarhet för alltid."
+      "badge": "Populärast",
+      "description": "Skapa din kompletta vision i 8 steg",
+      "feature1": "Allt i Gratis +",
+      "feature2": "8 kompletta komponenter",
+      "feature3": "Slutligt dokument genererat",
+      "feature4": "Livstidsåtkomst",
+      "cta": "Lås upp nu"
     },
     "pro": {
-      "badge": "Kommer Snart",
       "name": "Visionari Pro",
-      "price": "$30",
+      "price": "$29",
       "period": "/månad",
-      "access": "Genomförande med AI Coach",
-      "goal": "Vad du uppnår:",
-      "goalText": "Kontinuerligt genomförande av din vision med personlig AI-coaching",
-      "description": "Kontinuerligt genomförande av din vision med personlig AI-coaching",
-      "feature1": "Everything in Foundation Module",
-      "feature2": "Personalized AI Coach for execution",
-      "feature3": "Monthly progress updates",
-      "feature4": "Exclusive visionary community",
-      "cta": "Väntelista",
-      "waitlist": "Gå med på väntelistan →"
+      "description": "AI-coach för att genomföra din vision",
+      "feature1": "Allt i Foundation +",
+      "feature2": "Personlig AI-coach",
+      "feature3": "Framstegsspårning",
+      "feature4": "Kontinuerliga uppdateringar",
+      "cta": "Kommer snart - april 2026"
     }
   },
   "footer": {
-    "tagline": "Förvandla din vision till verklighet",
-    "product": "Produkt",
-    "resources": "Resurser",
-    "company": "Företag",
+    "tagline": "Transformera ditt företag med tydlig vision",
     "sections": {
       "product": {
         "title": "Produkt",
         "link1": "Fallstudier",
-        "link2": "Hur Det Fungerar",
+        "link2": "Hur det fungerar",
         "link3": "Priser"
       },
       "company": {
         "title": "Företag",
-        "link1": "Om",
+        "link1": "Om oss",
         "link2": "Blogg",
         "link3": "Kontakt"
       },
       "legal": {
-        "title": "Legal",
+        "title": "Juridiskt",
         "link1": "Integritet",
         "link2": "Villkor",
         "link3": "Cookies"
       }
     },
     "copyright": "© 2026 Visionari. Alla rättigheter förbehållna."
+  },
+  "dashboard": {
+    "welcome": "Välkommen tillbaka, {name}!",
+    "subtitle": "Fortsätt bygga din affärsvision",
+    "logout": "Logga ut",
+    "progress": "Framsteg",
+    "componentsCompleted": "Slutförda komponenter",
+    "timeInvested": "Investerad tid",
+    "hoursTotal": "av totalt 48 timmar",
+    "accessLevel": "Åtkomstnivå",
+    "upgradeToUnlock": "Uppgradera för att låsa upp allt",
+    "yourVisionComponents": "Dina visionskomponenter",
+    "readyToComplete": "Redo att slutföra din vision?",
+    "unlockAll": "Lås upp alla 8 komponenter för endast $10 och skapa ditt kompletta affärsvisionsdokument",
+    "unlockButton": "Lås upp komplett modul - $10",
+    "components": {
+      "1": "Ditt djupa syfte",
+      "2": "Tydlig vision",
+      "3": "Konkreta mål",
+      "4": "Proaktiv strategi",
+      "5": "Utmanande ambition",
+      "6": "Orubbligt engagemang",
+      "7": "Smittsam energi",
+      "8": "Komplett dokument"
+    }
   }
 }

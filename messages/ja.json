@@ -1,100 +1,86 @@
 {
   "common": {
     "siteName": "Visionari",
-    "tagline": "ビジョンを現実に変える"
+    "tagline": "ビジネスを変革するビジョンを構築しましょう"
   },
   "nav": {
-    "cases": "ケーススタディ",
-    "howItWorks": "使い方",
+    "cases": "事例",
+    "howItWorks": "仕組み",
     "pricing": "料金",
     "login": "ログイン",
-    "signup": "サインアップ",
-    "getStarted": "無料で始める"
+    "signup": "登録",
+    "getStarted": "始める"
   },
   "hero": {
-    "badge": "Ahora disponible en 16 idiomas",
-    "headline": "48時間でビジネスビジョンを変革する",
-    "highlightText": "Business Vision",
-    "subheadline": "Descubre cómo las empresas más exitosas del mundo desarrollaron visiones poderosas que transformaron industrias enteras. Por solo $10.",
-    "ctaPrimary": "コンポーネント1を無料で試す",
-    "ctaSecondary": "料金を見る",
+    "badge": "グローバルローンチ - 16言語",
+    "headline": "明確なビジョンは、成長することと",
+    "highlightText": "業界を変革することの違いです",
+    "subheadline": "Amazon、Tesla、Appleなどの企業が、何十年にもわたってすべての決定を導いたビジョンをどのように構築したかを学びましょう。次はあなたの番です。",
     "cta": {
-      "primary": "コンポーネント1を無料で試す",
-      "secondary": "料金を見る"
+      "primary": "ビジョンを作成",
+      "secondary": "成功事例を見る"
     },
-    "casesLabel": "Casos Analisados"
+    "casesLabel": "16の実際のケーススタディ"
   },
   "features": {
-    "title": "Visionariを選ぶ理由",
-    "subtitle": "ビジネスビジョンを開発、明確化、実行するための完全なシステム",
+    "title": "仕組み",
+    "subtitle": "15の変革企業で実証されたシステム",
     "feature1": {
-      "title": "8 Educational Components",
-      "description": "Proven step-by-step methodology to build a powerful, tangible, and executable vision"
+      "title": "最高から学ぶ",
+      "description": "初日から明確なビジョンのおかげで業界全体を変えた企業の実例。"
     },
     "feature2": {
-      "title": "Strategic Document",
-      "description": "At the end, you get your complete Business Vision, clear and ready to share with your team"
+      "title": "ビジョンを作成",
+      "description": "クリスタルクリアで揺るぎないビジョンを構築するために、ステップバイステップでガイドする8コンポーネントシステム。"
     },
     "feature3": {
-      "title": "Real Documented Cases",
-      "description": "Learn from in-depth analysis of Amazon, Tesla, Starbucks and the most successful companies"
+      "title": "焦点を維持",
+      "description": "ビジョンが何年にもわたってすべての戦略的決定を導くためのツールとフレームワーク。"
     }
   },
   "pricing": {
-    "title": "シンプルな投資。永続的な影響。",
-    "subtitle": "基礎モジュールから始めましょう。準備ができたらVisionari Proでスケールアップ。",
+    "title": "今日から始める",
+    "subtitle": "あなたの段階に合ったプランを選択",
     "free": {
-      "name": "無料トライアル",
+      "name": "無料",
       "price": "$0",
-      "description": "完全なコンポーネント1を体験",
-      "feature1": "Access to Component 1: Your Deep Purpose",
-      "feature2": "Complete cinematic educational video",
-      "feature3": "Guided interactive exercises",
+      "description": "システムとコンポーネント1を探索",
+      "feature1": "ケーススタディへのアクセス",
+      "feature2": "コンポーネント1：重要性",
+      "feature3": "ROI計算機",
       "cta": "無料で始める"
     },
     "foundation": {
-      "badge": "現在利用可能",
-      "name": "基礎モジュール",
+      "name": "Foundation Module",
       "price": "$10",
       "period": "一回払い",
-      "access": "生涯アクセス",
-      "goal": "得られるもの：",
-      "goalText": "完全なビジネスビジョンが文書化され、明確で実行可能",
-      "description": "完全なビジネスビジョンが文書化され、明確で実行可能",
-      "feature1": "All 8 Vision Components complete",
-      "feature2": "16 Case studies of successful companies",
-      "feature3": "Final document: Your Business Vision",
-      "feature4": "Lifetime access to content",
-      "cta": "私のビジョンを作成",
-      "disclaimer": "一度の投資。永遠の明確さ。"
+      "badge": "最も人気",
+      "description": "8ステップで完全なビジョンを作成",
+      "feature1": "無料のすべて +",
+      "feature2": "8つの完全なコンポーネント",
+      "feature3": "最終文書の生成",
+      "feature4": "生涯アクセス",
+      "cta": "今すぐアンロック"
     },
     "pro": {
-      "badge": "近日公開",
       "name": "Visionari Pro",
-      "price": "$30",
+      "price": "$29",
       "period": "/月",
-      "access": "AIコーチによる実行",
-      "goal": "得られるもの：",
-      "goalText": "パーソナライズされたAIコーチングによるビジョンの継続的な実行",
-      "description": "パーソナライズされたAIコーチングによるビジョンの継続的な実行",
-      "feature1": "Everything in Foundation Module",
-      "feature2": "Personalized AI Coach for execution",
-      "feature3": "Monthly progress updates",
-      "feature4": "Exclusive visionary community",
-      "cta": "ウェイトリスト",
-      "waitlist": "ウェイトリストに参加 →"
+      "description": "ビジョンを実行するためのAIコーチ",
+      "feature1": "Foundationのすべて +",
+      "feature2": "パーソナライズされたAIコーチ",
+      "feature3": "進捗追跡",
+      "feature4": "継続的な更新",
+      "cta": "近日公開 - 2026年4月"
     }
   },
   "footer": {
-    "tagline": "ビジョンを現実に変える",
-    "product": "製品",
-    "resources": "リソース",
-    "company": "会社",
+    "tagline": "明確なビジョンでビジネスを変革",
     "sections": {
       "product": {
         "title": "製品",
         "link1": "ケーススタディ",
-        "link2": "使い方",
+        "link2": "仕組み",
         "link3": "料金"
       },
       "company": {
@@ -104,12 +90,37 @@
         "link3": "お問い合わせ"
       },
       "legal": {
-        "title": "Legal",
+        "title": "法的情報",
         "link1": "プライバシー",
         "link2": "利用規約",
         "link3": "クッキー"
       }
     },
     "copyright": "© 2026 Visionari. 全著作権所有。"
+  },
+  "dashboard": {
+    "welcome": "おかえりなさい、{name}さん！",
+    "subtitle": "ビジネスビジョンの構築を続けましょう",
+    "logout": "ログアウト",
+    "progress": "進捗",
+    "componentsCompleted": "完了したコンポーネント",
+    "timeInvested": "投資時間",
+    "hoursTotal": "全48時間中",
+    "accessLevel": "アクセスレベル",
+    "upgradeToUnlock": "アップグレードしてすべてアンロック",
+    "yourVisionComponents": "あなたのビジョンコンポーネント",
+    "readyToComplete": "ビジョンを完成させる準備はできましたか？",
+    "unlockAll": "わずか$10で8つすべてのコンポーネントをアンロックし、完全なビジネスビジョンドキュメントを作成しましょう",
+    "unlockButton": "完全モジュールをアンロック - $10",
+    "components": {
+      "1": "深い目的",
+      "2": "明確なビジョン",
+      "3": "具体的な目標",
+      "4": "積極的な戦略",
+      "5": "挑戦的な野心",
+      "6": "揺るぎないコミットメント",
+      "7": "伝染するエネルギー",
+      "8": "完全なドキュメント"
+    }
   }
 }

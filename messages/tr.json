@@ -1,115 +1,126 @@
 {
   "common": {
     "siteName": "Visionari",
-    "tagline": "Vizyonunuzu gerçeğe dönüştürün"
+    "tagline": "İşinizi dönüştürecek vizyonu oluşturun"
   },
   "nav": {
-    "cases": "Vaka Çalışmaları",
+    "cases": "Vakalar",
     "howItWorks": "Nasıl Çalışır",
     "pricing": "Fiyatlandırma",
     "login": "Giriş Yap",
-    "signup": "Kaydol",
-    "getStarted": "Ücretsiz Başla"
+    "signup": "Kayıt Ol",
+    "getStarted": "Başla"
   },
   "hero": {
-    "badge": "Ahora disponible en 16 idiomas",
-    "headline": "İş Vizyonunuzu 48 Saatte Dönüştürün",
-    "highlightText": "Business Vision",
-    "subheadline": "Descubre cómo las empresas más exitosas del mundo desarrollaron visiones poderosas que transformaron industrias enteras. Por solo $10.",
-    "ctaPrimary": "Bileşen 1'i Ücretsiz Deneyin",
-    "ctaSecondary": "Fiyatları Görüntüle",
+    "badge": "Küresel Lansman - 16 Dil",
+    "headline": "Net Vizyon, Büyümek ile",
+    "highlightText": "Endüstrinizi Dönüştürmek Arasındaki Farktır",
+    "subheadline": "Amazon, Tesla ve Apple gibi şirketlerin onlarca yıl boyunca her kararı yönlendiren vizyonları nasıl oluşturduğunu öğrenin. Şimdi sıra sizde.",
     "cta": {
-      "primary": "Bileşen 1'i Ücretsiz Deneyin",
-      "secondary": "Fiyatları Görüntüle"
+      "primary": "Vizyonumu Oluştur",
+      "secondary": "Başarı Hikayelerini Gör"
     },
-    "casesLabel": "Casos Analisados"
+    "casesLabel": "16 Gerçek Vaka İncelemesi"
   },
   "features": {
-    "title": "Neden Visionari",
-    "subtitle": "İş vizyonunuzu geliştirmek, netleştirmek ve uygulamak için eksiksiz bir sistem",
+    "title": "Nasıl Çalışır",
+    "subtitle": "15 dönüştürücü şirkette kanıtlanmış bir sistem",
     "feature1": {
-      "title": "8 Educational Components",
-      "description": "Proven step-by-step methodology to build a powerful, tangible, and executable vision"
+      "title": "En İyilerinden Öğrenin",
+      "description": "İlk günden itibaren net vizyonları sayesinde tüm endüstrileri değiştiren şirketlerin gerçek vakaları."
     },
     "feature2": {
-      "title": "Strategic Document",
-      "description": "At the end, you get your complete Business Vision, clear and ready to share with your team"
+      "title": "Vizyonunuzu Oluşturun",
+      "description": "Kristal berraklığında ve sarsılmaz bir vizyon oluşturmanız için sizi adım adım yönlendiren 8 bileşenli sistem."
     },
     "feature3": {
-      "title": "Real Documented Cases",
-      "description": "Learn from in-depth analysis of Amazon, Tesla, Starbucks and the most successful companies"
+      "title": "Odağı Koruyun",
+      "description": "Vizyonunuzun yıllarca her stratejik kararı yönlendirmesi için araçlar ve çerçeveler."
     }
   },
   "pricing": {
-    "title": "Basit Yatırım. Kalıcı Etki.",
-    "subtitle": "Temel Modül ile başlayın. Hazır olduğunuzda Visionari Pro ile ölçeklendirin.",
+    "title": "Bugün Başlayın",
+    "subtitle": "Aşamanıza uygun planı seçin",
     "free": {
-      "name": "Ücretsiz Deneme",
+      "name": "Ücretsiz",
       "price": "$0",
-      "description": "Tam Bileşen 1'i deneyimleyin",
-      "feature1": "Access to Component 1: Your Deep Purpose",
-      "feature2": "Complete cinematic educational video",
-      "feature3": "Guided interactive exercises",
+      "description": "Sistemi ve Bileşen 1'i keşfedin",
+      "feature1": "Vaka incelemelerine erişim",
+      "feature2": "Bileşen 1: Önem",
+      "feature3": "ROI Hesaplayıcı",
       "cta": "Ücretsiz Başla"
     },
     "foundation": {
-      "badge": "Şimdi Mevcut",
-      "name": "Temel Modül",
+      "name": "Foundation Module",
       "price": "$10",
       "period": "tek seferlik ödeme",
-      "access": "Ömür boyu erişim",
-      "goal": "Ne elde edersiniz:",
-      "goalText": "Eksiksiz İş Vizyonunuz belgelenmiş, net ve uygulanabilir",
-      "description": "Eksiksiz İş Vizyonunuz belgelenmiş, net ve uygulanabilir",
-      "feature1": "All 8 Vision Components complete",
-      "feature2": "16 Case studies of successful companies",
-      "feature3": "Final document: Your Business Vision",
-      "feature4": "Lifetime access to content",
-      "cta": "Vizyonumu Oluştur",
-      "disclaimer": "Tek yatırım. Sonsuza kadar netlik."
+      "badge": "En Popüler",
+      "description": "8 adımda eksiksiz vizyonunuzu oluşturun",
+      "feature1": "Ücretsiz'deki her şey +",
+      "feature2": "8 eksiksiz bileşen",
+      "feature3": "Oluşturulan nihai belge",
+      "feature4": "Ömür boyu erişim",
+      "cta": "Şimdi Kilidi Aç"
     },
     "pro": {
-      "badge": "Yakında",
       "name": "Visionari Pro",
-      "price": "$30",
+      "price": "$29",
       "period": "/ay",
-      "access": "AI Coach ile Uygulama",
-      "goal": "Ne elde edersiniz:",
-      "goalText": "Kişiselleştirilmiş AI koçluğu ile vizyonunuzun sürekli uygulanması",
-      "description": "Kişiselleştirilmiş AI koçluğu ile vizyonunuzun sürekli uygulanması",
-      "feature1": "Everything in Foundation Module",
-      "feature2": "Personalized AI Coach for execution",
-      "feature3": "Monthly progress updates",
-      "feature4": "Exclusive visionary community",
-      "cta": "Bekleme Listesi",
-      "waitlist": "Bekleme listesine katılın →"
+      "description": "Vizyonunuzu yürütmek için AI Coach",
+      "feature1": "Foundation'daki her şey +",
+      "feature2": "Kişiselleştirilmiş AI Coach",
+      "feature3": "İlerleme takibi",
+      "feature4": "Sürekli güncellemeler",
+      "cta": "Yakında - Nisan 2026"
     }
   },
   "footer": {
-    "tagline": "Vizyonunuzu gerçeğe dönüştürün",
-    "product": "Ürün",
-    "resources": "Kaynaklar",
-    "company": "Şirket",
+    "tagline": "Net vizyon ile işinizi dönüştürün",
     "sections": {
       "product": {
         "title": "Ürün",
-        "link1": "Vaka Çalışmaları",
+        "link1": "Vaka İncelemeleri",
         "link2": "Nasıl Çalışır",
         "link3": "Fiyatlandırma"
       },
       "company": {
         "title": "Şirket",
-        "link1": "Hakkında",
+        "link1": "Hakkımızda",
         "link2": "Blog",
         "link3": "İletişim"
       },
       "legal": {
-        "title": "Legal",
+        "title": "Yasal",
         "link1": "Gizlilik",
         "link2": "Şartlar",
         "link3": "Çerezler"
       }
     },
     "copyright": "© 2026 Visionari. Tüm hakları saklıdır."
+  },
+  "dashboard": {
+    "welcome": "Tekrar hoş geldin, {name}!",
+    "subtitle": "İş vizyonunuzu oluşturmaya devam edin",
+    "logout": "Çıkış Yap",
+    "progress": "İlerleme",
+    "componentsCompleted": "Tamamlanan bileşenler",
+    "timeInvested": "Yatırılan Zaman",
+    "hoursTotal": "toplam 48 saatten",
+    "accessLevel": "Erişim Seviyesi",
+    "upgradeToUnlock": "Tümünü açmak için yükseltin",
+    "yourVisionComponents": "Vizyon Bileşenleriniz",
+    "readyToComplete": "Vizyonunuzu tamamlamaya hazır mısınız?",
+    "unlockAll": "Sadece $10 karşılığında tüm 8 bileşeni açın ve eksiksiz İş Vizyonu belgenizi oluşturun",
+    "unlockButton": "Tam Modülü Aç - $10",
+    "components": {
+      "1": "Derin Amacınız",
+      "2": "Net Vizyon",
+      "3": "Somut Hedefler",
+      "4": "Proaktif Strateji",
+      "5": "Zorlu Hırs",
+      "6": "Sarsılmaz Bağlılık",
+      "7": "Bulaşıcı Enerji",
+      "8": "Eksiksiz Belge"
+    }
   }
 }

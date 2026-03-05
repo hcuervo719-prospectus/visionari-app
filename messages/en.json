@@ -1,95 +1,81 @@
 {
   "common": {
     "siteName": "Visionari",
-    "tagline": "Transform your vision into reality"
+    "tagline": "Build the vision that will transform your business"
   },
   "nav": {
-    "cases": "Case Studies",
+    "cases": "Cases",
     "howItWorks": "How It Works",
     "pricing": "Pricing",
-    "login": "Sign In",
+    "login": "Log In",
     "signup": "Sign Up",
-    "getStarted": "Start Free"
+    "getStarted": "Get Started"
   },
   "hero": {
-    "badge": "Now available in 16 languages",
-    "headline": "Transform Your Business Vision in 48 Hours",
-    "highlightText": "Business Vision",
-    "subheadline": "Discover how the world's most successful companies developed powerful visions that transformed entire industries. For only $10.",
-    "ctaPrimary": "Try Component 1 Free",
-    "ctaSecondary": "View Pricing",
+    "badge": "Global Launch - 16 Languages",
+    "headline": "Clear Vision is the Difference Between Growing and",
+    "highlightText": "Transforming Your Industry",
+    "subheadline": "Learn how companies like Amazon, Tesla, and Apple built visions that guided every decision for decades. Now it's your turn.",
     "cta": {
-      "primary": "Try Component 1 Free",
-      "secondary": "View Pricing"
+      "primary": "Create My Vision",
+      "secondary": "See Success Stories"
     },
-    "casesLabel": "Cases Analyzed"
+    "casesLabel": "16 Real Case Studies"
   },
   "features": {
-    "title": "Why Visionari",
-    "subtitle": "A complete system to develop, clarify, and execute your business vision",
+    "title": "How It Works",
+    "subtitle": "A proven system in 15 transformative companies",
     "feature1": {
-      "title": "8 Educational Components",
-      "description": "Proven step-by-step methodology to build a powerful, tangible, and executable vision"
+      "title": "Learn from the Best",
+      "description": "Real cases of companies that changed entire industries thanks to their clear vision from day one."
     },
     "feature2": {
-      "title": "Strategic Document",
-      "description": "At the end, you get your complete Business Vision, clear and ready to share with your team"
+      "title": "Create Your Vision",
+      "description": "8-component system that guides you step by step to build a crystal-clear and unwavering vision."
     },
     "feature3": {
-      "title": "Real Documented Cases",
-      "description": "Learn from in-depth analysis of Amazon, Tesla, Starbucks and the most successful companies"
+      "title": "Maintain Focus",
+      "description": "Tools and frameworks so your vision guides every strategic decision for years."
     }
   },
   "pricing": {
-    "title": "Simple Investment. Lasting Impact.",
-    "subtitle": "Start with the Foundation Module. Scale with Visionari Pro when you're ready.",
+    "title": "Start Today",
+    "subtitle": "Choose the plan that fits your stage",
     "free": {
-      "name": "Free Trial",
+      "name": "Free",
       "price": "$0",
-      "description": "Experience the complete Component 1",
-      "feature1": "Access to Component 1: Your Deep Purpose",
-      "feature2": "Complete cinematic educational video",
-      "feature3": "Guided interactive exercises",
+      "description": "Explore the system and Component 1",
+      "feature1": "Access to case studies",
+      "feature2": "Component 1: Importance",
+      "feature3": "ROI Calculator",
       "cta": "Start Free"
     },
     "foundation": {
-      "badge": "Available Now",
       "name": "Foundation Module",
       "price": "$10",
       "period": "one-time payment",
-      "access": "Lifetime access",
-      "goal": "What you achieve:",
-      "goalText": "Your complete Business Vision documented, clear, and executable",
-      "description": "Your complete Business Vision documented, clear, and executable",
-      "feature1": "All 8 Vision Components complete",
-      "feature2": "16 Case studies of successful companies",
-      "feature3": "Final document: Your Business Vision",
-      "feature4": "Lifetime access to content",
-      "cta": "Create My Vision",
-      "disclaimer": "One investment. Clarity forever."
+      "badge": "Most Popular",
+      "description": "Create your complete vision in 8 steps",
+      "feature1": "Everything in Free +",
+      "feature2": "8 complete components",
+      "feature3": "Final document generated",
+      "feature4": "Lifetime access",
+      "cta": "Unlock Now"
     },
     "pro": {
-      "badge": "Coming Soon",
       "name": "Visionari Pro",
-      "price": "$30",
+      "price": "$29",
       "period": "/month",
-      "access": "Execution with AI Coach",
-      "goal": "What you achieve:",
-      "goalText": "Continuous execution of your vision with personalized AI coaching",
-      "description": "Continuous execution of your vision with personalized AI coaching",
-      "feature1": "Everything in Foundation Module",
-      "feature2": "Personalized AI Coach for execution",
-      "feature3": "Monthly progress updates",
-      "feature4": "Exclusive visionary community",
-      "cta": "Join Waitlist",
-      "waitlist": "Join the waitlist →"
+      "description": "AI Coach to execute your vision",
+      "feature1": "Everything in Foundation +",
+      "feature2": "Personalized AI Coach",
+      "feature3": "Progress tracking",
+      "feature4": "Continuous updates",
+      "cta": "Coming Soon - April 2026"
     }
   },
   "footer": {
-    "tagline": "Transform your vision into reality.",
-    "product": "Product",
-    "resources": "Resources",
-    "company": "Company",
+    "tagline": "Transform your business with clear vision",
     "sections": {
       "product": {
         "title": "Product",
@@ -111,5 +97,30 @@
       }
     },
     "copyright": "© 2026 Visionari. All rights reserved."
+  },
+  "dashboard": {
+    "welcome": "Welcome back, {name}!",
+    "subtitle": "Continue building your business vision",
+    "logout": "Logout",
+    "progress": "Progress",
+    "componentsCompleted": "Components completed",
+    "timeInvested": "Time Invested",
+    "hoursTotal": "of 48 hours total",
+    "accessLevel": "Access Level",
+    "upgradeToUnlock": "Upgrade to unlock all",
+    "yourVisionComponents": "Your Vision Components",
+    "readyToComplete": "Ready to complete your vision?",
+    "unlockAll": "Unlock all 8 components for only $10 and create your complete Business Vision document",
+    "unlockButton": "Unlock Foundation Module - $10",
+    "components": {
+      "1": "Your Deep Purpose",
+      "2": "Clear Vision",
+      "3": "Tangible Goals",
+      "4": "Proactive Strategy",
+      "5": "Challenging Ambition",
+      "6": "Unwavering Commitment",
+      "7": "Contagious Energy",
+      "8": "Complete Document"
+    }
   }
 }

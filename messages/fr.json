@@ -1,8 +1,126 @@
 {
-  "common": {"siteName": "Visionari", "tagline": "Transformez votre vision en réalité"},
-  "nav": {"cases": "Études de Cas", "howItWorks": "Comment Ça Marche", "pricing": "Tarifs", "login": "Se Connecter", "signup": "S'inscrire", "getStarted": "Commencer Gratuitement"},
-  "hero": {"badge": "Maintenant disponible en 16 langues", "headline": "Transformez Votre Vision d'Entreprise en 48 Heures", "highlightText": "Vision d'Entreprise", "subheadline": "Découvrez comment les entreprises les plus prospères au monde ont développé des visions puissantes qui ont transformé des industries entières. Pour seulement $10.", "ctaPrimary": "Essayer le Composant 1 Gratuitement", "ctaSecondary": "Voir les Tarifs", "cta": {"primary": "Essayer le Composant 1 Gratuitement", "secondary": "Voir les Tarifs"}, "casesLabel": "Cas Analysés"},
-  "features": {"title": "Pourquoi Visionari", "subtitle": "Un système complet pour développer, clarifier et exécuter votre vision d'entreprise", "feature1": {"title": "8 Composants Éducatifs", "description": "Méthodologie éprouvée étape par étape pour construire une vision puissante, tangible et exécutable"}, "feature2": {"title": "Document Stratégique", "description": "À la fin, vous obtenez votre Vision d'Entreprise complète, claire et prête à partager avec votre équipe"}, "feature3": {"title": "Cas Réels Documentés", "description": "Apprenez de l'analyse approfondie d'Amazon, Tesla, Starbucks et des entreprises les plus prospères"}},
-  "pricing": {"title": "Investissement Simple. Impact Durable.", "subtitle": "Commencez avec le Module Fondamental. Évoluez avec Visionari Pro quand vous êtes prêt.", "free": {"name": "Essai Gratuit", "price": "$0", "description": "Découvrez le Composant 1 complet", "feature1": "Accès au Composant 1: Votre But Profond", "feature2": "Vidéo éducative cinématographique complète", "feature3": "Exercices interactifs guidés", "cta": "Commencer Gratuitement"}, "foundation": {"badge": "Disponible Maintenant", "name": "Module Fondamental", "price": "$10", "period": "paiement unique", "access": "Accès à vie", "goal": "Ce que vous obtenez:", "goalText": "Votre Vision d'Entreprise complète documentée, claire et exécutable", "description": "Votre Vision d'Entreprise complète documentée, claire et exécutable", "feature1": "Les 8 Composants de Vision complets", "feature2": "16 Études de cas d'entreprises prospères", "feature3": "Document final: Votre Vision d'Entreprise", "feature4": "Accès à vie au contenu", "cta": "Créer Ma Vision", "disclaimer": "Un seul investissement. Clarté pour toujours."}, "pro": {"badge": "Bientôt Disponible", "name": "Visionari Pro", "price": "$30", "period": "/mois", "access": "Exécution avec Coach IA", "goal": "Ce que vous obtenez:", "goalText": "Exécution continue de votre vision avec accompagnement IA personnalisé", "description": "Exécution continue de votre vision avec accompagnement IA personnalisé", "feature1": "Tout dans le Module Fondamental", "feature2": "Coach IA personnalisé pour l'exécution", "feature3": "Mises à jour mensuelles des progrès", "feature4": "Communauté exclusive de visionnaires", "cta": "Liste d'Attente", "waitlist": "Rejoindre la liste d'attente →"}},
-  "footer": {"tagline": "Transformez votre vision en réalité.", "product": "Produit", "resources": "Ressources", "company": "Entreprise", "sections": {"product": {"title": "Produit", "link1": "Études de Cas", "link2": "Comment Ça Marche", "link3": "Tarifs"}, "company": {"title": "Entreprise", "link1": "À Propos", "link2": "Blog", "link3": "Contact"}, "legal": {"title": "Légal", "link1": "Confidentialité", "link2": "Conditions", "link3": "Cookies"}}, "copyright": "© 2026 Visionari. Tous droits réservés."}
+  "common": {
+    "siteName": "Visionari",
+    "tagline": "Construisez la vision qui transformera votre entreprise"
+  },
+  "nav": {
+    "cases": "Cas",
+    "howItWorks": "Comment ça marche",
+    "pricing": "Tarifs",
+    "login": "Connexion",
+    "signup": "S'inscrire",
+    "getStarted": "Commencer"
+  },
+  "hero": {
+    "badge": "Lancement Mondial - 16 Langues",
+    "headline": "Une Vision Claire fait la Différence entre Grandir et",
+    "highlightText": "Transformer votre Industrie",
+    "subheadline": "Découvrez comment des entreprises comme Amazon, Tesla et Apple ont construit des visions qui ont guidé chaque décision pendant des décennies. C'est maintenant votre tour.",
+    "cta": {
+      "primary": "Créer ma Vision",
+      "secondary": "Voir les Success Stories"
+    },
+    "casesLabel": "16 Études de Cas Réelles"
+  },
+  "features": {
+    "title": "Comment ça marche",
+    "subtitle": "Un système éprouvé dans 15 entreprises transformatrices",
+    "feature1": {
+      "title": "Apprenez des Meilleurs",
+      "description": "Des cas réels d'entreprises qui ont changé des industries entières grâce à leur vision claire dès le premier jour."
+    },
+    "feature2": {
+      "title": "Créez votre Vision",
+      "description": "Système à 8 composants qui vous guide étape par étape pour construire une vision cristalline et inébranlable."
+    },
+    "feature3": {
+      "title": "Maintenez le Cap",
+      "description": "Outils et frameworks pour que votre vision guide chaque décision stratégique pendant des années."
+    }
+  },
+  "pricing": {
+    "title": "Commencez Aujourd'hui",
+    "subtitle": "Choisissez le plan adapté à votre étape",
+    "free": {
+      "name": "Gratuit",
+      "price": "$0",
+      "description": "Explorez le système et le Composant 1",
+      "feature1": "Accès aux études de cas",
+      "feature2": "Composant 1 : Importance",
+      "feature3": "Calculateur de ROI",
+      "cta": "Commencer Gratuitement"
+    },
+    "foundation": {
+      "name": "Foundation Module",
+      "price": "$10",
+      "period": "paiement unique",
+      "badge": "Le Plus Populaire",
+      "description": "Créez votre vision complète en 8 étapes",
+      "feature1": "Tout dans Gratuit +",
+      "feature2": "8 composants complets",
+      "feature3": "Document final généré",
+      "feature4": "Accès à vie",
+      "cta": "Débloquer Maintenant"
+    },
+    "pro": {
+      "name": "Visionari Pro",
+      "price": "$29",
+      "period": "/mois",
+      "description": "Coach IA pour exécuter votre vision",
+      "feature1": "Tout dans Foundation +",
+      "feature2": "Coach IA personnalisé",
+      "feature3": "Suivi des progrès",
+      "feature4": "Mises à jour continues",
+      "cta": "Bientôt - Avril 2026"
+    }
+  },
+  "footer": {
+    "tagline": "Transformez votre entreprise avec une vision claire",
+    "sections": {
+      "product": {
+        "title": "Produit",
+        "link1": "Études de Cas",
+        "link2": "Comment ça marche",
+        "link3": "Tarifs"
+      },
+      "company": {
+        "title": "Entreprise",
+        "link1": "À propos",
+        "link2": "Blog",
+        "link3": "Contact"
+      },
+      "legal": {
+        "title": "Légal",
+        "link1": "Confidentialité",
+        "link2": "Conditions",
+        "link3": "Cookies"
+      }
+    },
+    "copyright": "© 2026 Visionari. Tous droits réservés."
+  },
+  "dashboard": {
+    "welcome": "Bienvenue, {name}!",
+    "subtitle": "Continuez à bâtir votre vision d'entreprise",
+    "logout": "Déconnexion",
+    "progress": "Progrès",
+    "componentsCompleted": "Composants terminés",
+    "timeInvested": "Temps Investi",
+    "hoursTotal": "sur 48 heures au total",
+    "accessLevel": "Niveau d'Accès",
+    "upgradeToUnlock": "Améliorez pour tout débloquer",
+    "yourVisionComponents": "Vos Composants de Vision",
+    "readyToComplete": "Prêt à compléter votre vision?",
+    "unlockAll": "Débloquez les 8 composants pour seulement 10$ et créez votre document complet de Vision d'Entreprise",
+    "unlockButton": "Débloquer le Module Complet - 10$",
+    "components": {
+      "1": "Votre Objectif Profond",
+      "2": "Vision Claire",
+      "3": "Objectifs Tangibles",
+      "4": "Stratégie Proactive",
+      "5": "Ambition Audacieuse",
+      "6": "Engagement Inébranlable",
+      "7": "Énergie Contagieuse",
+      "8": "Document Complet"
+    }
+  }
 }

@@ -1,100 +1,86 @@
 {
   "common": {
     "siteName": "Visionari",
-    "tagline": "अपनी दृष्टि को वास्तविकता में बदलें"
+    "tagline": "अपने व्यवसाय को बदलने वाली दृष्टि का निर्माण करें"
   },
   "nav": {
-    "cases": "केस स्टडीज",
-    "howItWorks": "कैसे काम करता है",
+    "cases": "केस",
+    "howItWorks": "यह कैसे काम करता है",
     "pricing": "मूल्य निर्धारण",
-    "login": "साइन इन करें",
+    "login": "लॉग इन करें",
     "signup": "साइन अप करें",
-    "getStarted": "मुफ्त शुरू करें"
+    "getStarted": "शुरू करें"
   },
   "hero": {
-    "badge": "Ahora disponible en 16 idiomas",
-    "headline": "48 घंटों में अपनी व्यावसायिक दृष्टि को रूपांतरित करें",
-    "highlightText": "Business Vision",
-    "subheadline": "Descubre cómo las empresas más exitosas del mundo desarrollaron visiones poderosas que transformaron industrias enteras. Por solo $10.",
-    "ctaPrimary": "घटक 1 मुफ्त आज़माएं",
-    "ctaSecondary": "मूल्य देखें",
+    "badge": "वैश्विक लॉन्च - 16 भाषाएं",
+    "headline": "स्पष्ट दृष्टि बढ़ने और",
+    "highlightText": "अपने उद्योग को बदलने के बीच का अंतर है",
+    "subheadline": "जानें कि Amazon, Tesla और Apple जैसी कंपनियों ने कैसे ऐसी दृष्टि बनाई जिसने दशकों तक हर निर्णय का मार्गदर्शन किया। अब आपकी बारी है।",
     "cta": {
-      "primary": "घटक 1 मुफ्त आज़माएं",
-      "secondary": "मूल्य देखें"
+      "primary": "मेरी दृष्टि बनाएं",
+      "secondary": "सफलता की कहानियां देखें"
     },
-    "casesLabel": "Casos Analisados"
+    "casesLabel": "16 वास्तविक केस स्टडीज"
   },
   "features": {
-    "title": "Visionari क्यों",
-    "subtitle": "अपनी व्यावसायिक दृष्टि को विकसित, स्पष्ट और निष्पादित करने के लिए एक पूर्ण प्रणाली",
+    "title": "यह कैसे काम करता है",
+    "subtitle": "15 परिवर्तनकारी कंपनियों में सिद्ध प्रणाली",
     "feature1": {
-      "title": "8 Educational Components",
-      "description": "Proven step-by-step methodology to build a powerful, tangible, and executable vision"
+      "title": "सर्वश्रेष्ठ से सीखें",
+      "description": "उन कंपनियों के वास्तविक मामले जिन्होंने पहले दिन से अपनी स्पष्ट दृष्टि के कारण पूरे उद्योगों को बदल दिया।"
     },
     "feature2": {
-      "title": "Strategic Document",
-      "description": "At the end, you get your complete Business Vision, clear and ready to share with your team"
+      "title": "अपनी दृष्टि बनाएं",
+      "description": "8-घटक प्रणाली जो आपको क्रिस्टल-स्पष्ट और अटल दृष्टि बनाने के लिए कदम दर कदम मार्गदर्शन करती है।"
     },
     "feature3": {
-      "title": "Real Documented Cases",
-      "description": "Learn from in-depth analysis of Amazon, Tesla, Starbucks and the most successful companies"
+      "title": "फोकस बनाए रखें",
+      "description": "उपकरण और फ्रेमवर्क ताकि आपकी दृष्टि वर्षों तक हर रणनीतिक निर्णय का मार्गदर्शन करे।"
     }
   },
   "pricing": {
-    "title": "सरल निवेश। स्थायी प्रभाव।",
-    "subtitle": "फाउंडेशन मॉड्यूल से शुरू करें। जब तैयार हों तो Visionari Pro के साथ स्केल करें।",
+    "title": "आज शुरू करें",
+    "subtitle": "अपने चरण के अनुरूप योजना चुनें",
     "free": {
-      "name": "मुफ्त परीक्षण",
+      "name": "मुफ़्त",
       "price": "$0",
-      "description": "पूर्ण घटक 1 का अनुभव करें",
-      "feature1": "Access to Component 1: Your Deep Purpose",
-      "feature2": "Complete cinematic educational video",
-      "feature3": "Guided interactive exercises",
-      "cta": "मुफ्त शुरू करें"
+      "description": "सिस्टम और घटक 1 का अन्वेषण करें",
+      "feature1": "केस स्टडीज तक पहुंच",
+      "feature2": "घटक 1: महत्व",
+      "feature3": "ROI कैलकुलेटर",
+      "cta": "मुफ़्त में शुरू करें"
     },
     "foundation": {
-      "badge": "अब उपलब्ध",
-      "name": "फाउंडेशन मॉड्यूल",
+      "name": "Foundation Module",
       "price": "$10",
-      "period": "एक बार भुगतान",
-      "access": "आजीवन पहुंच",
-      "goal": "आप क्या प्राप्त करते हैं:",
-      "goalText": "आपकी पूर्ण व्यावसायिक दृष्टि प्रलेखित, स्पष्ट और निष्पादन योग्य",
-      "description": "आपकी पूर्ण व्यावसायिक दृष्टि प्रलेखित, स्पष्ट और निष्पादन योग्य",
-      "feature1": "All 8 Vision Components complete",
-      "feature2": "16 Case studies of successful companies",
-      "feature3": "Final document: Your Business Vision",
-      "feature4": "Lifetime access to content",
-      "cta": "मेरी दृष्टि बनाएं",
-      "disclaimer": "एक निवेश। हमेशा के लिए स्पष्टता।"
+      "period": "एकमुश्त भुगतान",
+      "badge": "सबसे लोकप्रिय",
+      "description": "8 चरणों में अपनी पूर्ण दृष्टि बनाएं",
+      "feature1": "मुफ़्त में सब कुछ +",
+      "feature2": "8 पूर्ण घटक",
+      "feature3": "अंतिम दस्तावेज़ उत्पन्न",
+      "feature4": "आजीवन पहुंच",
+      "cta": "अभी अनलॉक करें"
     },
     "pro": {
-      "badge": "जल्द आ रहा है",
       "name": "Visionari Pro",
-      "price": "$30",
+      "price": "$29",
       "period": "/महीना",
-      "access": "AI कोच के साथ निष्पादन",
-      "goal": "आप क्या प्राप्त करते हैं:",
-      "goalText": "व्यक्तिगत AI कोचिंग के साथ आपकी दृष्टि का निरंतर निष्पादन",
-      "description": "व्यक्तिगत AI कोचिंग के साथ आपकी दृष्टि का निरंतर निष्पादन",
-      "feature1": "Everything in Foundation Module",
-      "feature2": "Personalized AI Coach for execution",
-      "feature3": "Monthly progress updates",
-      "feature4": "Exclusive visionary community",
-      "cta": "प्रतीक्षा सूची",
-      "waitlist": "प्रतीक्षा सूची में शामिल हों →"
+      "description": "आपकी दृष्टि को निष्पादित करने के लिए AI कोच",
+      "feature1": "Foundation में सब कुछ +",
+      "feature2": "वैयक्तिकृत AI कोच",
+      "feature3": "प्रगति ट्रैकिंग",
+      "feature4": "निरंतर अपडेट",
+      "cta": "जल्द आ रहा है - अप्रैल 2026"
     }
   },
   "footer": {
-    "tagline": "अपनी दृष्टि को वास्तविकता में बदलें",
-    "product": "उत्पाद",
-    "resources": "संसाधन",
-    "company": "कंपनी",
+    "tagline": "स्पष्ट दृष्टि के साथ अपने व्यवसाय को बदलें",
     "sections": {
       "product": {
         "title": "उत्पाद",
         "link1": "केस स्टडीज",
-        "link2": "कैसे काम करता है",
+        "link2": "यह कैसे काम करता है",
         "link3": "मूल्य निर्धारण"
       },
       "company": {
@@ -104,12 +90,37 @@
         "link3": "संपर्क करें"
       },
       "legal": {
-        "title": "Legal",
+        "title": "कानूनी",
         "link1": "गोपनीयता",
         "link2": "शर्तें",
         "link3": "कुकीज़"
       }
     },
     "copyright": "© 2026 Visionari. सर्वाधिकार सुरक्षित।"
+  },
+  "dashboard": {
+    "welcome": "वापसी पर स्वागत है, {name}!",
+    "subtitle": "अपने व्यावसायिक दृष्टिकोण का निर्माण जारी रखें",
+    "logout": "लॉग आउट",
+    "progress": "प्रगति",
+    "componentsCompleted": "पूर्ण घटक",
+    "timeInvested": "निवेशित समय",
+    "hoursTotal": "कुल 48 घंटों में से",
+    "accessLevel": "पहुंच स्तर",
+    "upgradeToUnlock": "सब कुछ अनलॉक करने के लिए अपग्रेड करें",
+    "yourVisionComponents": "आपके दृष्टिकोण घटक",
+    "readyToComplete": "अपने दृष्टिकोण को पूरा करने के लिए तैयार हैं?",
+    "unlockAll": "केवल $10 में सभी 8 घटकों को अनलॉक करें और अपना पूर्ण व्यावसायिक दृष्टिकोण दस्तावेज़ बनाएं",
+    "unlockButton": "पूर्ण मॉड्यूल अनलॉक करें - $10",
+    "components": {
+      "1": "आपका गहरा उद्देश्य",
+      "2": "स्पष्ट दृष्टिकोण",
+      "3": "मूर्त लक्ष्य",
+      "4": "सक्रिय रणनीति",
+      "5": "चुनौतीपूर्ण महत्वाकांक्षा",
+      "6": "अटल प्रतिबद्धता",
+      "7": "संक्रामक ऊर्जा",
+      "8": "पूर्ण दस्तावेज़"
+    }
   }
 }
