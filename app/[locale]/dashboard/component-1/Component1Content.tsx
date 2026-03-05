@@ -347,8 +347,8 @@ export default function Component1Content({ userId, savedData, currentProgress }
         </div>
       )}
 
-      {/* Section 4-5: Calculadora ROI */}
-      {(section === 4 || section === 5) && (
+      {/* Section 4: Calculadora ROI */}
+      {section === 4 && (
         <div className="bg-white rounded-xl shadow-sm p-8 mb-6">
           <h2 className="text-2xl font-bold text-slate-900 mb-6">
             Calculadora: ¿Cuánto te está costando NO tener Visión Clara?
@@ -491,7 +491,7 @@ export default function Component1Content({ userId, savedData, currentProgress }
               <span>Anterior</span>
             </button>
             <button
-              onClick={() => setSection(5)}
+              onClick={() => setSection(6)}
               className="flex-1 bg-blue-600 text-white py-4 rounded-lg hover:bg-blue-700 transition flex items-center justify-center gap-2"
             >
               <span>Ver mi resultado</span>
