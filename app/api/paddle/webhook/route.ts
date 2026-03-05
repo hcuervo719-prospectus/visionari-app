@@ -25,7 +25,7 @@ export async function POST(request: NextRequest) {
         return NextResponse.json({ error: 'No userId provided' }, { status: 400 })
       }
 
-      const supabase = createClient()
+      const supabase = await createClient()
 
       // 1. Guardar la compra en la tabla purchases
       const { error: purchaseError } = await supabase
