@@ -1,53 +1,47 @@
 // app/[locale]/dashboard/component-1/page.tsx
 import { redirect } from 'next/navigation'
 import { createClient } from '@/lib/supabase/server'
-import Component1Content from './Component1Content'
+import VisionariChat from './VisionariChat'
 
-export default async function Component1Page({ params }: { params: { locale: string } }) {
-  const { locale } = params
+export default async function Component1Page({ 
+  params 
+}: { 
+  params: { locale: string } 
+}) {
   const supabase = await createClient()
+  const { locale } = params
 
-  const {
-    data: { user },
-  } = await supabase.auth.getUser()
-
-  if (!user) {
-    redirect('/login')
+  // Verificar autenticación
+  const { data: { user }, error: authError } = await supabase.auth.getUser()
+  
+  if (authError || !user) {
+    redirect(`/${locale}/login`)
   }
 
-  // Get or create user progress for component 1
-  const { data: progress } = await supabase
+  // Obtener perfil del usuario
+  const { data: profile } = await supabase
+    .from('profiles')
+    .select('*')
+    .eq('id', user.id)
+    .single()
+
+  // Obtener progreso guardado (si existe)
+  const { data: savedProgress } = await supabase
     .from('component_progress')
     .select('*')
     .eq('user_id', user.id)
     .eq('component_number', 1)
     .single()
 
-  // If no progress exists, create it
-  if (!progress) {
-    await supabase
-      .from('component_progress')
-      .insert({
-        user_id: user.id,
-        component_number: 1,
-        progress_percentage: 0,
-        completed: false,
-      })
-  }
-
-  // Get user vision data
-  const { data: visionData } = await supabase
-    .from('user_vision')
-    .select('component_1_data')
-    .eq('user_id', user.id)
-    .single()
+  const userName = profile?.full_name || user.email?.split('@')[0] || 'Amigo'
 
   return (
-    <Component1Content 
-      userId={user.id}
-      savedData={savedData}
-      currentProgress={currentProgress}
-      locale={locale}  // ← IMPORTANTE: Agregar este parámetro
-    />
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50 py-8 px-4">
+      <VisionariChat 
+        userId={user.id}
+        userName={userName}
+        locale={locale}
+      />
+    </div>
   )
 }
