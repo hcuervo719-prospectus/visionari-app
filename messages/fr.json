@@ -7,40 +7,40 @@
     "cases": "Cas",
     "howItWorks": "Comment ça marche",
     "pricing": "Tarifs",
-    "login": "Se connecter",
-    "signup": "S'inscrire",
+    "login": "Connexion",
+    "signup": "Inscription",
     "getStarted": "Commencer"
   },
   "hero": {
-    "badge": "Lancement mondial - 16 langues",
-    "headline": "Une vision claire fait la différence entre grandir et",
-    "highlightText": "Transformer votre industrie",
-    "subheadline": "Apprenez comment des entreprises comme Amazon, Tesla et Apple ont construit des visions qui ont guidé chaque décision pendant des décennies. C'est maintenant votre tour.",
+    "badge": "Lancement Mondial - 16 Langues",
+    "headline": "Une Vision Claire est la Différence Entre Croître et",
+    "highlightText": "Transformer Votre Industrie",
+    "subheadline": "Découvrez comment des entreprises comme Amazon, Tesla et Apple ont construit des visions qui ont guidé chaque décision pendant des décennies. C'est maintenant votre tour.",
     "cta": {
-      "primary": "Créer ma vision",
-      "secondary": "Voir les success stories"
+      "primary": "Créer Ma Vision",
+      "secondary": "Voir les Histoires de Succès"
     },
-    "casesLabel": "16 études de cas réelles"
+    "casesLabel": "16 Études de Cas Réelles"
   },
   "features": {
-    "title": "Comment ça marche",
-    "subtitle": "Un système éprouvé dans 15 entreprises transformatrices",
+    "title": "Comment Ça Marche",
+    "subtitle": "Système éprouvé dans 15 entreprises transformatrices",
     "feature1": {
       "title": "Apprenez des meilleurs",
-      "description": "Cas réels d'entreprises qui ont changé des industries entières grâce à leur vision claire dès le premier jour."
+      "description": "Cas réels d'entreprises qui ont changé des industries entières grâce à une vision claire dès le premier jour."
     },
     "feature2": {
       "title": "Créez votre vision",
-      "description": "Système à 8 composants qui vous guide étape par étape pour construire une vision cristalline et inébranlable."
+      "description": "Système en 8 composants qui vous guide étape par étape pour construire une vision cristalline et inébranlable."
     },
     "feature3": {
-      "title": "Maintenez le cap",
-      "description": "Outils et frameworks pour que votre vision guide chaque décision stratégique pendant des années."
+      "title": "Restez concentré",
+      "description": "Outils et cadres pour que votre vision guide chaque décision stratégique pendant des années."
     }
   },
   "pricing": {
-    "title": "Commencez aujourd'hui",
-    "subtitle": "Choisissez le plan qui correspond à votre étape",
+    "title": "Commencez Aujourd'hui",
+    "subtitle": "Choisissez le plan pour votre étape",
     "free": {
       "name": "Gratuit",
       "price": "$0",
@@ -48,19 +48,19 @@
       "feature1": "Accès aux études de cas",
       "feature2": "Composant 1: Importance",
       "feature3": "Calculateur de ROI",
-      "cta": "Commencer gratuitement"
+      "cta": "Commencer Gratuitement"
     },
     "foundation": {
-      "name": "Foundation Module",
+      "name": "Module Foundation",
       "price": "$10",
       "period": "paiement unique",
-      "badge": "Le plus populaire",
+      "badge": "Le Plus Populaire",
       "description": "Créez votre vision complète en 8 étapes",
       "feature1": "Tout en Gratuit +",
-      "feature2": "8 composants complets",
+      "feature2": "8 Composants complets",
       "feature3": "Document final généré",
       "feature4": "Accès à vie",
-      "cta": "Débloquer maintenant"
+      "cta": "Débloquer Maintenant"
     },
     "pro": {
       "name": "Visionari Pro",
@@ -71,7 +71,7 @@
       "feature2": "Coach IA personnalisé",
       "feature3": "Suivi des progrès",
       "feature4": "Mises à jour continues",
-      "cta": "Bientôt disponible - Avril 2026"
+      "cta": "Bientôt - Avril 2026"
     }
   },
   "footer": {
@@ -79,13 +79,13 @@
     "sections": {
       "product": {
         "title": "Produit",
-        "link1": "Études de cas",
-        "link2": "Comment ça marche",
+        "link1": "Études de Cas",
+        "link2": "Comment Ça Marche",
         "link3": "Tarifs"
       },
       "company": {
         "title": "Entreprise",
-        "link1": "À propos",
+        "link1": "À Propos",
         "link2": "Blog",
         "link3": "Contact"
       },
@@ -99,76 +99,28 @@
     "copyright": "© 2026 Visionari. Tous droits réservés."
   },
   "dashboard": {
-    "welcome": "Bienvenue, {name}!",
+    "welcome": "Bon retour, {name}!",
     "subtitle": "Continuez à construire votre vision d'entreprise",
     "logout": "Déconnexion",
     "progress": "Progrès",
-    "componentsCompleted": "Composants terminés",
-    "timeInvested": "Temps investi",
+    "componentsCompleted": "Composants complétés",
+    "timeInvested": "Temps Investi",
     "hoursTotal": "sur 48 heures au total",
-    "accessLevel": "Niveau d'accès",
+    "accessLevel": "Niveau d'Accès",
     "upgradeToUnlock": "Mettez à niveau pour tout débloquer",
-    "yourVisionComponents": "Vos composants de vision",
+    "yourVisionComponents": "Vos Composants de Vision",
     "readyToComplete": "Prêt à compléter votre vision?",
     "unlockAll": "Débloquez les 8 composants pour seulement $10 et créez votre document complet de Vision d'Entreprise",
-    "unlockButton": "Débloquer le module complet - $10",
+    "unlockButton": "Débloquer le Module Complet - $10",
     "components": {
-      "1": "Votre objectif profond",
-      "2": "Vision claire",
-      "3": "Objectifs tangibles",
-      "4": "Stratégie proactive",
-      "5": "Ambition audacieuse",
-      "6": "Engagement inébranlable",
-      "7": "Énergie contagieuse",
-      "8": "Document complet"
-    }
-  },
-    "section5": {
-      "title": "Vos résultats personnalisés",
-      "average": "Votre moyenne:",
-      "interpretation": {
-        "critical": {
-          "title": "ZONE DE RISQUE CRITIQUE",
-          "description": "Votre manque de clarté vous coûte BRUTALEMENT. Chaque jour sans vision est un jour de ressources gaspillées et d'opportunités perdues.",
-          "recommendation": "URGENT: Vous devez créer votre vision MAINTENANT. Le coût de continuer ainsi est insoutenable."
-        },
-        "wasted": {
-          "title": "ZONE DE POTENTIEL GASPILLÉ",
-          "description": "Vous avez QUELQUE CHOSE, mais ce n'est pas suffisant. Vous laissez une valeur massive sur la table. Votre équipe n'est pas alignée. Les ressources sont dispersées.",
-          "recommendation": "Vous devez clarifier et renforcer votre vision. Vous avez la base, mais vous avez besoin de PRÉCISION."
-        },
-        "clarity": {
-          "title": "Vous avez une CLARTÉ SIGNIFICATIVE",
-          "description": "Vous êtes mieux que 80% des entrepreneurs. Mais il y a encore de la place pour MULTIPLIER votre impact. De petites améliorations en clarté = AMÉLIORATIONS MASSIVES en résultats.",
-          "recommendation": "Affinez votre vision pour atteindre le niveau des entreprises transformatrices. Vous êtes proche du niveau suivant."
-        }
-      },
-      "costs": {
-        "title": "Coût annuel conservateur de votre manque de vision:",
-        "indecision": "Coût de l'indécision/an:",
-        "wastedBudget": "Budget gaspillé sur les mauvaises choses:",
-        "lostOpportunities": "Opportunités perdues:",
-        "total": "TOTAL CONSERVATEUR/AN:",
-        "note": "C'est ce que vous COÛTE votre manque de clarté. Ne pas investir dans sa création."
-      },
-      "roi": {
-        "title": "ROI potentiel",
-        "description": "Multiplicateur si vous aviez une clarté ABSOLUE:",
-        "value": "{multiplier}x",
-        "explanation": "Basé sur le modèle d'entreprises qui sont passées d'une 'exécution compétente' à 'vision claire + exécution compétente'."
-      },
-      "cta": {
-        "title": "Prêt à créer votre vision claire?",
-        "description": "Débloquez le module complet (8 composants) et créez votre document de Vision d'Entreprise",
-        "button": "Débloquer le module Foundation - $10",
-        "alternative": "Ou continuez avec le Composant 1",
-        "continueButton": "Compléter le Composant 1 (Gratuit)"
-      }
-    },
-    "navigation": {
-      "previous": "Précédent",
-      "next": "Suivant",
-      "complete": "Compléter le composant"
+      "1": "Votre But Profond",
+      "2": "Vision Claire",
+      "3": "Objectifs Tangibles",
+      "4": "Stratégie Proactive",
+      "5": "Ambition Audacieuse",
+      "6": "Engagement Inébranlable",
+      "7": "Énergie Contagieuse",
+      "8": "Document Complet"
     }
   }
 }
