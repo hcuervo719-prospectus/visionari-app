@@ -1,0 +1,126 @@
+{
+  "common": {
+    "siteName": "Visionari",
+    "tagline": "Construye la visión que transformará tu negocio"
+  },
+  "nav": {
+    "cases": "Casos",
+    "howItWorks": "Cómo funciona",
+    "pricing": "Precios",
+    "login": "Iniciar sesión",
+    "signup": "Registrarse",
+    "getStarted": "Comenzar"
+  },
+  "hero": {
+    "badge": "Lanzamiento Global - 16 Idiomas",
+    "headline": "La Visión Clara es la Diferencia Entre Crecer y",
+    "highlightText": "Transformar tu Industria",
+    "subheadline": "Aprende cómo empresas como Amazon, Tesla y Apple construyeron visiones que guiaron cada decisión durante décadas. Ahora es tu turno.",
+    "cta": {
+      "primary": "Crear Mi Visión",
+      "secondary": "Ver Casos de Éxito"
+    },
+    "casesLabel": "16 Casos de Estudio Reales"
+  },
+  "features": {
+    "title": "Cómo Funciona",
+    "subtitle": "Sistema probado en 15 empresas transformadoras",
+    "feature1": {
+      "title": "Aprende de los mejores",
+      "description": "Casos reales de empresas que cambiaron industrias enteras gracias a una visión clara desde el día 1."
+    },
+    "feature2": {
+      "title": "Crea tu visión",
+      "description": "Sistema de 8 componentes que te guía paso a paso para construir una visión cristalina e inquebrantable."
+    },
+    "feature3": {
+      "title": "Mantén el foco",
+      "description": "Herramientas y frameworks para que tu visión guíe cada decisión estratégica durante años."
+    }
+  },
+  "pricing": {
+    "title": "Comienza Hoy",
+    "subtitle": "Elige el plan para tu etapa",
+    "free": {
+      "name": "Gratis",
+      "price": "$0",
+      "description": "Explora el sistema y Componente 1",
+      "feature1": "Acceso a casos de estudio",
+      "feature2": "Componente 1: Importancia",
+      "feature3": "Calculadora de ROI",
+      "cta": "Comenzar Gratis"
+    },
+    "foundation": {
+      "name": "Foundation Module",
+      "price": "$10",
+      "period": "pago único",
+      "badge": "Más Popular",
+      "description": "Crea tu visión completa en 8 pasos",
+      "feature1": "Todo en Gratis +",
+      "feature2": "8 Componentes completos",
+      "feature3": "Documento final generado",
+      "feature4": "Acceso de por vida",
+      "cta": "Desbloquear Ahora"
+    },
+    "pro": {
+      "name": "Visionari Pro",
+      "price": "$29",
+      "period": "/mes",
+      "description": "Coach IA para ejecutar tu visión",
+      "feature1": "Todo en Foundation +",
+      "feature2": "Coach IA personalizado",
+      "feature3": "Seguimiento de progreso",
+      "feature4": "Actualizaciones continuas",
+      "cta": "Próximamente - Abril 2026"
+    }
+  },
+  "footer": {
+    "tagline": "Transforma tu negocio con visión clara",
+    "sections": {
+      "product": {
+        "title": "Producto",
+        "link1": "Casos de Estudio",
+        "link2": "Cómo Funciona",
+        "link3": "Precios"
+      },
+      "company": {
+        "title": "Empresa",
+        "link1": "Sobre Nosotros",
+        "link2": "Blog",
+        "link3": "Contacto"
+      },
+      "legal": {
+        "title": "Legal",
+        "link1": "Privacidad",
+        "link2": "Términos",
+        "link3": "Cookies"
+      }
+    },
+    "copyright": "© 2026 Visionari. Todos los derechos reservados."
+  },
+  "dashboard": {
+    "welcome": "¡Bienvenido de nuevo, {name}!",
+    "subtitle": "Continúa construyendo tu visión empresarial",
+    "logout": "Cerrar sesión",
+    "progress": "Progreso",
+    "componentsCompleted": "Componentes completados",
+    "timeInvested": "Tiempo Invertido",
+    "hoursTotal": "de 48 horas totales",
+    "accessLevel": "Nivel de Acceso",
+    "upgradeToUnlock": "Actualiza para desbloquear todo",
+    "yourVisionComponents": "Tus Componentes de Visión",
+    "readyToComplete": "¿Listo para completar tu visión?",
+    "unlockAll": "Desbloquea los 8 componentes por solo $10 y crea tu documento completo de Visión Empresarial",
+    "unlockButton": "Desbloquear Módulo Completo - $10",
+    "components": {
+      "1": "Tu Propósito Profundo",
+      "2": "Visión Clara",
+      "3": "Objetivos Tangibles",
+      "4": "Estrategia Proactiva",
+      "5": "Ambición Desafiante",
+      "6": "Compromiso Inquebrantable",
+      "7": "Energía Contagiosa",
+      "8": "Documento Completo"
+    }
+  }
+}
