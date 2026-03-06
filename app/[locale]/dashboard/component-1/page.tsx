@@ -3,7 +3,8 @@ import { redirect } from 'next/navigation'
 import { createClient } from '@/lib/supabase/server'
 import Component1Content from './Component1Content'
 
-export default async function Component1Page() {
+export default async function Component1Page({ params }: { params: { locale: string } }) {
+  const { locale } = params
   const supabase = await createClient()
 
   const {
@@ -42,12 +43,11 @@ export default async function Component1Page() {
     .single()
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
-      <Component1Content 
-        userId={user.id}
-        savedData={visionData?.component_1_data || null}
-        currentProgress={progress?.progress_percentage || 0}
-      />
-    </div>
+    <Component1Content 
+      userId={user.id}
+      savedData={savedData}
+      currentProgress={currentProgress}
+      locale={locale}  // ← IMPORTANTE: Agregar este parámetro
+    />
   )
 }
