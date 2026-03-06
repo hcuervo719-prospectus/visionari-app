@@ -165,12 +165,7 @@
         "title": "La Comparación Brutal",
         "withoutVision": {
           "title": "Empresas SIN Visión Clara desde Día 1:",
-          "features": [
-            "Buenos productos",
-            "Trabajo duro",
-            "Ejecución competente",
-            "Sin norte claro"
-          ],
+          "features": "✅ Buenos productos|✅ Trabajo duro|✅ Ejecución competente|❌ Sin norte claro"
           "result": "Crecimiento lineal predecible",
           "ceiling": "Techo de revenue: $50-200M"
         },
