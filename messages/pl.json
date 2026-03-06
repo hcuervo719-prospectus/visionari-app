@@ -6,49 +6,49 @@
   "nav": {
     "cases": "Przypadki",
     "howItWorks": "Jak to działa",
-    "pricing": "Cennik",
+    "pricing": "Ceny",
     "login": "Zaloguj się",
     "signup": "Zarejestruj się",
     "getStarted": "Rozpocznij"
   },
   "hero": {
-    "badge": "Globalny Start - 16 Języków",
-    "headline": "Jasna Wizja to Różnica między Rozwojem a",
-    "highlightText": "Transformacją Twojej Branży",
-    "subheadline": "Dowiedz się, jak firmy takie jak Amazon, Tesla i Apple zbudowały wizje, które kierowały każdą decyzją przez dekady. Teraz Twoja kolej.",
+    "badge": "Globalne uruchomienie - 16 języków",
+    "headline": "Jasna wizja to różnica między rozwojem a",
+    "highlightText": "Transformacją Twojej branży",
+    "subheadline": "Dowiedz się, jak firmy takie jak Amazon, Tesla i Apple zbudowały wizje, które kierowały każdą decyzją przez dziesięciolecia. Teraz Twoja kolej.",
     "cta": {
-      "primary": "Stwórz Moją Wizję",
-      "secondary": "Zobacz Historie Sukcesu"
+      "primary": "Stwórz moją wizję",
+      "secondary": "Zobacz historie sukcesu"
     },
-    "casesLabel": "16 Prawdziwych Studiów Przypadku"
+    "casesLabel": "16 prawdziwych studiów przypadków"
   },
   "features": {
     "title": "Jak to działa",
     "subtitle": "Sprawdzony system w 15 transformacyjnych firmach",
     "feature1": {
-      "title": "Ucz się od Najlepszych",
+      "title": "Ucz się od najlepszych",
       "description": "Prawdziwe przypadki firm, które zmieniły całe branże dzięki jasnej wizji od pierwszego dnia."
     },
     "feature2": {
-      "title": "Stwórz Swoją Wizję",
+      "title": "Stwórz swoją wizję",
       "description": "System 8 komponentów, który prowadzi Cię krok po kroku do zbudowania krystalicznie jasnej i niezachwianej wizji."
     },
     "feature3": {
-      "title": "Utrzymaj Skupienie",
-      "description": "Narzędzia i frameworki, aby Twoja wizja kierowała każdą strategiczną decyzją przez lata."
+      "title": "Utrzymaj skupienie",
+      "description": "Narzędzia i ramy, aby Twoja wizja kierowała każdą strategiczną decyzją przez lata."
     }
   },
   "pricing": {
-    "title": "Zacznij Dziś",
-    "subtitle": "Wybierz plan dopasowany do Twojego etapu",
+    "title": "Zacznij dzisiaj",
+    "subtitle": "Wybierz plan odpowiedni dla Twojego etapu",
     "free": {
       "name": "Darmowy",
       "price": "$0",
       "description": "Poznaj system i Komponent 1",
-      "feature1": "Dostęp do studiów przypadku",
+      "feature1": "Dostęp do studiów przypadków",
       "feature2": "Komponent 1: Znaczenie",
       "feature3": "Kalkulator ROI",
-      "cta": "Zacznij za Darmo"
+      "cta": "Zacznij za darmo"
     },
     "foundation": {
       "name": "Foundation Module",
@@ -56,22 +56,22 @@
       "period": "jednorazowa płatność",
       "badge": "Najpopularniejszy",
       "description": "Stwórz swoją pełną wizję w 8 krokach",
-      "feature1": "Wszystko w Darmowy +",
+      "feature1": "Wszystko w Darmowym +",
       "feature2": "8 pełnych komponentów",
-      "feature3": "Wygenerowany dokument końcowy",
-      "feature4": "Dożywotni dostęp",
-      "cta": "Odblokuj Teraz"
+      "feature3": "Wygenerowany końcowy dokument",
+      "feature4": "Dostęp dożywotni",
+      "cta": "Odblokuj teraz"
     },
     "pro": {
       "name": "Visionari Pro",
       "price": "$29",
       "period": "/miesiąc",
-      "description": "AI Coach do realizacji Twojej wizji",
+      "description": "Coach AI do realizacji Twojej wizji",
       "feature1": "Wszystko w Foundation +",
-      "feature2": "Spersonalizowany AI Coach",
+      "feature2": "Spersonalizowany Coach AI",
       "feature3": "Śledzenie postępów",
       "feature4": "Ciągłe aktualizacje",
-      "cta": "Wkrótce - Kwiecień 2026"
+      "cta": "Wkrótce - kwiecień 2026"
     }
   },
   "footer": {
@@ -79,9 +79,9 @@
     "sections": {
       "product": {
         "title": "Produkt",
-        "link1": "Studia Przypadku",
+        "link1": "Studia przypadków",
         "link2": "Jak to działa",
-        "link3": "Cennik"
+        "link3": "Ceny"
       },
       "company": {
         "title": "Firma",
@@ -101,26 +101,192 @@
   "dashboard": {
     "welcome": "Witaj ponownie, {name}!",
     "subtitle": "Kontynuuj budowanie swojej wizji biznesowej",
-    "logout": "Wyloguj",
+    "logout": "Wyloguj się",
     "progress": "Postęp",
     "componentsCompleted": "Ukończone komponenty",
-    "timeInvested": "Zainwestowany Czas",
+    "timeInvested": "Zainwestowany czas",
     "hoursTotal": "z 48 godzin łącznie",
-    "accessLevel": "Poziom Dostępu",
+    "accessLevel": "Poziom dostępu",
     "upgradeToUnlock": "Ulepsz, aby odblokować wszystko",
-    "yourVisionComponents": "Twoje Komponenty Wizji",
+    "yourVisionComponents": "Twoje komponenty wizji",
     "readyToComplete": "Gotowy, aby ukończyć swoją wizję?",
-    "unlockAll": "Odblokuj wszystkie 8 komponentów za tylko $10 i stwórz swój kompletny dokument Wizji Biznesowej",
-    "unlockButton": "Odblokuj Pełny Moduł - $10",
+    "unlockAll": "Odblokuj wszystkie 8 komponentów za jedyne $10 i stwórz swój pełny dokument Wizji Biznesowej",
+    "unlockButton": "Odblokuj pełny moduł - $10",
     "components": {
-      "1": "Twój Głęboki Cel",
-      "2": "Jasna Wizja",
-      "3": "Namacalne Cele",
-      "4": "Proaktywna Strategia",
-      "5": "Wymagająca Ambicja",
-      "6": "Niezachwiane Zaangażowanie",
-      "7": "Zaraźliwa Energia",
-      "8": "Kompletny Dokument"
+      "1": "Twój głębszy cel",
+      "2": "Jasna wizja",
+      "3": "Namacalne cele",
+      "4": "Proaktywna strategia",
+      "5": "Wymagająca ambicja",
+      "6": "Niezachwiane zaangażowanie",
+      "7": "Zaraźliwa energia",
+      "8": "Pełny dokument"
+    }
+  },
+  "component1": {
+    "title": "Komponent 1: Znaczenie jasnej wizji",
+    "section1": {
+      "title": "Dlaczego 80% startupów upada",
+      "subtitle": "Ukryty problem",
+      "intro": "To nie kwestia braku wysiłku. Nie produktu. Nawet nie finansowania.",
+      "problem": "Większość przedsiębiorców pracuje tak ciężko jak najbardziej odnoszący sukcesy. Są inteligentni. Są zaangażowani. Wykonują.",
+      "question": "Więc dlaczego 80% upada, podczas gdy firmy takie jak Amazon, Tesla i Apple transformują całe branże?",
+      "answer": "Różnica nie tkwi w wykonaniu. Tkwi w WIZJI."
+    },
+    "section2": {
+      "title": "5 symptomów braku wizji",
+      "intro": "Wiesz, że brakuje Ci jasnej wizji, gdy doświadczasz:",
+      "symptom1": {
+        "title": "Paraliż przez analizę",
+        "description": "Spędzasz tygodnie na 'walidacji' pomysłów, ale nigdy nie posuwasz się do przodu. Każda decyzja wymaga kolejnego spotkania, kolejnej analizy, kolejnej opinii."
+      },
+      "symptom2": {
+        "title": "Ciągłe zmiany kierunku",
+        "description": "Zmieniasz kierunek co kwartał. 'Może powinniśmy skupić się na B2B... nie, czekaj, B2C jest lepsze... właściwie, co jeśli zrobimy marketplace...?'"
+      },
+      "symptom3": {
+        "title": "Rozproszenie zasobów",
+        "description": "Twój budżet, czas i zespół są rozproszone między 10 różnych inicjatyw. Nic nie otrzymuje uwagi potrzebnej do prawdziwego działania."
+      },
+      "symptom4": {
+        "title": "Ciągłe zmęczenie mentalne",
+        "description": "Budzisz się każdego dnia zastanawiając się, czy pracujesz nad właściwą rzeczą. Niepewność wyczerpuje więcej energii niż sama praca."
+      },
+      "symptom5": {
+        "title": "Niekończący się pitch",
+        "description": "Nie możesz wyjaśnić, co robisz w mniej niż 5 minut. A nawet wtedy ludzie nie 'rozumieją'. Ponieważ sam nie jesteś w 100% jasny."
+      },
+      "recognition": "Brzmi znajomo? Nie jesteś sam. To norma, nie wyjątek."
+    },
+    "section3": {
+      "title": "Uniwersalny wzorzec: Wizja vs reakcja na rynek",
+      "intro": "Oto czego nikt Ci nie mówi:",
+      "comparison": {
+        "title": "Brutalne porównanie",
+        "withoutVision": {
+          "title": "Firmy BEZ jasnej wizji od dnia 1:",
+          "features": [
+            "Dobre produkty",
+            "Ciężka praca",
+            "Kompetentne wykonanie",
+            "Brak jasnego kierunku"
+          ],
+          "result": "Przewidywalny liniowy wzrost",
+          "ceiling": "Pułap przychodów: $50-200M"
+        },
+        "withVision": {
+          "title": "Firmy Z wizją BHAG od dnia 1:",
+          "features": [
+            "Dobre produkty (jak inni)",
+            "Ciężka praca (jak inni)",
+            "Kompetentne wykonanie (jak inni)",
+            "JASNA WIZJA kierująca WSZYSTKIM"
+          ],
+          "result": "Nieprzewidywalny wykładniczy wzrost",
+          "ceiling": "Przychody bez pułapu: $1B-$100B+"
+        }
+      },
+      "difference": {
+        "title": "RÓŻNICA NIE POLEGA NA:",
+        "notFactors": [
+          "Większym kapitale początkowym (wielu zaczęło bez inwestycji)",
+          "Lepszym produkcie (konkurenci mieli porównywalne produkty)",
+          "Szczęściu lub timingu (zmierzyli się z ogromnymi kryzysami)",
+          "Znajomościach (wielu zaczynało jako outsiderzy)"
+        ],
+        "realDifference": "RÓŻNICA POLEGA NA:",
+        "factors": [
+          "JASNEJ WIZJI od dnia 1",
+          "BHAG, który kierował każdą decyzją przez dziesięciolecia",
+          "Celu większym niż osobisty zysk"
+        ]
+      },
+      "multiplier": "Wzorzec zwalidowany w 15 firmach. Mnożnik waha się od 150x do 4000x wyższej wyceny."
+    },
+    "section4": {
+      "title": "Kalkulator: Ile kosztuje Cię BRAK jasnej wizji?",
+      "subtitle": "Odpowiadaj szczerze. Nikt inny tego nie widzi.",
+      "scale": "Skala 1-10, gdzie 1 = 'całkowicie zagubiony' i 10 = 'krystaliczna jasność'",
+      "questions": {
+        "clarity": {
+          "label": "1. Jasność wizji",
+          "description": "Jak jasna jest Twoja wizja biznesowa?",
+          "scaleMin": "1 - Całkowicie zagubiony",
+          "scaleMax": "10 - Absolutna jasność"
+        },
+        "decisionSpeed": {
+          "label": "2. Szybkość decyzji strategicznych",
+          "description": "Jak szybko podejmujesz decyzje strategiczne?",
+          "scaleMin": "1 - Paraliż przez analizę",
+          "scaleMax": "10 - Natychmiastowa jasność"
+        },
+        "teamAlignment": {
+          "label": "3. Dopasowanie zespołu",
+          "description": "Jak dopasowany jest Twój zespół do wizji?",
+          "scaleMin": "1 - Wszyscy zagubieni",
+          "scaleMax": "10 - Całkowite dopasowanie"
+        },
+        "resourceFocus": {
+          "label": "4. Skupienie zasobów",
+          "description": "Jak skupione są Twoje zasoby na wizji?",
+          "scaleMin": "1 - Całkowite rozproszenie",
+          "scaleMax": "10 - Laserowe skupienie"
+        },
+        "sustainedEnergy": {
+          "label": "5. Trwała energia",
+          "description": "Jak czujesz się pracując nad swoim biznesem?",
+          "scaleMin": "1 - Wyczerpuje mnie",
+          "scaleMax": "10 - Energetyzuje mnie"
+        }
+      },
+      "button": "Zobacz mój wynik"
+    },
+    "section5": {
+      "title": "Twoje spersonalizowane wyniki",
+      "average": "Twoja średnia:",
+      "interpretation": {
+        "critical": {
+          "title": "STREFA KRYTYCZNEGO RYZYKA",
+          "description": "Twój brak jasności kosztuje Cię BRUTALNIE. Każdy dzień bez wizji to dzień zmarnowanych zasobów i utraconych szans.",
+          "recommendation": "PILNE: Musisz stworzyć swoją wizję TERAZ. Koszt kontynuowania w ten sposób jest nie do utrzymania."
+        },
+        "wasted": {
+          "title": "STREFA ZMARNOWANEGO POTENCJAŁU",
+          "description": "Masz COŚ, ale to nie wystarczy. Zostawiasz ogromną wartość na stole. Twój zespół nie jest dopasowany. Zasoby są rozproszone.",
+          "recommendation": "Musisz wyjaśnić i wzmocnić swoją wizję. Masz podstawy, ale potrzebujesz PRECYZJI."
+        },
+        "clarity": {
+          "title": "Masz ZNACZĄCĄ JASNOŚĆ",
+          "description": "Jesteś lepszy niż 80% przedsiębiorców. Ale wciąż jest miejsce na ZWIELOKROTNIENIE swojego wpływu. Małe ulepszenia w jasności = OGROMNE ulepszenia w wynikach.",
+          "recommendation": "Dopracuj swoją wizję, aby osiągnąć poziom transformacyjnych firm. Jesteś blisko kolejnego poziomu."
+        }
+      },
+      "costs": {
+        "title": "Konserwatywny roczny koszt braku wizji:",
+        "indecision": "Koszt niezdecydowania/rok:",
+        "wastedBudget": "Zmarnowany budżet na złe rzeczy:",
+        "lostOpportunities": "Utracone szanse:",
+        "total": "KONSERWATYWNA SUMA/ROK:",
+        "note": "To jest to, co KOSZTUJE Cię brak jasności. Nie inwestowanie w jej stworzenie."
+      },
+      "roi": {
+        "title": "Potencjalny ROI",
+        "description": "Mnożnik przy ABSOLUTNEJ jasności:",
+        "value": "{multiplier}x",
+        "explanation": "Oparty na wzorcu firm, które przeszły z 'kompetentnego wykonania' do 'jasnej wizji + kompetentnego wykonania'."
+      },
+      "cta": {
+        "title": "Gotowy stworzyć swoją jasną wizję?",
+        "description": "Odblokuj pełny moduł (8 komponentów) i stwórz swój dokument Wizji Biznesowej",
+        "button": "Odblokuj moduł Foundation - $10",
+        "alternative": "Lub kontynuuj z Komponentem 1",
+        "continueButton": "Ukończ Komponent 1 (Darmowy)"
+      }
+    },
+    "navigation": {
+      "previous": "Poprzedni",
+      "next": "Następny",
+      "complete": "Ukończ komponent"
     }
   }
 }

@@ -14,7 +14,7 @@
   "hero": {
     "badge": "Lançamento Global - 16 Idiomas",
     "headline": "Visão Clara é a Diferença Entre Crescer e",
-    "highlightText": "Transformar sua Indústria",
+    "highlightText": "Transformar Sua Indústria",
     "subheadline": "Aprenda como empresas como Amazon, Tesla e Apple construíram visões que guiaram cada decisão por décadas. Agora é sua vez.",
     "cta": {
       "primary": "Criar Minha Visão",
@@ -31,16 +31,16 @@
     },
     "feature2": {
       "title": "Crie Sua Visão",
-      "description": "Sistema de 8 componentes que guia você passo a passo para construir uma visão cristalina e inabalável."
+      "description": "Sistema de 8 componentes que te guia passo a passo para construir uma visão cristalina e inabalável."
     },
     "feature3": {
       "title": "Mantenha o Foco",
-      "description": "Ferramentas e frameworks para que sua visão guie cada decisão estratégica durante anos."
+      "description": "Ferramentas e frameworks para que sua visão guie cada decisão estratégica por anos."
     }
   },
   "pricing": {
     "title": "Comece Hoje",
-    "subtitle": "Escolha o plano adequado à sua fase",
+    "subtitle": "Escolha o plano que se ajusta à sua fase",
     "free": {
       "name": "Grátis",
       "price": "$0",
@@ -66,9 +66,9 @@
       "name": "Visionari Pro",
       "price": "$29",
       "period": "/mês",
-      "description": "Coach de IA para executar sua visão",
+      "description": "AI Coach para executar sua visão",
       "feature1": "Tudo em Foundation +",
-      "feature2": "Coach de IA personalizado",
+      "feature2": "AI Coach personalizado",
       "feature3": "Acompanhamento de progresso",
       "feature4": "Atualizações contínuas",
       "cta": "Em Breve - Abril 2026"
@@ -121,6 +121,172 @@
       "6": "Compromisso Inabalável",
       "7": "Energia Contagiante",
       "8": "Documento Completo"
+    }
+  },
+  "component1": {
+    "title": "Componente 1: A Importância da Visão Clara",
+    "section1": {
+      "title": "Por que 80% das Startups Fracassam",
+      "subtitle": "O Problema Oculto",
+      "intro": "Não é por falta de esforço. Não é pelo produto. Nem mesmo pelo financiamento.",
+      "problem": "A maioria dos empreendedores trabalha tão duro quanto os mais bem-sucedidos. São inteligentes. Estão comprometidos. Executam.",
+      "question": "Então, por que 80% fracassam enquanto empresas como Amazon, Tesla e Apple transformam indústrias inteiras?",
+      "answer": "A diferença não está na execução. Está na VISÃO."
+    },
+    "section2": {
+      "title": "Os 5 Sintomas de Falta de Visão",
+      "intro": "Você sabe que falta visão clara quando experimenta:",
+      "symptom1": {
+        "title": "Paralisia por Análise",
+        "description": "Você passa semanas 'validando' ideias mas nunca avança. Cada decisão requer outra reunião, outra análise, outra opinião."
+      },
+      "symptom2": {
+        "title": "Pivôs Constantes",
+        "description": "Você muda de direção a cada trimestre. 'Talvez devêssemos focar em B2B... não, espera, B2C é melhor... na verdade, e se fizermos marketplace...?'"
+      },
+      "symptom3": {
+        "title": "Dispersão de Recursos",
+        "description": "Seu orçamento, tempo e equipe estão divididos entre 10 iniciativas diferentes. Nada recebe a atenção necessária para funcionar de verdade."
+      },
+      "symptom4": {
+        "title": "Fadiga Mental Constante",
+        "description": "Você acorda todo dia se perguntando se está trabalhando na coisa certa. A incerteza drena mais energia que o trabalho em si."
+      },
+      "symptom5": {
+        "title": "Pitch Interminável",
+        "description": "Você não consegue explicar o que faz em menos de 5 minutos. E mesmo assim, as pessoas não 'entendem'. Porque você mesmo não está 100% claro."
+      },
+      "recognition": "Parece familiar? Você não está sozinho. Isso é a norma, não a exceção."
+    },
+    "section3": {
+      "title": "O Padrão Universal: Visão vs Resposta ao Mercado",
+      "intro": "Isso é o que ninguém te conta:",
+      "comparison": {
+        "title": "A Comparação Brutal",
+        "withoutVision": {
+          "title": "Empresas SEM Visão Clara desde o Dia 1:",
+          "features": [
+            "Bons produtos",
+            "Trabalho duro",
+            "Execução competente",
+            "Sem norte claro"
+          ],
+          "result": "Crescimento linear previsível",
+          "ceiling": "Teto de receita: $50-200M"
+        },
+        "withVision": {
+          "title": "Empresas COM Visão BHAG desde o Dia 1:",
+          "features": [
+            "Bons produtos (igual aos outros)",
+            "Trabalho duro (igual aos outros)",
+            "Execução competente (igual aos outros)",
+            "VISÃO CLARA que guia TUDO"
+          ],
+          "result": "Crescimento exponencial imprevisível",
+          "ceiling": "Receita sem teto: $1B-$100B+"
+        }
+      },
+      "difference": {
+        "title": "A DIFERENÇA NÃO É:",
+        "notFactors": [
+          "Mais capital inicial (muitos começaram sem investimento)",
+          "Melhor produto (concorrentes tinham produtos comparáveis)",
+          "Sorte ou timing (enfrentaram crises massivas)",
+          "Conexões (muitos começaram como outsiders)"
+        ],
+        "realDifference": "A DIFERENÇA É:",
+        "factors": [
+          "VISÃO CLARA desde o dia 1",
+          "BHAG que guiou cada decisão por décadas",
+          "Propósito maior que ganho pessoal"
+        ]
+      },
+      "multiplier": "Padrão validado em 15 empresas. O multiplicador vai de 150x a 4000x maior avaliação."
+    },
+    "section4": {
+      "title": "Calculadora: Quanto Está Te Custando NÃO Ter Visão Clara?",
+      "subtitle": "Responda honestamente. Ninguém mais vê isso.",
+      "scale": "Escala 1-10 onde 1 = 'totalmente confuso' e 10 = 'claridade cristalina'",
+      "questions": {
+        "clarity": {
+          "label": "1. Claridade de Visão",
+          "description": "Quão clara é sua visão empresarial?",
+          "scaleMin": "1 - Totalmente confuso",
+          "scaleMax": "10 - Claridade absoluta"
+        },
+        "decisionSpeed": {
+          "label": "2. Velocidade de Decisões Estratégicas",
+          "description": "Quão rápido você toma decisões estratégicas?",
+          "scaleMin": "1 - Paralisia por análise",
+          "scaleMax": "10 - Claridade instantânea"
+        },
+        "teamAlignment": {
+          "label": "3. Alinhamento de Equipe",
+          "description": "Quão alinhada está sua equipe com a visão?",
+          "scaleMin": "1 - Todos confusos",
+          "scaleMax": "10 - Alinhamento total"
+        },
+        "resourceFocus": {
+          "label": "4. Foco de Recursos",
+          "description": "Quão focados estão seus recursos na visão?",
+          "scaleMin": "1 - Dispersão total",
+          "scaleMax": "10 - Foco laser"
+        },
+        "sustainedEnergy": {
+          "label": "5. Energia Sustentada",
+          "description": "Como te faz sentir trabalhar no seu negócio?",
+          "scaleMin": "1 - Me esgota",
+          "scaleMax": "10 - Me energiza"
+        }
+      },
+      "button": "Ver meu Resultado"
+    },
+    "section5": {
+      "title": "Seus Resultados Personalizados",
+      "average": "Sua média:",
+      "interpretation": {
+        "critical": {
+          "title": "ZONA DE RISCO CRÍTICO",
+          "description": "Sua falta de claridade está te custando BRUTALMENTE. Cada dia sem visão é um dia de recursos desperdiçados e oportunidades perdidas.",
+          "recommendation": "URGENTE: Você precisa criar sua visão AGORA. O custo de continuar assim é insustentável."
+        },
+        "wasted": {
+          "title": "ZONA DE POTENCIAL DESPERDIÇADO",
+          "description": "Você tem ALGO, mas não é suficiente. Está deixando valor massivo na mesa. Sua equipe não está alinhada. Os recursos estão dispersos.",
+          "recommendation": "Você precisa esclarecer e fortalecer sua visão. Você tem a base, mas precisa de PRECISÃO."
+        },
+        "clarity": {
+          "title": "Você Tem CLARIDADE SIGNIFICATIVA",
+          "description": "Você está melhor que 80% dos empreendedores. Mas ainda há espaço para MULTIPLICAR seu impacto. Pequenas melhorias em claridade = MELHORIAS MASSIVAS em resultados.",
+          "recommendation": "Refine sua visão para alcançar o nível de empresas transformadoras. Você está perto do próximo nível."
+        }
+      },
+      "costs": {
+        "title": "Custo Anual Conservador da sua Falta de Visão:",
+        "indecision": "Custo de indecisão/ano:",
+        "wastedBudget": "Orçamento desperdiçado em coisas erradas:",
+        "lostOpportunities": "Oportunidades perdidas:",
+        "total": "TOTAL CONSERVADOR/ANO:",
+        "note": "Isso é o que te CUSTA sua falta de claridade. Não investir em criá-la."
+      },
+      "roi": {
+        "title": "ROI Potencial",
+        "description": "Multiplicador se você tivesse claridade ABSOLUTA:",
+        "value": "{multiplier}x",
+        "explanation": "Baseado no padrão de empresas que passaram de 'execução competente' para 'visão clara + execução competente'."
+      },
+      "cta": {
+        "title": "Pronto para Criar Sua Visão Clara?",
+        "description": "Desbloqueie o módulo completo (8 componentes) e crie seu documento de Visão Empresarial",
+        "button": "Desbloquear Módulo Foundation - $10",
+        "alternative": "Ou continue com o Componente 1",
+        "continueButton": "Completar Componente 1 (Grátis)"
+      }
+    },
+    "navigation": {
+      "previous": "Anterior",
+      "next": "Próximo",
+      "complete": "Completar Componente"
     }
   }
 }

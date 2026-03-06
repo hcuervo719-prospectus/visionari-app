@@ -1,7 +1,7 @@
 {
   "common": {
     "siteName": "Visionari",
-    "tagline": "Bouw de visie die je bedrijf zal transformeren"
+    "tagline": "Bouw de visie die jouw bedrijf zal transformeren"
   },
   "nav": {
     "cases": "Cases",
@@ -9,13 +9,13 @@
     "pricing": "Prijzen",
     "login": "Inloggen",
     "signup": "Registreren",
-    "getStarted": "Beginnen"
+    "getStarted": "Begin"
   },
   "hero": {
     "badge": "Wereldwijde Lancering - 16 Talen",
-    "headline": "Heldere Visie is het Verschil tussen Groeien en",
+    "headline": "Een Heldere Visie is het Verschil tussen Groeien en",
     "highlightText": "Je Industrie Transformeren",
-    "subheadline": "Leer hoe bedrijven zoals Amazon, Tesla en Apple visies bouwden die elke beslissing decennialang hebben geleid. Nu is het jouw beurt.",
+    "subheadline": "Leer hoe bedrijven als Amazon, Tesla en Apple visies hebben gebouwd die decennialang elke beslissing hebben geleid. Nu is het jouw beurt.",
     "cta": {
       "primary": "Creëer Mijn Visie",
       "secondary": "Zie Succesverhalen"
@@ -24,22 +24,22 @@
   },
   "features": {
     "title": "Hoe het Werkt",
-    "subtitle": "Een bewezen systeem in 15 transformatieve bedrijven",
+    "subtitle": "Een bewezen systeem in 15 transformerende bedrijven",
     "feature1": {
       "title": "Leer van de Besten",
-      "description": "Echte gevallen van bedrijven die hele industrieën veranderden dankzij hun heldere visie vanaf dag één."
+      "description": "Echte cases van bedrijven die hele industrieën hebben veranderd dankzij hun heldere visie vanaf dag één."
     },
     "feature2": {
       "title": "Creëer Je Visie",
-      "description": "8-componenten systeem dat je stap voor stap begeleidt om een kristalheldere en onwrikbare visie te bouwen."
+      "description": "8-componenten systeem dat je stap voor stap begeleidt bij het bouwen van een kristalheldere en onwrikbare visie."
     },
     "feature3": {
-      "title": "Behoud Focus",
-      "description": "Tools en frameworks zodat je visie jarenlang elke strategische beslissing leidt."
+      "title": "Behoud de Focus",
+      "description": "Tools en frameworks zodat jouw visie jarenlang elke strategische beslissing leidt."
     }
   },
   "pricing": {
-    "title": "Start Vandaag",
+    "title": "Begin Vandaag",
     "subtitle": "Kies het plan dat bij jouw fase past",
     "free": {
       "name": "Gratis",
@@ -54,11 +54,11 @@
       "name": "Foundation Module",
       "price": "$10",
       "period": "eenmalige betaling",
-      "badge": "Populairst",
-      "description": "Creëer je volledige visie in 8 stappen",
+      "badge": "Meest Populair",
+      "description": "Creëer je complete visie in 8 stappen",
       "feature1": "Alles in Gratis +",
-      "feature2": "8 volledige componenten",
-      "feature3": "Finaal document gegenereerd",
+      "feature2": "8 complete componenten",
+      "feature3": "Eindelijk document gegenereerd",
       "feature4": "Levenslange toegang",
       "cta": "Nu Ontgrendelen"
     },
@@ -100,17 +100,17 @@
   },
   "dashboard": {
     "welcome": "Welkom terug, {name}!",
-    "subtitle": "Blijf bouwen aan je bedrijfsvisie",
+    "subtitle": "Ga door met het bouwen van je bedrijfsvisie",
     "logout": "Uitloggen",
     "progress": "Voortgang",
-    "componentsCompleted": "Componenten voltooid",
+    "componentsCompleted": "Voltooide componenten",
     "timeInvested": "Geïnvesteerde Tijd",
     "hoursTotal": "van 48 uur totaal",
     "accessLevel": "Toegangsniveau",
     "upgradeToUnlock": "Upgrade om alles te ontgrendelen",
-    "yourVisionComponents": "Jouw Visie-componenten",
+    "yourVisionComponents": "Jouw Visiecomponenten",
     "readyToComplete": "Klaar om je visie te voltooien?",
-    "unlockAll": "Ontgrendel alle 8 componenten voor slechts $10 en creëer je complete Bedrijfsvisie-document",
+    "unlockAll": "Ontgrendel alle 8 componenten voor slechts $10 en creëer je complete Bedrijfsvisie document",
     "unlockButton": "Ontgrendel Volledige Module - $10",
     "components": {
       "1": "Jouw Diepere Doel",
@@ -119,8 +119,174 @@
       "4": "Proactieve Strategie",
       "5": "Uitdagende Ambitie",
       "6": "Onwrikbare Toewijding",
-      "7": "Aanstekelijke Energie",
+      "7": "Besmettelijke Energie",
       "8": "Compleet Document"
+    }
+  },
+  "component1": {
+    "title": "Component 1: Het Belang van een Heldere Visie",
+    "section1": {
+      "title": "Waarom 80% van de Startups Mislukt",
+      "subtitle": "Het Verborgen Probleem",
+      "intro": "Het gaat niet om gebrek aan inspanning. Niet om het product. Zelfs niet om financiering.",
+      "problem": "De meeste ondernemers werken net zo hard als de meest succesvolle. Ze zijn slim. Ze zijn toegewijd. Ze voeren uit.",
+      "question": "Dus waarom mislukt 80% terwijl bedrijven als Amazon, Tesla en Apple hele industrieën transformeren?",
+      "answer": "Het verschil zit niet in de uitvoering. Het zit in de VISIE."
+    },
+    "section2": {
+      "title": "De 5 Symptomen van Gebrek aan Visie",
+      "intro": "Je weet dat je een heldere visie mist wanneer je het volgende ervaart:",
+      "symptom1": {
+        "title": "Analyse Verlamming",
+        "description": "Je besteedt weken aan het 'valideren' van ideeën maar komt nooit verder. Elke beslissing vereist nog een vergadering, nog een analyse, nog een mening."
+      },
+      "symptom2": {
+        "title": "Constante Koerswijzigingen",
+        "description": "Je verandert elk kwartaal van richting. 'Misschien moeten we ons richten op B2B... nee, wacht, B2C is beter... eigenlijk, wat als we een marketplace doen...?'"
+      },
+      "symptom3": {
+        "title": "Verspreiding van Middelen",
+        "description": "Je budget, tijd en team zijn verspreid over 10 verschillende initiatieven. Niets krijgt de aandacht die het nodig heeft om echt te werken."
+      },
+      "symptom4": {
+        "title": "Constante Mentale Vermoeidheid",
+        "description": "Je wordt elke dag wakker en vraagt je af of je aan het juiste werkt. De onzekerheid put meer energie uit dan het werk zelf."
+      },
+      "symptom5": {
+        "title": "Eindeloze Pitch",
+        "description": "Je kunt niet in minder dan 5 minuten uitleggen wat je doet. En zelfs dan 'begrijpen' mensen het niet. Omdat je zelf niet 100% helder bent."
+      },
+      "recognition": "Klinkt dit bekend? Je bent niet alleen. Dit is de norm, niet de uitzondering."
+    },
+    "section3": {
+      "title": "Het Universele Patroon: Visie vs Marktreactie",
+      "intro": "Dit is wat niemand je vertelt:",
+      "comparison": {
+        "title": "De Brute Vergelijking",
+        "withoutVision": {
+          "title": "Bedrijven ZONDER Heldere Visie vanaf Dag 1:",
+          "features": [
+            "Goede producten",
+            "Hard werken",
+            "Competente uitvoering",
+            "Geen duidelijke koers"
+          ],
+          "result": "Voorspelbare lineaire groei",
+          "ceiling": "Omzetplafond: $50-200M"
+        },
+        "withVision": {
+          "title": "Bedrijven MET BHAG Visie vanaf Dag 1:",
+          "features": [
+            "Goede producten (net als anderen)",
+            "Hard werken (net als anderen)",
+            "Competente uitvoering (net als anderen)",
+            "HELDERE VISIE die ALLES leidt"
+          ],
+          "result": "Onvoorspelbare exponentiële groei",
+          "ceiling": "Omzet zonder plafond: $1B-$100B+"
+        }
+      },
+      "difference": {
+        "title": "HET VERSCHIL IS NIET:",
+        "notFactors": [
+          "Meer initieel kapitaal (velen begonnen zonder investering)",
+          "Beter product (concurrenten hadden vergelijkbare producten)",
+          "Geluk of timing (ze kregen te maken met enorme crises)",
+          "Connecties (velen begonnen als buitenstaanders)"
+        ],
+        "realDifference": "HET VERSCHIL IS:",
+        "factors": [
+          "HELDERE VISIE vanaf dag 1",
+          "BHAG die decennialang elke beslissing leidde",
+          "Doel groter dan persoonlijke winst"
+        ]
+      },
+      "multiplier": "Patroon gevalideerd in 15 bedrijven. De vermenigvuldiger varieert van 150x tot 4000x hogere waardering."
+    },
+    "section4": {
+      "title": "Calculator: Hoeveel Kost het je om GEEN Heldere Visie te Hebben?",
+      "subtitle": "Antwoord eerlijk. Niemand anders ziet dit.",
+      "scale": "Schaal 1-10 waarbij 1 = 'totaal verward' en 10 = 'kristalheldere helderheid'",
+      "questions": {
+        "clarity": {
+          "label": "1. Visiehelderheid",
+          "description": "Hoe helder is jouw bedrijfsvisie?",
+          "scaleMin": "1 - Totaal verward",
+          "scaleMax": "10 - Absolute helderheid"
+        },
+        "decisionSpeed": {
+          "label": "2. Snelheid van Strategische Beslissingen",
+          "description": "Hoe snel neem je strategische beslissingen?",
+          "scaleMin": "1 - Analyse verlamming",
+          "scaleMax": "10 - Directe helderheid"
+        },
+        "teamAlignment": {
+          "label": "3. Teamafstemming",
+          "description": "Hoe afgestemd is je team op de visie?",
+          "scaleMin": "1 - Iedereen verward",
+          "scaleMax": "10 - Totale afstemming"
+        },
+        "resourceFocus": {
+          "label": "4. Middelen Focus",
+          "description": "Hoe gefocust zijn je middelen op de visie?",
+          "scaleMin": "1 - Totale verspreiding",
+          "scaleMax": "10 - Laser focus"
+        },
+        "sustainedEnergy": {
+          "label": "5. Aanhoudende Energie",
+          "description": "Hoe laat werken aan je bedrijf je voelen?",
+          "scaleMin": "1 - Put me uit",
+          "scaleMax": "10 - Geeft me energie"
+        }
+      },
+      "button": "Zie Mijn Resultaat"
+    },
+    "section5": {
+      "title": "Jouw Gepersonaliseerde Resultaten",
+      "average": "Jouw gemiddelde:",
+      "interpretation": {
+        "critical": {
+          "title": "KRITIEKE RISICOZONE",
+          "description": "Je gebrek aan helderheid kost je BRUTAAL. Elke dag zonder visie is een dag van verspilde middelen en gemiste kansen.",
+          "recommendation": "URGENT: Je moet NU je visie creëren. De kosten om zo door te gaan zijn onhoudbaar."
+        },
+        "wasted": {
+          "title": "ZONE VAN VERSPILD POTENTIEEL",
+          "description": "Je hebt IETS, maar het is niet genoeg. Je laat enorme waarde liggen. Je team is niet afgestemd. Middelen zijn verspreid.",
+          "recommendation": "Je moet je visie verduidelijken en versterken. Je hebt de basis, maar je hebt PRECISIE nodig."
+        },
+        "clarity": {
+          "title": "Je Hebt SIGNIFICANTE HELDERHEID",
+          "description": "Je bent beter dan 80% van de ondernemers. Maar er is nog ruimte om je impact te VERMENIGVULDIGEN. Kleine verbeteringen in helderheid = ENORME verbeteringen in resultaten.",
+          "recommendation": "Verfijn je visie om het niveau van transformerende bedrijven te bereiken. Je bent dicht bij het volgende niveau."
+        }
+      },
+      "costs": {
+        "title": "Conservatieve Jaarlijkse Kosten van je Gebrek aan Visie:",
+        "indecision": "Kosten van besluiteloosheid/jaar:",
+        "wastedBudget": "Verspild budget aan verkeerde dingen:",
+        "lostOpportunities": "Gemiste kansen:",
+        "total": "CONSERVATIEF TOTAAL/JAAR:",
+        "note": "Dit is wat je gebrek aan helderheid je KOST. Niet erin investeren om het te creëren."
+      },
+      "roi": {
+        "title": "Potentiële ROI",
+        "description": "Vermenigvuldiger als je ABSOLUTE helderheid had:",
+        "value": "{multiplier}x",
+        "explanation": "Gebaseerd op het patroon van bedrijven die overstapten van 'competente uitvoering' naar 'heldere visie + competente uitvoering'."
+      },
+      "cta": {
+        "title": "Klaar om Je Heldere Visie te Creëren?",
+        "description": "Ontgrendel de volledige module (8 componenten) en creëer je Bedrijfsvisie document",
+        "button": "Ontgrendel Foundation Module - $10",
+        "alternative": "Of ga door met Component 1",
+        "continueButton": "Voltooi Component 1 (Gratis)"
+      }
+    },
+    "navigation": {
+      "previous": "Vorige",
+      "next": "Volgende",
+      "complete": "Voltooi Component"
     }
   }
 }

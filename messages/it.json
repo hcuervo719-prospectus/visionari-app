@@ -14,7 +14,7 @@
   "hero": {
     "badge": "Lancio Globale - 16 Lingue",
     "headline": "Una Visione Chiara è la Differenza tra Crescere e",
-    "highlightText": "Trasformare la tua Industria",
+    "highlightText": "Trasformare la Tua Industria",
     "subheadline": "Scopri come aziende come Amazon, Tesla e Apple hanno costruito visioni che hanno guidato ogni decisione per decenni. Ora tocca a te.",
     "cta": {
       "primary": "Crea la Mia Visione",
@@ -42,7 +42,7 @@
     "title": "Inizia Oggi",
     "subtitle": "Scegli il piano adatto alla tua fase",
     "free": {
-      "name": "Gratis",
+      "name": "Gratuito",
       "price": "$0",
       "description": "Esplora il sistema e il Componente 1",
       "feature1": "Accesso ai casi studio",
@@ -56,7 +56,7 @@
       "period": "pagamento unico",
       "badge": "Più Popolare",
       "description": "Crea la tua visione completa in 8 passi",
-      "feature1": "Tutto in Gratis +",
+      "feature1": "Tutto in Gratuito +",
       "feature2": "8 componenti completi",
       "feature3": "Documento finale generato",
       "feature4": "Accesso a vita",
@@ -69,7 +69,7 @@
       "description": "Coach IA per eseguire la tua visione",
       "feature1": "Tutto in Foundation +",
       "feature2": "Coach IA personalizzato",
-      "feature3": "Monitoraggio progressi",
+      "feature3": "Tracciamento progressi",
       "feature4": "Aggiornamenti continui",
       "cta": "Prossimamente - Aprile 2026"
     }
@@ -101,7 +101,7 @@
   "dashboard": {
     "welcome": "Bentornato, {name}!",
     "subtitle": "Continua a costruire la tua visione aziendale",
-    "logout": "Disconnetti",
+    "logout": "Esci",
     "progress": "Progresso",
     "componentsCompleted": "Componenti completati",
     "timeInvested": "Tempo Investito",
@@ -121,6 +121,172 @@
       "6": "Impegno Incrollabile",
       "7": "Energia Contagiosa",
       "8": "Documento Completo"
+    }
+  },
+  "component1": {
+    "title": "Componente 1: L'Importanza di una Visione Chiara",
+    "section1": {
+      "title": "Perché l'80% delle Startup Fallisce",
+      "subtitle": "Il Problema Nascosto",
+      "intro": "Non è per mancanza di impegno. Non è per il prodotto. Non è nemmeno per i finanziamenti.",
+      "problem": "La maggior parte degli imprenditori lavora duramente quanto i più di successo. Sono intelligenti. Sono impegnati. Eseguono.",
+      "question": "Allora perché l'80% fallisce mentre aziende come Amazon, Tesla e Apple trasformano intere industrie?",
+      "answer": "La differenza non sta nell'esecuzione. Sta nella VISIONE."
+    },
+    "section2": {
+      "title": "I 5 Sintomi della Mancanza di Visione",
+      "intro": "Sai che ti manca una visione chiara quando sperimenti:",
+      "symptom1": {
+        "title": "Paralisi da Analisi",
+        "description": "Passi settimane a 'validare' idee ma non avanzi mai. Ogni decisione richiede un altro meeting, un'altra analisi, un'altra opinione."
+      },
+      "symptom2": {
+        "title": "Pivot Costanti",
+        "description": "Cambi direzione ogni trimestre. 'Forse dovremmo concentrarci sul B2B... no, aspetta, il B2C è meglio... in realtà, e se facessimo un marketplace...?'"
+      },
+      "symptom3": {
+        "title": "Dispersione di Risorse",
+        "description": "Il tuo budget, tempo e team sono sparsi tra 10 iniziative diverse. Niente riceve l'attenzione necessaria per funzionare davvero."
+      },
+      "symptom4": {
+        "title": "Fatica Mentale Costante",
+        "description": "Ti svegli ogni giorno chiedendoti se stai lavorando sulla cosa giusta. L'incertezza drena più energia del lavoro stesso."
+      },
+      "symptom5": {
+        "title": "Pitch Infinito",
+        "description": "Non riesci a spiegare cosa fai in meno di 5 minuti. E anche allora, la gente non 'capisce'. Perché tu stesso non sei chiaro al 100%."
+      },
+      "recognition": "Ti suona familiare? Non sei solo. Questa è la norma, non l'eccezione."
+    },
+    "section3": {
+      "title": "Il Pattern Universale: Visione vs Risposta al Mercato",
+      "intro": "Ecco cosa nessuno ti dice:",
+      "comparison": {
+        "title": "Il Confronto Brutale",
+        "withoutVision": {
+          "title": "Aziende SENZA Visione Chiara dal Giorno 1:",
+          "features": [
+            "Buoni prodotti",
+            "Lavoro duro",
+            "Esecuzione competente",
+            "Nessuna direzione chiara"
+          ],
+          "result": "Crescita lineare prevedibile",
+          "ceiling": "Tetto di fatturato: $50-200M"
+        },
+        "withVision": {
+          "title": "Aziende CON Visione BHAG dal Giorno 1:",
+          "features": [
+            "Buoni prodotti (come gli altri)",
+            "Lavoro duro (come gli altri)",
+            "Esecuzione competente (come gli altri)",
+            "VISIONE CHIARA che guida TUTTO"
+          ],
+          "result": "Crescita esponenziale imprevedibile",
+          "ceiling": "Fatturato senza tetto: $1B-$100B+"
+        }
+      },
+      "difference": {
+        "title": "LA DIFFERENZA NON È:",
+        "notFactors": [
+          "Più capitale iniziale (molti hanno iniziato senza investimenti)",
+          "Prodotto migliore (i concorrenti avevano prodotti comparabili)",
+          "Fortuna o timing (hanno affrontato crisi massicce)",
+          "Connessioni (molti hanno iniziato come outsider)"
+        ],
+        "realDifference": "LA DIFFERENZA È:",
+        "factors": [
+          "VISIONE CHIARA dal giorno 1",
+          "BHAG che ha guidato ogni decisione per decenni",
+          "Scopo più grande del guadagno personale"
+        ]
+      },
+      "multiplier": "Pattern validato in 15 aziende. Il moltiplicatore va da 150x a 4000x di valutazione superiore."
+    },
+    "section4": {
+      "title": "Calcolatore: Quanto ti Costa NON Avere una Visione Chiara?",
+      "subtitle": "Rispondi onestamente. Nessun altro vede questo.",
+      "scale": "Scala 1-10 dove 1 = 'totalmente confuso' e 10 = 'chiarezza cristallina'",
+      "questions": {
+        "clarity": {
+          "label": "1. Chiarezza della Visione",
+          "description": "Quanto è chiara la tua visione aziendale?",
+          "scaleMin": "1 - Totalmente confuso",
+          "scaleMax": "10 - Chiarezza assoluta"
+        },
+        "decisionSpeed": {
+          "label": "2. Velocità delle Decisioni Strategiche",
+          "description": "Quanto velocemente prendi decisioni strategiche?",
+          "scaleMin": "1 - Paralisi da analisi",
+          "scaleMax": "10 - Chiarezza istantanea"
+        },
+        "teamAlignment": {
+          "label": "3. Allineamento del Team",
+          "description": "Quanto è allineato il tuo team con la visione?",
+          "scaleMin": "1 - Tutti confusi",
+          "scaleMax": "10 - Allineamento totale"
+        },
+        "resourceFocus": {
+          "label": "4. Focus delle Risorse",
+          "description": "Quanto sono focalizzate le tue risorse sulla visione?",
+          "scaleMin": "1 - Dispersione totale",
+          "scaleMax": "10 - Focus laser"
+        },
+        "sustainedEnergy": {
+          "label": "5. Energia Sostenuta",
+          "description": "Come ti fa sentire lavorare al tuo business?",
+          "scaleMin": "1 - Mi esaurisce",
+          "scaleMax": "10 - Mi energizza"
+        }
+      },
+      "button": "Vedi il Mio Risultato"
+    },
+    "section5": {
+      "title": "I Tuoi Risultati Personalizzati",
+      "average": "La tua media:",
+      "interpretation": {
+        "critical": {
+          "title": "ZONA DI RISCHIO CRITICO",
+          "description": "La tua mancanza di chiarezza ti sta costando BRUTALMENTE. Ogni giorno senza visione è un giorno di risorse sprecate e opportunità perse.",
+          "recommendation": "URGENTE: Devi creare la tua visione ORA. Il costo di continuare così è insostenibile."
+        },
+        "wasted": {
+          "title": "ZONA DI POTENZIALE SPRECATO",
+          "description": "Hai QUALCOSA, ma non è abbastanza. Stai lasciando valore massiccio sul tavolo. Il tuo team non è allineato. Le risorse sono sparse.",
+          "recommendation": "Devi chiarire e rafforzare la tua visione. Hai le basi, ma hai bisogno di PRECISIONE."
+        },
+        "clarity": {
+          "title": "Hai CHIAREZZA SIGNIFICATIVA",
+          "description": "Sei meglio dell'80% degli imprenditori. Ma c'è ancora spazio per MOLTIPLICARE il tuo impatto. Piccoli miglioramenti in chiarezza = MIGLIORAMENTI MASSICCI nei risultati.",
+          "recommendation": "Affina la tua visione per raggiungere il livello delle aziende trasformative. Sei vicino al livello successivo."
+        }
+      },
+      "costs": {
+        "title": "Costo Annuale Conservativo della tua Mancanza di Visione:",
+        "indecision": "Costo dell'indecisione/anno:",
+        "wastedBudget": "Budget sprecato su cose sbagliate:",
+        "lostOpportunities": "Opportunità perse:",
+        "total": "TOTALE CONSERVATIVO/ANNO:",
+        "note": "Questo è quanto ti COSTA la tua mancanza di chiarezza. Non investire nel crearla."
+      },
+      "roi": {
+        "title": "ROI Potenziale",
+        "description": "Moltiplicatore se avessi chiarezza ASSOLUTA:",
+        "value": "{multiplier}x",
+        "explanation": "Basato sul pattern di aziende che sono passate da 'esecuzione competente' a 'visione chiara + esecuzione competente'."
+      },
+      "cta": {
+        "title": "Pronto a Creare la Tua Visione Chiara?",
+        "description": "Sblocca il modulo completo (8 componenti) e crea il tuo documento di Visione Aziendale",
+        "button": "Sblocca Modulo Foundation - $10",
+        "alternative": "Oppure continua con il Componente 1",
+        "continueButton": "Completa Componente 1 (Gratuito)"
+      }
+    },
+    "navigation": {
+      "previous": "Precedente",
+      "next": "Successivo",
+      "complete": "Completa Componente"
     }
   }
 }

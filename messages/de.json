@@ -12,13 +12,13 @@
     "getStarted": "Loslegen"
   },
   "hero": {
-    "badge": "Globale Einführung - 16 Sprachen",
-    "headline": "Klare Vision ist der Unterschied zwischen Wachsen und",
+    "badge": "Globaler Start - 16 Sprachen",
+    "headline": "Eine klare Vision ist der Unterschied zwischen Wachsen und",
     "highlightText": "Ihre Branche transformieren",
-    "subheadline": "Lernen Sie, wie Unternehmen wie Amazon, Tesla und Apple Visionen aufgebaut haben, die jede Entscheidung über Jahrzehnte geleitet haben. Jetzt sind Sie dran.",
+    "subheadline": "Lernen Sie, wie Unternehmen wie Amazon, Tesla und Apple Visionen aufgebaut haben, die jahrzehntelang jede Entscheidung leiteten. Jetzt sind Sie dran.",
     "cta": {
       "primary": "Meine Vision erstellen",
-      "secondary": "Erfolgsgeschichten ansehen"
+      "secondary": "Erfolgsgeschichten sehen"
     },
     "casesLabel": "16 echte Fallstudien"
   },
@@ -31,15 +31,15 @@
     },
     "feature2": {
       "title": "Erstellen Sie Ihre Vision",
-      "description": "8-Komponenten-System, das Sie Schritt für Schritt durch den Aufbau einer kristallklaren und unerschütterlichen Vision führt."
+      "description": "8-Komponenten-System, das Sie Schritt für Schritt anleitet, eine kristallklare und unerschütterliche Vision aufzubauen."
     },
     "feature3": {
       "title": "Fokus behalten",
-      "description": "Tools und Frameworks, damit Ihre Vision jede strategische Entscheidung über Jahre hinweg leitet."
+      "description": "Tools und Frameworks, damit Ihre Vision jahrelang jede strategische Entscheidung leitet."
     }
   },
   "pricing": {
-    "title": "Starten Sie heute",
+    "title": "Heute beginnen",
     "subtitle": "Wählen Sie den Plan, der zu Ihrer Phase passt",
     "free": {
       "name": "Kostenlos",
@@ -59,7 +59,7 @@
       "feature1": "Alles in Kostenlos +",
       "feature2": "8 vollständige Komponenten",
       "feature3": "Finales Dokument generiert",
-      "feature4": "Lebenslanger Zugang",
+      "feature4": "Lebenslanger Zugriff",
       "cta": "Jetzt freischalten"
     },
     "pro": {
@@ -100,27 +100,193 @@
   },
   "dashboard": {
     "welcome": "Willkommen zurück, {name}!",
-    "subtitle": "Bauen Sie weiter an Ihrer Unternehmensvision",
+    "subtitle": "Setzen Sie den Aufbau Ihrer Unternehmensvision fort",
     "logout": "Abmelden",
     "progress": "Fortschritt",
-    "componentsCompleted": "Komponenten abgeschlossen",
+    "componentsCompleted": "Abgeschlossene Komponenten",
     "timeInvested": "Investierte Zeit",
     "hoursTotal": "von insgesamt 48 Stunden",
-    "accessLevel": "Zugangsebene",
-    "upgradeToUnlock": "Upgraden, um alles freizuschalten",
-    "yourVisionComponents": "Ihre Vision-Komponenten",
+    "accessLevel": "Zugriffsebene",
+    "upgradeToUnlock": "Upgrade für vollständigen Zugriff",
+    "yourVisionComponents": "Ihre Visionskomponenten",
     "readyToComplete": "Bereit, Ihre Vision zu vervollständigen?",
-    "unlockAll": "Schalten Sie alle 8 Komponenten für nur 10$ frei und erstellen Sie Ihr vollständiges Unternehmensvisionen-Dokument",
-    "unlockButton": "Vollständiges Modul freischalten - 10$",
+    "unlockAll": "Schalten Sie alle 8 Komponenten für nur $10 frei und erstellen Sie Ihr vollständiges Unternehmensvisionsdokument",
+    "unlockButton": "Vollständiges Modul freischalten - $10",
     "components": {
-      "1": "Ihr Tieferer Zweck",
+      "1": "Ihr tieferer Zweck",
       "2": "Klare Vision",
       "3": "Greifbare Ziele",
       "4": "Proaktive Strategie",
-      "5": "Herausfordernder Ehrgeiz",
+      "5": "Herausfordernde Ambition",
       "6": "Unerschütterliches Engagement",
       "7": "Ansteckende Energie",
       "8": "Vollständiges Dokument"
+    }
+  },
+  "component1": {
+    "title": "Komponente 1: Die Bedeutung einer klaren Vision",
+    "section1": {
+      "title": "Warum 80% der Startups scheitern",
+      "subtitle": "Das versteckte Problem",
+      "intro": "Es liegt nicht an mangelnder Anstrengung. Nicht am Produkt. Nicht einmal an der Finanzierung.",
+      "problem": "Die meisten Unternehmer arbeiten genauso hart wie die erfolgreichsten. Sie sind intelligent. Sie sind engagiert. Sie führen aus.",
+      "question": "Warum scheitern also 80%, während Unternehmen wie Amazon, Tesla und Apple ganze Branchen transformieren?",
+      "answer": "Der Unterschied liegt nicht in der Ausführung. Er liegt in der VISION."
+    },
+    "section2": {
+      "title": "Die 5 Symptome fehlender Vision",
+      "intro": "Sie wissen, dass Ihnen eine klare Vision fehlt, wenn Sie Folgendes erleben:",
+      "symptom1": {
+        "title": "Analyse-Paralyse",
+        "description": "Sie verbringen Wochen damit, Ideen zu 'validieren', kommen aber nie voran. Jede Entscheidung erfordert ein weiteres Meeting, eine weitere Analyse, eine weitere Meinung."
+      },
+      "symptom2": {
+        "title": "Ständige Richtungswechsel",
+        "description": "Sie ändern jedes Quartal die Richtung. 'Vielleicht sollten wir uns auf B2B konzentrieren... nein, warte, B2C ist besser... eigentlich, was ist mit Marketplace...?'"
+      },
+      "symptom3": {
+        "title": "Ressourcenstreuung",
+        "description": "Ihr Budget, Zeit und Team sind auf 10 verschiedene Initiativen verteilt. Nichts erhält die Aufmerksamkeit, die es braucht, um wirklich zu funktionieren."
+      },
+      "symptom4": {
+        "title": "Ständige mentale Ermüdung",
+        "description": "Sie wachen jeden Tag mit der Frage auf, ob Sie am Richtigen arbeiten. Die Unsicherheit entzieht mehr Energie als die Arbeit selbst."
+      },
+      "symptom5": {
+        "title": "Endloser Pitch",
+        "description": "Sie können nicht in weniger als 5 Minuten erklären, was Sie tun. Und selbst dann 'verstehen' es die Leute nicht. Weil Sie selbst nicht zu 100% klar sind."
+      },
+      "recognition": "Kommt Ihnen das bekannt vor? Sie sind nicht allein. Das ist die Norm, nicht die Ausnahme."
+    },
+    "section3": {
+      "title": "Das universelle Muster: Vision vs. Marktreaktion",
+      "intro": "Das ist es, was Ihnen niemand sagt:",
+      "comparison": {
+        "title": "Der brutale Vergleich",
+        "withoutVision": {
+          "title": "Unternehmen OHNE klare Vision von Tag 1:",
+          "features": [
+            "Gute Produkte",
+            "Harte Arbeit",
+            "Kompetente Ausführung",
+            "Kein klarer Kurs"
+          ],
+          "result": "Vorhersehbares lineares Wachstum",
+          "ceiling": "Umsatzobergrenze: $50-200M"
+        },
+        "withVision": {
+          "title": "Unternehmen MIT BHAG-Vision von Tag 1:",
+          "features": [
+            "Gute Produkte (wie andere)",
+            "Harte Arbeit (wie andere)",
+            "Kompetente Ausführung (wie andere)",
+            "KLARE VISION, die ALLES leitet"
+          ],
+          "result": "Unvorhersehbares exponentielles Wachstum",
+          "ceiling": "Umsatz ohne Obergrenze: $1B-$100B+"
+        }
+      },
+      "difference": {
+        "title": "DER UNTERSCHIED IST NICHT:",
+        "notFactors": [
+          "Mehr Startkapital (viele begannen ohne Investition)",
+          "Besseres Produkt (Konkurrenten hatten vergleichbare Produkte)",
+          "Glück oder Timing (sie standen vor massiven Krisen)",
+          "Verbindungen (viele begannen als Außenseiter)"
+        ],
+        "realDifference": "DER UNTERSCHIED IST:",
+        "factors": [
+          "KLARE VISION von Tag 1",
+          "BHAG, das jahrzehntelang jede Entscheidung leitete",
+          "Zweck größer als persönlicher Gewinn"
+        ]
+      },
+      "multiplier": "Muster in 15 Unternehmen validiert. Der Multiplikator reicht von 150x bis 4000x höherer Bewertung."
+    },
+    "section4": {
+      "title": "Rechner: Wie viel kostet es Sie, KEINE klare Vision zu haben?",
+      "subtitle": "Antworten Sie ehrlich. Niemand sonst sieht dies.",
+      "scale": "Skala 1-10, wobei 1 = 'völlig verwirrt' und 10 = 'kristallklare Klarheit'",
+      "questions": {
+        "clarity": {
+          "label": "1. Visionsklarheit",
+          "description": "Wie klar ist Ihre Unternehmensvision?",
+          "scaleMin": "1 - Völlig verwirrt",
+          "scaleMax": "10 - Absolute Klarheit"
+        },
+        "decisionSpeed": {
+          "label": "2. Geschwindigkeit strategischer Entscheidungen",
+          "description": "Wie schnell treffen Sie strategische Entscheidungen?",
+          "scaleMin": "1 - Analyse-Paralyse",
+          "scaleMax": "10 - Sofortige Klarheit"
+        },
+        "teamAlignment": {
+          "label": "3. Team-Ausrichtung",
+          "description": "Wie ausgerichtet ist Ihr Team auf die Vision?",
+          "scaleMin": "1 - Alle verwirrt",
+          "scaleMax": "10 - Totale Ausrichtung"
+        },
+        "resourceFocus": {
+          "label": "4. Ressourcenfokus",
+          "description": "Wie fokussiert sind Ihre Ressourcen auf die Vision?",
+          "scaleMin": "1 - Totale Streuung",
+          "scaleMax": "10 - Laser-Fokus"
+        },
+        "sustainedEnergy": {
+          "label": "5. Anhaltende Energie",
+          "description": "Wie fühlen Sie sich bei der Arbeit an Ihrem Unternehmen?",
+          "scaleMin": "1 - Erschöpft mich",
+          "scaleMax": "10 - Energetisiert mich"
+        }
+      },
+      "button": "Mein Ergebnis sehen"
+    },
+    "section5": {
+      "title": "Ihre personalisierten Ergebnisse",
+      "average": "Ihr Durchschnitt:",
+      "interpretation": {
+        "critical": {
+          "title": "KRITISCHE RISIKOZONE",
+          "description": "Ihre mangelnde Klarheit kostet Sie BRUTAL. Jeder Tag ohne Vision ist ein Tag verschwendeter Ressourcen und verlorener Chancen.",
+          "recommendation": "DRINGEND: Sie müssen JETZT Ihre Vision erstellen. Die Kosten, so weiterzumachen, sind nicht tragbar."
+        },
+        "wasted": {
+          "title": "ZONE VERSCHWENDETEN POTENZIALS",
+          "description": "Sie haben ETWAS, aber es reicht nicht. Sie lassen massiven Wert auf dem Tisch liegen. Ihr Team ist nicht ausgerichtet. Ressourcen sind verstreut.",
+          "recommendation": "Sie müssen Ihre Vision klären und stärken. Sie haben die Basis, aber Sie brauchen PRÄZISION."
+        },
+        "clarity": {
+          "title": "Sie haben SIGNIFIKANTE KLARHEIT",
+          "description": "Sie sind besser als 80% der Unternehmer. Aber es gibt noch Raum, Ihre Wirkung zu MULTIPLIZIEREN. Kleine Verbesserungen in der Klarheit = MASSIVE Verbesserungen in den Ergebnissen.",
+          "recommendation": "Verfeinern Sie Ihre Vision, um das Niveau transformativer Unternehmen zu erreichen. Sie sind nahe am nächsten Level."
+        }
+      },
+      "costs": {
+        "title": "Konservative jährliche Kosten Ihrer fehlenden Vision:",
+        "indecision": "Kosten der Unentschlossenheit/Jahr:",
+        "wastedBudget": "Verschwendetes Budget für falsche Dinge:",
+        "lostOpportunities": "Verlorene Chancen:",
+        "total": "KONSERVATIVER GESAMT/JAHR:",
+        "note": "Das ist, was Sie Ihre mangelnde Klarheit KOSTET. Nicht in ihre Erstellung zu investieren."
+      },
+      "roi": {
+        "title": "Potenzieller ROI",
+        "description": "Multiplikator bei ABSOLUTER Klarheit:",
+        "value": "{multiplier}x",
+        "explanation": "Basierend auf dem Muster von Unternehmen, die von 'kompetenter Ausführung' zu 'klarer Vision + kompetenter Ausführung' übergingen."
+      },
+      "cta": {
+        "title": "Bereit, Ihre klare Vision zu erstellen?",
+        "description": "Schalten Sie das vollständige Modul (8 Komponenten) frei und erstellen Sie Ihr Unternehmensvisionsdokument",
+        "button": "Foundation-Modul freischalten - $10",
+        "alternative": "Oder fahren Sie mit Komponente 1 fort",
+        "continueButton": "Komponente 1 abschließen (Kostenlos)"
+      }
+    },
+    "navigation": {
+      "previous": "Zurück",
+      "next": "Weiter",
+      "complete": "Komponente abschließen"
     }
   }
 }

@@ -7,71 +7,71 @@
     "cases": "Cas",
     "howItWorks": "Comment ça marche",
     "pricing": "Tarifs",
-    "login": "Connexion",
+    "login": "Se connecter",
     "signup": "S'inscrire",
     "getStarted": "Commencer"
   },
   "hero": {
-    "badge": "Lancement Mondial - 16 Langues",
-    "headline": "Une Vision Claire fait la Différence entre Grandir et",
-    "highlightText": "Transformer votre Industrie",
-    "subheadline": "Découvrez comment des entreprises comme Amazon, Tesla et Apple ont construit des visions qui ont guidé chaque décision pendant des décennies. C'est maintenant votre tour.",
+    "badge": "Lancement mondial - 16 langues",
+    "headline": "Une vision claire fait la différence entre grandir et",
+    "highlightText": "Transformer votre industrie",
+    "subheadline": "Apprenez comment des entreprises comme Amazon, Tesla et Apple ont construit des visions qui ont guidé chaque décision pendant des décennies. C'est maintenant votre tour.",
     "cta": {
-      "primary": "Créer ma Vision",
-      "secondary": "Voir les Success Stories"
+      "primary": "Créer ma vision",
+      "secondary": "Voir les success stories"
     },
-    "casesLabel": "16 Études de Cas Réelles"
+    "casesLabel": "16 études de cas réelles"
   },
   "features": {
     "title": "Comment ça marche",
     "subtitle": "Un système éprouvé dans 15 entreprises transformatrices",
     "feature1": {
-      "title": "Apprenez des Meilleurs",
-      "description": "Des cas réels d'entreprises qui ont changé des industries entières grâce à leur vision claire dès le premier jour."
+      "title": "Apprenez des meilleurs",
+      "description": "Cas réels d'entreprises qui ont changé des industries entières grâce à leur vision claire dès le premier jour."
     },
     "feature2": {
-      "title": "Créez votre Vision",
+      "title": "Créez votre vision",
       "description": "Système à 8 composants qui vous guide étape par étape pour construire une vision cristalline et inébranlable."
     },
     "feature3": {
-      "title": "Maintenez le Cap",
+      "title": "Maintenez le cap",
       "description": "Outils et frameworks pour que votre vision guide chaque décision stratégique pendant des années."
     }
   },
   "pricing": {
-    "title": "Commencez Aujourd'hui",
-    "subtitle": "Choisissez le plan adapté à votre étape",
+    "title": "Commencez aujourd'hui",
+    "subtitle": "Choisissez le plan qui correspond à votre étape",
     "free": {
       "name": "Gratuit",
       "price": "$0",
       "description": "Explorez le système et le Composant 1",
       "feature1": "Accès aux études de cas",
-      "feature2": "Composant 1 : Importance",
+      "feature2": "Composant 1: Importance",
       "feature3": "Calculateur de ROI",
-      "cta": "Commencer Gratuitement"
+      "cta": "Commencer gratuitement"
     },
     "foundation": {
       "name": "Foundation Module",
       "price": "$10",
       "period": "paiement unique",
-      "badge": "Le Plus Populaire",
+      "badge": "Le plus populaire",
       "description": "Créez votre vision complète en 8 étapes",
-      "feature1": "Tout dans Gratuit +",
+      "feature1": "Tout en Gratuit +",
       "feature2": "8 composants complets",
       "feature3": "Document final généré",
       "feature4": "Accès à vie",
-      "cta": "Débloquer Maintenant"
+      "cta": "Débloquer maintenant"
     },
     "pro": {
       "name": "Visionari Pro",
       "price": "$29",
       "period": "/mois",
       "description": "Coach IA pour exécuter votre vision",
-      "feature1": "Tout dans Foundation +",
+      "feature1": "Tout en Foundation +",
       "feature2": "Coach IA personnalisé",
       "feature3": "Suivi des progrès",
       "feature4": "Mises à jour continues",
-      "cta": "Bientôt - Avril 2026"
+      "cta": "Bientôt disponible - Avril 2026"
     }
   },
   "footer": {
@@ -79,7 +79,7 @@
     "sections": {
       "product": {
         "title": "Produit",
-        "link1": "Études de Cas",
+        "link1": "Études de cas",
         "link2": "Comment ça marche",
         "link3": "Tarifs"
       },
@@ -100,27 +100,193 @@
   },
   "dashboard": {
     "welcome": "Bienvenue, {name}!",
-    "subtitle": "Continuez à bâtir votre vision d'entreprise",
+    "subtitle": "Continuez à construire votre vision d'entreprise",
     "logout": "Déconnexion",
     "progress": "Progrès",
     "componentsCompleted": "Composants terminés",
-    "timeInvested": "Temps Investi",
+    "timeInvested": "Temps investi",
     "hoursTotal": "sur 48 heures au total",
-    "accessLevel": "Niveau d'Accès",
-    "upgradeToUnlock": "Améliorez pour tout débloquer",
-    "yourVisionComponents": "Vos Composants de Vision",
+    "accessLevel": "Niveau d'accès",
+    "upgradeToUnlock": "Mettez à niveau pour tout débloquer",
+    "yourVisionComponents": "Vos composants de vision",
     "readyToComplete": "Prêt à compléter votre vision?",
-    "unlockAll": "Débloquez les 8 composants pour seulement 10$ et créez votre document complet de Vision d'Entreprise",
-    "unlockButton": "Débloquer le Module Complet - 10$",
+    "unlockAll": "Débloquez les 8 composants pour seulement $10 et créez votre document complet de Vision d'Entreprise",
+    "unlockButton": "Débloquer le module complet - $10",
     "components": {
-      "1": "Votre Objectif Profond",
-      "2": "Vision Claire",
-      "3": "Objectifs Tangibles",
-      "4": "Stratégie Proactive",
-      "5": "Ambition Audacieuse",
-      "6": "Engagement Inébranlable",
-      "7": "Énergie Contagieuse",
-      "8": "Document Complet"
+      "1": "Votre objectif profond",
+      "2": "Vision claire",
+      "3": "Objectifs tangibles",
+      "4": "Stratégie proactive",
+      "5": "Ambition audacieuse",
+      "6": "Engagement inébranlable",
+      "7": "Énergie contagieuse",
+      "8": "Document complet"
+    }
+  },
+  "component1": {
+    "title": "Composant 1: L'importance d'une vision claire",
+    "section1": {
+      "title": "Pourquoi 80% des startups échouent",
+      "subtitle": "Le problème caché",
+      "intro": "Ce n'est pas par manque d'effort. Ce n'est pas le produit. Ni même le financement.",
+      "problem": "La plupart des entrepreneurs travaillent aussi dur que les plus performants. Ils sont intelligents. Ils sont engagés. Ils exécutent.",
+      "question": "Alors pourquoi 80% échouent pendant que des entreprises comme Amazon, Tesla et Apple transforment des industries entières?",
+      "answer": "La différence n'est pas dans l'exécution. Elle est dans la VISION."
+    },
+    "section2": {
+      "title": "Les 5 symptômes du manque de vision",
+      "intro": "Vous savez qu'il vous manque une vision claire quand vous faites l'expérience de:",
+      "symptom1": {
+        "title": "Paralysie par l'analyse",
+        "description": "Vous passez des semaines à 'valider' des idées mais n'avancez jamais. Chaque décision nécessite une autre réunion, une autre analyse, un autre avis."
+      },
+      "symptom2": {
+        "title": "Pivots constants",
+        "description": "Vous changez de direction chaque trimestre. 'Peut-être devrions-nous nous concentrer sur le B2B... non, attendez, le B2C est mieux... en fait, et si on faisait une marketplace...?'"
+      },
+      "symptom3": {
+        "title": "Dispersion des ressources",
+        "description": "Votre budget, temps et équipe sont répartis entre 10 initiatives différentes. Rien ne reçoit l'attention nécessaire pour vraiment fonctionner."
+      },
+      "symptom4": {
+        "title": "Fatigue mentale constante",
+        "description": "Vous vous réveillez chaque jour en vous demandant si vous travaillez sur la bonne chose. L'incertitude draine plus d'énergie que le travail lui-même."
+      },
+      "symptom5": {
+        "title": "Pitch interminable",
+        "description": "Vous ne pouvez pas expliquer ce que vous faites en moins de 5 minutes. Et même alors, les gens ne 'comprennent' pas. Parce que vous-même n'êtes pas 100% clair."
+      },
+      "recognition": "Ça vous dit quelque chose? Vous n'êtes pas seul. C'est la norme, pas l'exception."
+    },
+    "section3": {
+      "title": "Le modèle universel: Vision vs réponse au marché",
+      "intro": "Voici ce que personne ne vous dit:",
+      "comparison": {
+        "title": "La comparaison brutale",
+        "withoutVision": {
+          "title": "Entreprises SANS vision claire dès le jour 1:",
+          "features": [
+            "Bons produits",
+            "Travail acharné",
+            "Exécution compétente",
+            "Pas de cap clair"
+          ],
+          "result": "Croissance linéaire prévisible",
+          "ceiling": "Plafond de revenus: $50-200M"
+        },
+        "withVision": {
+          "title": "Entreprises AVEC vision BHAG dès le jour 1:",
+          "features": [
+            "Bons produits (comme les autres)",
+            "Travail acharné (comme les autres)",
+            "Exécution compétente (comme les autres)",
+            "VISION CLAIRE qui guide TOUT"
+          ],
+          "result": "Croissance exponentielle imprévisible",
+          "ceiling": "Revenus sans plafond: $1B-$100B+"
+        }
+      },
+      "difference": {
+        "title": "LA DIFFÉRENCE N'EST PAS:",
+        "notFactors": [
+          "Plus de capital initial (beaucoup ont commencé sans investissement)",
+          "Meilleur produit (les concurrents avaient des produits comparables)",
+          "Chance ou timing (ils ont fait face à des crises massives)",
+          "Connexions (beaucoup ont commencé comme outsiders)"
+        ],
+        "realDifference": "LA DIFFÉRENCE EST:",
+        "factors": [
+          "VISION CLAIRE dès le jour 1",
+          "BHAG qui a guidé chaque décision pendant des décennies",
+          "But plus grand que le gain personnel"
+        ]
+      },
+      "multiplier": "Modèle validé dans 15 entreprises. Le multiplicateur va de 150x à 4000x de valorisation supérieure."
+    },
+    "section4": {
+      "title": "Calculateur: Combien vous coûte le fait de NE PAS avoir de vision claire?",
+      "subtitle": "Répondez honnêtement. Personne d'autre ne voit cela.",
+      "scale": "Échelle 1-10 où 1 = 'totalement confus' et 10 = 'clarté cristalline'",
+      "questions": {
+        "clarity": {
+          "label": "1. Clarté de la vision",
+          "description": "À quel point votre vision d'entreprise est-elle claire?",
+          "scaleMin": "1 - Totalement confus",
+          "scaleMax": "10 - Clarté absolue"
+        },
+        "decisionSpeed": {
+          "label": "2. Vitesse des décisions stratégiques",
+          "description": "À quelle vitesse prenez-vous des décisions stratégiques?",
+          "scaleMin": "1 - Paralysie par l'analyse",
+          "scaleMax": "10 - Clarté instantanée"
+        },
+        "teamAlignment": {
+          "label": "3. Alignement de l'équipe",
+          "description": "À quel point votre équipe est-elle alignée avec la vision?",
+          "scaleMin": "1 - Tous confus",
+          "scaleMax": "10 - Alignement total"
+        },
+        "resourceFocus": {
+          "label": "4. Concentration des ressources",
+          "description": "À quel point vos ressources sont-elles concentrées sur la vision?",
+          "scaleMin": "1 - Dispersion totale",
+          "scaleMax": "10 - Concentration laser"
+        },
+        "sustainedEnergy": {
+          "label": "5. Énergie soutenue",
+          "description": "Comment vous fait sentir le travail sur votre entreprise?",
+          "scaleMin": "1 - M'épuise",
+          "scaleMax": "10 - M'énergise"
+        }
+      },
+      "button": "Voir mon résultat"
+    },
+    "section5": {
+      "title": "Vos résultats personnalisés",
+      "average": "Votre moyenne:",
+      "interpretation": {
+        "critical": {
+          "title": "ZONE DE RISQUE CRITIQUE",
+          "description": "Votre manque de clarté vous coûte BRUTALEMENT. Chaque jour sans vision est un jour de ressources gaspillées et d'opportunités perdues.",
+          "recommendation": "URGENT: Vous devez créer votre vision MAINTENANT. Le coût de continuer ainsi est insoutenable."
+        },
+        "wasted": {
+          "title": "ZONE DE POTENTIEL GASPILLÉ",
+          "description": "Vous avez QUELQUE CHOSE, mais ce n'est pas suffisant. Vous laissez une valeur massive sur la table. Votre équipe n'est pas alignée. Les ressources sont dispersées.",
+          "recommendation": "Vous devez clarifier et renforcer votre vision. Vous avez la base, mais vous avez besoin de PRÉCISION."
+        },
+        "clarity": {
+          "title": "Vous avez une CLARTÉ SIGNIFICATIVE",
+          "description": "Vous êtes mieux que 80% des entrepreneurs. Mais il y a encore de la place pour MULTIPLIER votre impact. De petites améliorations en clarté = AMÉLIORATIONS MASSIVES en résultats.",
+          "recommendation": "Affinez votre vision pour atteindre le niveau des entreprises transformatrices. Vous êtes proche du niveau suivant."
+        }
+      },
+      "costs": {
+        "title": "Coût annuel conservateur de votre manque de vision:",
+        "indecision": "Coût de l'indécision/an:",
+        "wastedBudget": "Budget gaspillé sur les mauvaises choses:",
+        "lostOpportunities": "Opportunités perdues:",
+        "total": "TOTAL CONSERVATEUR/AN:",
+        "note": "C'est ce que vous COÛTE votre manque de clarté. Ne pas investir dans sa création."
+      },
+      "roi": {
+        "title": "ROI potentiel",
+        "description": "Multiplicateur si vous aviez une clarté ABSOLUE:",
+        "value": "{multiplier}x",
+        "explanation": "Basé sur le modèle d'entreprises qui sont passées d'une 'exécution compétente' à 'vision claire + exécution compétente'."
+      },
+      "cta": {
+        "title": "Prêt à créer votre vision claire?",
+        "description": "Débloquez le module complet (8 composants) et créez votre document de Vision d'Entreprise",
+        "button": "Débloquer le module Foundation - $10",
+        "alternative": "Ou continuez avec le Composant 1",
+        "continueButton": "Compléter le Composant 1 (Gratuit)"
+      }
+    },
+    "navigation": {
+      "previous": "Précédent",
+      "next": "Suivant",
+      "complete": "Compléter le composant"
     }
   }
 }
