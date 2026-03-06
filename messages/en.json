@@ -5,7 +5,7 @@
   },
   "nav": {
     "cases": "Cases",
-    "howItWorks": "How It Works",
+    "howItWorks": "How it Works",
     "pricing": "Pricing",
     "login": "Log In",
     "signup": "Sign Up",
@@ -24,30 +24,30 @@
   },
   "features": {
     "title": "How It Works",
-    "subtitle": "A proven system in 15 transformative companies",
+    "subtitle": "System proven across 15 transformational companies",
     "feature1": {
-      "title": "Learn from the Best",
-      "description": "Real cases of companies that changed entire industries thanks to their clear vision from day one."
+      "title": "Learn from the best",
+      "description": "Real cases of companies that changed entire industries thanks to a clear vision from day one."
     },
     "feature2": {
-      "title": "Create Your Vision",
-      "description": "8-component system that guides you step by step to build a crystal-clear and unwavering vision."
+      "title": "Create your vision",
+      "description": "8-component system that guides you step-by-step to build a crystal-clear and unwavering vision."
     },
     "feature3": {
-      "title": "Maintain Focus",
+      "title": "Stay focused",
       "description": "Tools and frameworks so your vision guides every strategic decision for years."
     }
   },
   "pricing": {
     "title": "Start Today",
-    "subtitle": "Choose the plan that fits your stage",
+    "subtitle": "Choose the plan for your stage",
     "free": {
       "name": "Free",
       "price": "$0",
       "description": "Explore the system and Component 1",
       "feature1": "Access to case studies",
       "feature2": "Component 1: Importance",
-      "feature3": "ROI Calculator",
+      "feature3": "ROI calculator",
       "cta": "Start Free"
     },
     "foundation": {
@@ -57,8 +57,8 @@
       "badge": "Most Popular",
       "description": "Create your complete vision in 8 steps",
       "feature1": "Everything in Free +",
-      "feature2": "8 complete components",
-      "feature3": "Final document generated",
+      "feature2": "8 Complete components",
+      "feature3": "Generated final document",
       "feature4": "Lifetime access",
       "cta": "Unlock Now"
     },
@@ -66,9 +66,9 @@
       "name": "Visionari Pro",
       "price": "$29",
       "period": "/month",
-      "description": "AI Coach to execute your vision",
+      "description": "AI coach to execute your vision",
       "feature1": "Everything in Foundation +",
-      "feature2": "Personalized AI Coach",
+      "feature2": "Personalized AI coach",
       "feature3": "Progress tracking",
       "feature4": "Continuous updates",
       "cta": "Coming Soon - April 2026"
@@ -85,7 +85,7 @@
       },
       "company": {
         "title": "Company",
-        "link1": "About",
+        "link1": "About Us",
         "link2": "Blog",
         "link3": "Contact"
       },
@@ -101,17 +101,17 @@
   "dashboard": {
     "welcome": "Welcome back, {name}!",
     "subtitle": "Continue building your business vision",
-    "logout": "Logout",
+    "logout": "Log Out",
     "progress": "Progress",
     "componentsCompleted": "Components completed",
     "timeInvested": "Time Invested",
     "hoursTotal": "of 48 hours total",
     "accessLevel": "Access Level",
-    "upgradeToUnlock": "Upgrade to unlock all",
+    "upgradeToUnlock": "Upgrade to unlock everything",
     "yourVisionComponents": "Your Vision Components",
     "readyToComplete": "Ready to complete your vision?",
-    "unlockAll": "Unlock all 8 components for only $10 and create your complete Business Vision document",
-    "unlockButton": "Unlock Foundation Module - $10",
+    "unlockAll": "Unlock all 8 components for just $10 and create your complete Business Vision document",
+    "unlockButton": "Unlock Full Module - $10",
     "components": {
       "1": "Your Deep Purpose",
       "2": "Clear Vision",
@@ -121,54 +121,6 @@
       "6": "Unwavering Commitment",
       "7": "Contagious Energy",
       "8": "Complete Document"
-    }
-  },
-    "section5": {
-      "title": "Your Personalized Results",
-      "average": "Your average:",
-      "interpretation": {
-        "critical": {
-          "title": "CRITICAL RISK ZONE",
-          "description": "Your lack of clarity is costing you BRUTALLY. Every day without vision is a day of wasted resources and lost opportunities.",
-          "recommendation": "URGENT: You need to create your vision NOW. The cost of continuing like this is unsustainable."
-        },
-        "wasted": {
-          "title": "WASTED POTENTIAL ZONE",
-          "description": "You have SOMETHING, but it's not enough. You're leaving massive value on the table. Your team isn't aligned. Resources are scattered.",
-          "recommendation": "You need to clarify and strengthen your vision. You have the foundation, but you need PRECISION."
-        },
-        "clarity": {
-          "title": "You Have SIGNIFICANT CLARITY",
-          "description": "You're better than 80% of entrepreneurs. But there's still room to MULTIPLY your impact. Small improvements in clarity = MASSIVE improvements in results.",
-          "recommendation": "Refine your vision to reach the level of transformative companies. You're close to the next level."
-        }
-      },
-      "costs": {
-        "title": "Conservative Annual Cost of Your Lack of Vision:",
-        "indecision": "Cost of indecision/year:",
-        "wastedBudget": "Wasted budget on wrong things:",
-        "lostOpportunities": "Lost opportunities:",
-        "total": "CONSERVATIVE TOTAL/YEAR:",
-        "note": "This is what your LACK of clarity costs you. Not investing in creating it."
-      },
-      "roi": {
-        "title": "Potential ROI",
-        "description": "Multiplier if you had ABSOLUTE clarity:",
-        "value": "{multiplier}x",
-        "explanation": "Based on the pattern of companies that went from 'competent execution' to 'clear vision + competent execution'."
-      },
-      "cta": {
-        "title": "Ready to Create Your Clear Vision?",
-        "description": "Unlock the complete module (8 components) and create your Business Vision document",
-        "button": "Unlock Foundation Module - $10",
-        "alternative": "Or continue with Component 1",
-        "continueButton": "Complete Component 1 (Free)"
-      }
-    },
-    "navigation": {
-      "previous": "Previous",
-      "next": "Next",
-      "complete": "Complete Component"
     }
   }
 }
