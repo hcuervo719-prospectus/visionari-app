@@ -4,123 +4,192 @@
     "tagline": "Bygg visjonen som vil transformere virksomheten din"
   },
   "nav": {
-    "cases": "Caser",
-    "howItWorks": "Slik fungerer det",
+    "cases": "Saker",
+    "howItWorks": "Hvordan det fungerer",
     "pricing": "Priser",
     "login": "Logg inn",
     "signup": "Registrer deg",
     "getStarted": "Kom i gang"
   },
   "hero": {
-    "badge": "Global lansering - 16 språk",
-    "headline": "Klar visjon er forskjellen mellom å vokse og",
-    "highlightText": "Transformere din industri",
+    "badge": "Global Lansering - 16 Språk",
+    "headline": "Klar Visjon er Forskjellen Mellom å Vokse og",
+    "highlightText": "Transformere Industrien Din",
     "subheadline": "Lær hvordan selskaper som Amazon, Tesla og Apple bygde visjoner som veiledet hver beslutning i tiår. Nå er det din tur.",
     "cta": {
-      "primary": "Lag min visjon",
-      "secondary": "Se suksesshistorier"
+      "primary": "Lag Min Visjon",
+      "secondary": "Se Suksesshistorier"
     },
-    "casesLabel": "16 virkelige casestudier"
-  },
-  "features": {
-    "title": "Slik fungerer det",
-    "subtitle": "Et bevist system i 15 transformative selskaper",
-    "feature1": {
-      "title": "Lær av de beste",
-      "description": "Virkelige caser av selskaper som endret hele bransjer takket være deres klare visjon fra dag én."
-    },
-    "feature2": {
-      "title": "Lag din visjon",
-      "description": "8-komponents system som veileder deg trinn for trinn for å bygge en krystallklar og urokkelig visjon."
-    },
-    "feature3": {
-      "title": "Behold fokus",
-      "description": "Verktøy og rammeverk slik at din visjon veileder hver strategisk beslutning i årevis."
-    }
-  },
-  "pricing": {
-    "title": "Start i dag",
-    "subtitle": "Velg planen som passer din fase",
-    "free": {
-      "name": "Gratis",
-      "price": "$0",
-      "description": "Utforsk systemet og Komponent 1",
-      "feature1": "Tilgang til casestudier",
-      "feature2": "Komponent 1: Viktighet",
-      "feature3": "ROI-kalkulator",
-      "cta": "Start gratis"
-    },
-    "foundation": {
-      "name": "Foundation Module",
-      "price": "$10",
-      "period": "engangsbeløp",
-      "badge": "Mest populær",
-      "description": "Lag din komplette visjon i 8 trinn",
-      "feature1": "Alt i Gratis +",
-      "feature2": "8 komplette komponenter",
-      "feature3": "Endelig dokument generert",
-      "feature4": "Livstidstilgang",
-      "cta": "Lås opp nå"
-    },
-    "pro": {
-      "name": "Visionari Pro",
-      "price": "$29",
-      "period": "/måned",
-      "description": "AI-coach for å gjennomføre din visjon",
-      "feature1": "Alt i Foundation +",
-      "feature2": "Personlig AI-coach",
-      "feature3": "Fremgangssporing",
-      "feature4": "Kontinuerlige oppdateringer",
-      "cta": "Kommer snart - april 2026"
-    }
-  },
-  "footer": {
-    "tagline": "Transformer virksomheten din med klar visjon",
-    "sections": {
-      "product": {
-        "title": "Produkt",
-        "link1": "Casestudier",
-        "link2": "Slik fungerer det",
-        "link3": "Priser"
-      },
-      "company": {
-        "title": "Selskap",
-        "link1": "Om oss",
-        "link2": "Blogg",
-        "link3": "Kontakt"
-      },
-      "legal": {
-        "title": "Juridisk",
-        "link1": "Personvern",
-        "link2": "Vilkår",
-        "link3": "Informasjonskapsler"
-      }
-    },
-    "copyright": "© 2026 Visionari. Alle rettigheter reservert."
+    "casesLabel": "16 Virkelige Casestudier"
   },
   "dashboard": {
     "welcome": "Velkommen tilbake, {name}!",
-    "subtitle": "Fortsett å bygge din forretningsvision",
+    "subtitle": "Fortsett å bygge din forretningsvisjon",
     "logout": "Logg ut",
     "progress": "Fremgang",
     "componentsCompleted": "Fullførte komponenter",
-    "timeInvested": "Investert tid",
+    "timeInvested": "Investert Tid",
     "hoursTotal": "av totalt 48 timer",
     "accessLevel": "Tilgangsnivå",
     "upgradeToUnlock": "Oppgrader for å låse opp alt",
-    "yourVisionComponents": "Dine visjonskomponenter",
-    "readyToComplete": "Klar til å fullføre din visjon?",
-    "unlockAll": "Lås opp alle 8 komponenter for bare $10 og lag ditt komplette forretningsvisjonsdokument",
-    "unlockButton": "Lås opp komplett modul - $10",
+    "yourVisionComponents": "Dine Visjonskomponenter",
+    "unlockButton": "Lås opp fullstendig modul - $10",
     "components": {
-      "1": "Ditt dype formål",
-      "2": "Klar visjon",
-      "3": "Håndgripelige mål",
-      "4": "Proaktiv strategi",
-      "5": "Utfordrende ambisjon",
-      "6": "Urokkelig engasjement",
-      "7": "Smittsom energi",
-      "8": "Komplett dokument"
+      "1": "Ditt Dype Formål",
+      "2": "Klar Visjon",
+      "3": "Konkrete Mål",
+      "4": "Proaktiv Strategi",
+      "5": "Utfordrende Ambisjon",
+      "6": "Urokkelig Forpliktelse",
+      "7": "Smittsom Energi",
+      "8": "Komplett Dokument"
+    }
+  },
+  "component1": {
+    "title": "Komponent 1: Viktigheten av Klar Visjon",
+    "section1": {
+      "title": "Hvorfor 80% av Oppstarter Mislykkes",
+      "subtitle": "Det Skjulte Problemet",
+      "intro": "Det handler ikke om mangel på innsats. Ikke om produktet. Ikke engang om finansiering.",
+      "problem": "De fleste gründere jobber like hardt som de mest vellykkede. De er smarte. De er engasjerte. De utfører.",
+      "question": "Så hvorfor mislykkes 80% mens selskaper som Amazon, Tesla og Apple transformerer hele industrier?",
+      "answer": "Forskjellen ligger ikke i utførelsen. Den ligger i VISJONEN."
+    },
+    "section2": {
+      "title": "De 5 Symptomene på Mangel på Visjon",
+      "intro": "Du vet at du mangler klar visjon når du opplever:",
+      "symptom1": {
+        "title": "Analyselammelse",
+        "description": "Du bruker uker på å 'validere' ideer men går aldri videre. Hver beslutning krever et nytt møte, en ny analyse, en ny mening."
+      },
+      "symptom2": {
+        "title": "Konstante Pivoter",
+        "description": "Du endrer retning hvert kvartal. 'Kanskje vi burde fokusere på B2B... nei, vent, B2C er bedre... faktisk, hva om vi gjør en markedsplass...?'"
+      },
+      "symptom3": {
+        "title": "Spredning av Ressurser",
+        "description": "Budsjettet, tiden og teamet ditt er spredt over 10 forskjellige initiativer. Ingenting får oppmerksomheten det trenger for å virkelig fungere."
+      },
+      "symptom4": {
+        "title": "Konstant Mental Tretthet",
+        "description": "Du våkner hver dag og lurer på om du jobber med riktig ting. Usikkerheten drenerer mer energi enn selve arbeidet."
+      },
+      "symptom5": {
+        "title": "Endeløs Pitch",
+        "description": "Du kan ikke forklare hva du gjør på mindre enn 5 minutter. Og selv da 'forstår' folk ikke. Fordi du selv ikke er 100% klar."
+      },
+      "recognition": "Høres kjent ut? Du er ikke alene. Dette er normen, ikke unntaket."
+    },
+    "section3": {
+      "title": "Det Universelle Mønsteret: Visjon vs Markedsrespons",
+      "intro": "Dette er det ingen forteller deg:",
+      "comparison": {
+        "title": "Den Brutale Sammenligningen",
+        "withoutVision": {
+          "title": "Selskaper UTEN Klar Visjon fra Dag 1:",
+          "features": "✅ Gode produkter|✅ Hardt arbeid|✅ Kompetent utførelse|❌ Ingen klar retning",
+          "result": "Forutsigbar lineær vekst",
+          "ceiling": "Inntektstak: $50-200M"
+        },
+        "withVision": {
+          "title": "Selskaper MED BHAG Visjon fra Dag 1:",
+          "features": "✅ Gode produkter (akkurat som andre)|✅ Hardt arbeid (akkurat som andre)|✅ Kompetent utførelse (akkurat som andre)|✅✅✅ KLAR VISJON som styrer ALT",
+          "result": "Uforutsigbar eksponensiell vekst",
+          "ceiling": "Inntekter uten tak: $1B-$100B+"
+        }
+      },
+      "difference": {
+        "title": "FORSKJELLEN ER IKKE:",
+        "notFactors": "Mer startkapital (mange startet uten investering)|Bedre produkt (konkurrenter hadde sammenlignbare produkter)|Flaks eller timing (de møtte massive kriser)|Forbindelser (mange startet som outsidere)",
+        "realDifference": "FORSKJELLEN ER:",
+        "factors": "KLAR VISJON fra dag 1|BHAG som veiledet hver beslutning i tiår|Formål større enn personlig gevinst"
+      },
+      "multiplier": "Mønster validert i 15 selskaper. Multiplikatoren varierer fra 150x til 4000x høyere verdsettelse."
+    },
+    "section4": {
+      "title": "Kalkulator: Hvor Mye Koster Det å IKKE Ha Klar Visjon?",
+      "subtitle": "Svar ærlig. Ingen andre ser dette.",
+      "scale": "Skala 1-10 hvor 1 = 'totalt forvirret' og 10 = 'krystallklar klarhet'",
+      "questions": {
+        "clarity": {
+          "label": "1. Visjonsklarhet",
+          "description": "Hvor klar er din forretningsvisjon?",
+          "scaleMin": "1 - Totalt forvirret",
+          "scaleMax": "10 - Absolutt klarhet"
+        },
+        "decisionSpeed": {
+          "label": "2. Hastighet på Strategiske Beslutninger",
+          "description": "Hvor raskt tar du strategiske beslutninger?",
+          "scaleMin": "1 - Analyselammelse",
+          "scaleMax": "10 - Umiddelbar klarhet"
+        },
+        "teamAlignment": {
+          "label": "3. Teamjustering",
+          "description": "Hvor justert er teamet ditt med visjonen?",
+          "scaleMin": "1 - Alle forvirret",
+          "scaleMax": "10 - Total justering"
+        },
+        "resourceFocus": {
+          "label": "4. Ressursfokus",
+          "description": "Hvor fokuserte er ressursene dine på visjonen?",
+          "scaleMin": "1 - Total spredning",
+          "scaleMax": "10 - Laserfokus"
+        },
+        "sustainedEnergy": {
+          "label": "5. Vedvarende Energi",
+          "description": "Hvordan får arbeid med virksomheten din deg til å føle?",
+          "scaleMin": "1 - Tømmer meg",
+          "scaleMax": "10 - Gir meg energi"
+        }
+      },
+      "button": "Se Mitt Resultat"
+    },
+    "section5": {
+      "title": "Dine Personlige Resultater",
+      "average": "Ditt gjennomsnitt:",
+      "interpretation": {
+        "critical": {
+          "title": "KRITISK RISIKOSONE",
+          "description": "Din mangel på klarhet koster deg BRUTALT. Hver dag uten visjon er en dag med sløste ressurser og tapte muligheter.",
+          "recommendation": "HASTER: Du må lage din visjon NÅ. Kostnaden ved å fortsette slik er uholdbar."
+        },
+        "wasted": {
+          "title": "SONE FOR BORTKASTET POTENSIAL",
+          "description": "Du har NOE, men det er ikke nok. Du legger igjen massiv verdi på bordet. Teamet ditt er ikke justert. Ressursene er spredt.",
+          "recommendation": "Du må tydeliggjøre og styrke visjonen din. Du har grunnlaget, men du trenger PRESISJON."
+        },
+        "clarity": {
+          "title": "Du Har BETYDELIG KLARHET",
+          "description": "Du er bedre enn 80% av gründere. Men det er fortsatt rom for å MULTIPLISERE påvirkningen din. Små forbedringer i klarhet = MASSIVE forbedringer i resultater.",
+          "recommendation": "Finjuster visjonen din for å nå nivået til transformative selskaper. Du er nær neste nivå."
+        }
+      },
+      "costs": {
+        "title": "Konservativ Årlig Kostnad for Din Mangel på Visjon:",
+        "indecision": "Kostnad for ubesluttsomhet/år:",
+        "wastedBudget": "Bortkastet budsjett på feil ting:",
+        "lostOpportunities": "Tapte muligheter:",
+        "total": "KONSERVATIV TOTALT/ÅR:",
+        "note": "Dette er hva din mangel på klarhet KOSTER deg. Ikke å investere i å skape den."
+      },
+      "roi": {
+        "title": "Potensiell ROI",
+        "description": "Multiplikator hvis du hadde ABSOLUTT klarhet:",
+        "value": "{multiplier}x",
+        "explanation": "Basert på mønsteret til selskaper som gikk fra 'kompetent utførelse' til 'klar visjon + kompetent utførelse'."
+      },
+      "cta": {
+        "title": "Klar til å Lage Din Klare Visjon?",
+        "description": "Lås opp hele modulen (8 komponenter) og lag ditt Forretningsvisionsdokument",
+        "button": "Lås opp Foundation-modul - $10",
+        "alternative": "Eller fortsett med Komponent 1",
+        "continueButton": "Fullfør Komponent 1 (Gratis)"
+      }
+    },
+    "navigation": {
+      "previous": "Forrige",
+      "next": "Neste",
+      "complete": "Fullfør Komponent"
     }
   }
 }

@@ -13,90 +13,14 @@
   },
   "hero": {
     "badge": "Peluncuran Global - 16 Bahasa",
-    "headline": "Visi Jelas adalah Perbedaan antara Tumbuh dan",
+    "headline": "Visi Yang Jelas Adalah Perbedaan Antara Berkembang dan",
     "highlightText": "Mengubah Industri Anda",
-    "subheadline": "Pelajari bagaimana perusahaan seperti Amazon, Tesla, dan Apple membangun visi yang memandu setiap keputusan selama beberapa dekade. Sekarang giliran Anda.",
+    "subheadline": "Pelajari bagaimana perusahaan seperti Amazon, Tesla, dan Apple membangun visi yang memandu setiap keputusan selama puluhan tahun. Sekarang giliran Anda.",
     "cta": {
       "primary": "Buat Visi Saya",
       "secondary": "Lihat Kisah Sukses"
     },
     "casesLabel": "16 Studi Kasus Nyata"
-  },
-  "features": {
-    "title": "Cara Kerja",
-    "subtitle": "Sistem terbukti di 15 perusahaan transformatif",
-    "feature1": {
-      "title": "Belajar dari yang Terbaik",
-      "description": "Kasus nyata perusahaan yang mengubah seluruh industri berkat visi jelas mereka sejak hari pertama."
-    },
-    "feature2": {
-      "title": "Buat Visi Anda",
-      "description": "Sistem 8 komponen yang memandu Anda langkah demi langkah untuk membangun visi yang kristal jernih dan teguh."
-    },
-    "feature3": {
-      "title": "Pertahankan Fokus",
-      "description": "Alat dan kerangka kerja agar visi Anda memandu setiap keputusan strategis selama bertahun-tahun."
-    }
-  },
-  "pricing": {
-    "title": "Mulai Hari Ini",
-    "subtitle": "Pilih paket yang sesuai dengan tahap Anda",
-    "free": {
-      "name": "Gratis",
-      "price": "$0",
-      "description": "Jelajahi sistem dan Komponen 1",
-      "feature1": "Akses ke studi kasus",
-      "feature2": "Komponen 1: Pentingnya",
-      "feature3": "Kalkulator ROI",
-      "cta": "Mulai Gratis"
-    },
-    "foundation": {
-      "name": "Foundation Module",
-      "price": "$10",
-      "period": "pembayaran sekali",
-      "badge": "Paling Populer",
-      "description": "Buat visi lengkap Anda dalam 8 langkah",
-      "feature1": "Semua di Gratis +",
-      "feature2": "8 komponen lengkap",
-      "feature3": "Dokumen akhir dihasilkan",
-      "feature4": "Akses seumur hidup",
-      "cta": "Buka Sekarang"
-    },
-    "pro": {
-      "name": "Visionari Pro",
-      "price": "$29",
-      "period": "/bulan",
-      "description": "AI Coach untuk menjalankan visi Anda",
-      "feature1": "Semua di Foundation +",
-      "feature2": "AI Coach yang dipersonalisasi",
-      "feature3": "Pelacakan kemajuan",
-      "feature4": "Pembaruan berkelanjutan",
-      "cta": "Segera Hadir - April 2026"
-    }
-  },
-  "footer": {
-    "tagline": "Ubah bisnis Anda dengan visi yang jelas",
-    "sections": {
-      "product": {
-        "title": "Produk",
-        "link1": "Studi Kasus",
-        "link2": "Cara Kerja",
-        "link3": "Harga"
-      },
-      "company": {
-        "title": "Perusahaan",
-        "link1": "Tentang",
-        "link2": "Blog",
-        "link3": "Kontak"
-      },
-      "legal": {
-        "title": "Legal",
-        "link1": "Privasi",
-        "link2": "Ketentuan",
-        "link3": "Cookie"
-      }
-    },
-    "copyright": "© 2026 Visionari. Hak cipta dilindungi."
   },
   "dashboard": {
     "welcome": "Selamat datang kembali, {name}!",
@@ -106,11 +30,9 @@
     "componentsCompleted": "Komponen selesai",
     "timeInvested": "Waktu Diinvestasikan",
     "hoursTotal": "dari total 48 jam",
-    "accessLevel": "Tingkat Akses",
+    "accessLevel": "Level Akses",
     "upgradeToUnlock": "Tingkatkan untuk membuka semua",
     "yourVisionComponents": "Komponen Visi Anda",
-    "readyToComplete": "Siap menyelesaikan visi Anda?",
-    "unlockAll": "Buka semua 8 komponen hanya dengan $10 dan buat dokumen Visi Bisnis lengkap Anda",
     "unlockButton": "Buka Modul Lengkap - $10",
     "components": {
       "1": "Tujuan Mendalam Anda",
@@ -118,9 +40,156 @@
       "3": "Tujuan Nyata",
       "4": "Strategi Proaktif",
       "5": "Ambisi Menantang",
-      "6": "Komitmen Teguh",
+      "6": "Komitmen Tak Tergoyahkan",
       "7": "Energi Menular",
       "8": "Dokumen Lengkap"
+    }
+  },
+  "component1": {
+    "title": "Komponen 1: Pentingnya Visi Yang Jelas",
+    "section1": {
+      "title": "Mengapa 80% Startup Gagal",
+      "subtitle": "Masalah Tersembunyi",
+      "intro": "Bukan tentang kurangnya usaha. Bukan tentang produk. Bahkan bukan tentang pendanaan.",
+      "problem": "Sebagian besar pengusaha bekerja sama kerasnya dengan yang paling sukses. Mereka pintar. Mereka berkomitmen. Mereka mengeksekusi.",
+      "question": "Lalu mengapa 80% gagal sementara perusahaan seperti Amazon, Tesla, dan Apple mengubah seluruh industri?",
+      "answer": "Perbedaannya bukan pada eksekusi. Pada VISI."
+    },
+    "section2": {
+      "title": "5 Gejala Kurangnya Visi",
+      "intro": "Anda tahu bahwa Anda kekurangan visi yang jelas ketika Anda mengalami:",
+      "symptom1": {
+        "title": "Kelumpuhan Analisis",
+        "description": "Anda menghabiskan berminggu-minggu 'memvalidasi' ide tetapi tidak pernah maju. Setiap keputusan memerlukan rapat lain, analisis lain, pendapat lain."
+      },
+      "symptom2": {
+        "title": "Pivot Konstan",
+        "description": "Anda mengubah arah setiap kuartal. 'Mungkin kita harus fokus pada B2B... tidak, tunggu, B2C lebih baik... sebenarnya, bagaimana jika kita buat marketplace...?'"
+      },
+      "symptom3": {
+        "title": "Penyebaran Sumber Daya",
+        "description": "Anggaran, waktu, dan tim Anda tersebar di 10 inisiatif berbeda. Tidak ada yang mendapat perhatian yang dibutuhkan untuk benar-benar berhasil."
+      },
+      "symptom4": {
+        "title": "Kelelahan Mental Konstan",
+        "description": "Anda bangun setiap hari bertanya-tanya apakah Anda mengerjakan hal yang benar. Ketidakpastian menguras lebih banyak energi daripada pekerjaan itu sendiri."
+      },
+      "symptom5": {
+        "title": "Pitch Tak Berujung",
+        "description": "Anda tidak bisa menjelaskan apa yang Anda lakukan dalam waktu kurang dari 5 menit. Dan bahkan saat itu, orang tidak 'mengerti'. Karena Anda sendiri tidak 100% jelas."
+      },
+      "recognition": "Terdengar familiar? Anda tidak sendirian. Ini adalah norma, bukan pengecualian."
+    },
+    "section3": {
+      "title": "Pola Universal: Visi vs Respons Pasar",
+      "intro": "Inilah yang tidak diberitahu siapa pun kepada Anda:",
+      "comparison": {
+        "title": "Perbandingan Brutal",
+        "withoutVision": {
+          "title": "Perusahaan TANPA Visi Jelas dari Hari 1:",
+          "features": "✅ Produk bagus|✅ Kerja keras|✅ Eksekusi kompeten|❌ Tidak ada arah yang jelas",
+          "result": "Pertumbuhan linier yang dapat diprediksi",
+          "ceiling": "Batas pendapatan: $50-200M"
+        },
+        "withVision": {
+          "title": "Perusahaan DENGAN Visi BHAG dari Hari 1:",
+          "features": "✅ Produk bagus (seperti yang lain)|✅ Kerja keras (seperti yang lain)|✅ Eksekusi kompeten (seperti yang lain)|✅✅✅ VISI JELAS yang memandu SEMUA",
+          "result": "Pertumbuhan eksponensial yang tidak dapat diprediksi",
+          "ceiling": "Pendapatan tanpa batas: $1B-$100B+"
+        }
+      },
+      "difference": {
+        "title": "PERBEDAANNYA BUKAN:",
+        "notFactors": "Lebih banyak modal awal (banyak yang memulai tanpa investasi)|Produk lebih baik (pesaing memiliki produk yang sebanding)|Keberuntungan atau waktu (mereka menghadapi krisis besar)|Koneksi (banyak yang memulai sebagai orang luar)",
+        "realDifference": "PERBEDAANNYA ADALAH:",
+        "factors": "VISI JELAS dari hari 1|BHAG yang memandu setiap keputusan selama puluhan tahun|Tujuan lebih besar dari keuntungan pribadi"
+      },
+      "multiplier": "Pola divalidasi di 15 perusahaan. Pengali berkisar dari 150x hingga 4000x valuasi lebih tinggi."
+    },
+    "section4": {
+      "title": "Kalkulator: Berapa Biaya TIDAK Memiliki Visi Yang Jelas?",
+      "subtitle": "Jawab dengan jujur. Tidak ada orang lain yang melihat ini.",
+      "scale": "Skala 1-10 di mana 1 = 'benar-benar bingung' dan 10 = 'kejelasan kristal'",
+      "questions": {
+        "clarity": {
+          "label": "1. Kejelasan Visi",
+          "description": "Seberapa jelas visi bisnis Anda?",
+          "scaleMin": "1 - Benar-benar bingung",
+          "scaleMax": "10 - Kejelasan absolut"
+        },
+        "decisionSpeed": {
+          "label": "2. Kecepatan Keputusan Strategis",
+          "description": "Seberapa cepat Anda membuat keputusan strategis?",
+          "scaleMin": "1 - Kelumpuhan analisis",
+          "scaleMax": "10 - Kejelasan instan"
+        },
+        "teamAlignment": {
+          "label": "3. Keselarasan Tim",
+          "description": "Seberapa selaras tim Anda dengan visi?",
+          "scaleMin": "1 - Semua bingung",
+          "scaleMax": "10 - Keselarasan total"
+        },
+        "resourceFocus": {
+          "label": "4. Fokus Sumber Daya",
+          "description": "Seberapa fokus sumber daya Anda pada visi?",
+          "scaleMin": "1 - Penyebaran total",
+          "scaleMax": "10 - Fokus laser"
+        },
+        "sustainedEnergy": {
+          "label": "5. Energi Berkelanjutan",
+          "description": "Bagaimana rasanya bekerja pada bisnis Anda?",
+          "scaleMin": "1 - Menguras saya",
+          "scaleMax": "10 - Memberi saya energi"
+        }
+      },
+      "button": "Lihat Hasil Saya"
+    },
+    "section5": {
+      "title": "Hasil Pribadi Anda",
+      "average": "Rata-rata Anda:",
+      "interpretation": {
+        "critical": {
+          "title": "ZONA RISIKO KRITIS",
+          "description": "Kurangnya kejelasan Anda merugikan Anda secara BRUTAL. Setiap hari tanpa visi adalah hari sumber daya terbuang dan peluang hilang.",
+          "recommendation": "MENDESAK: Anda perlu membuat visi Anda SEKARANG. Biaya melanjutkan seperti ini tidak berkelanjutan."
+        },
+        "wasted": {
+          "title": "ZONA POTENSI TERBUANG",
+          "description": "Anda memiliki SESUATU, tetapi itu tidak cukup. Anda meninggalkan nilai besar di atas meja. Tim Anda tidak selaras. Sumber daya tersebar.",
+          "recommendation": "Anda perlu memperjelas dan memperkuat visi Anda. Anda memiliki fondasi, tetapi Anda membutuhkan PRESISI."
+        },
+        "clarity": {
+          "title": "Anda Memiliki KEJELASAN SIGNIFIKAN",
+          "description": "Anda lebih baik dari 80% pengusaha. Tetapi masih ada ruang untuk MENGALIKAN dampak Anda. Perbaikan kecil dalam kejelasan = PERBAIKAN BESAR dalam hasil.",
+          "recommendation": "Perbaiki visi Anda untuk mencapai tingkat perusahaan transformatif. Anda dekat dengan tingkat berikutnya."
+        }
+      },
+      "costs": {
+        "title": "Biaya Tahunan Konservatif Kurangnya Visi Anda:",
+        "indecision": "Biaya keragu-raguan/tahun:",
+        "wastedBudget": "Anggaran terbuang untuk hal yang salah:",
+        "lostOpportunities": "Peluang yang hilang:",
+        "total": "TOTAL KONSERVATIF/TAHUN:",
+        "note": "Inilah yang BIAYA kurangnya kejelasan Anda. Tidak berinvestasi dalam menciptakannya."
+      },
+      "roi": {
+        "title": "ROI Potensial",
+        "description": "Pengganda jika Anda memiliki kejelasan ABSOLUT:",
+        "value": "{multiplier}x",
+        "explanation": "Berdasarkan pola perusahaan yang beralih dari 'eksekusi kompeten' ke 'visi jelas + eksekusi kompeten'."
+      },
+      "cta": {
+        "title": "Siap Membuat Visi Jelas Anda?",
+        "description": "Buka modul lengkap (8 komponen) dan buat dokumen Visi Bisnis Anda",
+        "button": "Buka Modul Foundation - $10",
+        "alternative": "Atau lanjutkan dengan Komponen 1",
+        "continueButton": "Selesaikan Komponen 1 (Gratis)"
+      }
+    },
+    "navigation": {
+      "previous": "Sebelumnya",
+      "next": "Berikutnya",
+      "complete": "Selesaikan Komponen"
     }
   }
 }

@@ -12,115 +12,184 @@
     "getStarted": "Kom igång"
   },
   "hero": {
-    "badge": "Global lansering - 16 språk",
-    "headline": "Tydlig vision är skillnaden mellan att växa och",
-    "highlightText": "Transformera din bransch",
-    "subheadline": "Lär dig hur företag som Amazon, Tesla och Apple byggde visioner som vägledde varje beslut i årtionden. Nu är det din tur.",
+    "badge": "Global Lansering - 16 Språk",
+    "headline": "Tydlig Vision är Skillnaden Mellan att Växa och",
+    "highlightText": "Transformera Din Bransch",
+    "subheadline": "Lär dig hur företag som Amazon, Tesla och Apple byggde visioner som styrde varje beslut i decennier. Nu är det din tur.",
     "cta": {
-      "primary": "Skapa min vision",
-      "secondary": "Se framgångshistorier"
+      "primary": "Skapa Min Vision",
+      "secondary": "Se Framgångshistorier"
     },
-    "casesLabel": "16 verkliga fallstudier"
-  },
-  "features": {
-    "title": "Hur det fungerar",
-    "subtitle": "Ett beprövat system i 15 transformativa företag",
-    "feature1": {
-      "title": "Lär av de bästa",
-      "description": "Verkliga fall av företag som förändrade hela branscher tack vare sin tydliga vision från dag ett."
-    },
-    "feature2": {
-      "title": "Skapa din vision",
-      "description": "8-komponentssystem som guidar dig steg för steg för att bygga en kristallklar och orubblig vision."
-    },
-    "feature3": {
-      "title": "Behåll fokus",
-      "description": "Verktyg och ramverk så att din vision vägleder varje strategiskt beslut i åratal."
-    }
-  },
-  "pricing": {
-    "title": "Börja idag",
-    "subtitle": "Välj planen som passar din fas",
-    "free": {
-      "name": "Gratis",
-      "price": "$0",
-      "description": "Utforska systemet och Komponent 1",
-      "feature1": "Tillgång till fallstudier",
-      "feature2": "Komponent 1: Betydelse",
-      "feature3": "ROI-kalkylator",
-      "cta": "Börja gratis"
-    },
-    "foundation": {
-      "name": "Foundation Module",
-      "price": "$10",
-      "period": "engångsbetalning",
-      "badge": "Populärast",
-      "description": "Skapa din kompletta vision i 8 steg",
-      "feature1": "Allt i Gratis +",
-      "feature2": "8 kompletta komponenter",
-      "feature3": "Slutligt dokument genererat",
-      "feature4": "Livstidsåtkomst",
-      "cta": "Lås upp nu"
-    },
-    "pro": {
-      "name": "Visionari Pro",
-      "price": "$29",
-      "period": "/månad",
-      "description": "AI-coach för att genomföra din vision",
-      "feature1": "Allt i Foundation +",
-      "feature2": "Personlig AI-coach",
-      "feature3": "Framstegsspårning",
-      "feature4": "Kontinuerliga uppdateringar",
-      "cta": "Kommer snart - april 2026"
-    }
-  },
-  "footer": {
-    "tagline": "Transformera ditt företag med tydlig vision",
-    "sections": {
-      "product": {
-        "title": "Produkt",
-        "link1": "Fallstudier",
-        "link2": "Hur det fungerar",
-        "link3": "Priser"
-      },
-      "company": {
-        "title": "Företag",
-        "link1": "Om oss",
-        "link2": "Blogg",
-        "link3": "Kontakt"
-      },
-      "legal": {
-        "title": "Juridiskt",
-        "link1": "Integritet",
-        "link2": "Villkor",
-        "link3": "Cookies"
-      }
-    },
-    "copyright": "© 2026 Visionari. Alla rättigheter förbehållna."
+    "casesLabel": "16 Verkliga Fallstudier"
   },
   "dashboard": {
     "welcome": "Välkommen tillbaka, {name}!",
-    "subtitle": "Fortsätt bygga din affärsvision",
+    "subtitle": "Fortsätt bygga din företagsvision",
     "logout": "Logga ut",
     "progress": "Framsteg",
     "componentsCompleted": "Slutförda komponenter",
-    "timeInvested": "Investerad tid",
+    "timeInvested": "Investerad Tid",
     "hoursTotal": "av totalt 48 timmar",
     "accessLevel": "Åtkomstnivå",
     "upgradeToUnlock": "Uppgradera för att låsa upp allt",
-    "yourVisionComponents": "Dina visionskomponenter",
-    "readyToComplete": "Redo att slutföra din vision?",
-    "unlockAll": "Lås upp alla 8 komponenter för endast $10 och skapa ditt kompletta affärsvisionsdokument",
-    "unlockButton": "Lås upp komplett modul - $10",
+    "yourVisionComponents": "Dina Visionskomponenter",
+    "unlockButton": "Lås upp fullständig modul - $10",
     "components": {
-      "1": "Ditt djupa syfte",
-      "2": "Tydlig vision",
-      "3": "Konkreta mål",
-      "4": "Proaktiv strategi",
-      "5": "Utmanande ambition",
-      "6": "Orubbligt engagemang",
-      "7": "Smittsam energi",
-      "8": "Komplett dokument"
+      "1": "Ditt Djupa Syfte",
+      "2": "Tydlig Vision",
+      "3": "Konkreta Mål",
+      "4": "Proaktiv Strategi",
+      "5": "Utmanande Ambition",
+      "6": "Orubbligt Engagemang",
+      "7": "Smittsam Energi",
+      "8": "Komplett Dokument"
+    }
+  },
+  "component1": {
+    "title": "Komponent 1: Vikten av Tydlig Vision",
+    "section1": {
+      "title": "Varför 80% av Startups Misslyckas",
+      "subtitle": "Det Dolda Problemet",
+      "intro": "Det handlar inte om brist på ansträngning. Inte om produkten. Inte ens om finansiering.",
+      "problem": "De flesta entreprenörer arbetar lika hårt som de mest framgångsrika. De är smarta. De är engagerade. De levererar.",
+      "question": "Så varför misslyckas 80% medan företag som Amazon, Tesla och Apple transformerar hela branscher?",
+      "answer": "Skillnaden ligger inte i genomförandet. Den ligger i VISIONEN."
+    },
+    "section2": {
+      "title": "De 5 Symptomen på Brist på Vision",
+      "intro": "Du vet att du saknar tydlig vision när du upplever:",
+      "symptom1": {
+        "title": "Analysförlamning",
+        "description": "Du spenderar veckor på att 'validera' idéer men går aldrig vidare. Varje beslut kräver ett nytt möte, en ny analys, en ny åsikt."
+      },
+      "symptom2": {
+        "title": "Konstanta Pivoter",
+        "description": "Du ändrar riktning varje kvartal. 'Kanske borde vi fokusera på B2B... nej, vänta, B2C är bättre... egentligen, tänk om vi gör marketplace...?'"
+      },
+      "symptom3": {
+        "title": "Spridning av Resurser",
+        "description": "Din budget, tid och team är spridda över 10 olika initiativ. Inget får den uppmärksamhet det behöver för att verkligen fungera."
+      },
+      "symptom4": {
+        "title": "Konstant Mental Trötthet",
+        "description": "Du vaknar varje dag och undrar om du arbetar med rätt sak. Osäkerheten dränerar mer energi än själva arbetet."
+      },
+      "symptom5": {
+        "title": "Oändlig Pitch",
+        "description": "Du kan inte förklara vad du gör på mindre än 5 minuter. Och även då 'förstår' folk inte. För du själv är inte 100% klar."
+      },
+      "recognition": "Känns det igen? Du är inte ensam. Detta är normen, inte undantaget."
+    },
+    "section3": {
+      "title": "Det Universella Mönstret: Vision vs Marknadsrespons",
+      "intro": "Detta är vad ingen berättar för dig:",
+      "comparison": {
+        "title": "Den Brutala Jämförelsen",
+        "withoutVision": {
+          "title": "Företag UTAN Tydlig Vision från Dag 1:",
+          "features": "✅ Bra produkter|✅ Hårt arbete|✅ Kompetent genomförande|❌ Ingen tydlig riktning",
+          "result": "Förutsägbar linjär tillväxt",
+          "ceiling": "Intäktstak: $50-200M"
+        },
+        "withVision": {
+          "title": "Företag MED BHAG Vision från Dag 1:",
+          "features": "✅ Bra produkter (precis som andra)|✅ Hårt arbete (precis som andra)|✅ Kompetent genomförande (precis som andra)|✅✅✅ TYDLIG VISION som styr ALLT",
+          "result": "Oförutsägbar exponentiell tillväxt",
+          "ceiling": "Intäkter utan tak: $1B-$100B+"
+        }
+      },
+      "difference": {
+        "title": "SKILLNADEN ÄR INTE:",
+        "notFactors": "Mer startkapital (många började utan investering)|Bättre produkt (konkurrenter hade jämförbara produkter)|Tur eller timing (de mötte massiva kriser)|Kontakter (många började som outsiders)",
+        "realDifference": "SKILLNADEN ÄR:",
+        "factors": "TYDLIG VISION från dag 1|BHAG som styrde varje beslut i decennier|Syfte större än personlig vinst"
+      },
+      "multiplier": "Mönster validerat i 15 företag. Multiplikatorn sträcker sig från 150x till 4000x högre värdering."
+    },
+    "section4": {
+      "title": "Kalkylator: Hur Mycket Kostar Det att INTE Ha Tydlig Vision?",
+      "subtitle": "Svara ärligt. Ingen annan ser detta.",
+      "scale": "Skala 1-10 där 1 = 'totalt förvirrad' och 10 = 'kristallklar klarhet'",
+      "questions": {
+        "clarity": {
+          "label": "1. Visionsklarhet",
+          "description": "Hur tydlig är din företagsvision?",
+          "scaleMin": "1 - Totalt förvirrad",
+          "scaleMax": "10 - Absolut klarhet"
+        },
+        "decisionSpeed": {
+          "label": "2. Hastighet på Strategiska Beslut",
+          "description": "Hur snabbt fattar du strategiska beslut?",
+          "scaleMin": "1 - Analysförlamning",
+          "scaleMax": "10 - Omedelbar klarhet"
+        },
+        "teamAlignment": {
+          "label": "3. Teamanpassning",
+          "description": "Hur anpassat är ditt team med visionen?",
+          "scaleMin": "1 - Alla förvirrade",
+          "scaleMax": "10 - Total anpassning"
+        },
+        "resourceFocus": {
+          "label": "4. Resursfokus",
+          "description": "Hur fokuserade är dina resurser på visionen?",
+          "scaleMin": "1 - Total spridning",
+          "scaleMax": "10 - Laserfokus"
+        },
+        "sustainedEnergy": {
+          "label": "5. Uthållig Energi",
+          "description": "Hur får arbete med ditt företag dig att känna?",
+          "scaleMin": "1 - Utarmar mig",
+          "scaleMax": "10 - Ger mig energi"
+        }
+      },
+      "button": "Se Mitt Resultat"
+    },
+    "section5": {
+      "title": "Dina Personliga Resultat",
+      "average": "Ditt genomsnitt:",
+      "interpretation": {
+        "critical": {
+          "title": "KRITISK RISKZON",
+          "description": "Din brist på klarhet kostar dig BRUTALT. Varje dag utan vision är en dag av slösade resurser och förlorade möjligheter.",
+          "recommendation": "BRÅDSKANDE: Du måste skapa din vision NU. Kostnaden för att fortsätta så här är ohållbar."
+        },
+        "wasted": {
+          "title": "ZON FÖR SLÖSAD POTENTIAL",
+          "description": "Du har NÅGOT, men det räcker inte. Du lämnar massivt värde på bordet. Ditt team är inte anpassat. Resurserna är spridda.",
+          "recommendation": "Du måste förtydliga och stärka din vision. Du har grunden, men du behöver PRECISION."
+        },
+        "clarity": {
+          "title": "Du Har BETYDANDE KLARHET",
+          "description": "Du är bättre än 80% av entreprenörerna. Men det finns fortfarande utrymme att MULTIPLICERA din påverkan. Små förbättringar i klarhet = MASSIVA förbättringar i resultat.",
+          "recommendation": "Förfina din vision för att nå nivån för transformativa företag. Du är nära nästa nivå."
+        }
+      },
+      "costs": {
+        "title": "Konservativ Årlig Kostnad för Din Brist på Vision:",
+        "indecision": "Kostnad för obeslutsamhet/år:",
+        "wastedBudget": "Slösad budget på fel saker:",
+        "lostOpportunities": "Förlorade möjligheter:",
+        "total": "KONSERVATIV TOTALT/ÅR:",
+        "note": "Detta är vad din brist på klarhet KOSTAR dig. Inte att investera i att skapa den."
+      },
+      "roi": {
+        "title": "Potentiell ROI",
+        "description": "Multiplikator om du hade ABSOLUT klarhet:",
+        "value": "{multiplier}x",
+        "explanation": "Baserat på mönstret för företag som gick från 'kompetent genomförande' till 'tydlig vision + kompetent genomförande'."
+      },
+      "cta": {
+        "title": "Redo att Skapa Din Tydliga Vision?",
+        "description": "Lås upp hela modulen (8 komponenter) och skapa ditt Företagsvisionsdokument",
+        "button": "Lås upp Foundation-modul - $10",
+        "alternative": "Eller fortsätt med Komponent 1",
+        "continueButton": "Slutför Komponent 1 (Gratis)"
+      }
+    },
+    "navigation": {
+      "previous": "Föregående",
+      "next": "Nästa",
+      "complete": "Slutför Komponent"
     }
   }
 }
