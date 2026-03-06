@@ -165,22 +165,22 @@
         "title": "Acımasız Karşılaştırma",
         "withoutVision": {
           "title": "1. Günden Net Vizyonu OLMAYAN Şirketler:",
-          "features": "✅ İyi ürünler|✅ Sıkı çalışma|✅ Yetkin uygulama|❌ Net bir yön yok"
+          "features": "✅ İyi ürünler|✅ Sıkı çalışma|✅ Yetkin uygulama|❌ Net bir yön yok",
           "result": "Öngörülebilir doğrusal büyüme",
           "ceiling": "Gelir tavanı: $50-200M"
         },
         "withVision": {
           "title": "1. Günden BHAG Vizyonu OLAN Şirketler:",
-          "features": "✅ İyi ürünler (diğerleri gibi)|✅ Sıkı çalışma (diğerleri gibi)|✅ Yetkin uygulama (diğerleri gibi)|✅✅✅ HER ŞEYİ yönlendiren NET VİZYON"
+          "features": "✅ İyi ürünler (diğerleri gibi)|✅ Sıkı çalışma (diğerleri gibi)|✅ Yetkin uygulama (diğerleri gibi)|✅✅✅ HER ŞEYİ yönlendiren NET VİZYON",
           "result": "Öngörülemez üstel büyüme",
           "ceiling": "Tavansız gelir: $1B-$100B+"
         }
       },
       "difference": {
         "title": "FARK BUNLARDA DEĞİL:",
-        "notFactors": "Daha fazla başlangıç sermayesi (çoğu yatırım olmadan başladı)|Daha iyi ürün (rakiplerin karşılaştırılabilir ürünleri vardı)|Şans veya zamanlama (büyük krizlerle karşılaştılar)|Bağlantılar (çoğu dışarıdan biri olarak başladı)"
+        "notFactors": "Daha fazla başlangıç sermayesi (çoğu yatırım olmadan başladı)|Daha iyi ürün (rakiplerin karşılaştırılabilir ürünleri vardı)|Şans veya zamanlama (büyük krizlerle karşılaştılar)|Bağlantılar (çoğu dışarıdan biri olarak başladı)",
         "realDifference": "FARK ŞUNDA:",
-        "factors": "1. günden NET VİZYON|Onlarca yıl her kararı yönlendiren BHAG|Kişisel kazançtan daha büyük amaç"
+        "factors": "1. günden NET VİZYON|Onlarca yıl her kararı yönlendiren BHAG|Kişisel kazançtan daha büyük amaç",
       },
       "multiplier": "15 şirkette doğrulanmış model. Çarpan 150x ile 4000x daha yüksek değerleme arasında değişiyor."
     },
