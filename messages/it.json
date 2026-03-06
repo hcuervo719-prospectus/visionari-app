@@ -165,22 +165,22 @@
         "title": "Il Confronto Brutale",
         "withoutVision": {
           "title": "Aziende SENZA Visione Chiara dal Giorno 1:",
-          "features": "✅ Buoni prodotti|✅ Lavoro duro|✅ Esecuzione competente|❌ Nessuna direzione chiara"
+          "features": "✅ Buoni prodotti|✅ Lavoro duro|✅ Esecuzione competente|❌ Nessuna direzione chiara",
           "result": "Crescita lineare prevedibile",
           "ceiling": "Tetto di fatturato: $50-200M"
         },
         "withVision": {
           "title": "Aziende CON Visione BHAG dal Giorno 1:",
-          "features": "✅ Buoni prodotti (come gli altri)|✅ Lavoro duro (come gli altri)|✅ Esecuzione competente (come gli altri)|✅✅✅ VISIONE CHIARA che guida TUTTO"
+          "features": "✅ Buoni prodotti (come gli altri)|✅ Lavoro duro (come gli altri)|✅ Esecuzione competente (come gli altri)|✅✅✅ VISIONE CHIARA che guida TUTTO",
           "result": "Crescita esponenziale imprevedibile",
           "ceiling": "Fatturato senza tetto: $1B-$100B+"
         }
       },
       "difference": {
         "title": "LA DIFFERENZA NON È:",
-        "notFactors": "Più capitale iniziale (molti hanno iniziato senza investimenti)|Prodotto migliore (i concorrenti avevano prodotti comparabili)|Fortuna o timing (hanno affrontato crisi massicce)|Connessioni (molti hanno iniziato come outsider)"
+        "notFactors": "Più capitale iniziale (molti hanno iniziato senza investimenti)|Prodotto migliore (i concorrenti avevano prodotti comparabili)|Fortuna o timing (hanno affrontato crisi massicce)|Connessioni (molti hanno iniziato come outsider)",
         "realDifference": "LA DIFFERENZA È:",
-        "factors": "VISIONE CHIARA dal giorno 1|BHAG che ha guidato ogni decisione per decenni|Scopo più grande del guadagno personale"
+        "factors": "VISIONE CHIARA dal giorno 1|BHAG che ha guidato ogni decisione per decenni|Scopo più grande del guadagno personale",
       },
       "multiplier": "Pattern validato in 15 aziende. Il moltiplicatore va da 150x a 4000x di valutazione superiore."
     },
