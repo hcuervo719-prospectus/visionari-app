@@ -165,41 +165,22 @@
         "title": "A Comparação Brutal",
         "withoutVision": {
           "title": "Empresas SEM Visão Clara desde o Dia 1:",
-          "features": [
-            "Bons produtos",
-            "Trabalho duro",
-            "Execução competente",
-            "Sem norte claro"
-          ],
+          "features": "✅ Bons produtos|✅ Trabalho duro|✅ Execução competente|❌ Sem norte claro"
           "result": "Crescimento linear previsível",
           "ceiling": "Teto de receita: $50-200M"
         },
         "withVision": {
           "title": "Empresas COM Visão BHAG desde o Dia 1:",
-          "features": [
-            "Bons produtos (igual aos outros)",
-            "Trabalho duro (igual aos outros)",
-            "Execução competente (igual aos outros)",
-            "VISÃO CLARA que guia TUDO"
-          ],
+          "features": "✅ Bons produtos (como outros)|✅ Trabalho duro (como outros)|✅ Execução competente (como outros)|✅✅✅ VISÃO CLARA que guia TUDO"
           "result": "Crescimento exponencial imprevisível",
           "ceiling": "Receita sem teto: $1B-$100B+"
         }
       },
       "difference": {
         "title": "A DIFERENÇA NÃO É:",
-        "notFactors": [
-          "Mais capital inicial (muitos começaram sem investimento)",
-          "Melhor produto (concorrentes tinham produtos comparáveis)",
-          "Sorte ou timing (enfrentaram crises massivas)",
-          "Conexões (muitos começaram como outsiders)"
-        ],
+        "notFactors": "Mais capital inicial (muitos começaram sem investimento)|Melhor produto (concorrentes tinham produtos comparáveis)|Sorte ou timing (enfrentaram crises massivas)|Conexões (muitos começaram como outsiders)"
         "realDifference": "A DIFERENÇA É:",
-        "factors": [
-          "VISÃO CLARA desde o dia 1",
-          "BHAG que guiou cada decisão por décadas",
-          "Propósito maior que ganho pessoal"
-        ]
+        "factors": "VISÃO CLARA desde o dia 1|BHAG que guiou cada decisão por décadas|Propósito maior que ganho pessoal"
       },
       "multiplier": "Padrão validado em 15 empresas. O multiplicador vai de 150x a 4000x maior avaliação."
     },
