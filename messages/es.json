@@ -165,22 +165,22 @@
         "title": "La Comparación Brutal",
         "withoutVision": {
           "title": "Empresas SIN Visión Clara desde Día 1:",
-          "features": "✅ Buenos productos|✅ Trabajo duro|✅ Ejecución competente|❌ Sin norte claro"
+          "features": "✅ Buenos productos|✅ Trabajo duro|✅ Ejecución competente|❌ Sin norte claro",
           "result": "Crecimiento lineal predecible",
           "ceiling": "Techo de revenue: $50-200M"
         },
         "withVision": {
           "title": "Empresas CON Visión BHAG desde Día 1:",
-          "features": "✅ Buenos productos (igual que otros)|✅ Trabajo duro (igual que otros)|✅ Ejecución competente (igual que otros)|✅✅✅ VISIÓN CLARA que guía TODO"
+          "features": "✅ Buenos productos (igual que otros)|✅ Trabajo duro (igual que otros)|✅ Ejecución competente (igual que otros)|✅✅✅ VISIÓN CLARA que guía TODO",
           "result": "Crecimiento exponencial impredecible",
           "ceiling": "Revenue sin techo: $1B-$100B+"
         }
       },
       "difference": {
         "title": "LA DIFERENCIA NO ES:",
-        "notFactors": "Más capital inicial (muchos empezaron sin inversión)|Mejor producto (competidores tenían productos comparables)|Suerte o timing (enfrentaron crisis masivas)|Conexiones (muchos empezaron como outsiders)"
+        "notFactors": "Más capital inicial (muchos empezaron sin inversión)|Mejor producto (competidores tenían productos comparables)|Suerte o timing (enfrentaron crisis masivas)|Conexiones (muchos empezaron como outsiders)",
         "realDifference": "LA DIFERENCIA ES:",
-        "factors": "VISIÓN CLARA desde día 1|BHAG que guió cada decisión durante décadas|Propósito más grande que ganancia personal"
+        "factors": "VISIÓN CLARA desde día 1|BHAG que guió cada decisión durante décadas|Propósito más grande que ganancia personal",
       },
       "multiplier": "Patrón validado en 15 empresas. El multiplicador va de 150x a 4000x mayor valuación."
     },
