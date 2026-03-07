@@ -1,126 +1,126 @@
 {
   "common": {
     "siteName": "Visionari",
-    "tagline": "Construye la visión que transformará tu negocio"
+    "tagline": "Создайте видение, которое трансформирует ваш бизнес"
   },
   "nav": {
-    "cases": "Casos",
-    "howItWorks": "Cómo funciona",
-    "pricing": "Precios",
-    "login": "Iniciar sesión",
-    "signup": "Registrarse",
-    "getStarted": "Comenzar"
+    "cases": "Кейсы",
+    "howItWorks": "Как это работает",
+    "pricing": "Цены",
+    "login": "Войти",
+    "signup": "Регистрация",
+    "getStarted": "Начать"
   },
   "hero": {
-    "badge": "Lanzamiento Global - 16 Idiomas",
-    "headline": "La Visión Clara es la Diferencia Entre Crecer y",
-    "highlightText": "Transformar tu Industria",
-    "subheadline": "Aprende cómo empresas como Amazon, Tesla y Apple construyeron visiones que guiaron cada decisión durante décadas. Ahora es tu turno.",
+    "badge": "Глобальный запуск - 16 языков",
+    "headline": "Четкое видение - это разница между ростом и",
+    "highlightText": "Трансформацией вашей индустрии",
+    "subheadline": "Узнайте, как такие компании, как Amazon, Tesla и Apple, создали видение, которое направляло каждое решение десятилетиями. Теперь ваша очередь.",
     "cta": {
-      "primary": "Crear Mi Visión",
-      "secondary": "Ver Casos de Éxito"
+      "primary": "Создать мое видение",
+      "secondary": "Посмотреть истории успеха"
     },
-    "casesLabel": "16 Casos de Estudio Reales"
+    "casesLabel": "16 реальных кейсов"
   },
   "features": {
-    "title": "Cómo Funciona",
-    "subtitle": "Sistema probado en 15 empresas transformadoras",
+    "title": "Как это работает",
+    "subtitle": "Проверенная система в 15 трансформационных компаниях",
     "feature1": {
-      "title": "Aprende de los mejores",
-      "description": "Casos reales de empresas que cambiaron industrias enteras gracias a una visión clara desde el día 1."
+      "title": "Учитесь у лучших",
+      "description": "Реальные кейсы компаний, которые изменили целые индустрии благодаря четкому видению с первого дня."
     },
     "feature2": {
-      "title": "Crea tu visión",
-      "description": "Sistema de 8 componentes que te guía paso a paso para construir una visión cristalina e inquebrantable."
+      "title": "Создайте свое видение",
+      "description": "Система из 8 компонентов, которая шаг за шагом направляет вас к созданию кристально четкого и непоколебимого видения."
     },
     "feature3": {
-      "title": "Mantén el foco",
-      "description": "Herramientas y frameworks para que tu visión guíe cada decisión estratégica durante años."
+      "title": "Сохраняйте фокус",
+      "description": "Инструменты и фреймворки, чтобы ваше видение направляло каждое стратегическое решение годами."
     }
   },
   "pricing": {
-    "title": "Comienza Hoy",
-    "subtitle": "Elige el plan para tu etapa",
+    "title": "Начните сегодня",
+    "subtitle": "Выберите план для вашего этапа",
     "free": {
-      "name": "Gratis",
+      "name": "Бесплатно",
       "price": "$0",
-      "description": "Explora el sistema y Componente 1",
-      "feature1": "Acceso a casos de estudio",
-      "feature2": "Componente 1: Importancia",
-      "feature3": "Calculadora de ROI",
-      "cta": "Comenzar Gratis"
+      "description": "Изучите систему и Компонент 1",
+      "feature1": "Доступ к кейсам",
+      "feature2": "Компонент 1: Важность",
+      "feature3": "Калькулятор ROI",
+      "cta": "Начать бесплатно"
     },
     "foundation": {
       "name": "Foundation Module",
       "price": "$10",
-      "period": "pago único",
-      "badge": "Más Popular",
-      "description": "Crea tu visión completa en 8 pasos",
-      "feature1": "Todo en Gratis +",
-      "feature2": "8 Componentes completos",
-      "feature3": "Documento final generado",
-      "feature4": "Acceso de por vida",
-      "cta": "Desbloquear Ahora"
+      "period": "единоразовый платеж",
+      "badge": "Самый популярный",
+      "description": "Создайте полное видение за 8 шагов",
+      "feature1": "Все в Бесплатно +",
+      "feature2": "8 полных компонентов",
+      "feature3": "Сгенерированный финальный документ",
+      "feature4": "Пожизненный доступ",
+      "cta": "Разблокировать сейчас"
     },
     "pro": {
       "name": "Visionari Pro",
       "price": "$29",
-      "period": "/mes",
-      "description": "Coach IA para ejecutar tu visión",
-      "feature1": "Todo en Foundation +",
-      "feature2": "Coach IA personalizado",
-      "feature3": "Seguimiento de progreso",
-      "feature4": "Actualizaciones continuas",
-      "cta": "Próximamente - Abril 2026"
+      "period": "/месяц",
+      "description": "AI-коуч для реализации вашего видения",
+      "feature1": "Все в Foundation +",
+      "feature2": "Персонализированный AI-коуч",
+      "feature3": "Отслеживание прогресса",
+      "feature4": "Постоянные обновления",
+      "cta": "Скоро - Апрель 2026"
     }
   },
   "footer": {
-    "tagline": "Transforma tu negocio con visión clara",
+    "tagline": "Трансформируйте ваш бизнес с четким видением",
     "sections": {
       "product": {
-        "title": "Producto",
-        "link1": "Casos de Estudio",
-        "link2": "Cómo Funciona",
-        "link3": "Precios"
+        "title": "Продукт",
+        "link1": "Кейсы",
+        "link2": "Как это работает",
+        "link3": "Цены"
       },
       "company": {
-        "title": "Empresa",
-        "link1": "Sobre Nosotros",
-        "link2": "Blog",
-        "link3": "Contacto"
+        "title": "Компания",
+        "link1": "О нас",
+        "link2": "Блог",
+        "link3": "Контакты"
       },
       "legal": {
-        "title": "Legal",
-        "link1": "Privacidad",
-        "link2": "Términos",
+        "title": "Правовая информация",
+        "link1": "Конфиденциальность",
+        "link2": "Условия",
         "link3": "Cookies"
       }
     },
-    "copyright": "© 2026 Visionari. Todos los derechos reservados."
+    "copyright": "© 2026 Visionari. Все права защищены."
   },
   "dashboard": {
-    "welcome": "¡Bienvenido de nuevo, {name}!",
-    "subtitle": "Continúa construyendo tu visión empresarial",
-    "logout": "Cerrar sesión",
-    "progress": "Progreso",
-    "componentsCompleted": "Componentes completados",
-    "timeInvested": "Tiempo Invertido",
-    "hoursTotal": "de 48 horas totales",
-    "accessLevel": "Nivel de Acceso",
-    "upgradeToUnlock": "Actualiza para desbloquear todo",
-    "yourVisionComponents": "Tus Componentes de Visión",
-    "readyToComplete": "¿Listo para completar tu visión?",
-    "unlockAll": "Desbloquea los 8 componentes por solo $10 y crea tu documento completo de Visión Empresarial",
-    "unlockButton": "Desbloquear Módulo Completo - $10",
+    "welcome": "С возвращением, {name}!",
+    "subtitle": "Продолжайте создавать ваше бизнес-видение",
+    "logout": "Выйти",
+    "progress": "Прогресс",
+    "componentsCompleted": "Завершенные компоненты",
+    "timeInvested": "Потраченное время",
+    "hoursTotal": "из 48 часов всего",
+    "accessLevel": "Уровень доступа",
+    "upgradeToUnlock": "Обновитесь, чтобы разблокировать все",
+    "yourVisionComponents": "Ваши компоненты видения",
+    "readyToComplete": "Готовы завершить ваше видение?",
+    "unlockAll": "Разблокируйте все 8 компонентов всего за $10 и создайте полный документ бизнес-видения",
+    "unlockButton": "Разблокировать полный модуль - $10",
     "components": {
-      "1": "Tu Propósito Profundo",
-      "2": "Visión Clara",
-      "3": "Objetivos Tangibles",
-      "4": "Estrategia Proactiva",
-      "5": "Ambición Desafiante",
-      "6": "Compromiso Inquebrantable",
-      "7": "Energía Contagiosa",
-      "8": "Documento Completo"
+      "1": "Ваша глубокая цель",
+      "2": "Четкое видение",
+      "3": "Осязаемые цели",
+      "4": "Проактивная стратегия",
+      "5": "Амбициозная цель",
+      "6": "Непоколебимая приверженность",
+      "7": "Заразительная энергия",
+      "8": "Полный документ"
     }
   }
 }

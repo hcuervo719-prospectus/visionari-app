@@ -1,126 +1,126 @@
 {
   "common": {
     "siteName": "Visionari",
-    "tagline": "Construye la visión que transformará tu negocio"
+    "tagline": "ビジネスを変革するビジョンを構築する"
   },
   "nav": {
-    "cases": "Casos",
-    "howItWorks": "Cómo funciona",
-    "pricing": "Precios",
-    "login": "Iniciar sesión",
-    "signup": "Registrarse",
-    "getStarted": "Comenzar"
+    "cases": "ケース",
+    "howItWorks": "仕組み",
+    "pricing": "料金",
+    "login": "ログイン",
+    "signup": "サインアップ",
+    "getStarted": "始める"
   },
   "hero": {
-    "badge": "Lanzamiento Global - 16 Idiomas",
-    "headline": "La Visión Clara es la Diferencia Entre Crecer y",
-    "highlightText": "Transformar tu Industria",
-    "subheadline": "Aprende cómo empresas como Amazon, Tesla y Apple construyeron visiones que guiaron cada decisión durante décadas. Ahora es tu turno.",
+    "badge": "グローバルローンチ - 16言語",
+    "headline": "明確なビジョンは成長と",
+    "highlightText": "業界変革の違いです",
+    "subheadline": "Amazon、Tesla、Appleのような企業が、何十年もの間すべての決定を導いたビジョンをどのように構築したかを学びましょう。次はあなたの番です。",
     "cta": {
-      "primary": "Crear Mi Visión",
-      "secondary": "Ver Casos de Éxito"
+      "primary": "ビジョンを作成",
+      "secondary": "成功事例を見る"
     },
-    "casesLabel": "16 Casos de Estudio Reales"
+    "casesLabel": "16の実際のケーススタディ"
   },
   "features": {
-    "title": "Cómo Funciona",
-    "subtitle": "Sistema probado en 15 empresas transformadoras",
+    "title": "仕組み",
+    "subtitle": "15の変革的企業で実証されたシステム",
     "feature1": {
-      "title": "Aprende de los mejores",
-      "description": "Casos reales de empresas que cambiaron industrias enteras gracias a una visión clara desde el día 1."
+      "title": "最高から学ぶ",
+      "description": "初日から明確なビジョンのおかげで業界全体を変えた企業の実例。"
     },
     "feature2": {
-      "title": "Crea tu visión",
-      "description": "Sistema de 8 componentes que te guía paso a paso para construir una visión cristalina e inquebrantable."
+      "title": "ビジョンを作成",
+      "description": "水晶のように明確で揺るぎないビジョンを構築するための8コンポーネントシステム。"
     },
     "feature3": {
-      "title": "Mantén el foco",
-      "description": "Herramientas y frameworks para que tu visión guíe cada decisión estratégica durante años."
+      "title": "フォーカスを維持",
+      "description": "ビジョンが何年にもわたってすべての戦略的決定を導くためのツールとフレームワーク。"
     }
   },
   "pricing": {
-    "title": "Comienza Hoy",
-    "subtitle": "Elige el plan para tu etapa",
+    "title": "今日から始める",
+    "subtitle": "あなたのステージに合ったプランを選択",
     "free": {
-      "name": "Gratis",
+      "name": "無料",
       "price": "$0",
-      "description": "Explora el sistema y Componente 1",
-      "feature1": "Acceso a casos de estudio",
-      "feature2": "Componente 1: Importancia",
-      "feature3": "Calculadora de ROI",
-      "cta": "Comenzar Gratis"
+      "description": "システムとコンポーネント1を探索",
+      "feature1": "ケーススタディへのアクセス",
+      "feature2": "コンポーネント1：重要性",
+      "feature3": "ROI計算機",
+      "cta": "無料で始める"
     },
     "foundation": {
       "name": "Foundation Module",
       "price": "$10",
-      "period": "pago único",
-      "badge": "Más Popular",
-      "description": "Crea tu visión completa en 8 pasos",
-      "feature1": "Todo en Gratis +",
-      "feature2": "8 Componentes completos",
-      "feature3": "Documento final generado",
-      "feature4": "Acceso de por vida",
-      "cta": "Desbloquear Ahora"
+      "period": "一回払い",
+      "badge": "最も人気",
+      "description": "8ステップで完全なビジョンを作成",
+      "feature1": "無料のすべて +",
+      "feature2": "8つの完全なコンポーネント",
+      "feature3": "最終ドキュメント生成",
+      "feature4": "生涯アクセス",
+      "cta": "今すぐロック解除"
     },
     "pro": {
       "name": "Visionari Pro",
       "price": "$29",
-      "period": "/mes",
-      "description": "Coach IA para ejecutar tu visión",
-      "feature1": "Todo en Foundation +",
-      "feature2": "Coach IA personalizado",
-      "feature3": "Seguimiento de progreso",
-      "feature4": "Actualizaciones continuas",
-      "cta": "Próximamente - Abril 2026"
+      "period": "/月",
+      "description": "ビジョンを実行するためのAIコーチ",
+      "feature1": "Foundationのすべて +",
+      "feature2": "パーソナライズされたAIコーチ",
+      "feature3": "進捗追跡",
+      "feature4": "継続的な更新",
+      "cta": "近日公開 - 2026年4月"
     }
   },
   "footer": {
-    "tagline": "Transforma tu negocio con visión clara",
+    "tagline": "明確なビジョンでビジネスを変革",
     "sections": {
       "product": {
-        "title": "Producto",
-        "link1": "Casos de Estudio",
-        "link2": "Cómo Funciona",
-        "link3": "Precios"
+        "title": "製品",
+        "link1": "ケーススタディ",
+        "link2": "仕組み",
+        "link3": "料金"
       },
       "company": {
-        "title": "Empresa",
-        "link1": "Sobre Nosotros",
-        "link2": "Blog",
-        "link3": "Contacto"
+        "title": "会社",
+        "link1": "会社概要",
+        "link2": "ブログ",
+        "link3": "お問い合わせ"
       },
       "legal": {
-        "title": "Legal",
-        "link1": "Privacidad",
-        "link2": "Términos",
-        "link3": "Cookies"
+        "title": "法的事項",
+        "link1": "プライバシー",
+        "link2": "利用規約",
+        "link3": "クッキー"
       }
     },
-    "copyright": "© 2026 Visionari. Todos los derechos reservados."
+    "copyright": "© 2026 Visionari. 全著作権所有。"
   },
   "dashboard": {
-    "welcome": "¡Bienvenido de nuevo, {name}!",
-    "subtitle": "Continúa construyendo tu visión empresarial",
-    "logout": "Cerrar sesión",
-    "progress": "Progreso",
-    "componentsCompleted": "Componentes completados",
-    "timeInvested": "Tiempo Invertido",
-    "hoursTotal": "de 48 horas totales",
-    "accessLevel": "Nivel de Acceso",
-    "upgradeToUnlock": "Actualiza para desbloquear todo",
-    "yourVisionComponents": "Tus Componentes de Visión",
-    "readyToComplete": "¿Listo para completar tu visión?",
-    "unlockAll": "Desbloquea los 8 componentes por solo $10 y crea tu documento completo de Visión Empresarial",
-    "unlockButton": "Desbloquear Módulo Completo - $10",
+    "welcome": "おかえりなさい、{name}！",
+    "subtitle": "ビジネスビジョンの構築を続ける",
+    "logout": "ログアウト",
+    "progress": "進捗",
+    "componentsCompleted": "完了したコンポーネント",
+    "timeInvested": "投資時間",
+    "hoursTotal": "合計48時間中",
+    "accessLevel": "アクセスレベル",
+    "upgradeToUnlock": "すべてをロック解除するにはアップグレード",
+    "yourVisionComponents": "あなたのビジョンコンポーネント",
+    "readyToComplete": "ビジョンを完成させる準備はできていますか？",
+    "unlockAll": "わずか$10で8つのコンポーネントすべてをロック解除し、完全なビジネスビジョンドキュメントを作成",
+    "unlockButton": "完全モジュールをロック解除 - $10",
     "components": {
-      "1": "Tu Propósito Profundo",
-      "2": "Visión Clara",
-      "3": "Objetivos Tangibles",
-      "4": "Estrategia Proactiva",
-      "5": "Ambición Desafiante",
-      "6": "Compromiso Inquebrantable",
-      "7": "Energía Contagiosa",
-      "8": "Documento Completo"
+      "1": "深い目的",
+      "2": "明確なビジョン",
+      "3": "具体的な目標",
+      "4": "プロアクティブな戦略",
+      "5": "挑戦的な野心",
+      "6": "揺るぎないコミットメント",
+      "7": "伝染するエネルギー",
+      "8": "完全なドキュメント"
     }
   }
 }

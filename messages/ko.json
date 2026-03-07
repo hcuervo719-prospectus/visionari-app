@@ -1,126 +1,126 @@
 {
   "common": {
     "siteName": "Visionari",
-    "tagline": "Construye la visión que transformará tu negocio"
+    "tagline": "비즈니스를 변화시킬 비전을 구축하세요"
   },
   "nav": {
-    "cases": "Casos",
-    "howItWorks": "Cómo funciona",
-    "pricing": "Precios",
-    "login": "Iniciar sesión",
-    "signup": "Registrarse",
-    "getStarted": "Comenzar"
+    "cases": "사례",
+    "howItWorks": "작동 방식",
+    "pricing": "가격",
+    "login": "로그인",
+    "signup": "가입하기",
+    "getStarted": "시작하기"
   },
   "hero": {
-    "badge": "Lanzamiento Global - 16 Idiomas",
-    "headline": "La Visión Clara es la Diferencia Entre Crecer y",
-    "highlightText": "Transformar tu Industria",
-    "subheadline": "Aprende cómo empresas como Amazon, Tesla y Apple construyeron visiones que guiaron cada decisión durante décadas. Ahora es tu turno.",
+    "badge": "글로벌 출시 - 16개 언어",
+    "headline": "명확한 비전은 성장과",
+    "highlightText": "산업 변혁의 차이입니다",
+    "subheadline": "Amazon, Tesla, Apple과 같은 기업이 수십 년 동안 모든 결정을 이끈 비전을 어떻게 구축했는지 배우세요. 이제 당신 차례입니다.",
     "cta": {
-      "primary": "Crear Mi Visión",
-      "secondary": "Ver Casos de Éxito"
+      "primary": "비전 만들기",
+      "secondary": "성공 사례 보기"
     },
-    "casesLabel": "16 Casos de Estudio Reales"
+    "casesLabel": "16개의 실제 사례 연구"
   },
   "features": {
-    "title": "Cómo Funciona",
-    "subtitle": "Sistema probado en 15 empresas transformadoras",
+    "title": "작동 방식",
+    "subtitle": "15개의 혁신적인 기업에서 검증된 시스템",
     "feature1": {
-      "title": "Aprende de los mejores",
-      "description": "Casos reales de empresas que cambiaron industrias enteras gracias a una visión clara desde el día 1."
+      "title": "최고로부터 배우기",
+      "description": "첫날부터 명확한 비전 덕분에 전체 산업을 변화시킨 기업의 실제 사례."
     },
     "feature2": {
-      "title": "Crea tu visión",
-      "description": "Sistema de 8 componentes que te guía paso a paso para construir una visión cristalina e inquebrantable."
+      "title": "비전 만들기",
+      "description": "수정처럼 명확하고 흔들리지 않는 비전을 구축하도록 단계별로 안내하는 8개 구성 요소 시스템."
     },
     "feature3": {
-      "title": "Mantén el foco",
-      "description": "Herramientas y frameworks para que tu visión guíe cada decisión estratégica durante años."
+      "title": "초점 유지",
+      "description": "비전이 수년간 모든 전략적 결정을 이끌도록 하는 도구와 프레임워크."
     }
   },
   "pricing": {
-    "title": "Comienza Hoy",
-    "subtitle": "Elige el plan para tu etapa",
+    "title": "오늘 시작하기",
+    "subtitle": "단계에 맞는 플랜 선택",
     "free": {
-      "name": "Gratis",
+      "name": "무료",
       "price": "$0",
-      "description": "Explora el sistema y Componente 1",
-      "feature1": "Acceso a casos de estudio",
-      "feature2": "Componente 1: Importancia",
-      "feature3": "Calculadora de ROI",
-      "cta": "Comenzar Gratis"
+      "description": "시스템과 구성 요소 1 탐색",
+      "feature1": "사례 연구 액세스",
+      "feature2": "구성 요소 1: 중요성",
+      "feature3": "ROI 계산기",
+      "cta": "무료로 시작"
     },
     "foundation": {
       "name": "Foundation Module",
       "price": "$10",
-      "period": "pago único",
-      "badge": "Más Popular",
-      "description": "Crea tu visión completa en 8 pasos",
-      "feature1": "Todo en Gratis +",
-      "feature2": "8 Componentes completos",
-      "feature3": "Documento final generado",
-      "feature4": "Acceso de por vida",
-      "cta": "Desbloquear Ahora"
+      "period": "일회성 결제",
+      "badge": "가장 인기",
+      "description": "8단계로 완전한 비전 만들기",
+      "feature1": "무료의 모든 것 +",
+      "feature2": "8개의 완전한 구성 요소",
+      "feature3": "최종 문서 생성",
+      "feature4": "평생 액세스",
+      "cta": "지금 잠금 해제"
     },
     "pro": {
       "name": "Visionari Pro",
       "price": "$29",
-      "period": "/mes",
-      "description": "Coach IA para ejecutar tu visión",
-      "feature1": "Todo en Foundation +",
-      "feature2": "Coach IA personalizado",
-      "feature3": "Seguimiento de progreso",
-      "feature4": "Actualizaciones continuas",
-      "cta": "Próximamente - Abril 2026"
+      "period": "/월",
+      "description": "비전 실행을 위한 AI 코치",
+      "feature1": "Foundation의 모든 것 +",
+      "feature2": "맞춤형 AI 코치",
+      "feature3": "진행 상황 추적",
+      "feature4": "지속적인 업데이트",
+      "cta": "곧 출시 - 2026년 4월"
     }
   },
   "footer": {
-    "tagline": "Transforma tu negocio con visión clara",
+    "tagline": "명확한 비전으로 비즈니스 혁신",
     "sections": {
       "product": {
-        "title": "Producto",
-        "link1": "Casos de Estudio",
-        "link2": "Cómo Funciona",
-        "link3": "Precios"
+        "title": "제품",
+        "link1": "사례 연구",
+        "link2": "작동 방식",
+        "link3": "가격"
       },
       "company": {
-        "title": "Empresa",
-        "link1": "Sobre Nosotros",
-        "link2": "Blog",
-        "link3": "Contacto"
+        "title": "회사",
+        "link1": "회사 소개",
+        "link2": "블로그",
+        "link3": "연락처"
       },
       "legal": {
-        "title": "Legal",
-        "link1": "Privacidad",
-        "link2": "Términos",
-        "link3": "Cookies"
+        "title": "법률",
+        "link1": "개인정보",
+        "link2": "약관",
+        "link3": "쿠키"
       }
     },
-    "copyright": "© 2026 Visionari. Todos los derechos reservados."
+    "copyright": "© 2026 Visionari. 모든 권리 보유."
   },
   "dashboard": {
-    "welcome": "¡Bienvenido de nuevo, {name}!",
-    "subtitle": "Continúa construyendo tu visión empresarial",
-    "logout": "Cerrar sesión",
-    "progress": "Progreso",
-    "componentsCompleted": "Componentes completados",
-    "timeInvested": "Tiempo Invertido",
-    "hoursTotal": "de 48 horas totales",
-    "accessLevel": "Nivel de Acceso",
-    "upgradeToUnlock": "Actualiza para desbloquear todo",
-    "yourVisionComponents": "Tus Componentes de Visión",
-    "readyToComplete": "¿Listo para completar tu visión?",
-    "unlockAll": "Desbloquea los 8 componentes por solo $10 y crea tu documento completo de Visión Empresarial",
-    "unlockButton": "Desbloquear Módulo Completo - $10",
+    "welcome": "다시 오신 것을 환영합니다, {name}!",
+    "subtitle": "비즈니스 비전 구축 계속하기",
+    "logout": "로그아웃",
+    "progress": "진행 상황",
+    "componentsCompleted": "완료된 구성 요소",
+    "timeInvested": "투자 시간",
+    "hoursTotal": "총 48시간 중",
+    "accessLevel": "액세스 레벨",
+    "upgradeToUnlock": "모두 잠금 해제하려면 업그레이드",
+    "yourVisionComponents": "비전 구성 요소",
+    "readyToComplete": "비전을 완성할 준비가 되셨나요?",
+    "unlockAll": "단 $10에 8개 구성 요소 모두를 잠금 해제하고 완전한 비즈니스 비전 문서 만들기",
+    "unlockButton": "전체 모듈 잠금 해제 - $10",
     "components": {
-      "1": "Tu Propósito Profundo",
-      "2": "Visión Clara",
-      "3": "Objetivos Tangibles",
-      "4": "Estrategia Proactiva",
-      "5": "Ambición Desafiante",
-      "6": "Compromiso Inquebrantable",
-      "7": "Energía Contagiosa",
-      "8": "Documento Completo"
+      "1": "깊은 목적",
+      "2": "명확한 비전",
+      "3": "구체적인 목표",
+      "4": "능동적 전략",
+      "5": "도전적인 야망",
+      "6": "흔들리지 않는 헌신",
+      "7": "전염성 있는 에너지",
+      "8": "완전한 문서"
     }
   }
 }
