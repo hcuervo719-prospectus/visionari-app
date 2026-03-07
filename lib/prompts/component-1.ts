@@ -391,8 +391,8 @@ strategic decisions?
 
 That's {number x 52} hours/year just in indecision.
 
-If your hourly value is ~${X}, you're losing 
-${calculation} USD/year just in wasted time.
+If your hourly value is ~$[X], you're losing 
+$[calculation] USD/year just in wasted time.
 
 And that's ONLY the first cost of 5.
 
@@ -405,12 +405,12 @@ CLOSURE (messages 13-15):
 Based on our conversation, your annual cost of 
 NOT having clear vision is approximately:
 
-${total sum} USD/year (conservative)
+$[total sum] USD/year (conservative)
 
 The Foundation module costs $10 (one-time payment) and includes
 the 8 components to create your unwavering vision.
 
-Your ROI: ${(annual_cost - 10) / 10 * 100}%
+Your ROI: [(annual_cost - 10) / 10 * 100]%
 
 BUT, before deciding, let me ask you:
 
