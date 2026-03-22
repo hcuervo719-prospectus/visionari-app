@@ -113,5 +113,26 @@
     "trialEndsToday": "Tu periodo de prueba termina hoy",
     "trialDaysLeft": "Te quedan {days} días de prueba",
     "subscribe": "Suscribirse"
+  },
+  "subscribe": {
+    "backToDashboard": "Volver al dashboard",
+    "trialExpired": "Tu prueba gratuita ha expirado",
+    "trialActive": "Te quedan {days} días de prueba gratuita",
+    "headline": "Continúa construyendo tu empresa",
+    "headlineNamed": "{name}, continúa construyendo tu empresa",
+    "headlineTrial": "Activa tu suscripción",
+    "subheadlineExpired": "Tu periodo de prueba terminó. Suscríbete para seguir accediendo a Visionari y al progreso que ya construiste.",
+    "subheadlineTrial": "Bloquea tu precio ahora. Sin interrupciones cuando termine el trial.",
+    "billedMonthly": "Facturado mensualmente · Cancela cuando quieras",
+    "cta": "Suscribirse — $30/mes",
+    "cancelAnytime": "Sin contrato · Cancela en cualquier momento",
+    "compareTitle": "Alternativas vs Visionari",
+    "compareConsulting": "Consultoría estratégica (por sesión)",
+    "compareCoach": "Coach de negocios (por sesión)",
+    "scienceTitle": "Ciencia real, no intuición",
+    "scienceText": "Visionari aplica frameworks validados en 8,000+ empresas: Bain Founder's Mentality, McKinsey OHI, Kaplan & Norton BSC y Kantabutra & Avery. No consejos genéricos.",
+    "memoryTitle": "Tu progreso, siempre disponible",
+    "memoryText": "Todo lo que has trabajado en tus sesiones — tu diagnóstico, tus compromisos, tus avances — sigue aquí. La suscripción no reinicia el contador.",
+    "secureNote": "Pagos procesados de forma segura por Paddle · SSL · Sin almacenamiento de tarjetas"
   }
 }
