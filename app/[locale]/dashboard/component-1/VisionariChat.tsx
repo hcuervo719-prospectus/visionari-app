@@ -1,16 +1,17 @@
-// app/[locale]/dashboard/component-1/VisionariChat.tsx
+// components/VisionariChat.tsx
+// Unified chat component for Visionari assistant
+// Replaces all component-specific chat implementations
 'use client'
 
-import { useState, useEffect, useRef } from 'react'
-import { useTranslations } from 'next-intl'
+import { useState, useEffect, useRef, useCallback } from 'react'
 import { Send, Loader2 } from 'lucide-react'
-import { 
-  sendToVisionari, 
-  extractInsights, 
-  determineNextComponent,
-  type Message, 
-  type UserContext 
-} from '@/lib/visionari-assistant'
+
+interface Message {
+  id: string
+  role: 'user' | 'assistant'
+  content: string
+  timestamp: Date
+}
 
 interface Props {
   userId: string
@@ -19,49 +20,66 @@ interface Props {
 }
 
 export default function VisionariChat({ userId, userName, locale }: Props) {
-  const t = useTranslations('component1')
-  
   const [messages, setMessages] = useState<Message[]>([])
   const [input, setInput] = useState('')
   const [loading, setLoading] = useState(false)
-  const [context, setContext] = useState<UserContext>({
-    userId,
-    name: userName,
-    insights: [],
-    completedSteps: []
-  })
-  const [sessionComplete, setSessionComplete] = useState(false)
-  const [recommendedComponent, setRecommendedComponent] = useState<number | null>(null)
-  
-  const messagesEndRef = useRef<HTMLDivElement>(null)
-  const inputRef = useRef<HTMLInputElement>(null)
+  const [sessionId, setSessionId] = useState<string | null>(null)
+  const [isFirstMessage, setIsFirstMessage] = useState(true)
+  const [primaryFrame, setPrimaryFrame] = useState<string | null>(null)
 
-  // Auto-scroll to bottom
+  const messagesEndRef = useRef<HTMLDivElement>(null)
+  const inputRef = useRef<HTMLTextAreaElement>(null)
+  const sessionClosedRef = useRef(false)
+
+  // Auto-scroll to latest message
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' })
   }, [messages])
 
-  // Mensaje inicial de Visionari
+  // Opening message on mount
   useEffect(() => {
-    const initialMessage: Message = {
-      id: 'initial',
+    const firstName = userName.split(' ')[0]
+    setMessages([{
+      id: 'welcome',
       role: 'assistant',
-      content: `Hola ${userName}, soy Visionari, tu asistente personal para crear y desarrollar tu visión empresarial.
+      content: getWelcomeMessage(firstName, locale),
+      timestamp: new Date(),
+    }])
+    inputRef.current?.focus()
+  }, [userName, locale])
 
-Antes de empezar, cuéntame: ¿Qué te trae aquí hoy? ¿Qué desafío o pregunta tienes en mente?`,
-      timestamp: new Date()
+  // Close session when user leaves
+  const closeSession = useCallback(async () => {
+    if (!sessionId || sessionClosedRef.current) return
+    sessionClosedRef.current = true
+    try {
+      await fetch('/api/assistant/session', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ sessionId }),
+      })
+    } catch {
+      // Fire and forget — don't block the user
     }
-    setMessages([initialMessage])
-  }, [userName])
+  }, [sessionId])
+
+  useEffect(() => {
+    window.addEventListener('beforeunload', closeSession)
+    return () => {
+      window.removeEventListener('beforeunload', closeSession)
+      closeSession()
+    }
+  }, [closeSession])
 
   async function handleSend() {
-    if (!input.trim() || loading) return
+    const trimmed = input.trim()
+    if (!trimmed || loading) return
 
     const userMessage: Message = {
       id: Date.now().toString(),
       role: 'user',
-      content: input.trim(),
-      timestamp: new Date()
+      content: trimmed,
+      timestamp: new Date(),
     }
 
     setMessages(prev => [...prev, userMessage])
@@ -69,45 +87,45 @@ Antes de empezar, cuéntame: ¿Qué te trae aquí hoy? ¿Qué desafío o pregunt
     setLoading(true)
 
     try {
-      // Llamar a Visionari
-      const response = await sendToVisionari(
-        userMessage.content,
-        context,
-        messages
-      )
+      const res = await fetch('/api/assistant/chat', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          message: trimmed,
+          sessionId,
+          isFirstMessage,
+        }),
+      })
+
+      if (!res.ok) {
+        const err = await res.json()
+        throw new Error(err.error || 'Request failed')
+      }
+
+      const data = await res.json()
+
+      // Store session metadata from first response
+      if (isFirstMessage) {
+        setSessionId(data.sessionId)
+        setPrimaryFrame(data.primaryFrame)
+        setIsFirstMessage(false)
+      }
 
       const assistantMessage: Message = {
         id: (Date.now() + 1).toString(),
         role: 'assistant',
-        content: response,
-        timestamp: new Date()
+        content: data.response,
+        timestamp: new Date(),
       }
 
       setMessages(prev => [...prev, assistantMessage])
 
-      // Extraer insights
-      const updates = extractInsights(userMessage.content, response, context)
-      const updatedContext = { ...context, ...updates }
-      setContext(updatedContext)
-
-      // Guardar progreso en backend
-      await saveProgress(updatedContext, [...messages, userMessage, assistantMessage])
-
-      // Verificar si la sesión está completa (después de 5-7 intercambios)
-      const userMessagesCount = messages.filter(m => m.role === 'user').length + 1
-      if (userMessagesCount >= 5) {
-        const nextComponent = determineNextComponent(updatedContext)
-        setRecommendedComponent(nextComponent)
-        setSessionComplete(true)
-      }
-
     } catch (error) {
-      console.error('Error:', error)
       const errorMessage: Message = {
         id: (Date.now() + 1).toString(),
         role: 'assistant',
-        content: 'Disculpa, tuve un problema técnico. ¿Podrías repetir tu último mensaje?',
-        timestamp: new Date()
+        content: getFallbackMessage(locale),
+        timestamp: new Date(),
       }
       setMessages(prev => [...prev, errorMessage])
     } finally {
@@ -116,188 +134,183 @@ Antes de empezar, cuéntame: ¿Qué te trae aquí hoy? ¿Qué desafío o pregunt
     }
   }
 
-  async function saveProgress(context: UserContext, messages: Message[]) {
-    await fetch('/api/component/save', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        userId,
-        componentNumber: 1,
-        data: {
-          context,
-          messages,
-          completedAt: sessionComplete ? new Date().toISOString() : null
-        },
-        progressPercentage: sessionComplete ? 100 : 50
-      })
-    })
-  }
-
-  function handleKeyPress(e: React.KeyboardEvent) {
+  function handleKeyDown(e: React.KeyboardEvent<HTMLTextAreaElement>) {
     if (e.key === 'Enter' && !e.shiftKey) {
       e.preventDefault()
       handleSend()
     }
   }
 
-  return (
-    <div className="max-w-4xl mx-auto">
-      {/* Header */}
-      <div className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white p-6 rounded-t-xl">
-        <div className="flex items-center gap-3">
-          <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center text-2xl">
-            🎯
-          </div>
-          <div>
-            <h1 className="text-2xl font-bold">{t('title')}</h1>
-            <p className="text-blue-100">Conversación con tu asistente personal</p>
-          </div>
-        </div>
-      </div>
+  // Auto-resize textarea
+  function handleInput(e: React.ChangeEvent<HTMLTextAreaElement>) {
+    setInput(e.target.value)
+    e.target.style.height = 'auto'
+    e.target.style.height = Math.min(e.target.scrollHeight, 160) + 'px'
+  }
 
-      {/* Chat Container */}
-      <div className="bg-white shadow-sm rounded-b-xl">
-        {/* Messages */}
-        <div className="h-[500px] overflow-y-auto p-6 space-y-4">
-          {messages.map((message) => (
+  return (
+    <div className="flex flex-col h-full max-w-3xl mx-auto">
+
+      {/* Messages */}
+      <div className="flex-1 overflow-y-auto px-4 py-6 space-y-6">
+        {messages.map(message => (
+          <div
+            key={message.id}
+            className={`flex gap-3 ${message.role === 'user' ? 'justify-end' : 'justify-start'}`}
+          >
+            {message.role === 'assistant' && (
+              <div className="w-8 h-8 rounded-full bg-slate-900 flex items-center justify-center flex-shrink-0 mt-1">
+                <span className="text-white text-xs font-bold">V</span>
+              </div>
+            )}
+
             <div
-              key={message.id}
-              className={`flex gap-3 ${
-                message.role === 'user' ? 'justify-end' : 'justify-start'
+              className={`max-w-[80%] rounded-2xl px-4 py-3 ${
+                message.role === 'user'
+                  ? 'bg-slate-900 text-white'
+                  : 'bg-white border border-slate-200 text-slate-900'
               }`}
             >
-              {message.role === 'assistant' && (
-                <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center text-white flex-shrink-0">
-                  🎯
-                </div>
-              )}
-              
-              <div
-                className={`max-w-[80%] rounded-2xl px-4 py-3 ${
-                  message.role === 'user'
-                    ? 'bg-blue-600 text-white'
-                    : 'bg-slate-100 text-slate-900'
-                }`}
-              >
-                <p className="whitespace-pre-wrap">{message.content}</p>
-                <span className="text-xs opacity-70 mt-1 block">
-                  {message.timestamp.toLocaleTimeString(locale, {
-                    hour: '2-digit',
-                    minute: '2-digit'
-                  })}
+              {/* Render line breaks */}
+              {message.content.split('\n').map((line, i) => (
+                <p key={i} className={`${i > 0 ? 'mt-2' : ''} leading-relaxed text-sm`}>
+                  {line || <br />}
+                </p>
+              ))}
+              <span className="text-xs opacity-40 mt-2 block">
+                {message.timestamp.toLocaleTimeString(locale, {
+                  hour: '2-digit',
+                  minute: '2-digit',
+                })}
+              </span>
+            </div>
+
+            {message.role === 'user' && (
+              <div className="w-8 h-8 rounded-full bg-slate-200 flex items-center justify-center flex-shrink-0 mt-1">
+                <span className="text-slate-600 text-xs font-bold">
+                  {userName.charAt(0).toUpperCase()}
                 </span>
               </div>
+            )}
+          </div>
+        ))}
 
-              {message.role === 'user' && (
-                <div className="w-8 h-8 bg-slate-600 rounded-full flex items-center justify-center text-white flex-shrink-0">
-                  👤
-                </div>
-              )}
+        {loading && (
+          <div className="flex gap-3 justify-start">
+            <div className="w-8 h-8 rounded-full bg-slate-900 flex items-center justify-center flex-shrink-0">
+              <span className="text-white text-xs font-bold">V</span>
             </div>
-          ))}
-
-          {loading && (
-            <div className="flex gap-3 justify-start">
-              <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center text-white">
-                🎯
-              </div>
-              <div className="bg-slate-100 rounded-2xl px-4 py-3">
-                <Loader2 className="h-5 w-5 animate-spin text-blue-600" />
-              </div>
+            <div className="bg-white border border-slate-200 rounded-2xl px-4 py-3">
+              <Loader2 className="h-4 w-4 animate-spin text-slate-400" />
             </div>
-          )}
+          </div>
+        )}
 
-          <div ref={messagesEndRef} />
+        <div ref={messagesEndRef} />
+      </div>
+
+      {/* Input */}
+      <div className="border-t border-slate-200 bg-white px-4 py-4">
+        <div className="flex gap-3 items-end">
+          <textarea
+            ref={inputRef}
+            value={input}
+            onChange={handleInput}
+            onKeyDown={handleKeyDown}
+            placeholder={getPlaceholder(locale)}
+            disabled={loading}
+            rows={1}
+            className="flex-1 border border-slate-300 rounded-xl px-4 py-3 text-sm
+              focus:outline-none focus:ring-2 focus:ring-slate-900 focus:border-transparent
+              disabled:opacity-50 resize-none overflow-hidden leading-relaxed"
+            style={{ minHeight: '48px', maxHeight: '160px' }}
+          />
+          <button
+            onClick={handleSend}
+            disabled={loading || !input.trim()}
+            className="bg-slate-900 text-white p-3 rounded-xl
+              hover:bg-slate-800 transition-colors
+              disabled:opacity-50 disabled:cursor-not-allowed flex-shrink-0"
+          >
+            <Send className="h-4 w-4" />
+          </button>
         </div>
-
-        {/* Session Complete */}
-        {sessionComplete && recommendedComponent && (
-          <div className="border-t border-slate-200 p-6 bg-gradient-to-r from-green-50 to-blue-50">
-            <h3 className="text-xl font-bold text-slate-900 mb-3">
-              ✅ Sesión Componente 1 Completada
-            </h3>
-            <p className="text-slate-700 mb-4">
-              Basado en nuestra conversación, he identificado que tu siguiente paso es:
-            </p>
-            <div className="bg-white border-2 border-blue-600 rounded-lg p-4 mb-4">
-              <h4 className="font-bold text-blue-900">
-                Componente {recommendedComponent}: {getComponentName(recommendedComponent)}
-              </h4>
-              <p className="text-slate-600 mt-2">
-                {getComponentReason(recommendedComponent, context.insights)}
-              </p>
-            </div>
-            <div className="flex gap-4">
-              <button
-                onClick={() => window.location.href = `/${locale}/dashboard/component-${recommendedComponent}`}
-                className="flex-1 bg-blue-600 text-white py-3 px-6 rounded-lg hover:bg-blue-700 transition font-semibold"
-              >
-                Ir a Componente {recommendedComponent}
-              </button>
-              <button
-                onClick={() => window.location.href = `/${locale}/dashboard`}
-                className="border-2 border-slate-300 text-slate-700 py-3 px-6 rounded-lg hover:border-slate-400 transition font-semibold"
-              >
-                Volver al Dashboard
-              </button>
-            </div>
-          </div>
-        )}
-
-        {/* Input */}
-        {!sessionComplete && (
-          <div className="border-t border-slate-200 p-4">
-            <div className="flex gap-3">
-              <input
-                ref={inputRef}
-                type="text"
-                value={input}
-                onChange={(e) => setInput(e.target.value)}
-                onKeyPress={handleKeyPress}
-                placeholder="Escribe tu respuesta..."
-                disabled={loading}
-                className="flex-1 border border-slate-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-600 disabled:opacity-50"
-              />
-              <button
-                onClick={handleSend}
-                disabled={loading || !input.trim()}
-                className="bg-blue-600 text-white p-3 rounded-lg hover:bg-blue-700 transition disabled:opacity-50 disabled:cursor-not-allowed"
-              >
-                <Send className="h-5 w-5" />
-              </button>
-            </div>
-            <p className="text-xs text-slate-500 mt-2">
-              Presiona Enter para enviar • Shift+Enter para nueva línea
-            </p>
-          </div>
-        )}
+        <p className="text-xs text-slate-400 mt-2 text-center">
+          {getHint(locale)}
+        </p>
       </div>
     </div>
   )
 }
 
-function getComponentName(num: number): string {
-  const names: Record<number, string> = {
-    2: 'Visión Clara',
-    3: 'Metas Tangibles',
-    4: 'Estrategia Proactiva',
-    5: 'Ambición Desafiante',
-    6: 'Compromiso Inquebrantable',
-    7: 'Energía Contagiosa',
-    8: 'Documento Final'
+// ─── LOCALIZED STRINGS ────────────────────────────────────────────────────────
+
+function getWelcomeMessage(name: string, locale: string): string {
+  const messages: Record<string, string> = {
+    es: `Hola ${name}. Soy Visionari.\n\n¿Qué está pasando en tu empresa esta semana?`,
+    en: `Hi ${name}. I'm Visionari.\n\nWhat's going on in your business this week?`,
+    pt: `Olá ${name}. Sou o Visionari.\n\nO que está acontecendo na sua empresa esta semana?`,
+    fr: `Bonjour ${name}. Je suis Visionari.\n\nQue se passe-t-il dans votre entreprise cette semaine ?`,
+    de: `Hallo ${name}. Ich bin Visionari.\n\nWas ist diese Woche in Ihrem Unternehmen los?`,
+    it: `Ciao ${name}. Sono Visionari.\n\nCosa sta succedendo nella tua azienda questa settimana?`,
+    nl: `Hallo ${name}. Ik ben Visionari.\n\nWat speelt er deze week in jouw bedrijf?`,
+    pl: `Cześć ${name}. Jestem Visionari.\n\nCo się dzieje w Twoim biznesie w tym tygodniu?`,
+    no: `Hei ${name}. Jeg er Visionari.\n\nHva skjer i bedriften din denne uken?`,
+    sv: `Hej ${name}. Jag är Visionari.\n\nVad händer i ditt företag den här veckan?`,
+    ja: `こんにちは、${name}さん。Visionariです。\n\n今週、ビジネスで何が起きていますか？`,
+    ko: `안녕하세요, ${name}님. Visionari입니다.\n\n이번 주 비즈니스에서 무슨 일이 있나요?`,
+    hi: `नमस्ते ${name}। मैं Visionari हूं।\n\nइस हफ्ते आपके व्यवसाय में क्या हो रहा है?`,
+    id: `Halo ${name}. Saya Visionari.\n\nApa yang sedang terjadi di bisnis Anda minggu ini?`,
+    ru: `Привет, ${name}. Я Visionari.\n\nЧто происходит в вашем бизнесе на этой неделе?`,
+    tr: `Merhaba ${name}. Ben Visionari.\n\nBu hafta işletmende neler oluyor?`,
   }
-  return names[num] || 'Visión Clara'
+  const lang = locale.split('-')[0]
+  return messages[lang] || messages['en']
 }
 
-function getComponentReason(num: number, insights: string[]): string {
-  const reasons: Record<number, string> = {
-    2: 'Necesitas definir con mayor claridad tu visión empresarial.',
-    3: 'Tienes ideas dispersas que necesitan convertirse en objetivos concretos.',
-    4: 'Tu visión actual es reactiva - necesitas construir hacia algo, no huir de algo.',
-    5: 'Necesitas elevar tu nivel de ambición y pensar más grande.',
-    6: 'Tienes la visión, ahora necesitas el compromiso inquebrantable.',
-    7: 'Tu visión necesita ser contagiosa para inspirar a otros.',
-    8: 'Estás listo para consolidar todo en tu documento de visión.'
+function getFallbackMessage(locale: string): string {
+  const messages: Record<string, string> = {
+    es: 'Tuve un problema técnico. ¿Puedes repetir tu último mensaje?',
+    en: 'I ran into a technical issue. Could you repeat your last message?',
+    pt: 'Tive um problema técnico. Pode repetir sua última mensagem?',
+    fr: 'J\'ai eu un problème technique. Pouvez-vous répéter votre dernier message ?',
+    de: 'Ich hatte ein technisches Problem. Könnten Sie Ihre letzte Nachricht wiederholen?',
   }
-  return reasons[num] || reasons[2]
+  const lang = locale.split('-')[0]
+  return messages[lang] || messages['en']
+}
+
+function getPlaceholder(locale: string): string {
+  const placeholders: Record<string, string> = {
+    es: 'Escribe tu mensaje...',
+    en: 'Type your message...',
+    pt: 'Digite sua mensagem...',
+    fr: 'Écrivez votre message...',
+    de: 'Nachricht eingeben...',
+    it: 'Scrivi il tuo messaggio...',
+    nl: 'Typ je bericht...',
+    pl: 'Wpisz swoją wiadomość...',
+    no: 'Skriv meldingen din...',
+    sv: 'Skriv ditt meddelande...',
+    ja: 'メッセージを入力...',
+    ko: '메시지를 입력하세요...',
+    hi: 'अपना संदेश लिखें...',
+    id: 'Ketik pesan Anda...',
+    ru: 'Введите сообщение...',
+    tr: 'Mesajınızı yazın...',
+  }
+  const lang = locale.split('-')[0]
+  return placeholders[lang] || placeholders['en']
+}
+
+function getHint(locale: string): string {
+  const hints: Record<string, string> = {
+    es: 'Enter para enviar · Shift+Enter para nueva línea',
+    en: 'Enter to send · Shift+Enter for new line',
+    pt: 'Enter para enviar · Shift+Enter para nova linha',
+    fr: 'Entrée pour envoyer · Shift+Entrée pour nouvelle ligne',
+    de: 'Enter zum Senden · Shift+Enter für neue Zeile',
+  }
+  const lang = locale.split('-')[0]
+  return hints[lang] || hints['en']
 }
