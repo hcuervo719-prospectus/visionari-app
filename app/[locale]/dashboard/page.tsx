@@ -2,182 +2,94 @@
 import { redirect } from 'next/navigation'
 import { createClient } from '@/lib/supabase/server'
 import { getTranslations } from 'next-intl/server'
-import UnlockButton from '@/components/UnlockButton'
+import VisionariChat from '@/components/VisionariChat'
 
-export default async function DashboardPage({ params }: { params: { locale: string } }) {
+export default async function DashboardPage({
+  params,
+}: {
+  params: { locale: string }
+}) {
   const supabase = await createClient()
   const t = await getTranslations()
+  const { locale } = params
 
-  // Verificar autenticación
+  // Auth check
   const { data: { user } } = await supabase.auth.getUser()
-  
-  if (!user) {
-    redirect(`/${params.locale}/login`)
-  }
+  if (!user) redirect(`/${locale}/login`)
 
-  // Obtener perfil del usuario
+  // Load profile
   const { data: profile } = await supabase
     .from('profiles')
-    .select('*')
+    .select('full_name, subscription_status, trial_ends_at')
     .eq('id', user.id)
     .single()
 
-  const hasPurchased = profile?.has_purchased || false
+  // Check access — trial or active subscription
+  const status = profile?.subscription_status
+  const hasAccess = status === 'trial' || status === 'active'
 
-  // Obtener progreso de componentes
-  const { data: progressData } = await supabase
-    .from('component_progress')
-    .select('*')
-    .eq('user_id', user.id)
+  if (!hasAccess) {
+    redirect(`/${locale}/subscribe`)
+  }
 
-  const completedComponents = progressData?.filter(p => p.completed).length || 0
-  const totalTimeInvested = progressData?.reduce((acc, p) => acc + (p.time_spent || 0), 0) || 0
+  const userName = profile?.full_name || user.email?.split('@')[0] || 'there'
+  const firstName = userName.split(' ')[0]
 
-  const firstName = profile?.full_name?.split(' ')[0] || 'there'
-
-  // Components data
-  const components = [
-    { id: 1, name: t('dashboard.components.1'), locked: false },
-    { id: 2, name: t('dashboard.components.2'), locked: !hasPurchased },
-    { id: 3, name: t('dashboard.components.3'), locked: !hasPurchased },
-    { id: 4, name: t('dashboard.components.4'), locked: !hasPurchased },
-    { id: 5, name: t('dashboard.components.5'), locked: !hasPurchased },
-    { id: 6, name: t('dashboard.components.6'), locked: !hasPurchased },
-    { id: 7, name: t('dashboard.components.7'), locked: !hasPurchased },
-    { id: 8, name: t('dashboard.components.8'), locked: !hasPurchased },
-  ]
+  // Trial banner: show days remaining if on trial
+  let trialDaysLeft: number | null = null
+  if (status === 'trial' && profile?.trial_ends_at) {
+    const msLeft = new Date(profile.trial_ends_at).getTime() - Date.now()
+    trialDaysLeft = Math.max(0, Math.ceil(msLeft / 86400000))
+  }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 p-6">
-      <div className="max-w-6xl mx-auto">
-        {/* Header */}
-        <div className="bg-white rounded-xl shadow-sm p-8 mb-6">
-          <div className="flex justify-between items-start">
-            <div>
-              <h1 className="text-3xl font-bold text-slate-900 mb-2">
-                {t('dashboard.welcome', { name: firstName })} 👋
-              </h1>
-              <p className="text-slate-600">{t('dashboard.subtitle')}</p>
-            </div>
-            <form action="/api/auth/logout" method="POST">
-              <button
-                type="submit"
-                className="px-4 py-2 text-sm text-slate-600 hover:text-slate-900 transition"
-              >
-                {t('dashboard.logout')}
-              </button>
-            </form>
-          </div>
+    <div className="flex flex-col h-screen bg-slate-50">
+
+      {/* Trial banner */}
+      {trialDaysLeft !== null && trialDaysLeft <= 7 && (
+        <div className="bg-amber-50 border-b border-amber-200 px-4 py-2 text-center">
+          <span className="text-sm text-amber-800">
+            {trialDaysLeft === 0
+              ? t('dashboard.trialEndsToday')
+              : t('dashboard.trialDaysLeft', { days: trialDaysLeft })}
+            {' · '}
+            <a href={`/${locale}/subscribe`} className="underline font-medium">
+              {t('dashboard.subscribe')}
+            </a>
+          </span>
         </div>
+      )}
 
-        {/* Stats Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-          <div className="bg-white rounded-xl shadow-sm p-6">
-            <div className="flex items-center justify-between mb-2">
-              <h3 className="text-sm font-medium text-slate-600">{t('dashboard.progress')}</h3>
-              <span className="text-2xl">📊</span>
-            </div>
-            <p className="text-3xl font-bold text-slate-900">{completedComponents}/8</p>
-            <p className="text-sm text-slate-500 mt-1">{t('dashboard.componentsCompleted')}</p>
+      {/* Header */}
+      <header className="bg-white border-b border-slate-200 px-6 py-4 flex items-center justify-between flex-shrink-0">
+        <div className="flex items-center gap-3">
+          <div className="w-8 h-8 rounded-full bg-slate-900 flex items-center justify-center">
+            <span className="text-white text-xs font-bold">V</span>
           </div>
-
-          <div className="bg-white rounded-xl shadow-sm p-6">
-            <div className="flex items-center justify-between mb-2">
-              <h3 className="text-sm font-medium text-slate-600">{t('dashboard.timeInvested')}</h3>
-              <span className="text-2xl">⏱️</span>
-            </div>
-            <p className="text-3xl font-bold text-slate-900">{totalTimeInvested}h</p>
-            <p className="text-sm text-slate-500 mt-1">{t('dashboard.hoursTotal')}</p>
-          </div>
-
-          <div className="bg-white rounded-xl shadow-sm p-6">
-            <div className="flex items-center justify-between mb-2">
-              <h3 className="text-sm font-medium text-slate-600">{t('dashboard.accessLevel')}</h3>
-              <span className="text-2xl">{hasPurchased ? '✅' : '🔓'}</span>
-            </div>
-            <p className="text-3xl font-bold text-slate-900">
-              {hasPurchased ? 'Premium' : 'Free'}
-            </p>
-            <p className="text-sm text-slate-500 mt-1">
-              {hasPurchased ? 'Full Access' : t('dashboard.upgradeToUnlock')}
-            </p>
-          </div>
+          <span className="font-semibold text-slate-900">Visionari</span>
         </div>
-
-        {/* Components Grid */}
-        <div className="bg-white rounded-xl shadow-sm p-8 mb-8">
-          <h2 className="text-2xl font-bold text-slate-900 mb-6">
-            {t('dashboard.yourVisionComponents')}
-          </h2>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {components.map((component) => {
-              const progress = progressData?.find(p => p.component_number === component.id)
-              const isCompleted = progress?.completed || false
-              const progressPercentage = progress?.progress_percentage || 0
-
-              return (
-                <a
-                  key={component.id}
-                  href={component.locked ? '#' : `/${params.locale}/dashboard/component-${component.id}`}
-                  className={`block p-6 rounded-lg border-2 transition-all ${
-                    component.locked
-                      ? 'border-slate-200 bg-slate-50 cursor-not-allowed opacity-60'
-                      : isCompleted
-                      ? 'border-green-200 bg-green-50 hover:border-green-300'
-                      : 'border-blue-200 bg-blue-50 hover:border-blue-300'
-                  }`}
-                >
-                  <div className="flex items-start justify-between mb-3">
-                    <div className="flex-1">
-                      <div className="flex items-center gap-2 mb-1">
-                        <span className="text-sm font-medium text-slate-500">
-                          Component {component.id}
-                        </span>
-                        {component.locked && <span className="text-lg">🔒</span>}
-                        {isCompleted && <span className="text-lg">✅</span>}
-                      </div>
-                      <h3 className="font-semibold text-slate-900">{component.name}</h3>
-                    </div>
-                  </div>
-
-                  {!component.locked && (
-                    <div className="mt-4">
-                      <div className="flex justify-between text-sm text-slate-600 mb-1">
-                        <span>{progressPercentage}% complete</span>
-                      </div>
-                      <div className="w-full bg-slate-200 rounded-full h-2">
-                        <div
-                          className={`h-2 rounded-full transition-all ${
-                            isCompleted ? 'bg-green-500' : 'bg-blue-500'
-                          }`}
-                          style={{ width: `${progressPercentage}%` }}
-                        />
-                      </div>
-                    </div>
-                  )}
-                </a>
-              )
-            })}
-          </div>
+        <div className="flex items-center gap-4">
+          <span className="text-sm text-slate-500">{firstName}</span>
+          <form action="/api/auth/logout" method="POST">
+            <button
+              type="submit"
+              className="text-sm text-slate-500 hover:text-slate-800 transition"
+            >
+              {t('dashboard.logout')}
+            </button>
+          </form>
         </div>
+      </header>
 
-        {/* Unlock CTA - Solo si NO ha comprado */}
-        {!hasPurchased && (
-          <div className="bg-gradient-to-br from-blue-600 to-indigo-700 rounded-xl shadow-lg p-8 text-white">
-            <div className="max-w-3xl mx-auto text-center">
-              <h2 className="text-3xl font-bold mb-4">{t('dashboard.readyToComplete')}</h2>
-              <p className="text-xl mb-8 text-blue-100">
-                {t('dashboard.unlockAll')}
-              </p>
-              <UnlockButton userId={user.id} userEmail={user.email || ''} />
-              <p className="text-sm text-blue-200 mt-4">
-                One-time payment • Lifetime access • No subscription
-              </p>
-            </div>
-          </div>
-        )}
-      </div>
+      {/* Chat — fills remaining height */}
+      <main className="flex-1 overflow-hidden">
+        <VisionariChat
+          userId={user.id}
+          userName={userName}
+          locale={locale}
+        />
+      </main>
+
     </div>
   )
 }
