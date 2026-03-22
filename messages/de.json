@@ -1,1 +1,117 @@
-{"common":{"siteName":"Visionari","tagline":"Bauen Sie die Vision auf, die Ihr Geschäft transformieren wird"},"nav":{"cases":"Fälle","howItWorks":"Wie es funktioniert","pricing":"Preise","login":"Anmelden","signup":"Registrieren","getStarted":"Loslegen"},"hero":{"badge":"Globaler Start - 16 Sprachen","headline":"Klare Vision ist der Unterschied zwischen Wachsen und","highlightText":"Transformieren Ihrer Branche","subheadline":"Erfahren Sie, wie Unternehmen wie Amazon, Tesla und Apple Visionen aufgebaut haben, die jahrzehntelang jede Entscheidung geleitet haben. Jetzt sind Sie dran.","cta":{"primary":"Meine Vision erstellen","secondary":"Erfolgsgeschichten sehen"},"casesLabel":"16 echte Fallstudien"},"features":{"title":"Wie es funktioniert","subtitle":"System bewährt in 15 transformativen Unternehmen","feature1":{"title":"Von den Besten lernen","description":"Echte Fälle von Unternehmen, die ganze Branchen verändert haben dank einer klaren Vision vom ersten Tag an."},"feature2":{"title":"Erstellen Sie Ihre Vision","description":"8-Komponenten-System, das Sie Schritt für Schritt anleitet, um eine kristallklare und unerschütterliche Vision aufzubauen."},"feature3":{"title":"Bleiben Sie fokussiert","description":"Tools und Frameworks, damit Ihre Vision jahrelang jede strategische Entscheidung leitet."}},"pricing":{"title":"Heute beginnen","subtitle":"Wählen Sie den Plan für Ihre Phase","free":{"name":"Kostenlos","price":"$0","description":"Erkunden Sie das System und Komponente 1","feature1":"Zugang zu Fallstudien","feature2":"Komponente 1: Bedeutung","feature3":"ROI-Rechner","cta":"Kostenlos starten"},"foundation":{"name":"Foundation Modul","price":"$10","period":"einmalige Zahlung","badge":"Am beliebtesten","description":"Erstellen Sie Ihre vollständige Vision in 8 Schritten","feature1":"Alles in Kostenlos +","feature2":"8 vollständige Komponenten","feature3":"Generiertes Abschlussdokument","feature4":"Lebenslanger Zugang","cta":"Jetzt freischalten"},"pro":{"name":"Visionari Pro","price":"$29","period":"/Monat","description":"KI-Coach zur Umsetzung Ihrer Vision","feature1":"Alles in Foundation +","feature2":"Personalisierter KI-Coach","feature3":"Fortschrittsverfolgung","feature4":"Kontinuierliche Updates","cta":"Demnächst - April 2026"}},"footer":{"tagline":"Transformieren Sie Ihr Geschäft mit klarer Vision","sections":{"product":{"title":"Produkt","link1":"Fallstudien","link2":"Wie es funktioniert","link3":"Preise"},"company":{"title":"Unternehmen","link1":"Über uns","link2":"Blog","link3":"Kontakt"},"legal":{"title":"Rechtliches","link1":"Datenschutz","link2":"Bedingungen","link3":"Cookies"}},"copyright":"© 2026 Visionari. Alle Rechte vorbehalten."},"dashboard":{"welcome":"Willkommen zurück, {name}!","subtitle":"Bauen Sie Ihre Geschäftsvision weiter auf","logout":"Abmelden","progress":"Fortschritt","componentsCompleted":"Abgeschlossene Komponenten","timeInvested":"Investierte Zeit","hoursTotal":"von insgesamt 48 Stunden","accessLevel":"Zugangsebene","upgradeToUnlock":"Upgraden Sie, um alles freizuschalten","yourVisionComponents":"Ihre Visionskomponenten","readyToComplete":"Bereit, Ihre Vision zu vervollständigen?","unlockAll":"Schalten Sie alle 8 Komponenten für nur $10 frei und erstellen Sie Ihr vollständiges Geschäftsvisionsdokument","unlockButton":"Vollständiges Modul freischalten - $10","components":{"1":"Ihr tiefer Zweck","2":"Klare Vision","3":"Greifbare Ziele","4":"Proaktive Strategie","5":"Herausfordernder Ehrgeiz","6":"Unerschütterliches Engagement","7":"Ansteckende Energie","8":"Vollständiges Dokument"}}}
+{
+  "common": {
+    "siteName": "Visionari"
+  },
+  "nav": {
+    "howItWorks": "So funktioniert es",
+    "science": "Wissenschaft",
+    "pricing": "Preise",
+    "login": "Anmelden",
+    "signup": "Kostenlos starten"
+  },
+  "hero": {
+    "badge": "Strategische Beratung · 24/7 verfügbar",
+    "headline": "Hören Sie auf, zu arbeiten",
+    "headlineAccent": "für Ihr Unternehmen.",
+    "headlineLine3": "Fangen Sie an, es zu bauen.",
+    "subheadline": "Visionari diagnostiziert, was das Wachstum Ihres Unternehmens bremst, und begleitet Sie Woche für Woche beim Aufbau des Systems, das Ihnen ermöglicht zu skalieren — ohne den Verstand zu verlieren.",
+    "cta": "7 Tage kostenlos starten",
+    "ctaSecondary": "So funktioniert es",
+    "trial": "7 Tage kostenlos · Keine Kreditkarte",
+    "trialNote": "Jederzeit kündbar. Keine Verpflichtungen.",
+    "cardDesc": "Ihr strategischer Berater, immer verfügbar.",
+    "available": "Jetzt online"
+  },
+  "frames": {
+    "title": "Vier Probleme. Ein System.",
+    "subtitle": "Visionari erkennt, in welchem Ihr Unternehmen steckt, und arbeitet mit Ihnen an dem, was jetzt am wichtigsten ist.",
+    "vision": {
+      "title": "Keine klare Richtung",
+      "desc": "Ihr Unternehmen wächst, aber Sie wissen nicht, ob es in die richtige Richtung geht. Jede wichtige Entscheidung erfordert einen Neustart, da kein strategischer Filter vorhanden ist."
+    },
+    "founders": {
+      "title": "Im Alltag gefangen",
+      "desc": "Sie arbeiten 10 Stunden und haben das Gefühl, nicht voranzukommen. Alles hängt von Ihnen ab. Sie können nicht delegieren, weil niemand genug Kontext hat, um ohne Sie zu entscheiden."
+    },
+    "mckinsey": {
+      "title": "Team nicht ausgerichtet",
+      "desc": "Ihr Team führt Aufgaben aus, baut aber das Unternehmen nicht auf. Sie führen Änderungen ein, die nicht halten. Die Kultur, die Sie wollen, ist nicht die Kultur, die Sie haben."
+    },
+    "scorecard": {
+      "title": "Keine relevanten Kennzahlen",
+      "desc": "Sie sehen nur die Finanzen, und wenn etwas scheitert, ist es bereits zu spät. Sie haben kein Frühwarnsystem, das Ihnen sagt, was kommt, bevor es eintrifft."
+    }
+  },
+  "science": {
+    "title": "Interventionen auf Basis echter Wissenschaft",
+    "subtitle": "Visionari wendet die Frameworks mit den stärksten empirischen Belegen für Unternehmenswachstum an. Keine generischen Ratschläge — Wissenschaft, die in tausenden Organisationen validiert wurde.",
+    "stat1": "der Wachstumsfehler haben eine interne, keine externe Ursache",
+    "stat2": "Unternehmen, die Bain & Company über 40 Jahre lang untersucht hat",
+    "stat3": "mal höhere Rendite in Unternehmen mit hoher organisatorischer Gesundheit",
+    "frameworks": "Kantabutra & Avery · Bain Founder's Mentality · McKinsey OHI · Kaplan & Norton BSC",
+    "quote": "90 % der Organisationen scheitern bei der Umsetzung ihrer Strategie. Die Ursache ist selten eine schlechte Strategie. Es fehlt ein Betriebssystem, das sie in Aktion umsetzt.",
+    "quoteSource": "Harvard Business Review · Balanced Scorecard Institute"
+  },
+  "memory": {
+    "title": "Der Berater, der Ihr Unternehmen kennt",
+    "subtitle": "Im Gegensatz zu einem Kurs oder einem generischen Chatbot sammelt Visionari bei jeder Sitzung Kontext über Ihr Unternehmen. Woche 12 ist leistungsfähiger als Woche 1 — denn es kennt Sie bereits.",
+    "point1": {
+      "title": "Personalisierte Diagnose",
+      "desc": "Identifiziert die wahre Grundursache, nicht das Symptom, das Sie beschreiben. Die meisten Wachstumsprobleme haben ihren Ursprung drei Ebenen tiefer."
+    },
+    "point2": {
+      "title": "Akkumuliertes Gedächtnis",
+      "desc": "Erinnert sich an jede Sitzung, jede Verpflichtung, jeden Fortschritt. Fängt nicht bei null an — baut auf dem auf, was es bereits über Sie weiß."
+    },
+    "point3": {
+      "title": "Konkrete Ergebnisse",
+      "desc": "Jede Sitzung endet mit etwas Greifbarem: einem System, einer Kennzahl, einer Entscheidung. Keine Einsichten — Werkzeuge, die Sie diese Woche in Ihrem Unternehmen einsetzen."
+    }
+  },
+  "urgency": {
+    "title": "Die Kosten fehlender Systeme",
+    "stat1": "von 10 Unternehmen, die älter als 3 Jahre sind, befinden sich im Stall-out, ohne es zu wissen",
+    "stat2": "des Wertes jeder Strategie geht zwischen Planung und Umsetzung verloren",
+    "stat3": "kostet eine Senior-Strategieberatungssitzung",
+    "statLabel1": "Bain & Company",
+    "statLabel2": "Harvard Business Review",
+    "statLabel3": "vs. 30 $/Monat Visionari",
+    "message": "Währenddessen trifft Ihr agilster Wettbewerber Entscheidungen mit mehr Klarheit, mehr Geschwindigkeit und mehr Daten als Sie. Visionari ist das System, das dieses Spielfeld einebnet — ohne den Preis der Premium-Beratung.",
+    "cta": "7 Tage kostenlos starten"
+  },
+  "pricing": {
+    "title": "Ein Preis. Vollständiger Zugang.",
+    "subtitle": "Keine Stufen, keine Komponentenlimits. Ganz Visionari für 30 $/Monat.",
+    "price": "30 $",
+    "period": "/Monat",
+    "trial": "7 Tage kostenloser Test",
+    "feature1": "Vollständige Unternehmensdiagnose",
+    "feature2": "4 integrierte wissenschaftliche Frameworks",
+    "feature3": "Akkumuliertes Gedächtnis pro Sitzung",
+    "feature4": "Konkrete Ergebnisse pro Sitzung",
+    "feature5": "Wöchentliche Fortschritts-Check-ins",
+    "feature6": "In 16 Sprachen verfügbar",
+    "cta": "7 Tage kostenlos starten",
+    "note": "Keine Karte während des Tests · Jederzeit kündbar",
+    "compare": "Eine gleichwertige Beratungssitzung kostet 300–500 $. Visionari ist Ihr täglich verfügbarer Berater."
+  },
+  "cta": {
+    "title": "Ihr Unternehmen in 12 Wochen",
+    "subtitle": "Kein vages Versprechen — eine klare Richtung, ein System, das ohne Sie funktioniert, und Kennzahlen, die Ihnen in Echtzeit sagen, ob Sie auf Kurs sind.",
+    "button": "7 Tage kostenlos starten",
+    "trial": "Keine Karte · Jederzeit kündbar"
+  },
+  "footer": {
+    "copyright": "© 2026 Visionari · VividShift",
+    "privacy": "Datenschutz",
+    "terms": "Nutzungsbedingungen"
+  },
+  "dashboard": {
+    "welcome": "Hallo, {name}",
+    "subtitle": "Was passiert diese Woche in Ihrem Unternehmen?",
+    "logout": "Abmelden",
+    "trialEndsToday": "Ihr Test endet heute",
+    "trialDaysLeft": "Noch {days} Tage im Test",
+    "subscribe": "Abonnieren"
+  }
+}

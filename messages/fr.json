@@ -1,126 +1,117 @@
 {
   "common": {
-    "siteName": "Visionari",
-    "tagline": "Construisez la vision qui transformera votre entreprise"
+    "siteName": "Visionari"
   },
   "nav": {
-    "cases": "Cas",
     "howItWorks": "Comment ça marche",
+    "science": "Science",
     "pricing": "Tarifs",
     "login": "Connexion",
-    "signup": "Inscription",
-    "getStarted": "Commencer"
+    "signup": "Commencer gratuitement"
   },
   "hero": {
-    "badge": "Lancement Mondial - 16 Langues",
-    "headline": "Une Vision Claire est la Différence Entre Croître et",
-    "highlightText": "Transformer Votre Industrie",
-    "subheadline": "Découvrez comment des entreprises comme Amazon, Tesla et Apple ont construit des visions qui ont guidé chaque décision pendant des décennies. C'est maintenant votre tour.",
-    "cta": {
-      "primary": "Créer Ma Vision",
-      "secondary": "Voir les Histoires de Succès"
-    },
-    "casesLabel": "16 Études de Cas Réelles"
+    "badge": "Conseil stratégique · Disponible 24h/24",
+    "headline": "Arrêtez de travailler",
+    "headlineAccent": "pour votre entreprise.",
+    "headlineLine3": "Commencez à la construire.",
+    "subheadline": "Visionari diagnostique ce qui freine la croissance de votre entreprise et vous accompagne, semaine après semaine, pour construire le système qui vous permet de scaler sans perdre la tête.",
+    "cta": "Commencer 7 jours gratuits",
+    "ctaSecondary": "Voir comment ça marche",
+    "trial": "7 jours gratuits · Sans carte bancaire",
+    "trialNote": "Annulez quand vous voulez. Sans engagement.",
+    "cardDesc": "Votre conseiller stratégique, toujours disponible.",
+    "available": "En ligne maintenant"
   },
-  "features": {
-    "title": "Comment Ça Marche",
-    "subtitle": "Système éprouvé dans 15 entreprises transformatrices",
-    "feature1": {
-      "title": "Apprenez des meilleurs",
-      "description": "Cas réels d'entreprises qui ont changé des industries entières grâce à une vision claire dès le premier jour."
+  "frames": {
+    "title": "Quatre problèmes. Un système.",
+    "subtitle": "Visionari détecte lequel concerne votre entreprise et travaille avec vous sur ce qui compte le plus maintenant.",
+    "vision": {
+      "title": "Pas de cap clair",
+      "desc": "Votre entreprise croît mais vous ne savez pas si elle va dans la bonne direction. Chaque décision importante nécessite de repartir de zéro faute de filtre stratégique."
     },
-    "feature2": {
-      "title": "Créez votre vision",
-      "description": "Système en 8 composants qui vous guide étape par étape pour construire une vision cristalline et inébranlable."
+    "founders": {
+      "title": "Prisonnier du quotidien",
+      "desc": "Vous travaillez 10 heures et avez l'impression de ne pas avancer. Tout dépend de vous. Vous ne pouvez pas déléguer car personne n'a assez de contexte pour décider sans vous."
     },
-    "feature3": {
-      "title": "Restez concentré",
-      "description": "Outils et cadres pour que votre vision guide chaque décision stratégique pendant des années."
+    "mckinsey": {
+      "title": "Équipe désalignée",
+      "desc": "Votre équipe exécute des tâches mais ne construit pas l'entreprise. Vous mettez en place des changements qui ne durent pas. La culture que vous voulez n'est pas celle que vous avez."
+    },
+    "scorecard": {
+      "title": "Pas de métriques pertinentes",
+      "desc": "Vous ne voyez que les finances, et quand quelque chose échoue il est déjà trop tard. Vous n'avez pas le système d'alerte précoce qui vous dit ce qui arrive avant que ça n'arrive."
     }
+  },
+  "science": {
+    "title": "Des interventions basées sur la science",
+    "subtitle": "Visionari applique les frameworks avec les meilleures preuves empiriques pour la croissance des entreprises. Pas de conseils génériques — une science validée dans des milliers d'organisations.",
+    "stat1": "des échecs de croissance ont une cause interne, pas externe",
+    "stat2": "entreprises étudiées par Bain & Company en 40 ans",
+    "stat3": "fois plus de retour dans les entreprises à haute santé organisationnelle",
+    "frameworks": "Kantabutra & Avery · Bain Founder's Mentality · McKinsey OHI · Kaplan & Norton BSC",
+    "quote": "90 % des organisations échouent à exécuter leur stratégie. La cause est rarement une mauvaise stratégie. C'est l'absence d'un système d'exploitation qui la transforme en action.",
+    "quoteSource": "Harvard Business Review · Balanced Scorecard Institute"
+  },
+  "memory": {
+    "title": "Le conseiller qui connaît votre entreprise",
+    "subtitle": "Contrairement à un cours ou un chatbot générique, Visionari accumule le contexte de votre entreprise à chaque session. La semaine 12 est plus puissante que la semaine 1 — parce qu'il vous connaît déjà.",
+    "point1": {
+      "title": "Diagnostic personnalisé",
+      "desc": "Identifie la vraie cause profonde, pas le symptôme que vous décrivez. La plupart des problèmes de croissance ont leur origine trois couches plus bas."
+    },
+    "point2": {
+      "title": "Mémoire accumulée",
+      "desc": "Se souvient de chaque session, chaque engagement, chaque avancée. Ne repart pas de zéro — construit sur ce qu'il sait déjà de vous."
+    },
+    "point3": {
+      "title": "Livrables concrets",
+      "desc": "Chaque session se termine par quelque chose de tangible : un système, une métrique, une décision. Pas des insights — des outils que vous utilisez dans votre entreprise cette semaine."
+    }
+  },
+  "urgency": {
+    "title": "Le coût de l'absence de système",
+    "stat1": "entreprises sur 10 de plus de 3 ans sont en Stall-out sans le savoir",
+    "stat2": "de la valeur de toute stratégie se perd entre la planification et l'exécution",
+    "stat3": "le coût d'une session de conseil stratégique senior",
+    "statLabel1": "Bain & Company",
+    "statLabel2": "Harvard Business Review",
+    "statLabel3": "vs 30 $/mois Visionari",
+    "message": "Pendant ce temps, votre concurrent le plus agile prend des décisions avec plus de clarté, plus de rapidité et plus de données que vous. Visionari est le système qui égalise cette équation — sans le prix du conseil premium.",
+    "cta": "Commencer 7 jours gratuits"
   },
   "pricing": {
-    "title": "Commencez Aujourd'hui",
-    "subtitle": "Choisissez le plan pour votre étape",
-    "free": {
-      "name": "Gratuit",
-      "price": "$0",
-      "description": "Explorez le système et le Composant 1",
-      "feature1": "Accès aux études de cas",
-      "feature2": "Composant 1: Importance",
-      "feature3": "Calculateur de ROI",
-      "cta": "Commencer Gratuitement"
-    },
-    "foundation": {
-      "name": "Module Foundation",
-      "price": "$10",
-      "period": "paiement unique",
-      "badge": "Le Plus Populaire",
-      "description": "Créez votre vision complète en 8 étapes",
-      "feature1": "Tout en Gratuit +",
-      "feature2": "8 Composants complets",
-      "feature3": "Document final généré",
-      "feature4": "Accès à vie",
-      "cta": "Débloquer Maintenant"
-    },
-    "pro": {
-      "name": "Visionari Pro",
-      "price": "$29",
-      "period": "/mois",
-      "description": "Coach IA pour exécuter votre vision",
-      "feature1": "Tout en Foundation +",
-      "feature2": "Coach IA personnalisé",
-      "feature3": "Suivi des progrès",
-      "feature4": "Mises à jour continues",
-      "cta": "Bientôt - Avril 2026"
-    }
+    "title": "Un prix. Accès complet.",
+    "subtitle": "Sans niveaux, sans limites. Tout Visionari pour 30 $/mois.",
+    "price": "30 $",
+    "period": "/mois",
+    "trial": "7 jours gratuits pour commencer",
+    "feature1": "Diagnostic complet de l'entreprise",
+    "feature2": "4 frameworks scientifiques intégrés",
+    "feature3": "Mémoire accumulée à chaque session",
+    "feature4": "Livrables concrets par session",
+    "feature5": "Check-ins hebdomadaires de progression",
+    "feature6": "Disponible en 16 langues",
+    "cta": "Commencer 7 jours gratuits",
+    "note": "Sans carte pendant l'essai · Annulez quand vous voulez",
+    "compare": "Une session de conseil équivalente coûte 300–500 $. Visionari est votre conseiller disponible tous les jours."
+  },
+  "cta": {
+    "title": "Votre entreprise en 12 semaines",
+    "subtitle": "Pas une vague promesse — une direction claire, un système qui fonctionne sans vous, et des métriques qui vous disent en temps réel si vous êtes sur la bonne voie.",
+    "button": "Commencer 7 jours gratuits",
+    "trial": "Sans carte · Annulez quand vous voulez"
   },
   "footer": {
-    "tagline": "Transformez votre entreprise avec une vision claire",
-    "sections": {
-      "product": {
-        "title": "Produit",
-        "link1": "Études de Cas",
-        "link2": "Comment Ça Marche",
-        "link3": "Tarifs"
-      },
-      "company": {
-        "title": "Entreprise",
-        "link1": "À Propos",
-        "link2": "Blog",
-        "link3": "Contact"
-      },
-      "legal": {
-        "title": "Légal",
-        "link1": "Confidentialité",
-        "link2": "Conditions",
-        "link3": "Cookies"
-      }
-    },
-    "copyright": "© 2026 Visionari. Tous droits réservés."
+    "copyright": "© 2026 Visionari · VividShift",
+    "privacy": "Confidentialité",
+    "terms": "Conditions"
   },
   "dashboard": {
-    "welcome": "Bon retour, {name}!",
-    "subtitle": "Continuez à construire votre vision d'entreprise",
+    "welcome": "Bonjour, {name}",
+    "subtitle": "Que se passe-t-il dans votre entreprise cette semaine ?",
     "logout": "Déconnexion",
-    "progress": "Progrès",
-    "componentsCompleted": "Composants complétés",
-    "timeInvested": "Temps Investi",
-    "hoursTotal": "sur 48 heures au total",
-    "accessLevel": "Niveau d'Accès",
-    "upgradeToUnlock": "Mettez à niveau pour tout débloquer",
-    "yourVisionComponents": "Vos Composants de Vision",
-    "readyToComplete": "Prêt à compléter votre vision?",
-    "unlockAll": "Débloquez les 8 composants pour seulement $10 et créez votre document complet de Vision d'Entreprise",
-    "unlockButton": "Débloquer le Module Complet - $10",
-    "components": {
-      "1": "Votre But Profond",
-      "2": "Vision Claire",
-      "3": "Objectifs Tangibles",
-      "4": "Stratégie Proactive",
-      "5": "Ambition Audacieuse",
-      "6": "Engagement Inébranlable",
-      "7": "Énergie Contagieuse",
-      "8": "Document Complet"
-    }
+    "trialEndsToday": "Votre essai se termine aujourd'hui",
+    "trialDaysLeft": "{days} jours restants dans votre essai",
+    "subscribe": "S'abonner"
   }
 }

@@ -1,1 +1,117 @@
-{"common":{"siteName":"Visionari","tagline":"Costruisci la visione che trasformerà il tuo business"},"nav":{"cases":"Casi","howItWorks":"Come funziona","pricing":"Prezzi","login":"Accedi","signup":"Registrati","getStarted":"Inizia"},"hero":{"badge":"Lancio Globale - 16 Lingue","headline":"La Visione Chiara è la Differenza tra Crescere e","highlightText":"Trasformare la Tua Industria","subheadline":"Scopri come aziende come Amazon, Tesla e Apple hanno costruito visioni che hanno guidato ogni decisione per decenni. Ora tocca a te.","cta":{"primary":"Crea la Mia Visione","secondary":"Vedi Storie di Successo"},"casesLabel":"16 Casi Studio Reali"},"features":{"title":"Come Funziona","subtitle":"Sistema provato in 15 aziende trasformazionali","feature1":{"title":"Impara dai migliori","description":"Casi reali di aziende che hanno cambiato intere industrie grazie a una visione chiara dal primo giorno."},"feature2":{"title":"Crea la tua visione","description":"Sistema a 8 componenti che ti guida passo dopo passo per costruire una visione cristallina e incrollabile."},"feature3":{"title":"Mantieni il focus","description":"Strumenti e framework affinché la tua visione guidi ogni decisione strategica per anni."}},"pricing":{"title":"Inizia Oggi","subtitle":"Scegli il piano per la tua fase","free":{"name":"Gratis","price":"$0","description":"Esplora il sistema e Componente 1","feature1":"Accesso ai casi studio","feature2":"Componente 1: Importanza","feature3":"Calcolatore ROI","cta":"Inizia Gratis"},"foundation":{"name":"Modulo Foundation","price":"$10","period":"pagamento unico","badge":"Più Popolare","description":"Crea la tua visione completa in 8 passi","feature1":"Tutto in Gratis +","feature2":"8 Componenti completi","feature3":"Documento finale generato","feature4":"Accesso a vita","cta":"Sblocca Ora"},"pro":{"name":"Visionari Pro","price":"$29","period":"/mese","description":"Coach IA per eseguire la tua visione","feature1":"Tutto in Foundation +","feature2":"Coach IA personalizzato","feature3":"Monitoraggio progressi","feature4":"Aggiornamenti continui","cta":"Prossimamente - Aprile 2026"}},"footer":{"tagline":"Trasforma il tuo business con visione chiara","sections":{"product":{"title":"Prodotto","link1":"Casi Studio","link2":"Come Funziona","link3":"Prezzi"},"company":{"title":"Azienda","link1":"Chi Siamo","link2":"Blog","link3":"Contatti"},"legal":{"title":"Legale","link1":"Privacy","link2":"Termini","link3":"Cookie"}},"copyright":"© 2026 Visionari. Tutti i diritti riservati."},"dashboard":{"welcome":"Bentornato, {name}!","subtitle":"Continua a costruire la tua visione aziendale","logout":"Esci","progress":"Progresso","componentsCompleted":"Componenti completati","timeInvested":"Tempo Investito","hoursTotal":"di 48 ore totali","accessLevel":"Livello di Accesso","upgradeToUnlock":"Aggiorna per sbloccare tutto","yourVisionComponents":"I Tuoi Componenti di Visione","readyToComplete":"Pronto a completare la tua visione?","unlockAll":"Sblocca tutti gli 8 componenti per soli $10 e crea il tuo documento completo di Visione Aziendale","unlockButton":"Sblocca Modulo Completo - $10","components":{"1":"Il Tuo Scopo Profondo","2":"Visione Chiara","3":"Obiettivi Tangibili","4":"Strategia Proattiva","5":"Ambizione Sfidante","6":"Impegno Incrollabile","7":"Energia Contagiosa","8":"Documento Completo"}}}
+{
+  "common": {
+    "siteName": "Visionari"
+  },
+  "nav": {
+    "howItWorks": "Come funziona",
+    "science": "Scienza",
+    "pricing": "Prezzi",
+    "login": "Accedi",
+    "signup": "Inizia gratis"
+  },
+  "hero": {
+    "badge": "Consulenza strategica · Disponibile 24/7",
+    "headline": "Smetti di lavorare",
+    "headlineAccent": "per la tua azienda.",
+    "headlineLine3": "Inizia a costruirla.",
+    "subheadline": "Visionari diagnostica cosa frena la crescita della tua azienda e lavora con te, settimana dopo settimana, per costruire il sistema che ti permette di scalare senza impazzire.",
+    "cta": "Inizia 7 giorni gratis",
+    "ctaSecondary": "Scopri come funziona",
+    "trial": "7 giorni gratis · Nessuna carta",
+    "trialNote": "Annulla quando vuoi. Nessun impegno.",
+    "cardDesc": "Il tuo consulente strategico, sempre disponibile.",
+    "available": "Online ora"
+  },
+  "frames": {
+    "title": "Quattro problemi. Un sistema.",
+    "subtitle": "Visionari rileva in quale si trova la tua azienda e lavora con te su ciò che conta di più ora.",
+    "vision": {
+      "title": "Nessuna direzione chiara",
+      "desc": "La tua azienda cresce ma non sai se sta andando nella direzione giusta."
+    },
+    "founders": {
+      "title": "Intrappolato nel quotidiano",
+      "desc": "Lavori 10 ore e senti di non andare avanti. Tutto dipende da te."
+    },
+    "mckinsey": {
+      "title": "Team disallineato",
+      "desc": "Il tuo team esegue compiti ma non costruisce l'azienda. I cambiamenti che implementi non durano."
+    },
+    "scorecard": {
+      "title": "Nessuna metrica che conta",
+      "desc": "Vedi solo i dati finanziari, e quando qualcosa fallisce è già tardi."
+    }
+  },
+  "science": {
+    "title": "Interventi basati sulla scienza",
+    "subtitle": "Visionari applica i framework con le maggiori prove empiriche per la crescita aziendale.",
+    "stat1": "dei fallimenti di crescita hanno una causa interna, non esterna",
+    "stat2": "aziende studiate da Bain & Company in 40 anni",
+    "stat3": "volte più rendimento nelle aziende con alta salute organizzativa",
+    "frameworks": "Kantabutra & Avery · Bain Founder's Mentality · McKinsey OHI · Kaplan & Norton BSC",
+    "quote": "Il 90% delle organizzazioni fallisce nell'eseguire la propria strategia. La causa raramente è una cattiva strategia.",
+    "quoteSource": "Harvard Business Review · Balanced Scorecard Institute"
+  },
+  "memory": {
+    "title": "Il consulente che conosce la tua azienda",
+    "subtitle": "A differenza di un corso o chatbot generico, Visionari accumula contesto sulla tua azienda ad ogni sessione.",
+    "point1": {
+      "title": "Diagnosi personalizzata",
+      "desc": "Identifica la vera causa radice, non il sintomo che descrivi."
+    },
+    "point2": {
+      "title": "Memoria accumulata",
+      "desc": "Ricorda ogni sessione, ogni impegno, ogni progresso."
+    },
+    "point3": {
+      "title": "Risultati concreti",
+      "desc": "Ogni sessione termina con qualcosa di tangibile: un sistema, una metrica, una decisione."
+    }
+  },
+  "urgency": {
+    "title": "Il costo di non avere sistema",
+    "stat1": "aziende su 10 con più di 3 anni sono in Stall-out senza saperlo",
+    "stat2": "del valore di qualsiasi strategia si perde tra pianificazione ed esecuzione",
+    "stat3": "il costo di una sessione di consulenza strategica senior",
+    "statLabel1": "Bain & Company",
+    "statLabel2": "Harvard Business Review",
+    "statLabel3": "vs $30/mese Visionari",
+    "message": "Nel frattempo, il tuo concorrente più agile prende decisioni con più chiarezza, velocità e dati di te.",
+    "cta": "Inizia 7 giorni gratis"
+  },
+  "pricing": {
+    "title": "Un prezzo. Accesso completo.",
+    "subtitle": "Nessun livello, nessun limite. Tutto Visionari per $30/mese.",
+    "price": "$30",
+    "period": "/mese",
+    "trial": "7 giorni gratis per iniziare",
+    "feature1": "Diagnosi completa dell'azienda",
+    "feature2": "4 framework scientifici integrati",
+    "feature3": "Memoria accumulata ad ogni sessione",
+    "feature4": "Risultati concreti per sessione",
+    "feature5": "Check-in settimanali di progresso",
+    "feature6": "Disponibile in 16 lingue",
+    "cta": "Inizia 7 giorni gratis",
+    "note": "Nessuna carta durante il trial · Annulla quando vuoi",
+    "compare": "Una sessione equivalente di consulenza costa $300–$500."
+  },
+  "cta": {
+    "title": "La tua azienda in 12 settimane",
+    "subtitle": "Non una vaga promessa — una direzione chiara e un sistema che funziona senza di te.",
+    "button": "Inizia 7 giorni gratis",
+    "trial": "Nessuna carta · Annulla quando vuoi"
+  },
+  "footer": {
+    "copyright": "© 2026 Visionari · VividShift",
+    "privacy": "Privacy",
+    "terms": "Termini"
+  },
+  "dashboard": {
+    "welcome": "Ciao, {name}",
+    "subtitle": "Cosa sta succedendo nella tua azienda questa settimana?",
+    "logout": "Esci",
+    "trialEndsToday": "Il tuo trial termina oggi",
+    "trialDaysLeft": "{days} giorni rimasti nel trial",
+    "subscribe": "Abbonati"
+  }
+}

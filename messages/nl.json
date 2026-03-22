@@ -1,1 +1,117 @@
-{"common":{"siteName":"Visionari","tagline":"Bouw de visie die uw bedrijf zal transformeren"},"nav":{"cases":"Cases","howItWorks":"Hoe het werkt","pricing":"Prijzen","login":"Inloggen","signup":"Aanmelden","getStarted":"Beginnen"},"hero":{"badge":"Wereldwijde Lancering - 16 Talen","headline":"Duidelijke Visie is het Verschil tussen Groeien en","highlightText":"Uw Industrie Transformeren","subheadline":"Leer hoe bedrijven als Amazon, Tesla en Apple visies hebben opgebouwd die decennialang elke beslissing hebben geleid. Nu is het jouw beurt.","cta":{"primary":"Mijn Visie Creëren","secondary":"Succesverhalen Bekijken"},"casesLabel":"16 Echte Casestudies"},"features":{"title":"Hoe Het Werkt","subtitle":"Systeem bewezen in 15 transformerende bedrijven","feature1":{"title":"Leer van de besten","description":"Echte cases van bedrijven die hele industrieën veranderden dankzij een duidelijke visie vanaf dag één."},"feature2":{"title":"Creëer je visie","description":"8-componenten systeem dat je stap voor stap begeleidt om een kristalheldere en onwrikbare visie op te bouwen."},"feature3":{"title":"Blijf gefocust","description":"Tools en frameworks zodat je visie jarenlang elke strategische beslissing leidt."}},"pricing":{"title":"Begin Vandaag","subtitle":"Kies het plan voor jouw fase","free":{"name":"Gratis","price":"$0","description":"Verken het systeem en Component 1","feature1":"Toegang tot casestudies","feature2":"Component 1: Belang","feature3":"ROI calculator","cta":"Gratis Beginnen"},"foundation":{"name":"Foundation Module","price":"$10","period":"eenmalige betaling","badge":"Meest Populair","description":"Creëer je complete visie in 8 stappen","feature1":"Alles in Gratis +","feature2":"8 Complete componenten","feature3":"Gegenereerd einddocument","feature4":"Levenslange toegang","cta":"Nu Ontgrendelen"},"pro":{"name":"Visionari Pro","price":"$29","period":"/maand","description":"AI coach om je visie uit te voeren","feature1":"Alles in Foundation +","feature2":"Gepersonaliseerde AI coach","feature3":"Voortgangsmonitoring","feature4":"Continue updates","cta":"Binnenkort - April 2026"}},"footer":{"tagline":"Transformeer uw bedrijf met duidelijke visie","sections":{"product":{"title":"Product","link1":"Casestudies","link2":"Hoe Het Werkt","link3":"Prijzen"},"company":{"title":"Bedrijf","link1":"Over Ons","link2":"Blog","link3":"Contact"},"legal":{"title":"Juridisch","link1":"Privacy","link2":"Voorwaarden","link3":"Cookies"}},"copyright":"© 2026 Visionari. Alle rechten voorbehouden."},"dashboard":{"welcome":"Welkom terug, {name}!","subtitle":"Ga door met het bouwen van je bedrijfsvisie","logout":"Uitloggen","progress":"Voortgang","componentsCompleted":"Voltooide componenten","timeInvested":"Geïnvesteerde Tijd","hoursTotal":"van 48 uur totaal","accessLevel":"Toegangsniveau","upgradeToUnlock":"Upgrade om alles te ontgrendelen","yourVisionComponents":"Jouw Visiecomponenten","readyToComplete":"Klaar om je visie te voltooien?","unlockAll":"Ontgrendel alle 8 componenten voor slechts $10 en creëer je complete Bedrijfsvisionsdocument","unlockButton":"Volledige Module Ontgrendelen - $10","components":{"1":"Jouw Diepe Doel","2":"Duidelijke Visie","3":"Tastbare Doelen","4":"Proactieve Strategie","5":"Uitdagende Ambitie","6":"Onwrikbare Toewijding","7":"Besmettelijke Energie","8":"Volledig Document"}}}
+{
+  "common": {
+    "siteName": "Visionari"
+  },
+  "nav": {
+    "howItWorks": "Hoe het werkt",
+    "science": "Wetenschap",
+    "pricing": "Prijzen",
+    "login": "Inloggen",
+    "signup": "Gratis starten"
+  },
+  "hero": {
+    "badge": "Strategisch advies · 24/7 beschikbaar",
+    "headline": "Stop met werken",
+    "headlineAccent": "voor je bedrijf.",
+    "headlineLine3": "Begin het te bouwen.",
+    "subheadline": "Visionari diagnosticeert wat de groei van je bedrijf tegenhoudt en werkt week na week met je aan het systeem om te schalen zonder gek te worden.",
+    "cta": "7 dagen gratis starten",
+    "ctaSecondary": "Bekijk hoe het werkt",
+    "trial": "7 dagen gratis · Geen kaart vereist",
+    "trialNote": "Annuleer wanneer je wilt. Geen verplichtingen.",
+    "cardDesc": "Jouw strategisch adviseur, altijd beschikbaar.",
+    "available": "Nu online"
+  },
+  "frames": {
+    "title": "Vier problemen. Één systeem.",
+    "subtitle": "Visionari detecteert welk probleem bij jouw bedrijf speelt en werkt met je aan wat nu het meest belangrijk is.",
+    "vision": {
+      "title": "Geen duidelijke richting",
+      "desc": "Je bedrijf groeit maar je weet niet of het de goede kant op gaat."
+    },
+    "founders": {
+      "title": "Gevangen in de dagelijkse gang",
+      "desc": "Je werkt 10 uur en voelt dat je niet vooruitkomt. Alles hangt van jou af."
+    },
+    "mckinsey": {
+      "title": "Team niet uitgelijnd",
+      "desc": "Je team voert taken uit maar bouwt het bedrijf niet op. Veranderingen die je doorvoert, houden geen stand."
+    },
+    "scorecard": {
+      "title": "Geen relevante metrics",
+      "desc": "Je ziet alleen de financiën, en als iets mislukt is het al te laat."
+    }
+  },
+  "science": {
+    "title": "Interventies gebaseerd op echte wetenschap",
+    "subtitle": "Visionari past frameworks toe met het sterkste empirische bewijs voor bedrijfsgroei.",
+    "stat1": "van groeifalen heeft een interne, geen externe oorzaak",
+    "stat2": "bedrijven bestudeerd door Bain & Company in 40 jaar",
+    "stat3": "keer meer rendement in bedrijven met hoge organisatiegezondheid",
+    "frameworks": "Kantabutra & Avery · Bain Founder's Mentality · McKinsey OHI · Kaplan & Norton BSC",
+    "quote": "90% van de organisaties slaagt er niet in hun strategie uit te voeren. De oorzaak is zelden een slechte strategie.",
+    "quoteSource": "Harvard Business Review · Balanced Scorecard Institute"
+  },
+  "memory": {
+    "title": "De adviseur die jouw bedrijf kent",
+    "subtitle": "In tegenstelling tot een cursus of generieke chatbot verzamelt Visionari elke sessie context over jouw bedrijf.",
+    "point1": {
+      "title": "Persoonlijke diagnose",
+      "desc": "Identificeert de echte grondoorzaak, niet het symptoom dat je beschrijft."
+    },
+    "point2": {
+      "title": "Opgebouwd geheugen",
+      "desc": "Herinnert elke sessie, elke toezegging, elke vooruitgang."
+    },
+    "point3": {
+      "title": "Concrete resultaten",
+      "desc": "Elke sessie eindigt met iets tastbaars: een systeem, een metric, een beslissing."
+    }
+  },
+  "urgency": {
+    "title": "De kosten van geen systeem",
+    "stat1": "van 10 bedrijven ouder dan 3 jaar zitten in Stall-out zonder het te weten",
+    "stat2": "van de waarde van elke strategie gaat verloren tussen planning en uitvoering",
+    "stat3": "wat één senior strategisch adviesgesprek kost",
+    "statLabel1": "Bain & Company",
+    "statLabel2": "Harvard Business Review",
+    "statLabel3": "vs $30/maand Visionari",
+    "message": "Intussen neemt je meest agile concurrent beslissingen met meer duidelijkheid, snelheid en data dan jij.",
+    "cta": "7 dagen gratis starten"
+  },
+  "pricing": {
+    "title": "Één prijs. Volledige toegang.",
+    "subtitle": "Geen niveaus, geen limieten. Heel Visionari voor $30/maand.",
+    "price": "$30",
+    "period": "/maand",
+    "trial": "7 dagen gratis om te starten",
+    "feature1": "Volledige bedrijfsdiagnose",
+    "feature2": "4 geïntegreerde wetenschappelijke frameworks",
+    "feature3": "Opgebouwd geheugen per sessie",
+    "feature4": "Concrete resultaten per sessie",
+    "feature5": "Wekelijkse voortgangs-check-ins",
+    "feature6": "Beschikbaar in 16 talen",
+    "cta": "7 dagen gratis starten",
+    "note": "Geen kaart tijdens trial · Annuleer wanneer je wilt",
+    "compare": "Een gelijkwaardig adviesgesprek kost $300–$500."
+  },
+  "cta": {
+    "title": "Jouw bedrijf in 12 weken",
+    "subtitle": "Geen vage belofte — een duidelijke richting en een systeem dat zonder jou werkt.",
+    "button": "7 dagen gratis starten",
+    "trial": "Geen kaart · Annuleer wanneer je wilt"
+  },
+  "footer": {
+    "copyright": "© 2026 Visionari · VividShift",
+    "privacy": "Privacy",
+    "terms": "Voorwaarden"
+  },
+  "dashboard": {
+    "welcome": "Hallo, {name}",
+    "subtitle": "Wat speelt er deze week in jouw bedrijf?",
+    "logout": "Uitloggen",
+    "trialEndsToday": "Je trial eindigt vandaag",
+    "trialDaysLeft": "Nog {days} dagen in je trial",
+    "subscribe": "Abonneren"
+  }
+}
