@@ -12,12 +12,6 @@ interface Props {
   className?: string
 }
 
-declare global {
-  interface Window {
-    Paddle?: any
-  }
-}
-
 export default function SubscribeButton({
   userId,
   userEmail,
