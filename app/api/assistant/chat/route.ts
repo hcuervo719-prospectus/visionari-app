@@ -9,7 +9,6 @@ import {
   buildBasePrompt,
   buildBusinessProfile,
   getLanguageName,
-  buildConversationHistory,
   type DetectionResult,
   type PrimaryFrame,
   type SessionMode,
@@ -247,7 +246,14 @@ export async function POST(request: NextRequest) {
     }
 
     // ── STEP 5: Call Claude ───────────────────────────────────────────────────
-    const messages = buildConversationHistory(message, conversationHistory)
+    // Build messages array directly — avoids TypeScript role type mismatch
+    const messages: Array<{ role: string; content: string }> = [
+      ...conversationHistory.slice(-20).map(m => ({
+        role: m.role as string,
+        content: m.content,
+      })),
+      { role: 'user', content: message },
+    ]
     const assistantResponse = await callClaude(systemPrompt, messages)
 
     // ── STEP 6: Persist messages ──────────────────────────────────────────────
