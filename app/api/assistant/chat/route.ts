@@ -155,7 +155,11 @@ async function loadConversationHistory(
     .order('created_at', { ascending: true })
     .limit(20) // last 10 exchanges
 
-  return messages ?? []
+  if (!messages) return []
+  return messages.map((m: { role: string; content: string }) => ({
+    role: m.role as 'user' | 'assistant',
+    content: m.content,
+  }))
 }
 
 // ─── MAIN HANDLER ─────────────────────────────────────────────────────────────
